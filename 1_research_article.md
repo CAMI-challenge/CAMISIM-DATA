@@ -1,4 +1,4 @@
-#### Manuscript #1: [*GigaScience* Research article](http://www.gigasciencejournal.com/authors/instructions/research)
+#### Manuscript #1: [*GigaScience* Research Article](http://www.gigasciencejournal.com/authors/instructions/research)
 
 - Broadly introduce the CAMI metagenome simulation pipeline
 - Goal #1: Motivate the use of simulated data instead of real data
