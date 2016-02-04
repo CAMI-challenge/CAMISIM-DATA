@@ -30,7 +30,7 @@
 Task force (alphabetically):
 - [Andreas Bremges](https://github.com/abremges)
 - [Adrian Fritz](https://github.com/AlphaSquad)
-- [Peter Hofman](https://github.com/p-hofmann)
+- [Peter Hofmann](https://github.com/p-hofmann)
 - [Alice McHardy](https://github.com/alicemchardy)
 
 Co-authors (alphabetically):
