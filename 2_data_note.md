@@ -42,7 +42,7 @@ Experiments supporting and demonstrating the technical quality of the dataset sh
 We strongly encourage the inclusion of links to bioinformatics tools that are already publically available. If you are using new bioinformatics tools that you have developed for production or processing of the data described here, we recommend submitting these data and a tool description and test as a Technical Note. Use of workflow management systems such as Galaxy and myExperiment to save the details of the methods to encourage reproducibility as well as conciseness, is also encouraged. Our GigaDB repository, GigaGalaxy server and GitHub page can also be used to archive data, workflows and code with an accompanying DOI, respectively.
 
 ### Availability and requirements of software used (if any)
-- Link to our [GitHub repository](https://github.com/CAMI-challenge/MetagenomeSimulationPipeline) and the back-to-back Research Article.
+- Link to our [GitHub repository](https://github.com/CAMI-challenge/MetagenomeSimulationPipeline) and the back-to-back [Research Article](./1_research_article.md).
 
 ### Availability of supporting data and materials
 - Archive all simulated reads to [GigaDB](http://gigadb.org/)
