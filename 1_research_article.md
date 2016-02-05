@@ -16,7 +16,7 @@
     - We need to play around with the strain evolver itself
       - As far as I know, it has not been described in a publication before?
       - Aaron modified its source code specifically for CAMI (no more truncated genes)
-- Goal #3: Motivate our choice to sample abundances from a log-normal distribution
+- Goal #3: Motivate our choice to sample abundances from a log-normal distribution (flexibility is given, other distributions can be used, gaussian is already there but brings some problems in practice (p. hofmann knows details).
   - Probably enough to cite some papers stating log-normal is the norm
   - Pipeline selling point: time-series and differential-abundance settings
 - Conclusion: Awesome pipeline
