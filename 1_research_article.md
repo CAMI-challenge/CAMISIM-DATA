@@ -6,7 +6,7 @@
     - Only run second part of the pipeline, start with *real* abundances
     - Derive an ART error profile from the actual JGI mock sequencing run
     - Compare both profiles (no specific tool, count mapped reads instead – we have the references)
-    - Run 2-4 metagenome assemblers (Ray Meta, MegaHIT, ... pick a few based on citation counts?)
+    - Run 2-4 metagenome assemblers (Ray Meta, MegaHIT, metaSpades, ... pick a few based on citation counts?)
   - Result: It makes sense to use simulated data for benchmarking, such as the CAMI challenge
     - Way easier to evaluate submissions, because we know the ground truth
     - A tool's performance on simulated data is a proxy (or an indicator) for its performance on real data
