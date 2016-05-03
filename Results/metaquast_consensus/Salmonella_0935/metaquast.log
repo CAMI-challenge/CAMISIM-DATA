@@ -1,0 +1,66 @@
+/home/afritz/bin/quast-3.2/metaquast.py.OLD -R /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/Salmonella_ancestor.fa,/net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/Salmonella_0935.fa -o /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast_consensus/Salmonella_0935/ /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/Salmonella_0935_assembly/final.contigs.fa
+
+Version: 3.2, build 26.11.2015 18:55
+
+System information:
+  OS: Linux-3.2.0-4-amd64-x86_64-with-debian-7.10 (linux_64)
+  Python version: 2.7.3
+  CPUs number: 60
+
+Started: 2016-05-03 10:48:13
+
+Logging to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast_consensus/Salmonella_0935/metaquast.log
+
+NOTICE: Maximum number of threads is set to 15 (use --threads option to set it manually)
+
+Reference(s):
+  /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/Salmonella_ancestor.fa ==> Salmonella_ancestor
+  /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/Salmonella_0935.fa ==> Salmonella_0935
+  All references combined in combined_reference.fasta
+
+Contigs:
+  /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/Salmonella_0935_assembly/final.contigs.fa ==> final.contigs
+
+Starting quast.py for the combined reference...
+(logging to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast_consensus/Salmonella_0935/combined_reference/quast.log)
+
+Partitioning contigs into bins aligned to each reference..
+  processing final.contigs
+
+Starting quast.py for the contigs aligned to Salmonella_ancestor
+(logging to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast_consensus/Salmonella_0935/runs_per_reference/Salmonella_ancestor/quast.log)
+
+Starting quast.py for the contigs aligned to Salmonella_0935
+(logging to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast_consensus/Salmonella_0935/runs_per_reference/Salmonella_0935/quast.log)
+
+Skipping quast.py for the contigs not aligned anywhere (everything is aligned!)
+
+2016-05-03 10:53:39
+Summarizing results...
+  Drawing # contigs metaQUAST summary plot...
+  Drawing Largest contig metaQUAST summary plot...
+  Drawing Total length metaQUAST summary plot...
+  Drawing Total length (>= 1000 bp) metaQUAST summary plot...
+  Drawing Total length (>= 10000 bp) metaQUAST summary plot...
+  Drawing Total length (>= 50000 bp) metaQUAST summary plot...
+  Drawing # misassemblies metaQUAST summary plot...
+  Drawing metaQUAST summary misassemblies plot for final.contigs...
+  Drawing Misassembled contigs length metaQUAST summary plot...
+  Drawing # mismatches per 100 kbp metaQUAST summary plot...
+  Drawing # indels per 100 kbp metaQUAST summary plot...
+  Drawing # N's per 100 kbp metaQUAST summary plot...
+  Drawing Genome fraction (%) metaQUAST summary plot...
+  Drawing Duplication ratio metaQUAST summary plot...
+  Drawing NGA50 metaQUAST summary plot...
+
+  Text versions of reports and plots for each metric (for all references and assemblies) are saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast_consensus/Salmonella_0935/summary/
+  Extended version of HTML-report (for all references and assemblies) is saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast_consensus/Salmonella_0935/report.html
+
+MetaQUAST finished.
+  Log saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast_consensus/Salmonella_0935/metaquast.log
+
+Finished: 2016-05-03 10:53:42
+Elapsed time: 0:05:28.631997
+Total NOTICEs: 8; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

@@ -1,0 +1,99 @@
+/home/afritz/Programs/quast-3.2/quast.pyc --meta  --combined-ref  --ambiguity-usage one -R /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/quast_corrected_input/combined_reference.fasta -o /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference --labels final.contigs /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/Salmonella_0905_assembly/final.contigs.fa
+
+Started: 2016-03-22 13:48:11
+
+Logging to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/quast.log
+
+NOTICE: Maximum number of threads is set to 15 (use --threads option to set it manually)
+
+Main parameters: 
+  Threads: 15, meta: true, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/quast_corrected_input/combined_reference.fasta ==> combined_reference
+
+Contigs:
+  /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/Salmonella_0905_assembly/final.contigs.fa ==> final.contigs
+
+2016-03-22 13:48:13
+Running Basic statistics processor...
+  Reference genome:
+    combined_reference.fasta__1, Reference length = 9714864, Reference GC % = 52.22
+  Contig files: 
+    final.contigs
+  Calculating N50 and L50...
+    final.contigs, N50 = 48729, L50 = 62, Total length = 9680848, GC % = 52.21, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/basic_stats/cumulative_plot.pdf
+Done.
+
+2016-03-22 13:48:15
+Running Contig analyzer...
+  final.contigs
+  Logging to files /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/contigs_reports/contigs_report_final.contigs.stdout and contigs_report_final.contigs.stderr...
+  Running Nucmer
+  libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/contigs_reports/nucmer_output/final.contigs \
+  /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/../quast_corrected_input/combined_reference.fasta__1 \
+  /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/../quast_corrected_input/final.contigs.fa \
+  >> /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/contigs_reports/contigs_report_final.contigs.stdout \
+  2>> /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/contigs_reports/contigs_report_final.contigs.stderr
+  libs/MUMmer3.23-linux/delta-filter -i 95 -l 0 /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/contigs_reports/nucmer_output/final.contigs.delta \
+  > /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/contigs_reports/nucmer_output/final.contigs.fdelta \
+  2> /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/contigs_reports/contigs_report_final.contigs.stderr
+  libs/MUMmer3.23-linux/show-coords /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/contigs_reports/nucmer_output/final.contigs.delta \
+  > /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/contigs_reports/nucmer_output/final.contigs.coords_tmp \
+  2> /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/contigs_reports/contigs_report_final.contigs.stderr
+  libs/MUMmer3.23-linux/show-snps -S -T -H /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/contigs_reports/nucmer_output/final.contigs.delta \
+  < /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/contigs_reports/nucmer_output/final.contigs.coords.headless \
+  > /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/contigs_reports/nucmer_output/final.contigs.all_snps \
+  2> /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/contigs_reports/contigs_report_final.contigs.stderr
+  Alignments: ../../../../net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/contigs_reports/alignments_final.contigs.tsv
+  Analysis is finished.
+
+  Information about interspecies translocations by references is saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/contigs_reports/interspecies_translocations_by_refs_final.contigs.info
+  Creating total report...
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/contigs_reports/misassemblies_plot.pdf
+Done.
+
+2016-03-22 13:50:49
+Running NA-NGA calculation...
+  final.contigs, Largest alignment = 160557, NA50 = 48729, LA50 = 62
+  Drawing cumulative plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/aligned_stats/NAx_plot.pdf
+Done.
+
+2016-03-22 13:50:50
+Running Genome analyzer...
+  NOTICE: No file with genes provided. Use the -G option if you want to specify it.
+  NOTICE: No file with operons provided. Use the -O option if you want to specify it.
+  final.contigs
+  Analysis is finished.
+  Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2016-03-22 13:50:54
+Drawing large plots...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating contig alignment plot...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2016-03-22 13:50:56
+RESULTS:
+  Text versions of total report are saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/report.html
+  PDF version (tables and plots) saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/report.pdf
+  Contig alignment plot: /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Salmonella_OneTree/metaquast/Salmonella_0905/combined_reference/alignment.svg
