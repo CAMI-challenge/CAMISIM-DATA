@@ -1,0 +1,86 @@
+/home/afritz/bin/quast-3.2/quast.pyc --meta  --combined-ref  --ambiguity-usage one -R /net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/000_error/SPAdes_cov8/quast/quast_corrected_input/combined_reference.fasta -o /net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/000_error/SPAdes_cov8/quast/combined_reference --labels scaffolds /net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/000_error/SPAdes_cov8/scaffolds.fasta
+
+Started: 2016-04-26 12:22:55
+
+Logging to /net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/000_error/SPAdes_cov8/quast/combined_reference/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+NOTICE: Maximum number of threads is set to 15 (use --threads option to set it manually)
+
+Main parameters: 
+  Threads: 15, meta: true, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/000_error/SPAdes_cov8/quast/quast_corrected_input/combined_reference.fasta ==> combined_reference
+
+Contigs:
+  /net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/000_error/SPAdes_cov8/scaffolds.fasta ==> scaffolds
+
+2016-04-26 12:22:57
+Running Basic statistics processor...
+  Reference genome:
+    combined_reference.fasta__1, Reference length = 4641652, Reference GC % = 50.79
+  Contig files: 
+    scaffolds
+  Calculating N50 and L50...
+    scaffolds, N50 = 29078, L50 = 51, Total length = 4506802, GC % = 50.75, # N's per 100 kbp =  149.77
+  Drawing Nx plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/000_error/SPAdes_cov8/quast/combined_reference/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/000_error/SPAdes_cov8/quast/combined_reference/basic_stats/cumulative_plot.pdf
+Done.
+
+2016-04-26 12:22:58
+Running Contig analyzer...
+  scaffolds
+  Logging to files /net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/000_error/SPAdes_cov8/quast/combined_reference/contigs_reports/contigs_report_scaffolds.stdout and contigs_report_scaffolds.stderr...
+  Using existing Nucmer alignments... 
+  Alignments: ../../../../net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/000_error/SPAdes_cov8/quast/combined_reference/contigs_reports/alignments_scaffolds.tsv
+  Analysis is finished.
+
+  Information about interspecies translocations by references is saved to /net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/000_error/SPAdes_cov8/quast/combined_reference/contigs_reports/interspecies_translocations_by_refs_scaffolds.info
+  Creating total report...
+    saved to /net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/000_error/SPAdes_cov8/quast/combined_reference/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/000_error/SPAdes_cov8/quast/combined_reference/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/000_error/SPAdes_cov8/quast/combined_reference/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/000_error/SPAdes_cov8/quast/combined_reference/contigs_reports/misassemblies_plot.pdf
+Done.
+
+2016-04-26 12:23:02
+Running NA-NGA calculation...
+  scaffolds, Largest alignment = 82326, NA50 = 28464, LA50 = 52
+  Drawing cumulative plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/000_error/SPAdes_cov8/quast/combined_reference/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/000_error/SPAdes_cov8/quast/combined_reference/aligned_stats/NAx_plot.pdf
+Done.
+
+2016-04-26 12:23:02
+Running Genome analyzer...
+  NOTICE: No file with genes provided. Use the -G option if you want to specify it.
+  NOTICE: No file with operons provided. Use the -O option if you want to specify it.
+  scaffolds
+  Analysis is finished.
+  Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2016-04-26 12:23:05
+Drawing large plots...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating contig alignment plot...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2016-04-26 12:23:07
+RESULTS:
+  Text versions of total report are saved to /net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/000_error/SPAdes_cov8/quast/combined_reference/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/000_error/SPAdes_cov8/quast/combined_reference/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/000_error/SPAdes_cov8/quast/combined_reference/report.html
+  PDF version (tables and plots) saved to /net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/000_error/SPAdes_cov8/quast/combined_reference/report.pdf
+  Contig alignment plot: /net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/000_error/SPAdes_cov8/quast/combined_reference/alignment.svg

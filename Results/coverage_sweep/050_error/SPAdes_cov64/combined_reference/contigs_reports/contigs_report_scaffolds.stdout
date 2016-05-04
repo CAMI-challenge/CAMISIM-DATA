@@ -1,0 +1,1313 @@
+Aligning contigs to reference...
+	Running Nucmer
+Parsing coords...
+Loading reference...
+	Loaded [e_coli_k12_gi_556503834_ref_NC_]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 1
+	Total Region Length: 4641652
+Analyzing contigs...
+CONTIG: NODE_1_length_327367_cov_3.60265_ID_621 (327367bp)
+Top Length: 270284  Top ID: 99.92
+		Skipping redundant alignment 290633 291112 | 326888 327367 | 480 480 | 98.54 | e_coli_k12_gi_556503834_ref_NC_ NODE_1_length_327367_cov_3.60265_ID_621
+		Skipping redundant alignment 19796 20274 | 326889 327367 | 479 479 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_1_length_327367_cov_3.60265_ID_621
+		Skipping redundant alignment 257908 258386 | 326889 327367 | 479 479 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_1_length_327367_cov_3.60265_ID_621
+		Skipping redundant alignment 3583717 3584195 | 327367 326889 | 479 479 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_1_length_327367_cov_3.60265_ID_621
+		Skipping redundant alignment 279163 279641 | 326889 327367 | 479 479 | 98.54 | e_coli_k12_gi_556503834_ref_NC_ NODE_1_length_327367_cov_3.60265_ID_621
+		Skipping redundant alignment 1050067 1050545 | 327367 326889 | 479 479 | 98.54 | e_coli_k12_gi_556503834_ref_NC_ NODE_1_length_327367_cov_3.60265_ID_621
+		This contig is misassembled. 8 total aligns.
+			Excluding internal overlap of size 247 between Alignment 1 and 2:  1651494 1708821 | 1 57330 | 57328 57330 --> 1651494 1708574 | 1 57083 | 57081 57083
+			Real Alignment 1: 1651494 1708574 | 1 57083 | 57081 57083 | 99.91 | e_coli_k12_gi_556503834_ref_NC_ NODE_1_length_327367_cov_3.60265_ID_621
+			  Gap between these two alignments (local misassembly). Inconsistency = 96 
+			Real Alignment 2: 1708671 1978981 | 57084 327367 | 270311 270284 | 99.92 | e_coli_k12_gi_556503834_ref_NC_ NODE_1_length_327367_cov_3.60265_ID_621
+
+CONTIG: NODE_2_length_246464_cov_3.5693_ID_1093 (246464bp)
+Top Length: 246464  Top ID: 99.86
+		Marking as insignificant: 1097522 1097659 | 122459 122596 | 138 138 | 97.83 | e_coli_k12_gi_556503834_ref_NC_ NODE_2_length_246464_cov_3.5693_ID_1093
+		Marking as insignificant: 2229115 2229376 | 111905 111644 | 262 262 | 95.04 | e_coli_k12_gi_556503834_ref_NC_ NODE_2_length_246464_cov_3.5693_ID_1093
+		One align captures most of this contig: 803401 1049849 | 1 246464 | 246449 246464 | 99.86 | e_coli_k12_gi_556503834_ref_NC_ NODE_2_length_246464_cov_3.5693_ID_1093
+
+CONTIG: NODE_3_length_204621_cov_3.56072_ID_755 (204621bp)
+Top Length: 204615  Top ID: 99.78
+		Marking as insignificant: 3423662 3423726 | 65 1 | 65 65 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_3_length_204621_cov_3.56072_ID_755
+		Marking as insignificant: 4213101 4213166 | 1 66 | 66 66 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_3_length_204621_cov_3.56072_ID_755
+		Marking as insignificant: 3946761 3946826 | 1 66 | 66 66 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_3_length_204621_cov_3.56072_ID_755
+		Marking as insignificant: 228817 228882 | 1 66 | 66 66 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_3_length_204621_cov_3.56072_ID_755
+		Marking as insignificant: 781629 781695 | 204621 204555 | 67 67 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_3_length_204621_cov_3.56072_ID_755
+		One align captures most of this contig: 2521467 2726127 | 204615 1 | 204661 204615 | 99.78 | e_coli_k12_gi_556503834_ref_NC_ NODE_3_length_204621_cov_3.56072_ID_755
+
+CONTIG: NODE_4_length_180338_cov_3.56008_ID_959 (180338bp)
+Top Length: 149318  Top ID: 99.9
+		This contig is misassembled. 2 total aligns.
+			Excluding internal overlap of size 37 between Alignment 1 and 2:  4518761 4549818 | 180338 149282 | 31058 31057 --> 4518761 4549781 | 180338 149319 | 31021 31020
+			Real Alignment 1: 66776 216082 | 149318 1 | 149307 149318 | 99.9 | e_coli_k12_gi_556503834_ref_NC_ NODE_4_length_180338_cov_3.56008_ID_959
+			  Extensive misassembly ( relocation, inconsistency = -4483006 ) between these two alignments
+			Real Alignment 2: 4518761 4549781 | 180338 149319 | 31021 31020 | 99.94 | e_coli_k12_gi_556503834_ref_NC_ NODE_4_length_180338_cov_3.56008_ID_959
+
+CONTIG: NODE_5_length_173884_cov_3.59457_ID_684 (173884bp)
+Top Length: 173884  Top ID: 99.93
+		One align captures most of this contig: 3767592 3941478 | 1 173884 | 173887 173884 | 99.93 | e_coli_k12_gi_556503834_ref_NC_ NODE_5_length_173884_cov_3.59457_ID_684
+
+CONTIG: NODE_6_length_171534_cov_3.61557_ID_1643 (171534bp)
+Top Length: 171534  Top ID: 99.91
+		Marking as insignificant: 2471882 2472123 | 61333 61574 | 242 242 | 95.04 | e_coli_k12_gi_556503834_ref_NC_ NODE_6_length_171534_cov_3.61557_ID_1643
+		One align captures most of this contig: 1097605 1269138 | 171534 1 | 171534 171534 | 99.91 | e_coli_k12_gi_556503834_ref_NC_ NODE_6_length_171534_cov_3.61557_ID_1643
+
+CONTIG: NODE_7_length_168402_cov_3.54972_ID_1377 (168402bp)
+Top Length: 129097  Top ID: 99.9
+		Skipping redundant alignment 2818197 2818275 | 128962 128884 | 79 79 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_7_length_168402_cov_3.54972_ID_1377
+		This contig is misassembled. 3 total aligns.
+			Excluding internal overlap of size 214 between Alignment 1 and 2:  2778344 2817861 | 168400 128884 | 39518 39517 --> 2778344 2817647 | 168400 129098 | 39304 39303
+			Real Alignment 1: 2818336 2947440 | 129097 1 | 129105 129097 | 99.9 | e_coli_k12_gi_556503834_ref_NC_ NODE_7_length_168402_cov_3.54972_ID_1377
+			  Gap between these two alignments (local misassembly). Inconsistency = 688 
+			Real Alignment 2: 2778344 2817647 | 168400 129098 | 39304 39303 | 99.95 | e_coli_k12_gi_556503834_ref_NC_ NODE_7_length_168402_cov_3.54972_ID_1377
+
+CONTIG: NODE_8_length_149808_cov_3.58717_ID_1967 (149808bp)
+Top Length: 95549  Top ID: 99.92
+		Skipping redundant alignment 3269959 3270125 | 54260 54426 | 167 167 | 95.21 | e_coli_k12_gi_556503834_ref_NC_ NODE_8_length_149808_cov_3.58717_ID_1967
+		Skipping redundant alignment 2101744 2101820 | 149732 149808 | 77 77 | 98.7 | e_coli_k12_gi_556503834_ref_NC_ NODE_8_length_149808_cov_3.58717_ID_1967
+		Skipping redundant alignment 574587 574662 | 149733 149808 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_8_length_149808_cov_3.58717_ID_1967
+		Skipping redundant alignment 687847 687922 | 149733 149808 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_8_length_149808_cov_3.58717_ID_1967
+		Skipping redundant alignment 1300622 1300697 | 149808 149733 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_8_length_149808_cov_3.58717_ID_1967
+		Skipping redundant alignment 1397167 1397242 | 149808 149733 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_8_length_149808_cov_3.58717_ID_1967
+		Skipping redundant alignment 3131269 3131344 | 149808 149733 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_8_length_149808_cov_3.58717_ID_1967
+		Skipping redundant alignment 3652032 3652107 | 149733 149808 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_8_length_149808_cov_3.58717_ID_1967
+		Skipping redundant alignment 273951 274026 | 149733 149808 | 76 76 | 98.68 | e_coli_k12_gi_556503834_ref_NC_ NODE_8_length_149808_cov_3.58717_ID_1967
+		Skipping redundant alignment 2288919 2288990 | 149737 149808 | 72 72 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_8_length_149808_cov_3.58717_ID_1967
+		This contig is misassembled. 12 total aligns.
+			Excluding internal overlap of size 167 between Alignment 1 and 2:  3215614 3270012 | 1 54426 | 54399 54426 --> 3215614 3269845 | 1 54259 | 54232 54259
+			Real Alignment 1: 3215614 3269845 | 1 54259 | 54232 54259 | 99.84 | e_coli_k12_gi_556503834_ref_NC_ NODE_8_length_149808_cov_3.58717_ID_1967
+			  Gap between these two alignments (local misassembly). Inconsistency = 226 
+			Real Alignment 2: 3270072 3365627 | 54260 149808 | 95556 95549 | 99.92 | e_coli_k12_gi_556503834_ref_NC_ NODE_8_length_149808_cov_3.58717_ID_1967
+
+CONTIG: NODE_9_length_134785_cov_3.55789_ID_864 (134785bp)
+Top Length: 134785  Top ID: 99.94
+		Marking as insignificant: 4207913 4208055 | 134641 134785 | 143 145 | 97.24 | e_coli_k12_gi_556503834_ref_NC_ NODE_9_length_134785_cov_3.55789_ID_864
+		Marking as insignificant: 223535 223679 | 134641 134785 | 145 145 | 99.31 | e_coli_k12_gi_556503834_ref_NC_ NODE_9_length_134785_cov_3.55789_ID_864
+		Marking as insignificant: 4175945 4177130 | 92310 93495 | 1186 1186 | 99.16 | e_coli_k12_gi_556503834_ref_NC_ NODE_9_length_134785_cov_3.55789_ID_864
+		One align captures most of this contig: 3428854 3563640 | 134785 1 | 134787 134785 | 99.94 | e_coli_k12_gi_556503834_ref_NC_ NODE_9_length_134785_cov_3.55789_ID_864
+
+CONTIG: NODE_10_length_123697_cov_3.59035_ID_910 (123697bp)
+Top Length: 123697  Top ID: 99.93
+		One align captures most of this contig: 2347278 2470979 | 123697 1 | 123702 123697 | 99.93 | e_coli_k12_gi_556503834_ref_NC_ NODE_10_length_123697_cov_3.59035_ID_910
+
+CONTIG: NODE_11_length_122119_cov_3.67035_ID_4365 (122119bp)
+Top Length: 79925  Top ID: 99.93
+		Skipping redundant alignment 273948 274026 | 79 1 | 79 79 | 98.73 | e_coli_k12_gi_556503834_ref_NC_ NODE_11_length_122119_cov_3.67035_ID_4365
+		Skipping redundant alignment 1397167 1397243 | 1 77 | 77 77 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_11_length_122119_cov_3.67035_ID_4365
+		Skipping redundant alignment 574587 574662 | 76 1 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_11_length_122119_cov_3.67035_ID_4365
+		Skipping redundant alignment 1300622 1300697 | 1 76 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_11_length_122119_cov_3.67035_ID_4365
+		Skipping redundant alignment 3131269 3131344 | 1 76 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_11_length_122119_cov_3.67035_ID_4365
+		Skipping redundant alignment 3365552 3365627 | 76 1 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_11_length_122119_cov_3.67035_ID_4365
+		Skipping redundant alignment 3652032 3652107 | 76 1 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_11_length_122119_cov_3.67035_ID_4365
+		Skipping redundant alignment 2101745 2101820 | 76 1 | 76 76 | 98.68 | e_coli_k12_gi_556503834_ref_NC_ NODE_11_length_122119_cov_3.67035_ID_4365
+		Skipping redundant alignment 2288919 2288990 | 72 1 | 72 72 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_11_length_122119_cov_3.67035_ID_4365
+		Skipping redundant alignment 15377 16742 | 79925 78560 | 1366 1366 | 99.63 | e_coli_k12_gi_556503834_ref_NC_ NODE_11_length_122119_cov_3.67035_ID_4365
+		This contig is misassembled. 12 total aligns.
+			Excluding internal overlap of size 1365 between Alignment 1 and 2:  2472069 2515627 | 122119 78561 | 43559 43559 --> 2472069 2514262 | 122119 79926 | 42194 42194
+			Real Alignment 1: 607997 687922 | 79925 1 | 79926 79925 | 99.93 | e_coli_k12_gi_556503834_ref_NC_ NODE_11_length_122119_cov_3.67035_ID_4365
+			  Extensive misassembly ( relocation, inconsistency = -1906266 ) between these two alignments
+			Real Alignment 2: 2472069 2514262 | 122119 79926 | 42194 42194 | 99.9 | e_coli_k12_gi_556503834_ref_NC_ NODE_11_length_122119_cov_3.67035_ID_4365
+
+CONTIG: NODE_12_length_117592_cov_3.57928_ID_1582 (117592bp)
+Top Length: 117592  Top ID: 99.93
+		Marking as insignificant: 915027 915288 | 59593 59854 | 262 262 | 95.42 | e_coli_k12_gi_556503834_ref_NC_ NODE_12_length_117592_cov_3.57928_ID_1582
+		One align captures most of this contig: 2171384 2288967 | 117592 1 | 117584 117592 | 99.93 | e_coli_k12_gi_556503834_ref_NC_ NODE_12_length_117592_cov_3.57928_ID_1582
+
+CONTIG: NODE_13_length_115723_cov_3.53666_ID_1036 (115723bp)
+Top Length: 115723  Top ID: 99.84
+		One align captures most of this contig: 392930 508613 | 115723 1 | 115684 115723 | 99.84 | e_coli_k12_gi_556503834_ref_NC_ NODE_13_length_115723_cov_3.53666_ID_1036
+
+CONTIG: NODE_14_length_105658_cov_3.59957_ID_1460 (105658bp)
+Top Length: 105658  Top ID: 99.91
+		Marking as insignificant: 1992042 1992117 | 76 1 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_14_length_105658_cov_3.59957_ID_1460
+		Marking as insignificant: 4392472 4392549 | 1 78 | 78 78 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_14_length_105658_cov_3.59957_ID_1460
+		Marking as insignificant: 4392360 4392437 | 1 78 | 78 78 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_14_length_105658_cov_3.59957_ID_1460
+		One align captures most of this contig: 4392583 4498235 | 1 105658 | 105653 105658 | 99.91 | e_coli_k12_gi_556503834_ref_NC_ NODE_14_length_105658_cov_3.59957_ID_1460
+
+CONTIG: NODE_15_length_95467_cov_3.57052_ID_717 (95467bp)
+Top Length: 95467  Top ID: 99.91
+		Marking as insignificant: 2288919 2288990 | 72 1 | 72 72 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_15_length_95467_cov_3.57052_ID_717
+		Marking as insignificant: 2101745 2101820 | 76 1 | 76 76 | 98.68 | e_coli_k12_gi_556503834_ref_NC_ NODE_15_length_95467_cov_3.57052_ID_717
+		Marking as insignificant: 273951 274026 | 76 1 | 76 76 | 98.68 | e_coli_k12_gi_556503834_ref_NC_ NODE_15_length_95467_cov_3.57052_ID_717
+		Marking as insignificant: 3365552 3365627 | 76 1 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_15_length_95467_cov_3.57052_ID_717
+		Marking as insignificant: 687847 687922 | 76 1 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_15_length_95467_cov_3.57052_ID_717
+		Marking as insignificant: 574586 574662 | 77 1 | 77 77 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_15_length_95467_cov_3.57052_ID_717
+		Marking as insignificant: 3652030 3652107 | 78 1 | 78 78 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_15_length_95467_cov_3.57052_ID_717
+		Marking as insignificant: 3131269 3131346 | 1 78 | 78 78 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_15_length_95467_cov_3.57052_ID_717
+		Marking as insignificant: 1397167 1397247 | 1 81 | 81 81 | 98.77 | e_coli_k12_gi_556503834_ref_NC_ NODE_15_length_95467_cov_3.57052_ID_717
+		One align captures most of this contig: 1300622 1396094 | 1 95467 | 95473 95467 | 99.91 | e_coli_k12_gi_556503834_ref_NC_ NODE_15_length_95467_cov_3.57052_ID_717
+
+CONTIG: NODE_16_length_82768_cov_3.5455_ID_1849 (82768bp)
+Top Length: 82766  Top ID: 99.93
+		Marking as insignificant: 3423662 3423726 | 65 1 | 65 65 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_16_length_82768_cov_3.5455_ID_1849
+		Marking as insignificant: 3946761 3946826 | 1 66 | 66 66 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_16_length_82768_cov_3.5455_ID_1849
+		Marking as insignificant: 2726062 2726127 | 66 1 | 66 66 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_16_length_82768_cov_3.5455_ID_1849
+		Marking as insignificant: 228817 228882 | 1 66 | 66 66 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_16_length_82768_cov_3.5455_ID_1849
+		One align captures most of this contig: 4213101 4295866 | 1 82766 | 82766 82766 | 99.93 | e_coli_k12_gi_556503834_ref_NC_ NODE_16_length_82768_cov_3.5455_ID_1849
+
+CONTIG: NODE_17_length_80565_cov_3.61069_ID_1753 (80565bp)
+Top Length: 80565  Top ID: 99.93
+		Marking as insignificant: 4606315 4606402 | 35799 35712 | 88 88 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_17_length_80565_cov_3.61069_ID_1753
+		Marking as insignificant: 4606079 4606166 | 35799 35712 | 88 88 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_17_length_80565_cov_3.61069_ID_1753
+		Marking as insignificant: 4027418 4027554 | 80425 80561 | 137 137 | 97.08 | e_coli_k12_gi_556503834_ref_NC_ NODE_17_length_80565_cov_3.61069_ID_1753
+		One align captures most of this contig: 3946892 4027460 | 1 80565 | 80569 80565 | 99.93 | e_coli_k12_gi_556503834_ref_NC_ NODE_17_length_80565_cov_3.61069_ID_1753
+
+CONTIG: NODE_18_length_74109_cov_3.61735_ID_3437 (74109bp)
+Top Length: 58998  Top ID: 99.89
+		Skipping redundant alignment 803320 803447 | 15110 15237 | 128 128 | 98.44 | e_coli_k12_gi_556503834_ref_NC_ NODE_18_length_74109_cov_3.61735_ID_3437
+		Skipping redundant alignment 2102835 2102948 | 74109 73996 | 114 114 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_18_length_74109_cov_3.61735_ID_3437
+		Skipping redundant alignment 2290005 2290117 | 74109 73997 | 113 113 | 99.12 | e_coli_k12_gi_556503834_ref_NC_ NODE_18_length_74109_cov_3.61735_ID_3437
+		Skipping redundant alignment 575677 575788 | 74109 73998 | 112 112 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_18_length_74109_cov_3.61735_ID_3437
+		Skipping redundant alignment 688937 689048 | 74109 73998 | 112 112 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_18_length_74109_cov_3.61735_ID_3437
+		Skipping redundant alignment 1299496 1299607 | 73998 74109 | 112 112 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_18_length_74109_cov_3.61735_ID_3437
+		Skipping redundant alignment 1396041 1396152 | 73998 74109 | 112 112 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_18_length_74109_cov_3.61735_ID_3437
+		Skipping redundant alignment 3366642 3366753 | 74109 73998 | 112 112 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_18_length_74109_cov_3.61735_ID_3437
+		Skipping redundant alignment 3653122 3653233 | 74109 73998 | 112 112 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_18_length_74109_cov_3.61735_ID_3437
+		Skipping redundant alignment 275041 275149 | 74109 74001 | 109 109 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_18_length_74109_cov_3.61735_ID_3437
+		This contig is misassembled. 12 total aligns.
+			Excluding internal overlap of size 128 between Alignment 1 and 2:  581868 597107 | 1 15239 | 15240 15239 --> 581868 596979 | 1 15111 | 15112 15111
+			Real Alignment 1: 581868 596979 | 1 15111 | 15112 15111 | 99.92 | e_coli_k12_gi_556503834_ref_NC_ NODE_18_length_74109_cov_3.61735_ID_3437
+			  Extensive misassembly ( relocation, inconsistency = 2474291 ) between these two alignments
+			Real Alignment 2: 3071271 3130254 | 15112 74109 | 58984 58998 | 99.89 | e_coli_k12_gi_556503834_ref_NC_ NODE_18_length_74109_cov_3.61735_ID_3437
+
+CONTIG: NODE_19_length_73664_cov_3.56558_ID_2309 (73664bp)
+Top Length: 73661  Top ID: 99.96
+		One align captures most of this contig: 2997637 3071302 | 1 73661 | 73666 73661 | 99.96 | e_coli_k12_gi_556503834_ref_NC_ NODE_19_length_73664_cov_3.56558_ID_2309
+
+CONTIG: NODE_20_length_73475_cov_3.59121_ID_2248 (73475bp)
+Top Length: 41097  Top ID: 99.88
+		This contig is misassembled. 2 total aligns.
+			Excluding internal overlap of size 108 between Alignment 1 and 2:  3708527 3741008 | 40990 73475 | 32482 32486 --> 3708635 3741008 | 41098 73475 | 32374 32378
+			Real Alignment 1: 3667382 3708466 | 1 41097 | 41085 41097 | 99.88 | e_coli_k12_gi_556503834_ref_NC_ NODE_20_length_73475_cov_3.59121_ID_2248
+			  Gap between these two alignments (local misassembly). Inconsistency = 168 
+			Real Alignment 2: 3708635 3741008 | 41098 73475 | 32374 32378 | 99.93 | e_coli_k12_gi_556503834_ref_NC_ NODE_20_length_73475_cov_3.59121_ID_2248
+
+CONTIG: NODE_21_length_71670_cov_3.60424_ID_2725 (71670bp)
+Top Length: 58795  Top ID: 99.82
+		Skipping redundant alignment 4035171 4035439 | 269 1 | 269 269 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_21_length_71670_cov_3.60424_ID_2725
+		Skipping redundant alignment 3941448 3941716 | 269 1 | 269 269 | 99.26 | e_coli_k12_gi_556503834_ref_NC_ NODE_21_length_71670_cov_3.60424_ID_2725
+		Skipping redundant alignment 2731249 2731485 | 1 238 | 237 238 | 96.25 | e_coli_k12_gi_556503834_ref_NC_ NODE_21_length_71670_cov_3.60424_ID_2725
+		This contig is misassembled. 5 total aligns.
+			Excluding internal overlap of size 101 between Alignment 1 and 2:  4153592 4166567 | 12976 1 | 12976 12976 --> 4153693 4166567 | 12875 1 | 12875 12875
+			Real Alignment 1: 4153693 4166567 | 12875 1 | 12875 12875 | 99.98 | e_coli_k12_gi_556503834_ref_NC_ NODE_21_length_71670_cov_3.60424_ID_2725
+			  Gap between these two alignments (local misassembly). Inconsistency = 246 
+			Real Alignment 2: 4094627 4153446 | 71670 12876 | 58820 58795 | 99.82 | e_coli_k12_gi_556503834_ref_NC_ NODE_21_length_71670_cov_3.60424_ID_2725
+
+CONTIG: NODE_22_length_68936_cov_3.80144_ID_1196 (68936bp)
+Top Length: 62660  Top ID: 99.94
+		Skipping redundant alignment 4507459 4508696 | 7511 6274 | 1238 1238 | 99.84 | e_coli_k12_gi_556503834_ref_NC_ NODE_22_length_68936_cov_3.80144_ID_1196
+		Skipping redundant alignment 279931 280111 | 7331 7511 | 181 181 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_22_length_68936_cov_3.80144_ID_1196
+		Skipping redundant alignment 525472 527034 | 64922 66484 | 1563 1563 | 96.03 | e_coli_k12_gi_556503834_ref_NC_ NODE_22_length_68936_cov_3.80144_ID_1196
+		This contig is misassembled. 5 total aligns.
+			Excluding internal overlap of size 1235 between Alignment 1 and 2:  264251 271761 | 1 7511 | 7511 7511 --> 264251 270526 | 1 6276 | 6276 6276
+			Real Alignment 1: 264251 270526 | 1 6276 | 6276 6276 | 99.87 | e_coli_k12_gi_556503834_ref_NC_ NODE_22_length_68936_cov_3.80144_ID_1196
+			  Extensive misassembly ( relocation, inconsistency = 1198755 ) between these two alignments
+			Real Alignment 2: 1469282 1531940 | 6277 68936 | 62659 62660 | 99.94 | e_coli_k12_gi_556503834_ref_NC_ NODE_22_length_68936_cov_3.80144_ID_1196
+
+CONTIG: NODE_23_length_67832_cov_3.64715_ID_1674 (67832bp)
+Top Length: 67830  Top ID: 99.95
+		Marking as insignificant: 2059846 2059930 | 66041 65957 | 85 85 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_23_length_67832_cov_3.64715_ID_1674
+		Marking as insignificant: 2062236 2062339 | 66060 65957 | 104 104 | 97.12 | e_coli_k12_gi_556503834_ref_NC_ NODE_23_length_67832_cov_3.64715_ID_1674
+		Marking as insignificant: 2058023 2058126 | 52562 52459 | 104 104 | 98.08 | e_coli_k12_gi_556503834_ref_NC_ NODE_23_length_67832_cov_3.64715_ID_1674
+		Marking as insignificant: 2044525 2044628 | 66060 65957 | 104 104 | 98.08 | e_coli_k12_gi_556503834_ref_NC_ NODE_23_length_67832_cov_3.64715_ID_1674
+		Marking as insignificant: 2062236 2062346 | 52459 52569 | 111 111 | 98.2 | e_coli_k12_gi_556503834_ref_NC_ NODE_23_length_67832_cov_3.64715_ID_1674
+		One align captures most of this contig: 1992063 2059896 | 1 67830 | 67834 67830 | 99.95 | e_coli_k12_gi_556503834_ref_NC_ NODE_23_length_67832_cov_3.64715_ID_1674
+
+CONTIG: NODE_24_length_67350_cov_3.54187_ID_1794 (67350bp)
+Top Length: 67350  Top ID: 99.79
+		Marking as insignificant: 275041 275149 | 67350 67242 | 109 109 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_24_length_67350_cov_3.54187_ID_1794
+		Marking as insignificant: 3653122 3653233 | 67350 67239 | 112 112 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_24_length_67350_cov_3.54187_ID_1794
+		Marking as insignificant: 3366642 3366753 | 67350 67239 | 112 112 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_24_length_67350_cov_3.54187_ID_1794
+		Marking as insignificant: 1396041 1396152 | 67239 67350 | 112 112 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_24_length_67350_cov_3.54187_ID_1794
+		Marking as insignificant: 1299496 1299607 | 67239 67350 | 112 112 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_24_length_67350_cov_3.54187_ID_1794
+		Marking as insignificant: 688937 689048 | 67350 67239 | 112 112 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_24_length_67350_cov_3.54187_ID_1794
+		Marking as insignificant: 575677 575788 | 67350 67239 | 112 112 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_24_length_67350_cov_3.54187_ID_1794
+		Marking as insignificant: 2290005 2290117 | 67350 67238 | 113 113 | 99.12 | e_coli_k12_gi_556503834_ref_NC_ NODE_24_length_67350_cov_3.54187_ID_1794
+		Marking as insignificant: 3130141 3130254 | 67237 67350 | 114 114 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_24_length_67350_cov_3.54187_ID_1794
+		One align captures most of this contig: 2102835 2170228 | 67350 1 | 67394 67350 | 99.79 | e_coli_k12_gi_556503834_ref_NC_ NODE_24_length_67350_cov_3.54187_ID_1794
+
+CONTIG: NODE_25_length_66120_cov_3.57836_ID_2786 (66120bp)
+Top Length: 66120  Top ID: 99.9
+		One align captures most of this contig: 4326300 4392414 | 1 66120 | 66115 66120 | 99.9 | e_coli_k12_gi_556503834_ref_NC_ NODE_25_length_66120_cov_3.57836_ID_2786
+
+CONTIG: NODE_26_length_63697_cov_3.61799_ID_2552 (63697bp)
+Top Length: 41968  Top ID: 99.86
+		Skipping redundant alignment 781368 781451 | 41893 41976 | 84 84 | 98.81 | e_coli_k12_gi_556503834_ref_NC_ NODE_26_length_63697_cov_3.61799_ID_2552
+		Skipping redundant alignment 2521253 2521520 | 41894 42161 | 268 268 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_26_length_63697_cov_3.61799_ID_2552
+		Skipping redundant alignment 780843 780918 | 41894 41969 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_26_length_63697_cov_3.61799_ID_2552
+		Skipping redundant alignment 781147 781222 | 41894 41969 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_26_length_63697_cov_3.61799_ID_2552
+		This contig is misassembled. 6 total aligns.
+			Excluding internal overlap of size 78 between Alignment 1 and 2:  781577 803380 | 41894 63697 | 21804 21804 --> 781655 803380 | 41972 63697 | 21726 21726
+			Real Alignment 1: 738688 780631 | 4 41971 | 41944 41968 | 99.86 | e_coli_k12_gi_556503834_ref_NC_ NODE_26_length_63697_cov_3.61799_ID_2552
+			  Extensive misassembly ( relocation, inconsistency = 1023 ) between these two alignments
+			Real Alignment 2: 781655 803380 | 41972 63697 | 21726 21726 | 99.93 | e_coli_k12_gi_556503834_ref_NC_ NODE_26_length_63697_cov_3.61799_ID_2552
+
+CONTIG: NODE_27_length_60688_cov_3.57644_ID_1008 (60688bp)
+Top Length: 60688  Top ID: 99.94
+		One align captures most of this contig: 1571847 1632534 | 1 60688 | 60688 60688 | 99.94 | e_coli_k12_gi_556503834_ref_NC_ NODE_27_length_60688_cov_3.57644_ID_1008
+
+CONTIG: NODE_28_length_56342_cov_3.5847_ID_1541 (56342bp)
+Top Length: 56340  Top ID: 99.94
+		One align captures most of this contig: 4549773 4606117 | 56340 1 | 56345 56340 | 99.94 | e_coli_k12_gi_556503834_ref_NC_ NODE_28_length_56342_cov_3.5847_ID_1541
+
+CONTIG: NODE_29_length_54884_cov_3.61458_ID_1910 (54884bp)
+Top Length: 54884  Top ID: 99.93
+		Marking as insignificant: 2288919 2288990 | 54813 54884 | 72 72 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_29_length_54884_cov_3.61458_ID_1910
+		Marking as insignificant: 2101745 2101820 | 54809 54884 | 76 76 | 98.68 | e_coli_k12_gi_556503834_ref_NC_ NODE_29_length_54884_cov_3.61458_ID_1910
+		Marking as insignificant: 273951 274026 | 54809 54884 | 76 76 | 98.68 | e_coli_k12_gi_556503834_ref_NC_ NODE_29_length_54884_cov_3.61458_ID_1910
+		Marking as insignificant: 3365552 3365627 | 54809 54884 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_29_length_54884_cov_3.61458_ID_1910
+		Marking as insignificant: 1397167 1397242 | 54884 54809 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_29_length_54884_cov_3.61458_ID_1910
+		Marking as insignificant: 687847 687922 | 54809 54884 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_29_length_54884_cov_3.61458_ID_1910
+		Marking as insignificant: 574586 574662 | 54808 54884 | 77 77 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_29_length_54884_cov_3.61458_ID_1910
+		Marking as insignificant: 3652030 3652107 | 54807 54884 | 78 78 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_29_length_54884_cov_3.61458_ID_1910
+		Marking as insignificant: 1300622 1300699 | 54884 54807 | 78 78 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_29_length_54884_cov_3.61458_ID_1910
+		One align captures most of this contig: 3131269 3186150 | 54884 1 | 54882 54884 | 99.93 | e_coli_k12_gi_556503834_ref_NC_ NODE_29_length_54884_cov_3.61458_ID_1910
+
+CONTIG: NODE_30_length_53520_cov_3.55459_ID_3263 (53520bp)
+Top Length: 53520  Top ID: 99.92
+		One align captures most of this contig: 4040834 4094356 | 53520 1 | 53523 53520 | 99.92 | e_coli_k12_gi_556503834_ref_NC_ NODE_30_length_53520_cov_3.55459_ID_3263
+
+CONTIG: NODE_31_length_48989_cov_3.65143_ID_1511 (48989bp)
+Top Length: 48989  Top ID: 99.93
+		Marking as insignificant: 2947385 2947467 | 195 277 | 83 83 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_31_length_48989_cov_3.65143_ID_1511
+		Marking as insignificant: 2947385 2947575 | 85 275 | 191 191 | 98.44 | e_coli_k12_gi_556503834_ref_NC_ NODE_31_length_48989_cov_3.65143_ID_1511
+		One align captures most of this contig: 2947411 2996402 | 1 48989 | 48992 48989 | 99.93 | e_coli_k12_gi_556503834_ref_NC_ NODE_31_length_48989_cov_3.65143_ID_1511
+
+CONTIG: NODE_32_length_46092_cov_3.57032_ID_1720 (46092bp)
+Top Length: 46092  Top ID: 99.92
+		One align captures most of this contig: 20518 66610 | 1 46092 | 46093 46092 | 99.92 | e_coli_k12_gi_556503834_ref_NC_ NODE_32_length_46092_cov_3.57032_ID_1720
+
+CONTIG: NODE_33_length_43798_cov_3.54105_ID_2057 (43798bp)
+Top Length: 43798  Top ID: 99.9
+		One align captures most of this contig: 1050512 1094299 | 43798 1 | 43788 43798 | 99.9 | e_coli_k12_gi_556503834_ref_NC_ NODE_33_length_43798_cov_3.54105_ID_2057
+
+CONTIG: NODE_34_length_42166_cov_3.57562_ID_2436 (42166bp)
+Top Length: 42166  Top ID: 99.79
+		One align captures most of this contig: 2305030 2347194 | 42166 1 | 42165 42166 | 99.79 | e_coli_k12_gi_556503834_ref_NC_ NODE_34_length_42166_cov_3.57562_ID_2436
+
+CONTIG: NODE_35_length_40672_cov_4.13932_ID_3484 (40672bp)
+Top Length: 40098  Top ID: 99.8
+		Skipping redundant alignment 729582 733302 | 35056 38776 | 3721 3721 | 97.18 | e_coli_k12_gi_556503834_ref_NC_ NODE_35_length_40672_cov_4.13932_ID_3484
+		Skipping redundant alignment 3762183 3765871 | 35057 38745 | 3689 3689 | 99.46 | e_coli_k12_gi_556503834_ref_NC_ NODE_35_length_40672_cov_4.13932_ID_3484
+		Skipping redundant alignment 734148 735142 | 37751 38745 | 995 995 | 98.39 | e_coli_k12_gi_556503834_ref_NC_ NODE_35_length_40672_cov_4.13932_ID_3484
+		Skipping redundant alignment 3767197 3767624 | 38317 38745 | 428 429 | 96.5 | e_coli_k12_gi_556503834_ref_NC_ NODE_35_length_40672_cov_4.13932_ID_3484
+		This contig is misassembled. 6 total aligns.
+			Excluding internal overlap of size 399 between Alignment 1 and 2:  3766285 3767257 | 39700 40672 | 973 973 --> 3766684 3767257 | 40099 40672 | 574 574
+			Real Alignment 1: 3584141 3624233 | 1 40098 | 40093 40098 | 99.8 | e_coli_k12_gi_556503834_ref_NC_ NODE_35_length_40672_cov_4.13932_ID_3484
+			  Extensive misassembly ( relocation, inconsistency = 142450 ) between these two alignments
+			Real Alignment 2: 3766684 3767257 | 40099 40672 | 574 574 | 99.18 | e_coli_k12_gi_556503834_ref_NC_ NODE_35_length_40672_cov_4.13932_ID_3484
+
+CONTIG: NODE_36_length_39999_cov_3.56432_ID_4902 (39999bp)
+Top Length: 24557  Top ID: 99.87
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 551480 566834 | 15357 1 | 15355 15357 | 99.92 | e_coli_k12_gi_556503834_ref_NC_ NODE_36_length_39999_cov_3.56432_ID_4902
+			  Fake misassembly between these two alignments: inconsistency = 4 , gap in the contig is small or absent or filled mostly with Ns (short indel: deletion of length 4; 0 mismatches)
+			Real Alignment 2: 526844 551390 | 39999 15443 | 24547 24557 | 99.87 | e_coli_k12_gi_556503834_ref_NC_ NODE_36_length_39999_cov_3.56432_ID_4902
+
+CONTIG: NODE_37_length_38247_cov_3.57433_ID_2378 (38247bp)
+Top Length: 38247  Top ID: 99.93
+		Marking as insignificant: 290428 290633 | 9800 9595 | 206 206 | 99.51 | e_coli_k12_gi_556503834_ref_NC_ NODE_37_length_38247_cov_3.57433_ID_2378
+		One align captures most of this contig: 2731434 2769678 | 38247 1 | 38245 38247 | 99.93 | e_coli_k12_gi_556503834_ref_NC_ NODE_37_length_38247_cov_3.57433_ID_2378
+
+CONTIG: NODE_38_length_37668_cov_3.7914_ID_4201 (37668bp)
+Top Length: 37668  Top ID: 99.93
+		Marking as insignificant: 1632528 1635088 | 31408 33968 | 2561 2561 | 99.02 | e_coli_k12_gi_556503834_ref_NC_ NODE_38_length_37668_cov_3.7914_ID_4201
+		One align captures most of this contig: 1428508 1466174 | 37668 1 | 37667 37668 | 99.93 | e_coli_k12_gi_556503834_ref_NC_ NODE_38_length_37668_cov_3.7914_ID_4201
+
+CONTIG: NODE_39_length_32772_cov_3.5705_ID_3056 (32772bp)
+Top Length: 32705  Top ID: 99.82
+		Marking as insignificant: 696664 696741 | 262 339 | 78 78 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_39_length_32772_cov_3.5705_ID_3056
+		Marking as insignificant: 696687 696830 | 1 144 | 144 144 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_39_length_32772_cov_3.5705_ID_3056
+		One align captures most of this contig: 696863 729566 | 68 32772 | 32704 32705 | 99.82 | e_coli_k12_gi_556503834_ref_NC_ NODE_39_length_32772_cov_3.5705_ID_3056
+
+CONTIG: NODE_40_length_31583_cov_3.63233_ID_2141 (31583bp)
+Top Length: 31583  Top ID: 99.92
+		One align captures most of this contig: 2070241 2101820 | 1 31583 | 31580 31583 | 99.92 | e_coli_k12_gi_556503834_ref_NC_ NODE_40_length_31583_cov_3.63233_ID_2141
+
+CONTIG: NODE_41_length_31010_cov_3.61402_ID_2171 (31010bp)
+Top Length: 31010  Top ID: 99.94
+		One align captures most of this contig: 3392310 3423316 | 1 31010 | 31007 31010 | 99.94 | e_coli_k12_gi_556503834_ref_NC_ NODE_41_length_31010_cov_3.61402_ID_2171
+
+CONTIG: NODE_42_length_31007_cov_3.67472_ID_2185 (31007bp)
+Top Length: 31007  Top ID: 99.92
+		Marking as insignificant: 3428854 3428998 | 31007 30863 | 145 145 | 99.31 | e_coli_k12_gi_556503834_ref_NC_ NODE_42_length_31007_cov_3.67472_ID_2185
+		Marking as insignificant: 223465 223679 | 30793 31007 | 215 215 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_42_length_31007_cov_3.67472_ID_2185
+		One align captures most of this contig: 4177051 4208055 | 1 31007 | 31005 31007 | 99.92 | e_coli_k12_gi_556503834_ref_NC_ NODE_42_length_31007_cov_3.67472_ID_2185
+
+CONTIG: NODE_43_length_29678_cov_3.56497_ID_2604 (29678bp)
+Top Length: 29676  Top ID: 99.96
+		Marking as insignificant: 4295835 4295983 | 75 221 | 149 147 | 95.3 | e_coli_k12_gi_556503834_ref_NC_ NODE_43_length_29678_cov_3.56497_ID_2604
+		Marking as insignificant: 4295987 4296209 | 1 221 | 223 221 | 96.41 | e_coli_k12_gi_556503834_ref_NC_ NODE_43_length_29678_cov_3.56497_ID_2604
+		Marking as insignificant: 4296100 4296322 | 1 221 | 223 221 | 97.76 | e_coli_k12_gi_556503834_ref_NC_ NODE_43_length_29678_cov_3.56497_ID_2604
+		Marking as insignificant: 4295874 4296096 | 1 221 | 223 221 | 98.65 | e_coli_k12_gi_556503834_ref_NC_ NODE_43_length_29678_cov_3.56497_ID_2604
+		One align captures most of this contig: 4296213 4325889 | 1 29676 | 29677 29676 | 99.96 | e_coli_k12_gi_556503834_ref_NC_ NODE_43_length_29678_cov_3.56497_ID_2604
+
+CONTIG: NODE_44_length_29578_cov_3.68157_ID_3185 (29578bp)
+Top Length: 19432  Top ID: 99.94
+		Skipping redundant alignment 3625234 3625524 | 19432 19142 | 291 291 | 97.59 | e_coli_k12_gi_556503834_ref_NC_ NODE_44_length_29578_cov_3.68157_ID_3185
+		Skipping redundant alignment 737681 737971 | 19432 19142 | 291 291 | 96.22 | e_coli_k12_gi_556503834_ref_NC_ NODE_44_length_29578_cov_3.68157_ID_3185
+		Skipping redundant alignment 228928 229006 | 21599 21521 | 79 79 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_44_length_29578_cov_3.68157_ID_3185
+		Skipping redundant alignment 3946872 3946949 | 21599 21522 | 78 78 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_44_length_29578_cov_3.68157_ID_3185
+		This contig is misassembled. 6 total aligns.
+			Excluding internal overlap of size 280 between Alignment 1 and 2:  228952 239377 | 29578 19153 | 10426 10426 --> 228952 239097 | 29578 19433 | 10146 10146
+			Real Alignment 1: 1532672 1552103 | 19432 1 | 19432 19432 | 99.94 | e_coli_k12_gi_556503834_ref_NC_ NODE_44_length_29578_cov_3.68157_ID_3185
+			  Extensive misassembly ( relocation, inconsistency = 1293574 ) between these two alignments
+			Real Alignment 2: 228952 239097 | 29578 19433 | 10146 10146 | 99.86 | e_coli_k12_gi_556503834_ref_NC_ NODE_44_length_29578_cov_3.68157_ID_3185
+
+CONTIG: NODE_45_length_28288_cov_3.53129_ID_3328 (28288bp)
+Top Length: 28288  Top ID: 99.94
+		One align captures most of this contig: 3187372 3215658 | 28288 1 | 28287 28288 | 99.94 | e_coli_k12_gi_556503834_ref_NC_ NODE_45_length_28288_cov_3.53129_ID_3328
+
+CONTIG: NODE_46_length_28229_cov_3.57418_ID_4512 (28229bp)
+Top Length: 26356  Top ID: 99.91
+		This contig is misassembled. 2 total aligns.
+			Excluding internal overlap of size 370 between Alignment 1 and 2:  578127 580366 | 25987 28226 | 2240 2240 --> 578497 580366 | 26357 28226 | 1870 1870
+			Real Alignment 1: 1397211 1423569 | 1 26356 | 26359 26356 | 99.91 | e_coli_k12_gi_556503834_ref_NC_ NODE_46_length_28229_cov_3.57418_ID_4512
+			  Extensive misassembly ( relocation, inconsistency = -845073 ) between these two alignments
+			Real Alignment 2: 578497 580366 | 26357 28226 | 1870 1870 | 99.24 | e_coli_k12_gi_556503834_ref_NC_ NODE_46_length_28229_cov_3.57418_ID_4512
+
+CONTIG: NODE_47_length_27039_cov_3.54999_ID_3015 (27039bp)
+Top Length: 27039  Top ID: 99.9
+		One align captures most of this contig: 4614611 4641649 | 27039 1 | 27039 27039 | 99.9 | e_coli_k12_gi_556503834_ref_NC_ NODE_47_length_27039_cov_3.54999_ID_3015
+
+CONTIG: NODE_48_length_26392_cov_3.67487_ID_3107 (26392bp)
+Top Length: 22675  Top ID: 99.81
+		Skipping redundant alignment 2288912 2288990 | 26314 26392 | 79 79 | 97.47 | e_coli_k12_gi_556503834_ref_NC_ NODE_48_length_26392_cov_3.67487_ID_3107
+		Skipping redundant alignment 1300622 1300699 | 26392 26315 | 78 78 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_48_length_26392_cov_3.67487_ID_3107
+		Skipping redundant alignment 3131269 3131346 | 26392 26315 | 78 78 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_48_length_26392_cov_3.67487_ID_3107
+		Skipping redundant alignment 574586 574662 | 26316 26392 | 77 77 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_48_length_26392_cov_3.67487_ID_3107
+		Skipping redundant alignment 687847 687922 | 26317 26392 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_48_length_26392_cov_3.67487_ID_3107
+		Skipping redundant alignment 1397167 1397242 | 26392 26317 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_48_length_26392_cov_3.67487_ID_3107
+		Skipping redundant alignment 3365552 3365627 | 26317 26392 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_48_length_26392_cov_3.67487_ID_3107
+		Skipping redundant alignment 273951 274026 | 26317 26392 | 76 76 | 98.68 | e_coli_k12_gi_556503834_ref_NC_ NODE_48_length_26392_cov_3.67487_ID_3107
+		Skipping redundant alignment 2101745 2101820 | 26317 26392 | 76 76 | 98.68 | e_coli_k12_gi_556503834_ref_NC_ NODE_48_length_26392_cov_3.67487_ID_3107
+		This contig is misassembled. 11 total aligns.
+			Excluding internal overlap of size 84 between Alignment 1 and 2:  3648308 3652107 | 22593 26392 | 3800 3800 --> 3648392 3652107 | 22677 26392 | 3716 3716
+			Real Alignment 1: 3625456 3648160 | 2 22676 | 22705 22675 | 99.81 | e_coli_k12_gi_556503834_ref_NC_ NODE_48_length_26392_cov_3.67487_ID_3107
+			  Gap between these two alignments (local misassembly). Inconsistency = 231 
+			Real Alignment 2: 3648392 3652107 | 22677 26392 | 3716 3716 | 99.82 | e_coli_k12_gi_556503834_ref_NC_ NODE_48_length_26392_cov_3.67487_ID_3107
+
+CONTIG: NODE_49_length_25505_cov_3.56448_ID_2942 (25505bp)
+Top Length: 25503  Top ID: 99.91
+		One align captures most of this contig: 3366689 3392194 | 3 25505 | 25506 25503 | 99.91 | e_coli_k12_gi_556503834_ref_NC_ NODE_49_length_25505_cov_3.56448_ID_2942
+
+CONTIG: NODE_50_length_23936_cov_3.60885_ID_2866 (23936bp)
+Top Length: 23936  Top ID: 99.94
+		One align captures most of this contig: 291347 315283 | 1 23936 | 23937 23936 | 99.94 | e_coli_k12_gi_556503834_ref_NC_ NODE_50_length_23936_cov_3.60885_ID_2866
+
+CONTIG: NODE_51_length_23377_cov_3.53156_ID_2477 (23377bp)
+Top Length: 23377  Top ID: 99.9
+		One align captures most of this contig: 316429 339802 | 23377 1 | 23374 23377 | 99.9 | e_coli_k12_gi_556503834_ref_NC_ NODE_51_length_23377_cov_3.53156_ID_2477
+
+CONTIG: NODE_52_length_21299_cov_3.47868_ID_3808 (21299bp)
+Top Length: 21296  Top ID: 99.89
+		One align captures most of this contig: 3741017 3762318 | 21296 1 | 21302 21296 | 99.89 | e_coli_k12_gi_556503834_ref_NC_ NODE_52_length_21299_cov_3.47868_ID_3808
+
+CONTIG: NODE_53_length_19927_cov_3.61831_ID_2659 (19927bp)
+Top Length: 19922  Top ID: 99.96
+		One align captures most of this contig: 3563556 3583477 | 3 19924 | 19922 19922 | 99.96 | e_coli_k12_gi_556503834_ref_NC_ NODE_53_length_19927_cov_3.61831_ID_2659
+
+CONTIG: NODE_54_length_18536_cov_3.49564_ID_3855 (18536bp)
+Top Length: 9652  Top ID: 99.91
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 248311 257962 | 9652 1 | 9652 9652 | 99.91 | e_coli_k12_gi_556503834_ref_NC_ NODE_54_length_18536_cov_3.49564_ID_3855
+			  Gap between these two alignments (local misassembly). Inconsistency = 101 
+			Real Alignment 2: 239326 248208 | 18536 9654 | 8883 8883 | 99.95 | e_coli_k12_gi_556503834_ref_NC_ NODE_54_length_18536_cov_3.49564_ID_3855
+
+CONTIG: NODE_55_length_18410_cov_3.70678_ID_2838 (18410bp)
+Top Length: 18409  Top ID: 99.9
+		One align captures most of this contig: 1552315 1570724 | 2 18410 | 18410 18409 | 99.9 | e_coli_k12_gi_556503834_ref_NC_ NODE_55_length_18410_cov_3.70678_ID_2838
+
+CONTIG: NODE_56_length_17239_cov_3.57309_ID_2900 (17239bp)
+Top Length: 17237  Top ID: 99.92
+		One align captures most of this contig: 357730 374966 | 3 17239 | 17237 17237 | 99.92 | e_coli_k12_gi_556503834_ref_NC_ NODE_56_length_17239_cov_3.57309_ID_2900
+
+CONTIG: NODE_57_length_17033_cov_3.51997_ID_2914 (17033bp)
+Top Length: 17033  Top ID: 99.91
+		One align captures most of this contig: 508755 525784 | 1 17033 | 17030 17033 | 99.91 | e_coli_k12_gi_556503834_ref_NC_ NODE_57_length_17033_cov_3.51997_ID_2914
+
+CONTIG: NODE_58_length_16825_cov_3.61276_ID_2975 (16825bp)
+Top Length: 16825  Top ID: 99.85
+		Marking as insignificant: 1269085 1269550 | 16597 16132 | 466 466 | 99.14 | e_coli_k12_gi_556503834_ref_NC_ NODE_58_length_16825_cov_3.61276_ID_2975
+		Marking as insignificant: 1269392 1270012 | 16825 16205 | 621 621 | 98.39 | e_coli_k12_gi_556503834_ref_NC_ NODE_58_length_16825_cov_3.61276_ID_2975
+		One align captures most of this contig: 1269927 1286750 | 16825 1 | 16824 16825 | 99.85 | e_coli_k12_gi_556503834_ref_NC_ NODE_58_length_16825_cov_3.61276_ID_2975
+
+CONTIG: NODE_59_length_15422_cov_3.583_ID_3612 (15422bp)
+Top Length: 15422  Top ID: 99.77
+		One align captures most of this contig: 13 15429 | 15422 1 | 15417 15422 | 99.77 | e_coli_k12_gi_556503834_ref_NC_ NODE_59_length_15422_cov_3.583_ID_3612
+
+CONTIG: NODE_60_length_15395_cov_3.78266_ID_3775 (15395bp)
+Top Length: 15037  Top ID: 99.86
+		This contig is misassembled. 2 total aligns.
+			Excluding internal overlap of size 1080 between Alignment 1 and 2:  580283 581720 | 13958 15395 | 1438 1438 --> 581363 581720 | 15038 15395 | 358 358
+			Real Alignment 1: 1635839 1650876 | 15037 1 | 15038 15037 | 99.86 | e_coli_k12_gi_556503834_ref_NC_ NODE_60_length_15395_cov_3.78266_ID_3775
+			  Extensive misassembly ( relocation, inconsistency = -1069514 ) between these two alignments
+			Real Alignment 2: 581363 581720 | 15038 15395 | 358 358 | 98.96 | e_coli_k12_gi_556503834_ref_NC_ NODE_60_length_15395_cov_3.78266_ID_3775
+
+CONTIG: NODE_61_length_14432_cov_3.6221_ID_3152 (14432bp)
+Top Length: 14432  Top ID: 99.56
+		Marking as insignificant: 2304503 2304613 | 111 1 | 111 111 | 97.3 | e_coli_k12_gi_556503834_ref_NC_ NODE_61_length_14432_cov_3.6221_ID_3152
+		One align captures most of this contig: 2290072 2304500 | 14432 1 | 14429 14432 | 99.56 | e_coli_k12_gi_556503834_ref_NC_ NODE_61_length_14432_cov_3.6221_ID_3152
+
+CONTIG: NODE_62_length_13078_cov_3.59572_ID_3235 (13078bp)
+Top Length: 13078  Top ID: 99.87
+		One align captures most of this contig: 3653182 3666259 | 1 13078 | 13078 13078 | 99.87 | e_coli_k12_gi_556503834_ref_NC_ NODE_62_length_13078_cov_3.59572_ID_3235
+
+CONTIG: NODE_63_length_12882_cov_3.60435_ID_3740 (12882bp)
+Top Length: 12881  Top ID: 99.95
+		One align captures most of this contig: 1979216 1992096 | 1 12881 | 12881 12881 | 99.95 | e_coli_k12_gi_556503834_ref_NC_ NODE_63_length_12882_cov_3.60435_ID_3740
+
+CONTIG: NODE_64_length_12314_cov_3.74753_ID_3381 (12314bp)
+Top Length: 12314  Top ID: 99.94
+		Marking as insignificant: 1287243 1287337 | 244 339 | 95 96 | 98.96 | e_coli_k12_gi_556503834_ref_NC_ NODE_64_length_12314_cov_3.74753_ID_3381
+		Marking as insignificant: 2290005 2290113 | 12314 12206 | 109 109 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_64_length_12314_cov_3.74753_ID_3381
+		Marking as insignificant: 275041 275149 | 12314 12206 | 109 109 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_64_length_12314_cov_3.74753_ID_3381
+		Marking as insignificant: 3130143 3130254 | 12203 12314 | 112 112 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_64_length_12314_cov_3.74753_ID_3381
+		Marking as insignificant: 2102835 2102946 | 12314 12203 | 112 112 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_64_length_12314_cov_3.74753_ID_3381
+		Marking as insignificant: 3653122 3653234 | 12314 12202 | 113 113 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_64_length_12314_cov_3.74753_ID_3381
+		Marking as insignificant: 688937 689049 | 12314 12202 | 113 113 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_64_length_12314_cov_3.74753_ID_3381
+		Marking as insignificant: 575677 575789 | 12314 12202 | 113 113 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_64_length_12314_cov_3.74753_ID_3381
+		Marking as insignificant: 1396039 1396152 | 12201 12314 | 114 114 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_64_length_12314_cov_3.74753_ID_3381
+		Marking as insignificant: 3366642 3366759 | 12314 12197 | 118 118 | 99.15 | e_coli_k12_gi_556503834_ref_NC_ NODE_64_length_12314_cov_3.74753_ID_3381
+		One align captures most of this contig: 1287294 1299607 | 1 12314 | 12314 12314 | 99.94 | e_coli_k12_gi_556503834_ref_NC_ NODE_64_length_12314_cov_3.74753_ID_3381
+
+CONTIG: NODE_65_length_10991_cov_3.64064_ID_3423 (10991bp)
+Top Length: 10991  Top ID: 99.96
+		One align captures most of this contig: 597059 608050 | 1 10991 | 10992 10991 | 99.96 | e_coli_k12_gi_556503834_ref_NC_ NODE_65_length_10991_cov_3.64064_ID_3423
+
+CONTIG: NODE_66_length_10439_cov_3.44126_ID_3542 (10439bp)
+Top Length: 10439  Top ID: 99.95
+		One align captures most of this contig: 280057 290495 | 10439 1 | 10439 10439 | 99.95 | e_coli_k12_gi_556503834_ref_NC_ NODE_66_length_10439_cov_3.44126_ID_3542
+
+CONTIG: NODE_67_length_10163_cov_3.6388_ID_3645 (10163bp)
+Top Length: 10163  Top ID: 99.88
+		One align captures most of this contig: 4508627 4518788 | 10163 1 | 10162 10163 | 99.88 | e_coli_k12_gi_556503834_ref_NC_ NODE_67_length_10163_cov_3.6388_ID_3645
+
+CONTIG: NODE_68_length_9925_cov_3.62067_ID_3678 (9925bp)
+Top Length: 9925  Top ID: 99.92
+		One align captures most of this contig: 340035 349958 | 1 9925 | 9924 9925 | 99.92 | e_coli_k12_gi_556503834_ref_NC_ NODE_68_length_9925_cov_3.62067_ID_3678
+
+CONTIG: NODE_69_length_9228_cov_3.52229_ID_3708 (9228bp)
+Top Length: 9228  Top ID: 99.96
+		One align captures most of this contig: 382536 391763 | 1 9228 | 9228 9228 | 99.96 | e_coli_k12_gi_556503834_ref_NC_ NODE_69_length_9228_cov_3.52229_ID_3708
+
+CONTIG: NODE_70_length_7715_cov_3.55313_ID_3908 (7715bp)
+Top Length: 7715  Top ID: 99.95
+		One align captures most of this contig: 4606602 4614317 | 7715 1 | 7716 7715 | 99.95 | e_coli_k12_gi_556503834_ref_NC_ NODE_70_length_7715_cov_3.55313_ID_3908
+
+CONTIG: NODE_71_length_7693_cov_3.47002_ID_3922 (7693bp)
+Top Length: 7687  Top ID: 99.92
+		One align captures most of this contig: 4499482 4507168 | 7 7693 | 7687 7687 | 99.92 | e_coli_k12_gi_556503834_ref_NC_ NODE_71_length_7693_cov_3.47002_ID_3922
+
+CONTIG: NODE_72_length_7669_cov_3.61177_ID_3936 (7669bp)
+Top Length: 7666  Top ID: 99.93
+		One align captures most of this contig: 4027561 4035225 | 4 7669 | 7665 7666 | 99.93 | e_coli_k12_gi_556503834_ref_NC_ NODE_72_length_7669_cov_3.61177_ID_3936
+
+CONTIG: NODE_73_length_7630_cov_3.68779_ID_4120 (7630bp)
+Top Length: 7630  Top ID: 99.87
+		One align captures most of this contig: 349887 357517 | 1 7630 | 7631 7630 | 99.87 | e_coli_k12_gi_556503834_ref_NC_ NODE_73_length_7630_cov_3.68779_ID_4120
+
+CONTIG: NODE_74_length_7513_cov_3.57924_ID_3966 (7513bp)
+Top Length: 7504  Top ID: 99.91
+		Marking as insignificant: 696542 696627 | 7428 7513 | 86 86 | 97.67 | e_coli_k12_gi_556503834_ref_NC_ NODE_74_length_7513_cov_3.57924_ID_3966
+		One align captures most of this contig: 689003 696506 | 1 7504 | 7504 7504 | 99.91 | e_coli_k12_gi_556503834_ref_NC_ NODE_74_length_7513_cov_3.57924_ID_3966
+
+CONTIG: NODE_75_length_7390_cov_3.64349_ID_3980 (7390bp)
+Top Length: 7390  Top ID: 99.91
+		One align captures most of this contig: 216107 223497 | 1 7390 | 7391 7390 | 99.91 | e_coli_k12_gi_556503834_ref_NC_ NODE_75_length_7390_cov_3.64349_ID_3980
+
+CONTIG: NODE_76_length_7159_cov_3.50802_ID_4034 (7159bp)
+Top Length: 7159  Top ID: 99.92
+		One align captures most of this contig: 2769726 2776884 | 1 7159 | 7159 7159 | 99.92 | e_coli_k12_gi_556503834_ref_NC_ NODE_76_length_7159_cov_3.50802_ID_4034
+
+CONTIG: NODE_77_length_6683_cov_3.71666_ID_3994 (6683bp)
+Top Length: 6683  Top ID: 99.96
+		Marking as insignificant: 2288919 2288990 | 72 1 | 72 72 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_77_length_6683_cov_3.71666_ID_3994
+		Marking as insignificant: 2101745 2101820 | 76 1 | 76 76 | 98.68 | e_coli_k12_gi_556503834_ref_NC_ NODE_77_length_6683_cov_3.71666_ID_3994
+		Marking as insignificant: 273951 274026 | 76 1 | 76 76 | 98.68 | e_coli_k12_gi_556503834_ref_NC_ NODE_77_length_6683_cov_3.71666_ID_3994
+		Marking as insignificant: 3365552 3365627 | 76 1 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_77_length_6683_cov_3.71666_ID_3994
+		Marking as insignificant: 1397167 1397242 | 1 76 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_77_length_6683_cov_3.71666_ID_3994
+		Marking as insignificant: 687847 687922 | 76 1 | 76 76 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_77_length_6683_cov_3.71666_ID_3994
+		Marking as insignificant: 3652031 3652107 | 77 1 | 77 77 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_77_length_6683_cov_3.71666_ID_3994
+		Marking as insignificant: 3131269 3131345 | 1 77 | 77 77 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_77_length_6683_cov_3.71666_ID_3994
+		Marking as insignificant: 1300622 1300698 | 1 77 | 77 77 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_77_length_6683_cov_3.71666_ID_3994
+		One align captures most of this contig: 567980 574662 | 6683 1 | 6683 6683 | 99.96 | e_coli_k12_gi_556503834_ref_NC_ NODE_77_length_6683_cov_3.71666_ID_3994
+
+CONTIG: NODE_78_length_6386_cov_3.64982_ID_4262 (6386bp)
+Top Length: 6385  Top ID: 99.94
+		Marking as insignificant: 2058023 2058108 | 86 1 | 86 86 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_78_length_6386_cov_3.64982_ID_4262
+		Marking as insignificant: 2058023 2058126 | 2495 2392 | 104 104 | 97.12 | e_coli_k12_gi_556503834_ref_NC_ NODE_78_length_6386_cov_3.64982_ID_4262
+		Marking as insignificant: 2044525 2044635 | 2392 2502 | 111 111 | 98.2 | e_coli_k12_gi_556503834_ref_NC_ NODE_78_length_6386_cov_3.64982_ID_4262
+		One align captures most of this contig: 2059846 2066230 | 2 6386 | 6385 6385 | 99.94 | e_coli_k12_gi_556503834_ref_NC_ NODE_78_length_6386_cov_3.64982_ID_4262
+
+CONTIG: NODE_79_length_5601_cov_3.45799_ID_4167 (5601bp)
+Top Length: 5601  Top ID: 99.95
+		One align captures most of this contig: 258621 264222 | 1 5601 | 5602 5601 | 99.95 | e_coli_k12_gi_556503834_ref_NC_ NODE_79_length_5601_cov_3.45799_ID_4167
+
+CONTIG: NODE_80_length_5554_cov_3.80251_ID_1309 (5554bp)
+Top Length: 3081  Top ID: 99.06
+		Skipping redundant alignment 2521051 2521251 | 5256 5456 | 201 201 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_80_length_5554_cov_3.80251_ID_1309
+		Skipping redundant alignment 781068 781145 | 5256 5333 | 78 78 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_80_length_5554_cov_3.80251_ID_1309
+		Skipping redundant alignment 780765 780841 | 5256 5332 | 77 77 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_80_length_5554_cov_3.80251_ID_1309
+		Skipping redundant alignment 781068 781145 | 5378 5455 | 78 78 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_80_length_5554_cov_3.80251_ID_1309
+		Skipping redundant alignment 780765 780841 | 5378 5454 | 77 77 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_80_length_5554_cov_3.80251_ID_1309
+		This contig is misassembled. 7 total aligns.
+			Excluding internal overlap of size 81 between Alignment 1 and 2:  2515563 2518116 | 1 2554 | 2554 2554 --> 2515563 2518035 | 1 2473 | 2473 2473
+			Real Alignment 1: 2515563 2518035 | 1 2473 | 2473 2473 | 99.96 | e_coli_k12_gi_556503834_ref_NC_ NODE_80_length_5554_cov_3.80251_ID_1309
+			  Gap between these two alignments (local misassembly). Inconsistency = 115 
+			Real Alignment 2: 2518151 2521227 | 2474 5554 | 3077 3081 | 99.06 | e_coli_k12_gi_556503834_ref_NC_ NODE_80_length_5554_cov_3.80251_ID_1309
+
+CONTIG: NODE_81_length_5301_cov_22.52_ID_4937 (5301bp)
+Top Length: 3234  Top ID: 99.88
+		Skipping redundant alignment 3423427 3423548 | 1 122 | 122 122 | 98.36 | e_coli_k12_gi_556503834_ref_NC_ NODE_81_length_5301_cov_22.52_ID_4937
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 2726073 2729297 | 1 3234 | 3225 3234 | 99.51 | e_coli_k12_gi_556503834_ref_NC_ NODE_81_length_5301_cov_22.52_ID_4937
+		Skipping redundant alignment 2729567 2731303 | 3565 5301 | 1737 1737 | 99.54 | e_coli_k12_gi_556503834_ref_NC_ NODE_81_length_5301_cov_22.52_ID_4937
+		Skipping redundant alignment 3423672 3426896 | 1 3234 | 3225 3234 | 99.2 | e_coli_k12_gi_556503834_ref_NC_ NODE_81_length_5301_cov_22.52_ID_4937
+		Skipping redundant alignment 3427172 3428908 | 3565 5301 | 1737 1737 | 99.48 | e_coli_k12_gi_556503834_ref_NC_ NODE_81_length_5301_cov_22.52_ID_4937
+		Skipping redundant alignment 3941662 3943393 | 5301 3570 | 1732 1732 | 99.6 | e_coli_k12_gi_556503834_ref_NC_ NODE_81_length_5301_cov_22.52_ID_4937
+		Skipping redundant alignment 3943582 3946815 | 3234 1 | 3234 3234 | 99.47 | e_coli_k12_gi_556503834_ref_NC_ NODE_81_length_5301_cov_22.52_ID_4937
+		Skipping redundant alignment 4035385 4037121 | 5301 3565 | 1737 1737 | 99.77 | e_coli_k12_gi_556503834_ref_NC_ NODE_81_length_5301_cov_22.52_ID_4937
+		Skipping redundant alignment 4037397 4040632 | 3234 1 | 3236 3234 | 99.41 | e_coli_k12_gi_556503834_ref_NC_ NODE_81_length_5301_cov_22.52_ID_4937
+		Skipping redundant alignment 4166513 4168249 | 5301 3566 | 1737 1736 | 99.83 | e_coli_k12_gi_556503834_ref_NC_ NODE_81_length_5301_cov_22.52_ID_4937
+		Skipping redundant alignment 4168519 4171752 | 3234 1 | 3234 3234 | 99.81 | e_coli_k12_gi_556503834_ref_NC_ NODE_81_length_5301_cov_22.52_ID_4937
+		Skipping redundant alignment 4208001 4209737 | 5301 3566 | 1737 1736 | 99.88 | e_coli_k12_gi_556503834_ref_NC_ NODE_81_length_5301_cov_22.52_ID_4937
+		Skipping redundant alignment 4209921 4213155 | 3234 1 | 3235 3234 | 99.88 | e_coli_k12_gi_556503834_ref_NC_ NODE_81_length_5301_cov_22.52_ID_4937
+		This contig is misassembled. 15 total aligns.
+			Real Alignment 1: 225637 228871 | 3234 1 | 3235 3234 | 99.44 | e_coli_k12_gi_556503834_ref_NC_ NODE_81_length_5301_cov_22.52_ID_4937
+			  Fake misassembly between these two alignments: inconsistency = -55 , gap in the contig is small or absent or filled mostly with Ns (long indel: insertion of length 55; 0 mismatches)
+			Real Alignment 2: 223625 225361 | 5301 3565 | 1737 1737 | 99.48 | e_coli_k12_gi_556503834_ref_NC_ NODE_81_length_5301_cov_22.52_ID_4937
+
+CONTIG: NODE_82_length_4372_cov_3.5293_ID_4153 (4372bp)
+Top Length: 4372  Top ID: 99.89
+		One align captures most of this contig: 1423515 1427887 | 4372 1 | 4373 4372 | 99.89 | e_coli_k12_gi_556503834_ref_NC_ NODE_82_length_4372_cov_3.5293_ID_4153
+
+CONTIG: NODE_83_length_4355_cov_3.60651_ID_4330 (4355bp)
+Top Length: 4355  Top ID: 99.82
+		Marking as insignificant: 4040578 4040845 | 1 268 | 268 268 | 97.76 | e_coli_k12_gi_556503834_ref_NC_ NODE_83_length_4355_cov_3.60651_ID_4330
+		Marking as insignificant: 3423209 3423481 | 273 1 | 273 273 | 97.07 | e_coli_k12_gi_556503834_ref_NC_ NODE_83_length_4355_cov_3.60651_ID_4330
+		One align captures most of this contig: 4171698 4176053 | 1 4355 | 4356 4355 | 99.82 | e_coli_k12_gi_556503834_ref_NC_ NODE_83_length_4355_cov_3.60651_ID_4330
+
+CONTIG: NODE_84_length_4157_cov_4.06216_ID_4232 (4157bp)
+Top Length: 4157  Top ID: 99.81
+		Marking as insignificant: 3653122 3653230 | 1 109 | 109 109 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_84_length_4157_cov_4.06216_ID_4232
+		Marking as insignificant: 3366642 3366750 | 1 109 | 109 109 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_84_length_4157_cov_4.06216_ID_4232
+		Marking as insignificant: 3130146 3130254 | 109 1 | 109 109 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_84_length_4157_cov_4.06216_ID_4232
+		Marking as insignificant: 2290005 2290113 | 1 109 | 109 109 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_84_length_4157_cov_4.06216_ID_4232
+		Marking as insignificant: 2102835 2102943 | 1 109 | 109 109 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_84_length_4157_cov_4.06216_ID_4232
+		Marking as insignificant: 1396044 1396152 | 109 1 | 109 109 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_84_length_4157_cov_4.06216_ID_4232
+		Marking as insignificant: 1299499 1299607 | 109 1 | 109 109 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_84_length_4157_cov_4.06216_ID_4232
+		Marking as insignificant: 688937 689045 | 1 109 | 109 109 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_84_length_4157_cov_4.06216_ID_4232
+		Marking as insignificant: 575677 575785 | 1 109 | 109 109 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_84_length_4157_cov_4.06216_ID_4232
+		One align captures most of this contig: 275041 279197 | 1 4157 | 4157 4157 | 99.81 | e_coli_k12_gi_556503834_ref_NC_ NODE_84_length_4157_cov_4.06216_ID_4232
+
+CONTIG: NODE_85_length_3822_cov_3.52588_ID_4302 (3822bp)
+Top Length: 3822  Top ID: 99.69
+		One align captures most of this contig: 377490 381314 | 3822 1 | 3825 3822 | 99.69 | e_coli_k12_gi_556503834_ref_NC_ NODE_85_length_3822_cov_3.52588_ID_4302
+
+CONTIG: NODE_86_length_3174_cov_3.48381_ID_4075 (3174bp)
+Top Length: 3174  Top ID: 99.91
+		One align captures most of this contig: 16677 19850 | 1 3174 | 3174 3174 | 99.91 | e_coli_k12_gi_556503834_ref_NC_ NODE_86_length_3174_cov_3.48381_ID_4075
+
+CONTIG: NODE_87_length_2629_cov_4.18493_ID_4406 (2629bp)
+Top Length: 2629  Top ID: 99.85
+		Marking as insignificant: 2290005 2290113 | 1 109 | 109 109 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_87_length_2629_cov_4.18493_ID_4406
+		Marking as insignificant: 275041 275149 | 1 109 | 109 109 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_87_length_2629_cov_4.18493_ID_4406
+		Marking as insignificant: 3130143 3130254 | 112 1 | 112 112 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_87_length_2629_cov_4.18493_ID_4406
+		Marking as insignificant: 2102835 2102946 | 1 112 | 112 112 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_87_length_2629_cov_4.18493_ID_4406
+		Marking as insignificant: 3653122 3653234 | 1 113 | 113 113 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_87_length_2629_cov_4.18493_ID_4406
+		Marking as insignificant: 1396040 1396152 | 113 1 | 113 113 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_87_length_2629_cov_4.18493_ID_4406
+		Marking as insignificant: 1299495 1299607 | 113 1 | 113 113 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_87_length_2629_cov_4.18493_ID_4406
+		Marking as insignificant: 688937 689049 | 1 113 | 113 113 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_87_length_2629_cov_4.18493_ID_4406
+		Marking as insignificant: 3366642 3366755 | 1 114 | 114 114 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_87_length_2629_cov_4.18493_ID_4406
+		One align captures most of this contig: 575677 578305 | 1 2629 | 2629 2629 | 99.85 | e_coli_k12_gi_556503834_ref_NC_ NODE_87_length_2629_cov_4.18493_ID_4406
+
+CONTIG: NODE_88_length_2320_cov_3.81457_ID_4440 (2320bp)
+Top Length: 2320  Top ID: 99.96
+		Marking as insignificant: 2288919 2288990 | 72 1 | 72 72 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_88_length_2320_cov_3.81457_ID_4440
+		Marking as insignificant: 3652032 3652107 | 76 1 | 76 76 | 98.68 | e_coli_k12_gi_556503834_ref_NC_ NODE_88_length_2320_cov_3.81457_ID_4440
+		Marking as insignificant: 3365552 3365627 | 76 1 | 76 76 | 98.68 | e_coli_k12_gi_556503834_ref_NC_ NODE_88_length_2320_cov_3.81457_ID_4440
+		Marking as insignificant: 3131269 3131344 | 1 76 | 76 76 | 98.68 | e_coli_k12_gi_556503834_ref_NC_ NODE_88_length_2320_cov_3.81457_ID_4440
+		Marking as insignificant: 2101745 2101820 | 76 1 | 76 76 | 98.68 | e_coli_k12_gi_556503834_ref_NC_ NODE_88_length_2320_cov_3.81457_ID_4440
+		Marking as insignificant: 1300622 1300697 | 1 76 | 76 76 | 98.68 | e_coli_k12_gi_556503834_ref_NC_ NODE_88_length_2320_cov_3.81457_ID_4440
+		Marking as insignificant: 574587 574662 | 76 1 | 76 76 | 98.68 | e_coli_k12_gi_556503834_ref_NC_ NODE_88_length_2320_cov_3.81457_ID_4440
+		Marking as insignificant: 1397167 1397243 | 1 77 | 77 77 | 98.7 | e_coli_k12_gi_556503834_ref_NC_ NODE_88_length_2320_cov_3.81457_ID_4440
+		Marking as insignificant: 687844 687922 | 79 1 | 79 79 | 98.73 | e_coli_k12_gi_556503834_ref_NC_ NODE_88_length_2320_cov_3.81457_ID_4440
+		One align captures most of this contig: 271707 274026 | 2320 1 | 2320 2320 | 99.96 | e_coli_k12_gi_556503834_ref_NC_ NODE_88_length_2320_cov_3.81457_ID_4440
+
+CONTIG: NODE_89_length_2148_cov_3.3096_ID_4498 (2148bp)
+Top Length: 2148  Top ID: 99.81
+		One align captures most of this contig: 375273 377420 | 1 2148 | 2148 2148 | 99.81 | e_coli_k12_gi_556503834_ref_NC_ NODE_89_length_2148_cov_3.3096_ID_4498
+
+CONTIG: NODE_90_length_1752_cov_4.14319_ID_4575 (1752bp)
+Top Length: 1752  Top ID: 99.77
+		Marking as insignificant: 1097142 1097377 | 1517 1752 | 236 236 | 99.58 | e_coli_k12_gi_556503834_ref_NC_ NODE_90_length_1752_cov_4.14319_ID_4575
+		Marking as insignificant: 1097323 1097558 | 1517 1752 | 236 236 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_90_length_1752_cov_4.14319_ID_4575
+		One align captures most of this contig: 1095445 1097196 | 1 1752 | 1752 1752 | 99.77 | e_coli_k12_gi_556503834_ref_NC_ NODE_90_length_1752_cov_4.14319_ID_4575
+
+CONTIG: NODE_91_length_1751_cov_3.54599_ID_4543 (1751bp)
+Top Length: 1751  Top ID: 100.0
+		One align captures most of this contig: 2067245 2068995 | 1 1751 | 1751 1751 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_91_length_1751_cov_3.54599_ID_4543
+
+CONTIG: NODE_92_length_1415_cov_3.56397_ID_4621 (1415bp)
+Top Length: 1413  Top ID: 99.86
+		One align captures most of this contig: 2776902 2778314 | 1 1413 | 1413 1413 | 99.86 | e_coli_k12_gi_556503834_ref_NC_ NODE_92_length_1415_cov_3.56397_ID_4621
+
+CONTIG: NODE_93_length_1331_cov_23.768_ID_4935 (1331bp)
+Top Length: 1331  Top ID: 100.0
+		Marking as insignificant: 1650843 1651548 | 706 1 | 706 706 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_93_length_1331_cov_23.768_ID_4935
+		This contig has 6 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 381260 382590 | 1331 1 | 1331 1331 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_93_length_1331_cov_23.768_ID_4935
+		Skipping alignment  1467910 1469240 | 1 1331 | 1331 1331 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_93_length_1331_cov_23.768_ID_4935
+		Skipping alignment  2068941 2070271 | 1 1331 | 1331 1331 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_93_length_1331_cov_23.768_ID_4935
+		Skipping alignment  2996361 2997691 | 1 1331 | 1331 1331 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_93_length_1331_cov_23.768_ID_4935
+		Skipping alignment  3186096 3187426 | 1331 1 | 1331 1331 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_93_length_1331_cov_23.768_ID_4935
+		Skipping alignment  4498181 4499511 | 1331 1 | 1331 1331 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_93_length_1331_cov_23.768_ID_4935
+
+CONTIG: NODE_94_length_1280_cov_3.89551_ID_4649 (1280bp)
+Top Length: 1280  Top ID: 99.3
+		One align captures most of this contig: 1466685 1467964 | 1 1280 | 1280 1280 | 99.3 | e_coli_k12_gi_556503834_ref_NC_ NODE_94_length_1280_cov_3.89551_ID_4649
+
+CONTIG: NODE_95_length_1255_cov_19.6767_ID_4955 (1255bp)
+Top Length: 1255  Top ID: 100.0
+		This contig has 5 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 315229 316483 | 1 1255 | 1255 1255 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_95_length_1255_cov_19.6767_ID_4955
+		Skipping alignment  391709 392963 | 1255 1 | 1255 1255 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_95_length_1255_cov_19.6767_ID_4955
+		Skipping alignment  566780 568034 | 1 1255 | 1255 1255 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_95_length_1255_cov_19.6767_ID_4955
+		Skipping alignment  1094245 1095499 | 1255 1 | 1255 1255 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_95_length_1255_cov_19.6767_ID_4955
+		Skipping alignment  2170174 2171428 | 1 1255 | 1255 1255 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_95_length_1255_cov_19.6767_ID_4955
+
+CONTIG: NODE_96_length_1234_cov_3.54707_ID_4679 (1234bp)
+Top Length: 1234  Top ID: 99.92
+		One align captures most of this contig: 735126 736359 | 1 1234 | 1234 1234 | 99.92 | e_coli_k12_gi_556503834_ref_NC_ NODE_96_length_1234_cov_3.54707_ID_4679
+
+CONTIG: NODE_97_length_1232_cov_7.11215_ID_4951 (1232bp)
+Top Length: 1232  Top ID: 99.76
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 3666205 3667436 | 1232 1 | 1232 1232 | 99.76 | e_coli_k12_gi_556503834_ref_NC_ NODE_97_length_1232_cov_7.11215_ID_4951
+		Skipping alignment  1570670 1571901 | 1232 1 | 1232 1232 | 99.35 | e_coli_k12_gi_556503834_ref_NC_ NODE_97_length_1232_cov_7.11215_ID_4951
+
+CONTIG: NODE_98_length_1142_cov_9.12787_ID_4989 (1142bp)
+Top Length: 1031  Top ID: 98.93
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1531696 1532726 | 1031 1 | 1031 1031 | 98.84 | e_coli_k12_gi_556503834_ref_NC_ NODE_98_length_1142_cov_9.12787_ID_4989
+		Skipping redundant alignment 3624258 3625288 | 1031 1 | 1031 1031 | 98.93 | e_coli_k12_gi_556503834_ref_NC_ NODE_98_length_1142_cov_9.12787_ID_4989
+		This contig is misassembled. 4 total aligns.
+			Excluding internal overlap of size 888 between Alignment 1 and 2:  737861 738860 | 1142 143 | 1000 1000 --> 737861 737972 | 1142 1031 | 112 112
+			Real Alignment 1: 736707 737735 | 1030 1 | 1029 1030 | 96.31 | e_coli_k12_gi_556503834_ref_NC_ NODE_98_length_1142_cov_9.12787_ID_4989
+			  Extensive misassembly ( relocation, inconsistency = -1266 ) between these two alignments
+			Real Alignment 2: 737861 737972 | 1142 1031 | 112 112 | 97.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_98_length_1142_cov_9.12787_ID_4989
+
+CONTIG: NODE_99_length_1124_cov_30.7764_ID_4939 (1124bp)
+Top Length: 1124  Top ID: 100.0
+		This contig has 11 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 273972 275095 | 1 1124 | 1124 1124 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_99_length_1124_cov_30.7764_ID_4939
+		Skipping alignment  574608 575731 | 1 1124 | 1124 1124 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_99_length_1124_cov_30.7764_ID_4939
+		Skipping alignment  687868 688991 | 1 1124 | 1124 1124 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_99_length_1124_cov_30.7764_ID_4939
+		Skipping alignment  1299553 1300676 | 1124 1 | 1124 1124 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_99_length_1124_cov_30.7764_ID_4939
+		Skipping alignment  1396098 1397221 | 1124 1 | 1124 1124 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_99_length_1124_cov_30.7764_ID_4939
+		Skipping alignment  2101766 2102889 | 1 1124 | 1124 1124 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_99_length_1124_cov_30.7764_ID_4939
+		Skipping alignment  2288936 2290059 | 1 1124 | 1124 1124 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_99_length_1124_cov_30.7764_ID_4939
+		Skipping alignment  3130200 3131323 | 1124 1 | 1124 1124 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_99_length_1124_cov_30.7764_ID_4939
+		Skipping alignment  3365573 3366696 | 1 1124 | 1124 1124 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_99_length_1124_cov_30.7764_ID_4939
+		Skipping alignment  3652053 3653176 | 1 1124 | 1124 1124 | 100.0 | e_coli_k12_gi_556503834_ref_NC_ NODE_99_length_1124_cov_30.7764_ID_4939
+		Skipping alignment  2066176 2067299 | 1 1124 | 1124 1124 | 99.73 | e_coli_k12_gi_556503834_ref_NC_ NODE_99_length_1124_cov_30.7764_ID_4939
+
+CONTIG: NODE_100_length_1030_cov_3.2841_ID_4730 (1030bp)
+Top Length: 1030  Top ID: 99.81
+		One align captures most of this contig: 733173 734202 | 1 1030 | 1030 1030 | 99.81 | e_coli_k12_gi_556503834_ref_NC_ NODE_100_length_1030_cov_3.2841_ID_4730
+
+CONTIG: NODE_101_length_912_cov_3.58693_ID_4768 (912bp)
+Top Length: 909  Top ID: 99.89
+		One align captures most of this contig: 2471065 2471973 | 909 1 | 909 909 | 99.89 | e_coli_k12_gi_556503834_ref_NC_ NODE_101_length_912_cov_3.58693_ID_4768
+
+CONTIG: NODE_102_length_594_cov_3.46568_ID_4782 (594bp)
+Top Length: 594  Top ID: 99.33
+		Marking as insignificant: 735044 735170 | 594 468 | 127 127 | 98.43 | e_coli_k12_gi_556503834_ref_NC_ NODE_102_length_594_cov_3.46568_ID_4782
+		One align captures most of this contig: 3765773 3766366 | 594 1 | 594 594 | 99.33 | e_coli_k12_gi_556503834_ref_NC_ NODE_102_length_594_cov_3.46568_ID_4782
+
+CONTIG: NODE_103_length_526_cov_3.52229_ID_4818 (526bp)
+Top Length: 526  Top ID: 99.62
+		One align captures most of this contig: 1634970 1635495 | 526 1 | 526 526 | 99.62 | e_coli_k12_gi_556503834_ref_NC_ NODE_103_length_526_cov_3.52229_ID_4818
+
+Analyzing coverage...
+Writing SNPs into /net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/050_error/quast/SPAdes_cov64/combined_reference/contigs_reports/nucmer_output/scaffolds.used_snps
+	Reference e_coli_k12_gi_556503834_ref_NC_: 123 total alignments. 1 total regions.
+		Region: 1 to 4641652 (4641652 bp)
+			START in gap: 1 to 13 (12 bp)
+			Align 1: 13 15429 NODE_59_length_15422_cov_3.583_ID_3612 15422 1
+				Gap between this and next alignment: 15429 to 16677 (1247 bp)
+				Next Alignment: 16677 19850 NODE_86_length_3174_cov_3.48381_ID_4075 1 3174
+
+			Align 2: 16677 19850 NODE_86_length_3174_cov_3.48381_ID_4075 1 3174
+				Gap between this and next alignment: 19850 to 20518 (667 bp)
+				Next Alignment: 20518 66610 NODE_32_length_46092_cov_3.57032_ID_1720 1 46092
+
+			Align 3: 20518 66610 NODE_32_length_46092_cov_3.57032_ID_1720 1 46092
+				Gap between this and next alignment: 66610 to 66776 (165 bp)
+				Next Alignment: 66776 216082 NODE_4_length_180338_cov_3.56008_ID_959 149318 1
+
+			Align 4: 66776 216082 NODE_4_length_180338_cov_3.56008_ID_959 149318 1
+				Gap between this and next alignment: 216082 to 216107 (24 bp)
+				Next Alignment: 216107 223497 NODE_75_length_7390_cov_3.64349_ID_3980 1 7390
+
+			Align 5: 216107 223497 NODE_75_length_7390_cov_3.64349_ID_3980 1 7390
+				Gap between this and next alignment: 223497 to 223625 (127 bp)
+				Next Alignment: 223625 225361 NODE_81_length_5301_cov_22.52_ID_4937 5301 3565
+
+			Align 6: 223625 225361 NODE_81_length_5301_cov_22.52_ID_4937 5301 3565
+				Gap between this and next alignment: 225361 to 225637 (275 bp)
+				Next Alignment: 225637 228871 NODE_81_length_5301_cov_22.52_ID_4937 3234 1
+
+			Align 7: 225637 228871 NODE_81_length_5301_cov_22.52_ID_4937 3234 1
+				Gap between this and next alignment: 228871 to 228952 (80 bp)
+				Next Alignment: 228952 239097 NODE_44_length_29578_cov_3.68157_ID_3185 29578 19433
+
+			Align 8: 228952 239097 NODE_44_length_29578_cov_3.68157_ID_3185 29578 19433
+				Gap between this and next alignment: 239097 to 239326 (228 bp)
+				Next Alignment: 239326 248208 NODE_54_length_18536_cov_3.49564_ID_3855 18536 9654
+
+			Align 9: 239326 248208 NODE_54_length_18536_cov_3.49564_ID_3855 18536 9654
+				Gap between this and next alignment: 248208 to 248311 (102 bp)
+				Next Alignment: 248311 257962 NODE_54_length_18536_cov_3.49564_ID_3855 9652 1
+
+			Align 10: 248311 257962 NODE_54_length_18536_cov_3.49564_ID_3855 9652 1
+				Gap between this and next alignment: 257962 to 258621 (658 bp)
+				Next Alignment: 258621 264222 NODE_79_length_5601_cov_3.45799_ID_4167 1 5601
+
+			Align 11: 258621 264222 NODE_79_length_5601_cov_3.45799_ID_4167 1 5601
+				Gap between this and next alignment: 264222 to 264251 (28 bp)
+				Next Alignment: 264251 270526 NODE_22_length_68936_cov_3.80144_ID_1196 1 6276
+
+			Align 12: 264251 270526 NODE_22_length_68936_cov_3.80144_ID_1196 1 6276
+				Gap between this and next alignment: 270526 to 271707 (1180 bp)
+				Next Alignment: 271707 274026 NODE_88_length_2320_cov_3.81457_ID_4440 2320 1
+
+			Align 13: 271707 274026 NODE_88_length_2320_cov_3.81457_ID_4440 2320 1
+				Negative gap (overlap) between this and next alignment: 274026 to 273972 (-54 bp)
+				Next Alignment: 273972 275095 NODE_99_length_1124_cov_30.7764_ID_4939 1 1124
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 14: 274027 275095 NODE_99_length_1124_cov_30.7764_ID_4939 56 1124
+				Negative gap (overlap) between this and next alignment: 275095 to 275041 (-54 bp)
+				Next Alignment: 275041 279197 NODE_84_length_4157_cov_4.06216_ID_4232 1 4157
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 15: 275096 279197 NODE_84_length_4157_cov_4.06216_ID_4232 56 4157
+				Gap between this and next alignment: 279197 to 280057 (859 bp)
+				Next Alignment: 280057 290495 NODE_66_length_10439_cov_3.44126_ID_3542 10439 1
+
+			Align 16: 280057 290495 NODE_66_length_10439_cov_3.44126_ID_3542 10439 1
+				Gap between this and next alignment: 290495 to 291347 (851 bp)
+				Next Alignment: 291347 315283 NODE_50_length_23936_cov_3.60885_ID_2866 1 23936
+
+			Align 17: 291347 315283 NODE_50_length_23936_cov_3.60885_ID_2866 1 23936
+				Negative gap (overlap) between this and next alignment: 315283 to 315229 (-54 bp)
+				Next Alignment: 315229 316483 NODE_95_length_1255_cov_19.6767_ID_4955 1 1255
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 18: 315284 316483 NODE_95_length_1255_cov_19.6767_ID_4955 56 1255
+				Negative gap (overlap) between this and next alignment: 316483 to 316429 (-54 bp)
+				Next Alignment: 316429 339802 NODE_51_length_23377_cov_3.53156_ID_2477 23377 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 23377 to 23322.
+			Align 19: 316484 339802 NODE_51_length_23377_cov_3.53156_ID_2477 23322 1
+				Gap between this and next alignment: 339802 to 340035 (232 bp)
+				Next Alignment: 340035 349958 NODE_68_length_9925_cov_3.62067_ID_3678 1 9925
+
+			Align 20: 340035 349958 NODE_68_length_9925_cov_3.62067_ID_3678 1 9925
+				Negative gap (overlap) between this and next alignment: 349958 to 349887 (-71 bp)
+				Next Alignment: 349887 357517 NODE_73_length_7630_cov_3.68779_ID_4120 1 7630
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 73.
+			Align 21: 349959 357517 NODE_73_length_7630_cov_3.68779_ID_4120 73 7630
+				Gap between this and next alignment: 357517 to 357730 (212 bp)
+				Next Alignment: 357730 374966 NODE_56_length_17239_cov_3.57309_ID_2900 3 17239
+
+			Align 22: 357730 374966 NODE_56_length_17239_cov_3.57309_ID_2900 3 17239
+				Gap between this and next alignment: 374966 to 375273 (306 bp)
+				Next Alignment: 375273 377420 NODE_89_length_2148_cov_3.3096_ID_4498 1 2148
+
+			Align 23: 375273 377420 NODE_89_length_2148_cov_3.3096_ID_4498 1 2148
+				Gap between this and next alignment: 377420 to 377490 (69 bp)
+				Next Alignment: 377490 381314 NODE_85_length_3822_cov_3.52588_ID_4302 3822 1
+
+			Align 24: 377490 381314 NODE_85_length_3822_cov_3.52588_ID_4302 3822 1
+				Negative gap (overlap) between this and next alignment: 381314 to 381260 (-54 bp)
+				Next Alignment: 381260 382590 NODE_93_length_1331_cov_23.768_ID_4935 1331 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1331 to 1276.
+			Align 25: 381315 382590 NODE_93_length_1331_cov_23.768_ID_4935 1276 1
+				Negative gap (overlap) between this and next alignment: 382590 to 382536 (-54 bp)
+				Next Alignment: 382536 391763 NODE_69_length_9228_cov_3.52229_ID_3708 1 9228
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 26: 382591 391763 NODE_69_length_9228_cov_3.52229_ID_3708 56 9228
+				Gap between this and next alignment: 391763 to 392930 (1166 bp)
+				Next Alignment: 392930 508613 NODE_13_length_115723_cov_3.53666_ID_1036 115723 1
+
+			Align 27: 392930 508613 NODE_13_length_115723_cov_3.53666_ID_1036 115723 1
+				Gap between this and next alignment: 508613 to 508755 (141 bp)
+				Next Alignment: 508755 525784 NODE_57_length_17033_cov_3.51997_ID_2914 1 17033
+
+			Align 28: 508755 525784 NODE_57_length_17033_cov_3.51997_ID_2914 1 17033
+				Gap between this and next alignment: 525784 to 526844 (1059 bp)
+				Next Alignment: 526844 551390 NODE_36_length_39999_cov_3.56432_ID_4902 39999 15443
+
+			Align 29: 526844 551390 NODE_36_length_39999_cov_3.56432_ID_4902 39999 15443
+				Gap between this and next alignment: 551390 to 551480 (89 bp)
+				Next Alignment: 551480 566834 NODE_36_length_39999_cov_3.56432_ID_4902 15357 1
+
+			Align 30: 551480 566834 NODE_36_length_39999_cov_3.56432_ID_4902 15357 1
+				Gap between this and next alignment: 566834 to 567980 (1145 bp)
+				Next Alignment: 567980 574662 NODE_77_length_6683_cov_3.71666_ID_3994 6683 1
+
+			Align 31: 567980 574662 NODE_77_length_6683_cov_3.71666_ID_3994 6683 1
+				Gap between this and next alignment: 574662 to 575677 (1014 bp)
+				Next Alignment: 575677 578305 NODE_87_length_2629_cov_4.18493_ID_4406 1 2629
+
+			Align 32: 575677 578305 NODE_87_length_2629_cov_4.18493_ID_4406 1 2629
+				Gap between this and next alignment: 578305 to 578497 (191 bp)
+				Next Alignment: 578497 580366 NODE_46_length_28229_cov_3.57418_ID_4512 26357 28226
+
+			Align 33: 578497 580366 NODE_46_length_28229_cov_3.57418_ID_4512 26357 28226
+				Gap between this and next alignment: 580366 to 581363 (996 bp)
+				Next Alignment: 581363 581720 NODE_60_length_15395_cov_3.78266_ID_3775 15038 15395
+
+			Align 34: 581363 581720 NODE_60_length_15395_cov_3.78266_ID_3775 15038 15395
+				Gap between this and next alignment: 581720 to 581868 (147 bp)
+				Next Alignment: 581868 596979 NODE_18_length_74109_cov_3.61735_ID_3437 1 15111
+
+			Align 35: 581868 596979 NODE_18_length_74109_cov_3.61735_ID_3437 1 15111
+				Gap between this and next alignment: 596979 to 597059 (79 bp)
+				Next Alignment: 597059 608050 NODE_65_length_10991_cov_3.64064_ID_3423 1 10991
+
+			Align 36: 597059 608050 NODE_65_length_10991_cov_3.64064_ID_3423 1 10991
+				Negative gap (overlap) between this and next alignment: 608050 to 607997 (-53 bp)
+				Next Alignment: 607997 687922 NODE_11_length_122119_cov_3.67035_ID_4365 79925 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 79925 to 79871.
+			Align 37: 608051 687922 NODE_11_length_122119_cov_3.67035_ID_4365 79871 1
+				Gap between this and next alignment: 687922 to 689003 (1080 bp)
+				Next Alignment: 689003 696506 NODE_74_length_7513_cov_3.57924_ID_3966 1 7504
+
+			Align 38: 689003 696506 NODE_74_length_7513_cov_3.57924_ID_3966 1 7504
+				Gap between this and next alignment: 696506 to 696863 (356 bp)
+				Next Alignment: 696863 729566 NODE_39_length_32772_cov_3.5705_ID_3056 68 32772
+
+			Align 39: 696863 729566 NODE_39_length_32772_cov_3.5705_ID_3056 68 32772
+				Gap between this and next alignment: 729566 to 733173 (3606 bp)
+				Next Alignment: 733173 734202 NODE_100_length_1030_cov_3.2841_ID_4730 1 1030
+
+			Align 40: 733173 734202 NODE_100_length_1030_cov_3.2841_ID_4730 1 1030
+				Gap between this and next alignment: 734202 to 735126 (923 bp)
+				Next Alignment: 735126 736359 NODE_96_length_1234_cov_3.54707_ID_4679 1 1234
+
+			Align 41: 735126 736359 NODE_96_length_1234_cov_3.54707_ID_4679 1 1234
+				Gap between this and next alignment: 736359 to 736707 (347 bp)
+				Next Alignment: 736707 737735 NODE_98_length_1142_cov_9.12787_ID_4989 1030 1
+
+			Align 42: 736707 737735 NODE_98_length_1142_cov_9.12787_ID_4989 1030 1
+				Gap between this and next alignment: 737735 to 737861 (125 bp)
+				Next Alignment: 737861 737972 NODE_98_length_1142_cov_9.12787_ID_4989 1142 1031
+
+			Align 43: 737861 737972 NODE_98_length_1142_cov_9.12787_ID_4989 1142 1031
+				Gap between this and next alignment: 737972 to 738688 (715 bp)
+				Next Alignment: 738688 780631 NODE_26_length_63697_cov_3.61799_ID_2552 4 41971
+
+			Align 44: 738688 780631 NODE_26_length_63697_cov_3.61799_ID_2552 4 41971
+				Gap between this and next alignment: 780631 to 781655 (1023 bp)
+				Next Alignment: 781655 803380 NODE_26_length_63697_cov_3.61799_ID_2552 41972 63697
+
+			Align 45: 781655 803380 NODE_26_length_63697_cov_3.61799_ID_2552 41972 63697
+				Gap between this and next alignment: 803380 to 803401 (20 bp)
+				Next Alignment: 803401 1049849 NODE_2_length_246464_cov_3.5693_ID_1093 1 246464
+
+			Align 46: 803401 1049849 NODE_2_length_246464_cov_3.5693_ID_1093 1 246464
+				Gap between this and next alignment: 1049849 to 1050512 (662 bp)
+				Next Alignment: 1050512 1094299 NODE_33_length_43798_cov_3.54105_ID_2057 43798 1
+
+			Align 47: 1050512 1094299 NODE_33_length_43798_cov_3.54105_ID_2057 43798 1
+				Gap between this and next alignment: 1094299 to 1095445 (1145 bp)
+				Next Alignment: 1095445 1097196 NODE_90_length_1752_cov_4.14319_ID_4575 1 1752
+
+			Align 48: 1095445 1097196 NODE_90_length_1752_cov_4.14319_ID_4575 1 1752
+				Gap between this and next alignment: 1097196 to 1097605 (408 bp)
+				Next Alignment: 1097605 1269138 NODE_6_length_171534_cov_3.61557_ID_1643 171534 1
+
+			Align 49: 1097605 1269138 NODE_6_length_171534_cov_3.61557_ID_1643 171534 1
+				Gap between this and next alignment: 1269138 to 1269927 (788 bp)
+				Next Alignment: 1269927 1286750 NODE_58_length_16825_cov_3.61276_ID_2975 16825 1
+
+			Align 50: 1269927 1286750 NODE_58_length_16825_cov_3.61276_ID_2975 16825 1
+				Gap between this and next alignment: 1286750 to 1287294 (543 bp)
+				Next Alignment: 1287294 1299607 NODE_64_length_12314_cov_3.74753_ID_3381 1 12314
+
+			Align 51: 1287294 1299607 NODE_64_length_12314_cov_3.74753_ID_3381 1 12314
+				Gap between this and next alignment: 1299607 to 1300622 (1014 bp)
+				Next Alignment: 1300622 1396094 NODE_15_length_95467_cov_3.57052_ID_717 1 95467
+
+			Align 52: 1300622 1396094 NODE_15_length_95467_cov_3.57052_ID_717 1 95467
+				Gap between this and next alignment: 1396094 to 1397211 (1116 bp)
+				Next Alignment: 1397211 1423569 NODE_46_length_28229_cov_3.57418_ID_4512 1 26356
+
+			Align 53: 1397211 1423569 NODE_46_length_28229_cov_3.57418_ID_4512 1 26356
+				Negative gap (overlap) between this and next alignment: 1423569 to 1423515 (-54 bp)
+				Next Alignment: 1423515 1427887 NODE_82_length_4372_cov_3.5293_ID_4153 4372 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 4372 to 4317.
+			Align 54: 1423570 1427887 NODE_82_length_4372_cov_3.5293_ID_4153 4317 1
+				Gap between this and next alignment: 1427887 to 1428508 (620 bp)
+				Next Alignment: 1428508 1466174 NODE_38_length_37668_cov_3.7914_ID_4201 37668 1
+
+			Align 55: 1428508 1466174 NODE_38_length_37668_cov_3.7914_ID_4201 37668 1
+				Gap between this and next alignment: 1466174 to 1466685 (510 bp)
+				Next Alignment: 1466685 1467964 NODE_94_length_1280_cov_3.89551_ID_4649 1 1280
+
+			Align 56: 1466685 1467964 NODE_94_length_1280_cov_3.89551_ID_4649 1 1280
+				Gap between this and next alignment: 1467964 to 1469282 (1317 bp)
+				Next Alignment: 1469282 1531940 NODE_22_length_68936_cov_3.80144_ID_1196 6277 68936
+
+			Align 57: 1469282 1531940 NODE_22_length_68936_cov_3.80144_ID_1196 6277 68936
+				Gap between this and next alignment: 1531940 to 1532672 (731 bp)
+				Next Alignment: 1532672 1552103 NODE_44_length_29578_cov_3.68157_ID_3185 19432 1
+
+			Align 58: 1532672 1552103 NODE_44_length_29578_cov_3.68157_ID_3185 19432 1
+				Gap between this and next alignment: 1552103 to 1552315 (211 bp)
+				Next Alignment: 1552315 1570724 NODE_55_length_18410_cov_3.70678_ID_2838 2 18410
+
+			Align 59: 1552315 1570724 NODE_55_length_18410_cov_3.70678_ID_2838 2 18410
+				Gap between this and next alignment: 1570724 to 1571847 (1122 bp)
+				Next Alignment: 1571847 1632534 NODE_27_length_60688_cov_3.57644_ID_1008 1 60688
+
+			Align 60: 1571847 1632534 NODE_27_length_60688_cov_3.57644_ID_1008 1 60688
+				Gap between this and next alignment: 1632534 to 1634970 (2435 bp)
+				Next Alignment: 1634970 1635495 NODE_103_length_526_cov_3.52229_ID_4818 526 1
+
+			Align 61: 1634970 1635495 NODE_103_length_526_cov_3.52229_ID_4818 526 1
+				Gap between this and next alignment: 1635495 to 1635839 (343 bp)
+				Next Alignment: 1635839 1650876 NODE_60_length_15395_cov_3.78266_ID_3775 15037 1
+
+			Align 62: 1635839 1650876 NODE_60_length_15395_cov_3.78266_ID_3775 15037 1
+				Gap between this and next alignment: 1650876 to 1651494 (617 bp)
+				Next Alignment: 1651494 1708574 NODE_1_length_327367_cov_3.60265_ID_621 1 57083
+
+			Align 63: 1651494 1708574 NODE_1_length_327367_cov_3.60265_ID_621 1 57083
+				Gap between this and next alignment: 1708574 to 1708671 (96 bp)
+				Next Alignment: 1708671 1978981 NODE_1_length_327367_cov_3.60265_ID_621 57084 327367
+
+			Align 64: 1708671 1978981 NODE_1_length_327367_cov_3.60265_ID_621 57084 327367
+				Gap between this and next alignment: 1978981 to 1979216 (234 bp)
+				Next Alignment: 1979216 1992096 NODE_63_length_12882_cov_3.60435_ID_3740 1 12881
+
+			Align 65: 1979216 1992096 NODE_63_length_12882_cov_3.60435_ID_3740 1 12881
+				Negative gap (overlap) between this and next alignment: 1992096 to 1992063 (-33 bp)
+				Next Alignment: 1992063 2059896 NODE_23_length_67832_cov_3.64715_ID_1674 1 67830
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 35.
+			Align 66: 1992097 2059896 NODE_23_length_67832_cov_3.64715_ID_1674 35 67830
+				Negative gap (overlap) between this and next alignment: 2059896 to 2059846 (-50 bp)
+				Next Alignment: 2059846 2066230 NODE_78_length_6386_cov_3.64982_ID_4262 2 6386
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2 to 53.
+			Align 67: 2059897 2066230 NODE_78_length_6386_cov_3.64982_ID_4262 53 6386
+				Gap between this and next alignment: 2066230 to 2067245 (1014 bp)
+				Next Alignment: 2067245 2068995 NODE_91_length_1751_cov_3.54599_ID_4543 1 1751
+
+			Align 68: 2067245 2068995 NODE_91_length_1751_cov_3.54599_ID_4543 1 1751
+				Gap between this and next alignment: 2068995 to 2070241 (1245 bp)
+				Next Alignment: 2070241 2101820 NODE_40_length_31583_cov_3.63233_ID_2141 1 31583
+
+			Align 69: 2070241 2101820 NODE_40_length_31583_cov_3.63233_ID_2141 1 31583
+				Gap between this and next alignment: 2101820 to 2102835 (1014 bp)
+				Next Alignment: 2102835 2170228 NODE_24_length_67350_cov_3.54187_ID_1794 67350 1
+
+			Align 70: 2102835 2170228 NODE_24_length_67350_cov_3.54187_ID_1794 67350 1
+				Gap between this and next alignment: 2170228 to 2171384 (1155 bp)
+				Next Alignment: 2171384 2288967 NODE_12_length_117592_cov_3.57928_ID_1582 117592 1
+
+			Align 71: 2171384 2288967 NODE_12_length_117592_cov_3.57928_ID_1582 117592 1
+				Gap between this and next alignment: 2288967 to 2290072 (1104 bp)
+				Next Alignment: 2290072 2304500 NODE_61_length_14432_cov_3.6221_ID_3152 14432 1
+
+			Align 72: 2290072 2304500 NODE_61_length_14432_cov_3.6221_ID_3152 14432 1
+				Gap between this and next alignment: 2304500 to 2305030 (529 bp)
+				Next Alignment: 2305030 2347194 NODE_34_length_42166_cov_3.57562_ID_2436 42166 1
+
+			Align 73: 2305030 2347194 NODE_34_length_42166_cov_3.57562_ID_2436 42166 1
+				Gap between this and next alignment: 2347194 to 2347278 (83 bp)
+				Next Alignment: 2347278 2470979 NODE_10_length_123697_cov_3.59035_ID_910 123697 1
+
+			Align 74: 2347278 2470979 NODE_10_length_123697_cov_3.59035_ID_910 123697 1
+				Gap between this and next alignment: 2470979 to 2471065 (85 bp)
+				Next Alignment: 2471065 2471973 NODE_101_length_912_cov_3.58693_ID_4768 909 1
+
+			Align 75: 2471065 2471973 NODE_101_length_912_cov_3.58693_ID_4768 909 1
+				Gap between this and next alignment: 2471973 to 2472069 (95 bp)
+				Next Alignment: 2472069 2514262 NODE_11_length_122119_cov_3.67035_ID_4365 122119 79926
+
+			Align 76: 2472069 2514262 NODE_11_length_122119_cov_3.67035_ID_4365 122119 79926
+				Gap between this and next alignment: 2514262 to 2515563 (1300 bp)
+				Next Alignment: 2515563 2518035 NODE_80_length_5554_cov_3.80251_ID_1309 1 2473
+
+			Align 77: 2515563 2518035 NODE_80_length_5554_cov_3.80251_ID_1309 1 2473
+				Gap between this and next alignment: 2518035 to 2518151 (115 bp)
+				Next Alignment: 2518151 2521227 NODE_80_length_5554_cov_3.80251_ID_1309 2474 5554
+
+			Align 78: 2518151 2521227 NODE_80_length_5554_cov_3.80251_ID_1309 2474 5554
+				Gap between this and next alignment: 2521227 to 2521467 (239 bp)
+				Next Alignment: 2521467 2726127 NODE_3_length_204621_cov_3.56072_ID_755 204615 1
+
+			Align 79: 2521467 2726127 NODE_3_length_204621_cov_3.56072_ID_755 204615 1
+				Gap between this and next alignment: 2726127 to 2731434 (5306 bp)
+				Next Alignment: 2731434 2769678 NODE_37_length_38247_cov_3.57433_ID_2378 38247 1
+
+			Align 80: 2731434 2769678 NODE_37_length_38247_cov_3.57433_ID_2378 38247 1
+				Gap between this and next alignment: 2769678 to 2769726 (47 bp)
+				Next Alignment: 2769726 2776884 NODE_76_length_7159_cov_3.50802_ID_4034 1 7159
+
+			Align 81: 2769726 2776884 NODE_76_length_7159_cov_3.50802_ID_4034 1 7159
+				Gap between this and next alignment: 2776884 to 2776902 (17 bp)
+				Next Alignment: 2776902 2778314 NODE_92_length_1415_cov_3.56397_ID_4621 1 1413
+
+			Align 82: 2776902 2778314 NODE_92_length_1415_cov_3.56397_ID_4621 1 1413
+				Gap between this and next alignment: 2778314 to 2778344 (29 bp)
+				Next Alignment: 2778344 2817647 NODE_7_length_168402_cov_3.54972_ID_1377 168400 129098
+
+			Align 83: 2778344 2817647 NODE_7_length_168402_cov_3.54972_ID_1377 168400 129098
+				Gap between this and next alignment: 2817647 to 2818336 (688 bp)
+				Next Alignment: 2818336 2947440 NODE_7_length_168402_cov_3.54972_ID_1377 129097 1
+
+			Align 84: 2818336 2947440 NODE_7_length_168402_cov_3.54972_ID_1377 129097 1
+				Negative gap (overlap) between this and next alignment: 2947440 to 2947411 (-29 bp)
+				Next Alignment: 2947411 2996402 NODE_31_length_48989_cov_3.65143_ID_1511 1 48989
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 31.
+			Align 85: 2947441 2996402 NODE_31_length_48989_cov_3.65143_ID_1511 31 48989
+				Gap between this and next alignment: 2996402 to 2997637 (1234 bp)
+				Next Alignment: 2997637 3071302 NODE_19_length_73664_cov_3.56558_ID_2309 1 73661
+
+			Align 86: 2997637 3071302 NODE_19_length_73664_cov_3.56558_ID_2309 1 73661
+				Negative gap (overlap) between this and next alignment: 3071302 to 3071271 (-31 bp)
+				Next Alignment: 3071271 3130254 NODE_18_length_74109_cov_3.61735_ID_3437 15112 74109
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 15112 to 15144.
+			Align 87: 3071303 3130254 NODE_18_length_74109_cov_3.61735_ID_3437 15144 74109
+				Gap between this and next alignment: 3130254 to 3131269 (1014 bp)
+				Next Alignment: 3131269 3186150 NODE_29_length_54884_cov_3.61458_ID_1910 54884 1
+
+			Align 88: 3131269 3186150 NODE_29_length_54884_cov_3.61458_ID_1910 54884 1
+				Gap between this and next alignment: 3186150 to 3187372 (1221 bp)
+				Next Alignment: 3187372 3215658 NODE_45_length_28288_cov_3.53129_ID_3328 28288 1
+
+			Align 89: 3187372 3215658 NODE_45_length_28288_cov_3.53129_ID_3328 28288 1
+				Negative gap (overlap) between this and next alignment: 3215658 to 3215614 (-44 bp)
+				Next Alignment: 3215614 3269845 NODE_8_length_149808_cov_3.58717_ID_1967 1 54259
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 46.
+			Align 90: 3215659 3269845 NODE_8_length_149808_cov_3.58717_ID_1967 46 54259
+				Gap between this and next alignment: 3269845 to 3270072 (226 bp)
+				Next Alignment: 3270072 3365627 NODE_8_length_149808_cov_3.58717_ID_1967 54260 149808
+
+			Align 91: 3270072 3365627 NODE_8_length_149808_cov_3.58717_ID_1967 54260 149808
+				Gap between this and next alignment: 3365627 to 3366689 (1061 bp)
+				Next Alignment: 3366689 3392194 NODE_49_length_25505_cov_3.56448_ID_2942 3 25505
+
+			Align 92: 3366689 3392194 NODE_49_length_25505_cov_3.56448_ID_2942 3 25505
+				Gap between this and next alignment: 3392194 to 3392310 (115 bp)
+				Next Alignment: 3392310 3423316 NODE_41_length_31010_cov_3.61402_ID_2171 1 31010
+
+			Align 93: 3392310 3423316 NODE_41_length_31010_cov_3.61402_ID_2171 1 31010
+				Gap between this and next alignment: 3423316 to 3428854 (5537 bp)
+				Next Alignment: 3428854 3563640 NODE_9_length_134785_cov_3.55789_ID_864 134785 1
+
+			Align 94: 3428854 3563640 NODE_9_length_134785_cov_3.55789_ID_864 134785 1
+				Negative gap (overlap) between this and next alignment: 3563640 to 3563556 (-84 bp)
+				Next Alignment: 3563556 3583477 NODE_53_length_19927_cov_3.61831_ID_2659 3 19924
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 3 to 88.
+			Align 95: 3563641 3583477 NODE_53_length_19927_cov_3.61831_ID_2659 88 19924
+				Gap between this and next alignment: 3583477 to 3584141 (663 bp)
+				Next Alignment: 3584141 3624233 NODE_35_length_40672_cov_4.13932_ID_3484 1 40098
+
+			Align 96: 3584141 3624233 NODE_35_length_40672_cov_4.13932_ID_3484 1 40098
+				Gap between this and next alignment: 3624233 to 3625456 (1222 bp)
+				Next Alignment: 3625456 3648160 NODE_48_length_26392_cov_3.67487_ID_3107 2 22676
+
+			Align 97: 3625456 3648160 NODE_48_length_26392_cov_3.67487_ID_3107 2 22676
+				Gap between this and next alignment: 3648160 to 3648392 (231 bp)
+				Next Alignment: 3648392 3652107 NODE_48_length_26392_cov_3.67487_ID_3107 22677 26392
+
+			Align 98: 3648392 3652107 NODE_48_length_26392_cov_3.67487_ID_3107 22677 26392
+				Gap between this and next alignment: 3652107 to 3653182 (1074 bp)
+				Next Alignment: 3653182 3666259 NODE_62_length_13078_cov_3.59572_ID_3235 1 13078
+
+			Align 99: 3653182 3666259 NODE_62_length_13078_cov_3.59572_ID_3235 1 13078
+				Negative gap (overlap) between this and next alignment: 3666259 to 3666205 (-54 bp)
+				Next Alignment: 3666205 3667436 NODE_97_length_1232_cov_7.11215_ID_4951 1232 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1232 to 1177.
+			Align 100: 3666260 3667436 NODE_97_length_1232_cov_7.11215_ID_4951 1177 1
+				Negative gap (overlap) between this and next alignment: 3667436 to 3667382 (-54 bp)
+				Next Alignment: 3667382 3708466 NODE_20_length_73475_cov_3.59121_ID_2248 1 41097
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 101: 3667437 3708466 NODE_20_length_73475_cov_3.59121_ID_2248 56 41097
+				Gap between this and next alignment: 3708466 to 3708635 (168 bp)
+				Next Alignment: 3708635 3741008 NODE_20_length_73475_cov_3.59121_ID_2248 41098 73475
+
+			Align 102: 3708635 3741008 NODE_20_length_73475_cov_3.59121_ID_2248 41098 73475
+				Gap between this and next alignment: 3741008 to 3741017 (8 bp)
+				Next Alignment: 3741017 3762318 NODE_52_length_21299_cov_3.47868_ID_3808 21296 1
+
+			Align 103: 3741017 3762318 NODE_52_length_21299_cov_3.47868_ID_3808 21296 1
+				Gap between this and next alignment: 3762318 to 3765773 (3454 bp)
+				Next Alignment: 3765773 3766366 NODE_102_length_594_cov_3.46568_ID_4782 594 1
+
+			Align 104: 3765773 3766366 NODE_102_length_594_cov_3.46568_ID_4782 594 1
+				Gap between this and next alignment: 3766366 to 3766684 (317 bp)
+				Next Alignment: 3766684 3767257 NODE_35_length_40672_cov_4.13932_ID_3484 40099 40672
+
+			Align 105: 3766684 3767257 NODE_35_length_40672_cov_4.13932_ID_3484 40099 40672
+				Gap between this and next alignment: 3767257 to 3767592 (334 bp)
+				Next Alignment: 3767592 3941478 NODE_5_length_173884_cov_3.59457_ID_684 1 173884
+
+			Align 106: 3767592 3941478 NODE_5_length_173884_cov_3.59457_ID_684 1 173884
+				Gap between this and next alignment: 3941478 to 3946892 (5413 bp)
+				Next Alignment: 3946892 4027460 NODE_17_length_80565_cov_3.61069_ID_1753 1 80565
+
+			Align 107: 3946892 4027460 NODE_17_length_80565_cov_3.61069_ID_1753 1 80565
+				Gap between this and next alignment: 4027460 to 4027561 (100 bp)
+				Next Alignment: 4027561 4035225 NODE_72_length_7669_cov_3.61177_ID_3936 4 7669
+
+			Align 108: 4027561 4035225 NODE_72_length_7669_cov_3.61177_ID_3936 4 7669
+				Gap between this and next alignment: 4035225 to 4040834 (5608 bp)
+				Next Alignment: 4040834 4094356 NODE_30_length_53520_cov_3.55459_ID_3263 53520 1
+
+			Align 109: 4040834 4094356 NODE_30_length_53520_cov_3.55459_ID_3263 53520 1
+				Gap between this and next alignment: 4094356 to 4094627 (270 bp)
+				Next Alignment: 4094627 4153446 NODE_21_length_71670_cov_3.60424_ID_2725 71670 12876
+
+			Align 110: 4094627 4153446 NODE_21_length_71670_cov_3.60424_ID_2725 71670 12876
+				Gap between this and next alignment: 4153446 to 4153693 (246 bp)
+				Next Alignment: 4153693 4166567 NODE_21_length_71670_cov_3.60424_ID_2725 12875 1
+
+			Align 111: 4153693 4166567 NODE_21_length_71670_cov_3.60424_ID_2725 12875 1
+				Gap between this and next alignment: 4166567 to 4171698 (5130 bp)
+				Next Alignment: 4171698 4176053 NODE_83_length_4355_cov_3.60651_ID_4330 1 4355
+
+			Align 112: 4171698 4176053 NODE_83_length_4355_cov_3.60651_ID_4330 1 4355
+				Gap between this and next alignment: 4176053 to 4177051 (997 bp)
+				Next Alignment: 4177051 4208055 NODE_42_length_31007_cov_3.67472_ID_2185 1 31007
+
+			Align 113: 4177051 4208055 NODE_42_length_31007_cov_3.67472_ID_2185 1 31007
+				Gap between this and next alignment: 4208055 to 4213101 (5045 bp)
+				Next Alignment: 4213101 4295866 NODE_16_length_82768_cov_3.5455_ID_1849 1 82766
+
+			Align 114: 4213101 4295866 NODE_16_length_82768_cov_3.5455_ID_1849 1 82766
+				Gap between this and next alignment: 4295866 to 4296213 (346 bp)
+				Next Alignment: 4296213 4325889 NODE_43_length_29678_cov_3.56497_ID_2604 1 29676
+
+			Align 115: 4296213 4325889 NODE_43_length_29678_cov_3.56497_ID_2604 1 29676
+				Gap between this and next alignment: 4325889 to 4326300 (410 bp)
+				Next Alignment: 4326300 4392414 NODE_25_length_66120_cov_3.57836_ID_2786 1 66120
+
+			Align 116: 4326300 4392414 NODE_25_length_66120_cov_3.57836_ID_2786 1 66120
+				Gap between this and next alignment: 4392414 to 4392583 (168 bp)
+				Next Alignment: 4392583 4498235 NODE_14_length_105658_cov_3.59957_ID_1460 1 105658
+
+			Align 117: 4392583 4498235 NODE_14_length_105658_cov_3.59957_ID_1460 1 105658
+				Gap between this and next alignment: 4498235 to 4499482 (1246 bp)
+				Next Alignment: 4499482 4507168 NODE_71_length_7693_cov_3.47002_ID_3922 7 7693
+
+			Align 118: 4499482 4507168 NODE_71_length_7693_cov_3.47002_ID_3922 7 7693
+				Gap between this and next alignment: 4507168 to 4508627 (1458 bp)
+				Next Alignment: 4508627 4518788 NODE_67_length_10163_cov_3.6388_ID_3645 10163 1
+
+			Align 119: 4508627 4518788 NODE_67_length_10163_cov_3.6388_ID_3645 10163 1
+				Negative gap (overlap) between this and next alignment: 4518788 to 4518761 (-27 bp)
+				Next Alignment: 4518761 4549781 NODE_4_length_180338_cov_3.56008_ID_959 180338 149319
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 180338 to 180310.
+			Align 120: 4518789 4549781 NODE_4_length_180338_cov_3.56008_ID_959 180310 149319
+				Negative gap (overlap) between this and next alignment: 4549781 to 4549773 (-8 bp)
+				Next Alignment: 4549773 4606117 NODE_28_length_56342_cov_3.5847_ID_1541 56340 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 56340 to 56331.
+			Align 121: 4549782 4606117 NODE_28_length_56342_cov_3.5847_ID_1541 56331 1
+				Gap between this and next alignment: 4606117 to 4606602 (484 bp)
+				Next Alignment: 4606602 4614317 NODE_70_length_7715_cov_3.55313_ID_3908 7715 1
+
+			Align 122: 4606602 4614317 NODE_70_length_7715_cov_3.55313_ID_3908 7715 1
+				Gap between this and next alignment: 4614317 to 4614611 (293 bp)
+				Next Alignment: 4614611 4641649 NODE_47_length_27039_cov_3.54999_ID_3015 27039 1
+
+			Align 123: 4614611 4641649 NODE_47_length_27039_cov_3.54999_ID_3015 27039 1
+			END in gap: 4641649 to 4641652 (3 bp)
+
+Analysis is finished!
+Founded SNPs were written into /net/metagenomics/projects/afritz_assemblies/Coverage_Sweep_wgsim/050_error/quast/SPAdes_cov64/combined_reference/contigs_reports/nucmer_output/scaffolds.used_snps
+
+Results:
+	Local Misassemblies: 8
+	Misassemblies: 10
+		Relocations: 10
+		Translocations: 0
+		Interspecies translocations: 0
+		Inversions: 0
+	Potentially Misassembled Contigs (i/s translocations): 0
+	Misassembled Contigs: 10
+	Misassembled Contig Bases: 624215
+	Misassemblies Inter-Contig Overlap: 0
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 0 + 0 part
+Partially Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 0
+
+Ambiguously Mapped Contigs: 4
+Total Bases in Ambiguously Mapped Contigs: 4942
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 4547035
+
+	SNPs: 2949
+	Insertions: 566
+	Deletions: 541
+
+	Positive Gaps: 105
+		Internal Gaps:  12
+		External Gaps:  93
+		External Gap Total:  91233
+		External Gap Average: 981
+	Negative Gaps: 19
+		Internal Overlaps:  0
+		External Overlaps:  19
+		External Overlaps Total: -916
+		External Overlaps Average: -48
+	Contigs with Redundant Alignments: 0 (0)
