@@ -1,0 +1,119 @@
+/home/afritz/bin/quast-3.2/quast.pyc --meta  --no-check-meta  --contig-thresholds 1000,5000,10000,25000,50000 -R /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/quast_corrected_input/Ecoli_0990.fa -o /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990 --labels scaffolds /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/quast_corrected_input/scaffolds_to_Ecoli_0990.fasta
+
+Started: 2016-05-09 11:27:42
+
+Logging to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/quast.log
+
+NOTICE: Maximum number of threads is set to 15 (use --threads option to set it manually)
+
+Main parameters: 
+  Threads: 15, meta: true, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/quast_corrected_input/Ecoli_0990.fa ==> Ecoli_0990
+
+Contigs:
+  /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/quast_corrected_input/scaffolds_to_Ecoli_0990.fasta ==> scaffolds
+
+2016-05-09 11:27:43
+Running Basic statistics processor...
+  Reference genome:
+    Ecoli_0990.fa, Reference length = 4641652, Reference GC % = 50.78
+  Contig files: 
+    scaffolds
+  Calculating N50 and L50...
+    scaffolds, N50 = 49952, L50 = 27, Total length = 3932767, GC % = 50.69, # N's per 100 kbp =  93.80
+  Drawing Nx plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/basic_stats/GC_content_plot.pdf
+Done.
+
+2016-05-09 11:27:47
+Running Contig analyzer...
+  scaffolds
+  Logging to files /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/contigs_reports/contigs_report_scaffolds.stdout and contigs_report_scaffolds.stderr...
+  Running Nucmer
+  libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/contigs_reports/nucmer_output/scaffolds \
+  /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/quast_corrected_input/Ecoli_0990.fa \
+  /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/quast_corrected_input/scaffolds_to_Ecoli_0990.fasta \
+  >> /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/contigs_reports/contigs_report_scaffolds.stdout \
+  2>> /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/contigs_reports/contigs_report_scaffolds.stderr
+  libs/MUMmer3.23-linux/delta-filter -i 95 -l 0 /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/contigs_reports/nucmer_output/scaffolds.delta \
+  > /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/contigs_reports/nucmer_output/scaffolds.fdelta \
+  2> /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/contigs_reports/contigs_report_scaffolds.stderr
+  libs/MUMmer3.23-linux/show-coords /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/contigs_reports/nucmer_output/scaffolds.delta \
+  > /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/contigs_reports/nucmer_output/scaffolds.coords_tmp \
+  2> /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/contigs_reports/contigs_report_scaffolds.stderr
+  libs/MUMmer3.23-linux/show-snps -S -T -H /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/contigs_reports/nucmer_output/scaffolds.delta \
+  < /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/contigs_reports/nucmer_output/scaffolds.coords.headless \
+  > /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/contigs_reports/nucmer_output/scaffolds.all_snps \
+  2> /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/contigs_reports/contigs_report_scaffolds.stderr
+  Alignments: ../../../../net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/contigs_reports/alignments_scaffolds.tsv
+  Analysis is finished.
+
+  Creating total report...
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/contigs_reports/misassemblies_plot.pdf
+Done.
+
+2016-05-09 11:29:00
+Running NA-NGA calculation...
+  scaffolds, Largest alignment = 122264, NA50 = 48914, NGA50 = 39220, LA50 = 29, LGA50 = 38
+  Drawing cumulative plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/aligned_stats/NGAx_plot.pdf
+Done.
+
+2016-05-09 11:29:02
+Running Genome analyzer...
+  NOTICE: No file with genes provided. Use the -G option if you want to specify it.
+  NOTICE: No file with operons provided. Use the -O option if you want to specify it.
+  scaffolds
+  Analysis is finished.
+  Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2016-05-09 11:29:06
+Drawing large plots...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating contig alignment plot...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2016-05-09 11:29:08
+RESULTS:
+  Text versions of total report are saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/report.html
+  PDF version (tables and plots) saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/report.pdf
+  Contig alignment plot: /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/alignment.svg
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/summary/PDF/#_contigs.pdf
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/summary/PDF/Largest_contig.pdf
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/summary/PDF/Total_length.pdf
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/summary/PDF/Total_length_(>=_1000_bp).pdf
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/summary/PDF/Total_length_(>=_10000_bp).pdf
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/summary/PDF/Total_length_(>=_50000_bp).pdf
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/summary/PDF/#_misassemblies.pdf
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/summary/PDF/scaffolds_misassemblies.pdf
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/summary/PDF/Misassembled_contigs_length.pdf
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/summary/PDF/#_mismatches_per_100_kbp.pdf
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/summary/PDF/#_indels_per_100_kbp.pdf
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/summary/PDF/#_N's_per_100_kbp.pdf
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/summary/PDF/Genome_fraction_(%).pdf
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/summary/PDF/Duplication_ratio.pdf
+    saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/summary/PDF/NGA50.pdf

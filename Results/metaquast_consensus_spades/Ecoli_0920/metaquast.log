@@ -1,4 +1,4 @@
-/home/afritz/bin/quast-3.2/metaquast.py.OLD -R /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/Ecoli_ancestor.fa,/net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/Ecoli_0920.fa -o /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0920 /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/Ecoli_0920_spades/scaffolds.fasta
+/home/afritz/bin/quast-3.2/metaquast.py.OLD -R /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/Ecoli_ancestor.fa,/net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/Ecoli_0920.fa -o /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades_c/Ecoli_0920 /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/Ecoli_0920_spades/contigs.fasta
 
 Version: 3.2, build 26.11.2015 18:55
 
@@ -7,9 +7,9 @@ System information:
   Python version: 2.7.9
   CPUs number: 60
 
-Started: 2016-05-09 11:25:09
+Started: 2016-05-09 13:15:13
 
-Logging to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0920/metaquast.log
+Logging to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades_c/Ecoli_0920/metaquast.log
 
 NOTICE: Maximum number of threads is set to 15 (use --threads option to set it manually)
 
@@ -19,23 +19,23 @@ Reference(s):
   All references combined in combined_reference.fasta
 
 Contigs:
-  /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/Ecoli_0920_spades/scaffolds.fasta ==> scaffolds
+  /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/Ecoli_0920_spades/contigs.fasta ==> contigs
 
 Starting quast.py for the combined reference...
-(logging to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0920/combined_reference/quast.log)
+(logging to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades_c/Ecoli_0920/combined_reference/quast.log)
 
 Partitioning contigs into bins aligned to each reference..
-  processing scaffolds
+  processing contigs
 
 Starting quast.py for the contigs aligned to Ecoli_ancestor
-(logging to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0920/runs_per_reference/Ecoli_ancestor/quast.log)
+(logging to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades_c/Ecoli_0920/runs_per_reference/Ecoli_ancestor/quast.log)
 
 Starting quast.py for the contigs aligned to Ecoli_0920
-(logging to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0920/runs_per_reference/Ecoli_0920/quast.log)
+(logging to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades_c/Ecoli_0920/runs_per_reference/Ecoli_0920/quast.log)
 
 Skipping quast.py for the contigs not aligned anywhere (everything is aligned!)
 
-2016-05-09 11:42:53
+2016-05-09 13:20:48
 Summarizing results...
   Drawing # contigs metaQUAST summary plot...
   Drawing Largest contig metaQUAST summary plot...
@@ -44,7 +44,7 @@ Summarizing results...
   Drawing Total length (>= 10000 bp) metaQUAST summary plot...
   Drawing Total length (>= 50000 bp) metaQUAST summary plot...
   Drawing # misassemblies metaQUAST summary plot...
-  Drawing metaQUAST summary misassemblies plot for scaffolds...
+  Drawing metaQUAST summary misassemblies plot for contigs...
   Drawing Misassembled contigs length metaQUAST summary plot...
   Drawing # mismatches per 100 kbp metaQUAST summary plot...
   Drawing # indels per 100 kbp metaQUAST summary plot...
@@ -53,14 +53,14 @@ Summarizing results...
   Drawing Duplication ratio metaQUAST summary plot...
   Drawing NGA50 metaQUAST summary plot...
 
-  Text versions of reports and plots for each metric (for all references and assemblies) are saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0920/summary/
-  Extended version of HTML-report (for all references and assemblies) is saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0920/report.html
+  Text versions of reports and plots for each metric (for all references and assemblies) are saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades_c/Ecoli_0920/summary/
+  Extended version of HTML-report (for all references and assemblies) is saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades_c/Ecoli_0920/report.html
 
 MetaQUAST finished.
-  Log saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0920/metaquast.log
+  Log saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades_c/Ecoli_0920/metaquast.log
 
-Finished: 2016-05-09 11:42:57
-Elapsed time: 0:17:47.587511
+Finished: 2016-05-09 13:20:56
+Elapsed time: 0:05:43.582529
 Total NOTICEs: 8; WARNINGs: 0; non-fatal ERRORs: 0
 
 Thank you for using QUAST!
