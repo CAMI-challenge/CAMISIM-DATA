@@ -9,18 +9,6 @@ Loading regions...
 	Total Regions: 1
 	Total Region Length: 4641652
 Analyzing contigs...
-CONTIG: NODE_1_length_264572_cov_65.6157_ID_576294 (264572bp)
-Top Length: 178220  Top ID: 99.46
-		Skipping redundant alignment 2818197 2818275 | 177944 177866 | 79 79 | 100.0 | Ecoli_0995_Taxon020_ NODE_1_length_264572_cov_65.6157_ID_576294
-		Skipping redundant alignment 290428 290633 | 236122 235917 | 206 206 | 99.03 | Ecoli_0995_Taxon020_ NODE_1_length_264572_cov_65.6157_ID_576294
-		This contig is misassembled. 5 total aligns.
-			Excluding internal overlap of size 355 between Alignment 1 and 2:  2812617 2818136 | 183386 177866 | 5520 5521 --> 2812617 2817781 | 183386 178221 | 5165 5166
-			Real Alignment 1: 2818197 2996415 | 178220 1 | 178219 178220 | 99.46 | Ecoli_0995_Taxon020_ NODE_1_length_264572_cov_65.6157_ID_576294
-			  Gap between these two alignments (local misassembly). Inconsistency = 415 
-			Real Alignment 2: 2812617 2817781 | 183386 178221 | 5165 5166 | 99.24 | Ecoli_0995_Taxon020_ NODE_1_length_264572_cov_65.6157_ID_576294
-			  Extensive misassembly ( relocation, inconsistency = -146352 ) between these two alignments
-			Real Alignment 3: 2671430 2752615 | 183387 264572 | 81186 81186 | 99.44 | Ecoli_0995_Taxon020_ NODE_1_length_264572_cov_65.6157_ID_576294
-
 CONTIG: NODE_2_length_161420_cov_66.4316_ID_578936 (161420bp)
 Top Length: 140378  Top ID: 99.42
 		This contig is misassembled. 2 total aligns.
@@ -32,18 +20,6 @@ Top Length: 140378  Top ID: 99.42
 CONTIG: NODE_3_length_142244_cov_65.6647_ID_577007 (142244bp)
 Top Length: 142244  Top ID: 99.37
 		One align captures most of this contig: 1651494 1793737 | 1 142244 | 142244 142244 | 99.37 | Ecoli_0995_Taxon020_ NODE_3_length_142244_cov_65.6647_ID_577007
-
-CONTIG: NODE_4_length_138657_cov_64.8675_ID_578645 (138657bp)
-Top Length: 111550  Top ID: 99.43
-		Skipping redundant alignment 1097522 1097659 | 14616 14753 | 138 138 | 97.1 | Ecoli_0995_Taxon020_ NODE_4_length_138657_cov_64.8675_ID_578645
-		This contig is misassembled. 4 total aligns.
-			Excluding internal overlap of size 1 between Alignment 1 and 2:  935376 938333 | 27108 24151 | 2958 2958 --> 935376 938332 | 27108 24152 | 2957 2957
-			Real Alignment 1: 911280 935376 | 55 24151 | 24097 24097 | 99.42 | Ecoli_0995_Taxon020_ NODE_4_length_138657_cov_64.8675_ID_578645
-			  Extensive misassembly ( inversion ) between these two alignments
-			Excluding internal overlap of size 1 between Alignment 2 and 3:  935376 938332 | 27108 24152 | 2957 2957 --> 935377 938332 | 27107 24152 | 2956 2956
-			Real Alignment 2: 935377 938332 | 27107 24152 | 2956 2956 | 99.32 | Ecoli_0995_Taxon020_ NODE_4_length_138657_cov_64.8675_ID_578645
-			  Extensive misassembly ( inversion ) between these two alignments
-			Real Alignment 3: 938333 1049882 | 27108 138657 | 111550 111550 | 99.43 | Ecoli_0995_Taxon020_ NODE_4_length_138657_cov_64.8675_ID_578645
 
 CONTIG: NODE_5_length_135654_cov_66.1773_ID_577993 (135654bp)
 Top Length: 83098  Top ID: 99.46
@@ -79,19 +55,6 @@ Top Length: 106019  Top ID: 99.49
 CONTIG: NODE_11_length_105087_cov_65.6875_ID_573383 (105087bp)
 Top Length: 105087  Top ID: 99.5
 		One align captures most of this contig: 2183887 2288973 | 1 105087 | 105087 105087 | 99.5 | Ecoli_0995_Taxon020_ NODE_11_length_105087_cov_65.6875_ID_573383
-
-CONTIG: NODE_12_length_97596_cov_65.5079_ID_576017 (97596bp)
-Top Length: 84353  Top ID: 99.51
-		Skipping redundant alignment 1979166 1979285 | 97596 97477 | 120 120 | 95.87 | Ecoli_0995_Taxon020_ NODE_12_length_97596_cov_65.5079_ID_576017
-		Skipping redundant alignment 258571 258676 | 97596 97491 | 106 106 | 99.06 | Ecoli_0995_Taxon020_ NODE_12_length_97596_cov_65.5079_ID_576017
-		Skipping redundant alignment 279826 279930 | 97596 97492 | 105 105 | 100.0 | Ecoli_0995_Taxon020_ NODE_12_length_97596_cov_65.5079_ID_576017
-		Skipping redundant alignment 291297 291401 | 97596 97492 | 105 105 | 100.0 | Ecoli_0995_Taxon020_ NODE_12_length_97596_cov_65.5079_ID_576017
-		This contig is misassembled. 7 total aligns.
-			Real Alignment 1: 3376790 3385845 | 1 9056 | 9056 9056 | 99.49 | Ecoli_0995_Taxon020_ NODE_12_length_97596_cov_65.5079_ID_576017
-			  Extensive misassembly ( relocation, inconsistency = 3151 ) between these two alignments
-			Real Alignment 2: 3388997 3393183 | 13243 9057 | 4187 4187 | 99.24 | Ecoli_0995_Taxon020_ NODE_12_length_97596_cov_65.5079_ID_576017
-			  Extensive misassembly ( relocation, inconsistency = 105996 ) between these two alignments
-			Real Alignment 3: 3499180 3583532 | 13244 97596 | 84353 84353 | 99.51 | Ecoli_0995_Taxon020_ NODE_12_length_97596_cov_65.5079_ID_576017
 
 CONTIG: NODE_13_length_94538_cov_64.7736_ID_570868 (94538bp)
 Top Length: 94538  Top ID: 99.53
@@ -140,22 +103,6 @@ Top Length: 79530  Top ID: 99.47
 		Marking as insignificant: 4117734 4117819 | 1 86 | 86 86 | 98.84 | Ecoli_0995_Taxon020_ NODE_19_length_79530_cov_66.0586_ID_570793
 		Marking as insignificant: 4035165 4035256 | 92 1 | 92 92 | 100.0 | Ecoli_0995_Taxon020_ NODE_19_length_79530_cov_66.0586_ID_570793
 		One align captures most of this contig: 3862004 3941533 | 79530 1 | 79530 79530 | 99.47 | Ecoli_0995_Taxon020_ NODE_19_length_79530_cov_66.0586_ID_570793
-
-CONTIG: NODE_20_length_76208_cov_65.4672_ID_578281 (76208bp)
-Top Length: 57825  Top ID: 99.43
-		This contig is misassembled. 2 total aligns.
-			Excluding internal overlap of size 1 between Alignment 1 and 2:  128612 146854 | 76067 57825 | 18243 18243 --> 128612 146853 | 76067 57826 | 18242 18242
-			Real Alignment 1: 146854 204678 | 1 57825 | 57825 57825 | 99.43 | Ecoli_0995_Taxon020_ NODE_20_length_76208_cov_65.4672_ID_578281
-			  Extensive misassembly ( relocation, inconsistency = -76067 ) between these two alignments
-			Real Alignment 2: 128612 146853 | 76067 57826 | 18242 18242 | 99.54 | Ecoli_0995_Taxon020_ NODE_20_length_76208_cov_65.4672_ID_578281
-
-CONTIG: NODE_21_length_75920_cov_65.6319_ID_578842 (75920bp)
-Top Length: 51186  Top ID: 99.43
-		This contig is misassembled. 2 total aligns.
-			Excluding internal overlap of size 1 between Alignment 1 and 2:  2308559 2333293 | 51186 75920 | 24735 24735 --> 2308560 2333293 | 51187 75920 | 24734 24734
-			Real Alignment 1: 2451900 2503085 | 51186 1 | 51186 51186 | 99.43 | Ecoli_0995_Taxon020_ NODE_21_length_75920_cov_65.6319_ID_578842
-			  Extensive misassembly ( relocation, inconsistency = -194526 ) between these two alignments
-			Real Alignment 2: 2308560 2333293 | 51187 75920 | 24734 24734 | 99.56 | Ecoli_0995_Taxon020_ NODE_21_length_75920_cov_65.6319_ID_578842
 
 CONTIG: NODE_22_length_74344_cov_65.9182_ID_577718 (74344bp)
 Top Length: 74266  Top ID: 99.43
@@ -226,15 +173,6 @@ Top Length: 54828  Top ID: 99.51
 CONTIG: NODE_35_length_54883_cov_64.9749_ID_561201 (54883bp)
 Top Length: 54883  Top ID: 99.45
 		One align captures most of this contig: 3131286 3186168 | 1 54883 | 54883 54883 | 99.45 | Ecoli_0995_Taxon020_ NODE_35_length_54883_cov_64.9749_ID_561201
-
-CONTIG: NODE_36_length_54689_cov_65.3782_ID_575882 (54689bp)
-Top Length: 28413  Top ID: 99.48
-		This contig is misassembled. 3 total aligns.
-			Real Alignment 1: 2800194 2812616 | 12423 1 | 12423 12423 | 99.61 | Ecoli_0995_Taxon020_ NODE_36_length_54689_cov_65.3782_ID_575882
-			  Extensive misassembly ( relocation, inconsistency = -40836 ) between these two alignments
-			Real Alignment 2: 2771781 2800193 | 12424 40836 | 28413 28413 | 99.48 | Ecoli_0995_Taxon020_ NODE_36_length_54689_cov_65.3782_ID_575882
-			  Extensive misassembly ( relocation, inconsistency = -42266 ) between these two alignments
-			Real Alignment 3: 2757928 2771780 | 54689 40837 | 13853 13853 | 99.53 | Ecoli_0995_Taxon020_ NODE_36_length_54689_cov_65.3782_ID_575882
 
 CONTIG: NODE_37_length_53647_cov_64.6131_ID_562027 (53647bp)
 Top Length: 53647  Top ID: 99.44
@@ -559,12 +497,6 @@ CONTIG: NODE_99_length_4545_cov_65.6731_ID_579405 (4545bp)
 Top Length: 4545  Top ID: 99.49
 		One align captures most of this contig: 3468453 3472997 | 1 4545 | 4545 4545 | 99.49 | Ecoli_0995_Taxon020_ NODE_99_length_4545_cov_65.6731_ID_579405
 
-CONTIG: NODE_100_length_4500_cov_66.7071_ID_574904 (4500bp)
-Top Length: 4429  Top ID: 99.3
-		This contig is partially unaligned. (Aligned 4429 out of 4500 bases)
-		Alignment: 4637220 4641648 | 72 4500 | 4429 4429 | 99.3 | Ecoli_0995_Taxon020_ NODE_100_length_4500_cov_66.7071_ID_574904
-		Unaligned bases: 1 to 71 (71)
-
 CONTIG: NODE_101_length_4278_cov_63.9811_ID_579371 (4278bp)
 Top Length: 4278  Top ID: 99.35
 		Marking as insignificant: 4040746 4040845 | 4278 4179 | 100 100 | 100.0 | Ecoli_0995_Taxon020_ NODE_101_length_4278_cov_63.9811_ID_579371
@@ -620,12 +552,6 @@ Top Length: 3141  Top ID: 99.17
 		Skipping alignment  4112357 4115497 | 1 3141 | 3141 3141 | 99.04 | Ecoli_0995_Taxon020_ NODE_109_length_3141_cov_446.949_ID_579277
 		Skipping alignment  225739 228880 | 3141 1 | 3142 3141 | 98.85 | Ecoli_0995_Taxon020_ NODE_109_length_3141_cov_446.949_ID_579277
 		Skipping alignment  2754842 2757982 | 3141 1 | 3141 3141 | 98.69 | Ecoli_0995_Taxon020_ NODE_109_length_3141_cov_446.949_ID_579277
-
-CONTIG: NODE_110_length_2771_cov_64.2264_ID_577687 (2771bp)
-Top Length: 2716  Top ID: 99.48
-		This contig is partially unaligned. (Aligned 2716 out of 2771 bases)
-		Alignment: 609297 612012 | 2771 56 | 2716 2716 | 99.48 | Ecoli_0995_Taxon020_ NODE_110_length_2771_cov_64.2264_ID_577687
-		Unaligned bases: 1 to 55 (55)
 
 CONTIG: NODE_111_length_2308_cov_67.6085_ID_567041 (2308bp)
 Top Length: 2308  Top ID: 99.39
@@ -790,7 +716,7 @@ Top Length: 521  Top ID: 99.62
 
 Analyzing coverage...
 Writing SNPs into /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0995/runs_per_reference/Ecoli_0995/contigs_reports/nucmer_output/scaffolds.used_snps
-	Reference Ecoli_0995_Taxon020_: 151 total alignments. 1 total regions.
+	Reference Ecoli_0995_Taxon020_: 133 total alignments. 1 total regions.
 		Region: 1 to 4641652 (4641652 bp)
 			Align 1: 1 15441 NODE_65_length_15441_cov_64.2853_ID_578519 15441 1
 				Negative gap (overlap) between this and next alignment: 15441 to 15387 (-54 bp)
@@ -817,713 +743,636 @@ Writing SNPs into /net/metagenomics/projects/afritz_assemblies/Similarity_Experi
 				Next Alignment: 126542 128611 NODE_112_length_2070_cov_66.2605_ID_579309 2070 1
 
 			Align 6: 126542 128611 NODE_112_length_2070_cov_66.2605_ID_579309 2070 1
-				Next Alignment: 128612 146853 NODE_20_length_76208_cov_65.4672_ID_578281 76067 57826
-
-			Align 7: 128612 146853 NODE_20_length_76208_cov_65.4672_ID_578281 76067 57826
-				Next Alignment: 146854 204678 NODE_20_length_76208_cov_65.4672_ID_578281 1 57825
-
-			Align 8: 146854 204678 NODE_20_length_76208_cov_65.4672_ID_578281 1 57825
-				Negative gap (overlap) between this and next alignment: 204678 to 204624 (-54 bp)
+				Gap between this and next alignment: 128611 to 204624 (76012 bp)
 				Next Alignment: 204624 223679 NODE_60_length_19056_cov_66.1482_ID_578235 1 19056
 
-			Previous gap was negative, modifying coordinates to ignore overlap
-				Moving contig start from 1 to 56.
-			Align 9: 204679 223679 NODE_60_length_19056_cov_66.1482_ID_578235 56 19056
+			Align 7: 204624 223679 NODE_60_length_19056_cov_66.1482_ID_578235 1 19056
 				Gap between this and next alignment: 223679 to 228952 (5272 bp)
 				Next Alignment: 228952 237003 NODE_84_length_8052_cov_65.7885_ID_579563 1 8052
 
-			Align 10: 228952 237003 NODE_84_length_8052_cov_65.7885_ID_579563 1 8052
+			Align 8: 228952 237003 NODE_84_length_8052_cov_65.7885_ID_579563 1 8052
 				Negative gap (overlap) between this and next alignment: 237003 to 236955 (-48 bp)
 				Next Alignment: 236955 257962 NODE_59_length_21008_cov_66.2256_ID_569599 1 21008
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1 to 50.
-			Align 11: 237004 257962 NODE_59_length_21008_cov_66.2256_ID_569599 50 21008
+			Align 9: 237004 257962 NODE_59_length_21008_cov_66.2256_ID_569599 50 21008
 				Gap between this and next alignment: 257962 to 258571 (608 bp)
 				Next Alignment: 258571 270595 NODE_75_length_12025_cov_65.6081_ID_572144 1 12025
 
-			Align 12: 258571 270595 NODE_75_length_12025_cov_65.6081_ID_572144 1 12025
+			Align 10: 258571 270595 NODE_75_length_12025_cov_65.6081_ID_572144 1 12025
 				Gap between this and next alignment: 270595 to 271702 (1106 bp)
 				Next Alignment: 271702 274009 NODE_111_length_2308_cov_67.6085_ID_567041 2308 1
 
-			Align 13: 271702 274009 NODE_111_length_2308_cov_67.6085_ID_567041 2308 1
+			Align 11: 271702 274009 NODE_111_length_2308_cov_67.6085_ID_567041 2308 1
 				Gap between this and next alignment: 274009 to 275095 (1085 bp)
 				Next Alignment: 275095 279216 NODE_104_length_4122_cov_62.8013_ID_566686 1 4122
 
-			Align 14: 275095 279216 NODE_104_length_4122_cov_62.8013_ID_566686 1 4122
+			Align 12: 275095 279216 NODE_104_length_4122_cov_62.8013_ID_566686 1 4122
 				Gap between this and next alignment: 279216 to 279826 (609 bp)
 				Next Alignment: 279826 290495 NODE_78_length_10670_cov_67.8352_ID_565701 1 10670
 
-			Align 15: 279826 290495 NODE_78_length_10670_cov_67.8352_ID_565701 1 10670
+			Align 13: 279826 290495 NODE_78_length_10670_cov_67.8352_ID_565701 1 10670
 				Gap between this and next alignment: 290495 to 291297 (801 bp)
 				Next Alignment: 291297 315283 NODE_55_length_23987_cov_66.5224_ID_571465 23987 1
 
-			Align 16: 291297 315283 NODE_55_length_23987_cov_66.5224_ID_571465 23987 1
+			Align 14: 291297 315283 NODE_55_length_23987_cov_66.5224_ID_571465 23987 1
 				Gap between this and next alignment: 315283 to 316429 (1145 bp)
 				Next Alignment: 316429 381314 NODE_27_length_64886_cov_66.3404_ID_569177 64886 1
 
-			Align 17: 316429 381314 NODE_27_length_64886_cov_66.3404_ID_569177 64886 1
+			Align 15: 316429 381314 NODE_27_length_64886_cov_66.3404_ID_569177 64886 1
 				Gap between this and next alignment: 381314 to 382536 (1221 bp)
 				Next Alignment: 382536 391763 NODE_81_length_9228_cov_66.7099_ID_565971 1 9228
 
-			Align 18: 382536 391763 NODE_81_length_9228_cov_66.7099_ID_565971 1 9228
+			Align 16: 382536 391763 NODE_81_length_9228_cov_66.7099_ID_565971 1 9228
 				Gap between this and next alignment: 391763 to 392909 (1145 bp)
 				Next Alignment: 392909 405654 NODE_71_length_12746_cov_65.0817_ID_579114 1 12746
 
-			Align 19: 392909 405654 NODE_71_length_12746_cov_65.0817_ID_579114 1 12746
+			Align 17: 392909 405654 NODE_71_length_12746_cov_65.0817_ID_579114 1 12746
 				Negative gap (overlap) between this and next alignment: 405654 to 405600 (-54 bp)
 				Next Alignment: 405600 406575 NODE_126_length_976_cov_65.7752_ID_579289 976 1
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 976 to 921.
-			Align 20: 405655 406575 NODE_126_length_976_cov_65.7752_ID_579289 921 1
+			Align 18: 405655 406575 NODE_126_length_976_cov_65.7752_ID_579289 921 1
 				Negative gap (overlap) between this and next alignment: 406575 to 406521 (-54 bp)
 				Next Alignment: 406521 525784 NODE_7_length_119264_cov_65.343_ID_574159 1 119264
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1 to 56.
-			Align 21: 406576 525784 NODE_7_length_119264_cov_65.343_ID_574159 56 119264
+			Align 19: 406576 525784 NODE_7_length_119264_cov_65.343_ID_574159 56 119264
 				Gap between this and next alignment: 525784 to 526666 (881 bp)
 				Next Alignment: 526666 539259 NODE_72_length_12594_cov_63.1121_ID_568509 12594 1
 
-			Align 22: 526666 539259 NODE_72_length_12594_cov_63.1121_ID_568509 12594 1
+			Align 20: 526666 539259 NODE_72_length_12594_cov_63.1121_ID_568509 12594 1
 				Negative gap (overlap) between this and next alignment: 539259 to 539205 (-54 bp)
 				Next Alignment: 539205 566834 NODE_52_length_27630_cov_63.5005_ID_577465 1 27630
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1 to 56.
-			Align 23: 539260 566834 NODE_52_length_27630_cov_63.5005_ID_577465 56 27630
+			Align 21: 539260 566834 NODE_52_length_27630_cov_63.5005_ID_577465 56 27630
 				Negative gap (overlap) between this and next alignment: 566834 to 566780 (-54 bp)
 				Next Alignment: 566780 568034 NODE_119_length_1255_cov_324.68_ID_579301 1 1255
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1 to 56.
-			Align 24: 566835 568034 NODE_119_length_1255_cov_324.68_ID_579301 56 1255
+			Align 22: 566835 568034 NODE_119_length_1255_cov_324.68_ID_579301 56 1255
 				Negative gap (overlap) between this and next alignment: 568034 to 567980 (-54 bp)
 				Next Alignment: 567980 574645 NODE_91_length_6666_cov_63.2857_ID_566380 6666 1
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 6666 to 6611.
-			Align 25: 568035 574645 NODE_91_length_6666_cov_63.2857_ID_566380 6611 1
+			Align 23: 568035 574645 NODE_91_length_6666_cov_63.2857_ID_566380 6611 1
 				Gap between this and next alignment: 574645 to 575731 (1085 bp)
 				Next Alignment: 575731 608061 NODE_46_length_32331_cov_70.3221_ID_564885 32331 1
 
-			Align 26: 575731 608061 NODE_46_length_32331_cov_70.3221_ID_564885 32331 1
-				Gap between this and next alignment: 608061 to 609297 (1235 bp)
-				Next Alignment: 609297 612012 NODE_110_length_2771_cov_64.2264_ID_577687 2771 56
-
-			Align 27: 609297 612012 NODE_110_length_2771_cov_64.2264_ID_577687 2771 56
-				Gap between this and next alignment: 612012 to 612036 (23 bp)
+			Align 24: 575731 608061 NODE_46_length_32331_cov_70.3221_ID_564885 32331 1
+				Gap between this and next alignment: 608061 to 612036 (3974 bp)
 				Next Alignment: 612036 613639 NODE_117_length_1604_cov_67.7637_ID_579335 1 1604
 
-			Align 28: 612036 613639 NODE_117_length_1604_cov_67.7637_ID_579335 1 1604
+			Align 25: 612036 613639 NODE_117_length_1604_cov_67.7637_ID_579335 1 1604
 				Next Alignment: 613640 687905 NODE_22_length_74344_cov_65.9182_ID_577718 74266 1
 
-			Align 29: 613640 687905 NODE_22_length_74344_cov_65.9182_ID_577718 74266 1
+			Align 26: 613640 687905 NODE_22_length_74344_cov_65.9182_ID_577718 74266 1
 				Negative gap (overlap) between this and next alignment: 687905 to 687851 (-54 bp)
 				Next Alignment: 687851 689045 NODE_121_length_1195_cov_723.3_ID_579271 1195 1
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1195 to 1140.
-			Align 30: 687906 689045 NODE_121_length_1195_cov_723.3_ID_579271 1140 1
+			Align 27: 687906 689045 NODE_121_length_1195_cov_723.3_ID_579271 1140 1
 				Negative gap (overlap) between this and next alignment: 689045 to 688991 (-54 bp)
 				Next Alignment: 688991 690813 NODE_57_length_21512_cov_65.451_ID_577043 1 1823
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1 to 56.
-			Align 31: 689046 690813 NODE_57_length_21512_cov_65.451_ID_577043 56 1823
+			Align 28: 689046 690813 NODE_57_length_21512_cov_65.451_ID_577043 56 1823
 				Negative gap (overlap) between this and next alignment: 690813 to 688991 (-1822 bp)
 				Next Alignment: 688991 708678 NODE_57_length_21512_cov_65.451_ID_577043 21512 1825
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 21512 to 19689.
-			Align 32: 690814 708678 NODE_57_length_21512_cov_65.451_ID_577043 19689 1825
+			Align 29: 690814 708678 NODE_57_length_21512_cov_65.451_ID_577043 19689 1825
 				Next Alignment: 708679 729790 NODE_58_length_21200_cov_65.713_ID_576672 21112 1
 
-			Align 33: 708679 729790 NODE_58_length_21200_cov_65.713_ID_576672 21112 1
+			Align 30: 708679 729790 NODE_58_length_21200_cov_65.713_ID_576672 21112 1
 				Gap between this and next alignment: 729790 to 733168 (3377 bp)
 				Next Alignment: 733168 734202 NODE_123_length_1035_cov_70.8102_ID_567474 1 1035
 
-			Align 34: 733168 734202 NODE_123_length_1035_cov_70.8102_ID_567474 1 1035
+			Align 31: 733168 734202 NODE_123_length_1035_cov_70.8102_ID_567474 1 1035
 				Negative gap (overlap) between this and next alignment: 734202 to 734148 (-54 bp)
 				Next Alignment: 734148 734806 NODE_130_length_659_cov_265.732_ID_579447 1 659
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1 to 56.
-			Align 35: 734203 734806 NODE_130_length_659_cov_265.732_ID_579447 56 659
+			Align 32: 734203 734806 NODE_130_length_659_cov_265.732_ID_579447 56 659
 				Gap between this and next alignment: 734806 to 735039 (232 bp)
 				Next Alignment: 735039 763498 NODE_51_length_28607_cov_72.1213_ID_571419 1 28460
 
-			Align 36: 735039 763498 NODE_51_length_28607_cov_72.1213_ID_571419 1 28460
+			Align 33: 735039 763498 NODE_51_length_28607_cov_72.1213_ID_571419 1 28460
 				Negative gap (overlap) between this and next alignment: 763498 to 763298 (-200 bp)
 				Next Alignment: 763298 853657 NODE_15_length_90361_cov_65.8615_ID_563196 90361 1
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 90361 to 90160.
-			Align 37: 763499 853657 NODE_15_length_90361_cov_65.8615_ID_563196 90160 1
+			Align 34: 763499 853657 NODE_15_length_90361_cov_65.8615_ID_563196 90160 1
 				Gap between this and next alignment: 853657 to 853908 (250 bp)
 				Next Alignment: 853908 864077 NODE_64_length_17308_cov_64.1173_ID_579367 17306 7137
 
-			Align 38: 853908 864077 NODE_64_length_17308_cov_64.1173_ID_579367 17306 7137
+			Align 35: 853908 864077 NODE_64_length_17308_cov_64.1173_ID_579367 17306 7137
 				Gap between this and next alignment: 864077 to 864320 (242 bp)
 				Next Alignment: 864320 871158 NODE_64_length_17308_cov_64.1173_ID_579367 6839 1
 
-			Align 39: 864320 871158 NODE_64_length_17308_cov_64.1173_ID_579367 6839 1
+			Align 36: 864320 871158 NODE_64_length_17308_cov_64.1173_ID_579367 6839 1
 				Negative gap (overlap) between this and next alignment: 871158 to 871104 (-54 bp)
 				Next Alignment: 871104 904664 NODE_45_length_33561_cov_65.3663_ID_578689 1 33561
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1 to 56.
-			Align 40: 871159 904664 NODE_45_length_33561_cov_65.3663_ID_578689 56 33561
+			Align 37: 871159 904664 NODE_45_length_33561_cov_65.3663_ID_578689 56 33561
 				Negative gap (overlap) between this and next alignment: 904664 to 904664 (0 bp)
 				Next Alignment: 904664 911280 NODE_92_length_6617_cov_65.0994_ID_579459 1 6617
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1 to 2.
-			Align 41: 904665 911280 NODE_92_length_6617_cov_65.0994_ID_579459 2 6617
-				Negative gap (overlap) between this and next alignment: 911280 to 911280 (0 bp)
-				Next Alignment: 911280 935376 NODE_4_length_138657_cov_64.8675_ID_578645 55 24151
-
-			Previous gap was negative, modifying coordinates to ignore overlap
-				Moving contig start from 55 to 56.
-			Align 42: 911281 935376 NODE_4_length_138657_cov_64.8675_ID_578645 56 24151
-				Next Alignment: 935377 938332 NODE_4_length_138657_cov_64.8675_ID_578645 27107 24152
-
-			Align 43: 935377 938332 NODE_4_length_138657_cov_64.8675_ID_578645 27107 24152
-				Next Alignment: 938333 1049882 NODE_4_length_138657_cov_64.8675_ID_578645 27108 138657
-
-			Align 44: 938333 1049882 NODE_4_length_138657_cov_64.8675_ID_578645 27108 138657
-				Gap between this and next alignment: 1049882 to 1050492 (609 bp)
+			Align 38: 904665 911280 NODE_92_length_6617_cov_65.0994_ID_579459 2 6617
+				Gap between this and next alignment: 911280 to 1050492 (139211 bp)
 				Next Alignment: 1050492 1094297 NODE_39_length_43808_cov_66.4232_ID_561830 1 43806
 
-			Align 45: 1050492 1094297 NODE_39_length_43808_cov_66.4232_ID_561830 1 43806
+			Align 39: 1050492 1094297 NODE_39_length_43808_cov_66.4232_ID_561830 1 43806
 				Gap between this and next alignment: 1094297 to 1095445 (1147 bp)
 				Next Alignment: 1095445 1096960 NODE_16_length_89740_cov_66.0788_ID_578369 89740 88225
 
-			Align 46: 1095445 1096960 NODE_16_length_89740_cov_66.0788_ID_578369 89740 88225
+			Align 40: 1095445 1096960 NODE_16_length_89740_cov_66.0788_ID_578369 89740 88225
 				Gap between this and next alignment: 1096960 to 1097142 (181 bp)
 				Next Alignment: 1097142 1185311 NODE_16_length_89740_cov_66.0788_ID_578369 88224 55
 
-			Align 47: 1097142 1185311 NODE_16_length_89740_cov_66.0788_ID_578369 88224 55
+			Align 41: 1097142 1185311 NODE_16_length_89740_cov_66.0788_ID_578369 88224 55
 				Negative gap (overlap) between this and next alignment: 1185311 to 1185311 (0 bp)
 				Next Alignment: 1185311 1194814 NODE_80_length_9504_cov_65.4154_ID_579453 1 9504
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1 to 2.
-			Align 48: 1185312 1194814 NODE_80_length_9504_cov_65.4154_ID_579453 2 9504
+			Align 42: 1185312 1194814 NODE_80_length_9504_cov_65.4154_ID_579453 2 9504
 				Negative gap (overlap) between this and next alignment: 1194814 to 1194760 (-54 bp)
 				Next Alignment: 1194760 1228272 NODE_44_length_33667_cov_65.6604_ID_576913 33667 155
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 33667 to 33612.
-			Align 49: 1194815 1228272 NODE_44_length_33667_cov_65.6604_ID_576913 33612 155
+			Align 43: 1194815 1228272 NODE_44_length_33667_cov_65.6604_ID_576913 33612 155
 				Gap between this and next alignment: 1228272 to 1228290 (17 bp)
 				Next Alignment: 1228290 1233593 NODE_95_length_5304_cov_64.6489_ID_566460 1 5304
 
-			Align 50: 1228290 1233593 NODE_95_length_5304_cov_64.6489_ID_566460 1 5304
+			Align 44: 1228290 1233593 NODE_95_length_5304_cov_64.6489_ID_566460 1 5304
 				Gap between this and next alignment: 1233593 to 1234679 (1085 bp)
 				Next Alignment: 1234679 1375056 NODE_2_length_161420_cov_66.4316_ID_578936 1 140378
 
-			Align 51: 1234679 1375056 NODE_2_length_161420_cov_66.4316_ID_578936 1 140378
+			Align 45: 1234679 1375056 NODE_2_length_161420_cov_66.4316_ID_578936 1 140378
 				Negative gap (overlap) between this and next alignment: 1375056 to 1375002 (-54 bp)
 				Next Alignment: 1375002 1392931 NODE_62_length_17930_cov_64.9729_ID_578889 1 17930
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1 to 56.
-			Align 52: 1375057 1392931 NODE_62_length_17930_cov_64.9729_ID_578889 56 17930
+			Align 46: 1375057 1392931 NODE_62_length_17930_cov_64.9729_ID_578889 56 17930
 				Gap between this and next alignment: 1392931 to 1394017 (1085 bp)
 				Next Alignment: 1394017 1415058 NODE_2_length_161420_cov_66.4316_ID_578936 161420 140379
 
-			Align 53: 1394017 1415058 NODE_2_length_161420_cov_66.4316_ID_578936 161420 140379
+			Align 47: 1394017 1415058 NODE_2_length_161420_cov_66.4316_ID_578936 161420 140379
 				Next Alignment: 1415059 1422023 NODE_89_length_6965_cov_64.2657_ID_579457 6965 1
 
-			Align 54: 1415059 1422023 NODE_89_length_6965_cov_64.2657_ID_579457 6965 1
+			Align 48: 1415059 1422023 NODE_89_length_6965_cov_64.2657_ID_579457 6965 1
 				Negative gap (overlap) between this and next alignment: 1422023 to 1421969 (-54 bp)
 				Next Alignment: 1421969 1427947 NODE_94_length_5979_cov_68.8425_ID_572416 5979 1
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 5979 to 5924.
-			Align 55: 1422024 1427947 NODE_94_length_5979_cov_68.8425_ID_572416 5924 1
+			Align 49: 1422024 1427947 NODE_94_length_5979_cov_68.8425_ID_572416 5924 1
 				Gap between this and next alignment: 1427947 to 1428217 (269 bp)
 				Next Alignment: 1428217 1432367 NODE_103_length_4151_cov_66.4011_ID_566718 4151 1
 
-			Align 56: 1428217 1432367 NODE_103_length_4151_cov_66.4011_ID_566718 4151 1
+			Align 50: 1428217 1432367 NODE_103_length_4151_cov_66.4011_ID_566718 4151 1
 				Gap between this and next alignment: 1432367 to 1434682 (2314 bp)
 				Next Alignment: 1434682 1445810 NODE_77_length_11129_cov_66.6315_ID_579451 11129 1
 
-			Align 57: 1434682 1445810 NODE_77_length_11129_cov_66.6315_ID_579451 11129 1
+			Align 51: 1434682 1445810 NODE_77_length_11129_cov_66.6315_ID_579451 11129 1
 				Gap between this and next alignment: 1445810 to 1445813 (2 bp)
 				Next Alignment: 1445813 1466800 NODE_32_length_57782_cov_65.6768_ID_578125 36795 57782
 
-			Align 58: 1445813 1466800 NODE_32_length_57782_cov_65.6768_ID_578125 36795 57782
+			Align 52: 1445813 1466800 NODE_32_length_57782_cov_65.6768_ID_578125 36795 57782
 				Gap between this and next alignment: 1466800 to 1466867 (66 bp)
 				Next Alignment: 1466867 1467961 NODE_122_length_1095_cov_196.553_ID_579283 1095 1
 
-			Align 59: 1466867 1467961 NODE_122_length_1095_cov_196.553_ID_579283 1095 1
+			Align 53: 1466867 1467961 NODE_122_length_1095_cov_196.553_ID_579283 1095 1
 				Gap between this and next alignment: 1467961 to 1469293 (1331 bp)
 				Next Alignment: 1469293 1491549 NODE_56_length_22257_cov_65.2067_ID_568255 22257 1
 
-			Align 60: 1469293 1491549 NODE_56_length_22257_cov_65.2067_ID_568255 22257 1
+			Align 54: 1469293 1491549 NODE_56_length_22257_cov_65.2067_ID_568255 22257 1
 				Negative gap (overlap) between this and next alignment: 1491549 to 1491445 (-104 bp)
 				Next Alignment: 1491445 1528238 NODE_32_length_57782_cov_65.6768_ID_578125 36794 1
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 36794 to 36689.
-			Align 61: 1491550 1528238 NODE_32_length_57782_cov_65.6768_ID_578125 36689 1
+			Align 55: 1491550 1528238 NODE_32_length_57782_cov_65.6768_ID_578125 36689 1
 				Negative gap (overlap) between this and next alignment: 1528238 to 1528184 (-54 bp)
 				Next Alignment: 1528184 1529174 NODE_125_length_991_cov_127.408_ID_579287 1 991
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1 to 56.
-			Align 62: 1528239 1529174 NODE_125_length_991_cov_127.408_ID_579287 56 991
+			Align 56: 1528239 1529174 NODE_125_length_991_cov_127.408_ID_579287 56 991
 				Negative gap (overlap) between this and next alignment: 1529174 to 1529120 (-54 bp)
 				Next Alignment: 1529120 1570724 NODE_41_length_41605_cov_69.3189_ID_564357 1 41605
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1 to 56.
-			Align 63: 1529175 1570724 NODE_41_length_41605_cov_69.3189_ID_564357 56 41605
+			Align 57: 1529175 1570724 NODE_41_length_41605_cov_69.3189_ID_564357 56 41605
 				Negative gap (overlap) between this and next alignment: 1570724 to 1570670 (-54 bp)
 				Next Alignment: 1570670 1571901 NODE_120_length_1232_cov_127.251_ID_579319 1232 1
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1232 to 1177.
-			Align 64: 1570725 1571901 NODE_120_length_1232_cov_127.251_ID_579319 1177 1
+			Align 58: 1570725 1571901 NODE_120_length_1232_cov_127.251_ID_579319 1177 1
 				Negative gap (overlap) between this and next alignment: 1571901 to 1571847 (-54 bp)
 				Next Alignment: 1571847 1632614 NODE_29_length_60768_cov_64.5876_ID_577754 60768 1
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 60768 to 60713.
-			Align 65: 1571902 1632614 NODE_29_length_60768_cov_64.5876_ID_577754 60713 1
+			Align 59: 1571902 1632614 NODE_29_length_60768_cov_64.5876_ID_577754 60713 1
 				Negative gap (overlap) between this and next alignment: 1632614 to 1632560 (-54 bp)
 				Next Alignment: 1632560 1633316 NODE_127_length_757_cov_123.128_ID_579461 757 1
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 757 to 702.
-			Align 66: 1632615 1633316 NODE_127_length_757_cov_123.128_ID_579461 702 1
+			Align 60: 1632615 1633316 NODE_127_length_757_cov_123.128_ID_579461 702 1
 				Negative gap (overlap) between this and next alignment: 1633316 to 1633262 (-54 bp)
 				Next Alignment: 1633262 1650897 NODE_63_length_17636_cov_75.9019_ID_575513 1 17636
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1 to 56.
-			Align 67: 1633317 1650897 NODE_63_length_17636_cov_75.9019_ID_575513 56 17636
+			Align 61: 1633317 1650897 NODE_63_length_17636_cov_75.9019_ID_575513 56 17636
 				Gap between this and next alignment: 1650897 to 1651494 (596 bp)
 				Next Alignment: 1651494 1793737 NODE_3_length_142244_cov_65.6647_ID_577007 1 142244
 
-			Align 68: 1651494 1793737 NODE_3_length_142244_cov_65.6647_ID_577007 1 142244
+			Align 62: 1651494 1793737 NODE_3_length_142244_cov_65.6647_ID_577007 1 142244
 				Gap between this and next alignment: 1793737 to 1793756 (18 bp)
 				Next Alignment: 1793756 1910793 NODE_9_length_117140_cov_65.3935_ID_575581 117038 1
 
-			Align 69: 1793756 1910793 NODE_9_length_117140_cov_65.3935_ID_575581 117038 1
+			Align 63: 1793756 1910793 NODE_9_length_117140_cov_65.3935_ID_575581 117038 1
 				Negative gap (overlap) between this and next alignment: 1910793 to 1910739 (-54 bp)
 				Next Alignment: 1910739 1912454 NODE_115_length_1716_cov_63.699_ID_579291 1 1716
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1 to 56.
-			Align 70: 1910794 1912454 NODE_115_length_1716_cov_63.699_ID_579291 56 1716
+			Align 64: 1910794 1912454 NODE_115_length_1716_cov_63.699_ID_579291 56 1716
 				Negative gap (overlap) between this and next alignment: 1912454 to 1912453 (-1 bp)
 				Next Alignment: 1912453 1926329 NODE_67_length_13877_cov_64.3757_ID_579395 13877 1
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 13877 to 13875.
-			Align 71: 1912455 1926329 NODE_67_length_13877_cov_64.3757_ID_579395 13875 1
+			Align 65: 1912455 1926329 NODE_67_length_13877_cov_64.3757_ID_579395 13875 1
 				Gap between this and next alignment: 1926329 to 1926347 (17 bp)
 				Next Alignment: 1926347 1936828 NODE_79_length_10482_cov_64.8336_ID_579361 10482 1
 
-			Align 72: 1926347 1936828 NODE_79_length_10482_cov_64.8336_ID_579361 10482 1
+			Align 66: 1926347 1936828 NODE_79_length_10482_cov_64.8336_ID_579361 10482 1
 				Negative gap (overlap) between this and next alignment: 1936828 to 1936774 (-54 bp)
 				Next Alignment: 1936774 1971603 NODE_43_length_34830_cov_65.1819_ID_577908 1 34830
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1 to 56.
-			Align 73: 1936829 1971603 NODE_43_length_34830_cov_65.1819_ID_577908 56 34830
+			Align 67: 1936829 1971603 NODE_43_length_34830_cov_65.1819_ID_577908 56 34830
 				Negative gap (overlap) between this and next alignment: 1971603 to 1971549 (-54 bp)
 				Next Alignment: 1971549 1978557 NODE_88_length_7009_cov_65.67_ID_579455 7009 1
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 7009 to 6954.
-			Align 74: 1971604 1978557 NODE_88_length_7009_cov_65.67_ID_579455 6954 1
+			Align 68: 1971604 1978557 NODE_88_length_7009_cov_65.67_ID_579455 6954 1
 				Negative gap (overlap) between this and next alignment: 1978557 to 1978503 (-54 bp)
 				Next Alignment: 1978503 1979220 NODE_128_length_718_cov_461.074_ID_579275 718 1
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 718 to 663.
-			Align 75: 1978558 1979220 NODE_128_length_718_cov_461.074_ID_579275 663 1
+			Align 69: 1978558 1979220 NODE_128_length_718_cov_461.074_ID_579275 663 1
 				Negative gap (overlap) between this and next alignment: 1979220 to 1979166 (-54 bp)
 				Next Alignment: 1979166 1992153 NODE_70_length_12988_cov_66.3947_ID_579192 12988 1
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 12988 to 12933.
-			Align 76: 1979221 1992153 NODE_70_length_12988_cov_66.3947_ID_579192 12933 1
+			Align 70: 1979221 1992153 NODE_70_length_12988_cov_66.3947_ID_579192 12933 1
 				Gap between this and next alignment: 1992153 to 1992527 (373 bp)
 				Next Alignment: 1992527 2066229 NODE_23_length_73758_cov_65.271_ID_577428 56 73758
 
-			Align 77: 1992527 2066229 NODE_23_length_73758_cov_65.271_ID_577428 56 73758
+			Align 71: 1992527 2066229 NODE_23_length_73758_cov_65.271_ID_577428 56 73758
 				Gap between this and next alignment: 2066229 to 2067246 (1016 bp)
 				Next Alignment: 2067246 2068995 NODE_114_length_1750_cov_63.4991_ID_567249 1750 1
 
-			Align 78: 2067246 2068995 NODE_114_length_1750_cov_63.4991_ID_567249 1750 1
+			Align 72: 2067246 2068995 NODE_114_length_1750_cov_63.4991_ID_567249 1750 1
 				Gap between this and next alignment: 2068995 to 2069592 (596 bp)
 				Next Alignment: 2069592 2101803 NODE_47_length_32212_cov_71.7216_ID_570948 32212 1
 
-			Align 79: 2069592 2101803 NODE_47_length_32212_cov_71.7216_ID_570948 32212 1
+			Align 73: 2069592 2101803 NODE_47_length_32212_cov_71.7216_ID_570948 32212 1
 				Gap between this and next alignment: 2101803 to 2102889 (1085 bp)
 				Next Alignment: 2102889 2182741 NODE_18_length_79853_cov_65.9053_ID_572682 79853 1
 
-			Align 80: 2102889 2182741 NODE_18_length_79853_cov_65.9053_ID_572682 79853 1
+			Align 74: 2102889 2182741 NODE_18_length_79853_cov_65.9053_ID_572682 79853 1
 				Gap between this and next alignment: 2182741 to 2183887 (1145 bp)
 				Next Alignment: 2183887 2288973 NODE_11_length_105087_cov_65.6875_ID_573383 1 105087
 
-			Align 81: 2183887 2288973 NODE_11_length_105087_cov_65.6875_ID_573383 1 105087
+			Align 75: 2183887 2288973 NODE_11_length_105087_cov_65.6875_ID_573383 1 105087
 				Gap between this and next alignment: 2288973 to 2290059 (1085 bp)
 				Next Alignment: 2290059 2308559 NODE_61_length_18501_cov_70.0702_ID_564956 1 18501
 
-			Align 82: 2290059 2308559 NODE_61_length_18501_cov_70.0702_ID_564956 1 18501
-				Next Alignment: 2308560 2333293 NODE_21_length_75920_cov_65.6319_ID_578842 51187 75920
-
-			Align 83: 2308560 2333293 NODE_21_length_75920_cov_65.6319_ID_578842 51187 75920
-				Gap between this and next alignment: 2333293 to 2333325 (31 bp)
+			Align 76: 2290059 2308559 NODE_61_length_18501_cov_70.0702_ID_564956 1 18501
+				Gap between this and next alignment: 2308559 to 2333325 (24765 bp)
 				Next Alignment: 2333325 2341338 NODE_85_length_8014_cov_65.5964_ID_579369 1 8014
 
-			Align 84: 2333325 2341338 NODE_85_length_8014_cov_65.5964_ID_579369 1 8014
+			Align 77: 2333325 2341338 NODE_85_length_8014_cov_65.5964_ID_579369 1 8014
 				Gap between this and next alignment: 2341338 to 2341384 (45 bp)
 				Next Alignment: 2341384 2348457 NODE_87_length_7074_cov_63.8919_ID_579331 1 7074
 
-			Align 85: 2341384 2348457 NODE_87_length_7074_cov_63.8919_ID_579331 1 7074
+			Align 78: 2341384 2348457 NODE_87_length_7074_cov_63.8919_ID_579331 1 7074
 				Negative gap (overlap) between this and next alignment: 2348457 to 2348457 (0 bp)
 				Next Alignment: 2348457 2421373 NODE_24_length_73015_cov_65.9474_ID_578331 72917 1
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 72917 to 72916.
-			Align 86: 2348458 2421373 NODE_24_length_73015_cov_65.9474_ID_578331 72916 1
+			Align 79: 2348458 2421373 NODE_24_length_73015_cov_65.9474_ID_578331 72916 1
 				Next Alignment: 2421374 2451985 NODE_49_length_30673_cov_64.6138_ID_578806 30612 1
 
-			Align 87: 2421374 2451985 NODE_49_length_30673_cov_64.6138_ID_578806 30612 1
-				Negative gap (overlap) between this and next alignment: 2451985 to 2451900 (-85 bp)
-				Next Alignment: 2451900 2503085 NODE_21_length_75920_cov_65.6319_ID_578842 51186 1
-
-			Previous gap was negative, modifying coordinates to ignore overlap
-				Moving contig start from 51186 to 51100.
-			Align 88: 2451986 2503085 NODE_21_length_75920_cov_65.6319_ID_578842 51100 1
-				Negative gap (overlap) between this and next alignment: 2503085 to 2503031 (-54 bp)
+			Align 80: 2421374 2451985 NODE_49_length_30673_cov_64.6138_ID_578806 30612 1
+				Gap between this and next alignment: 2451985 to 2503031 (51045 bp)
 				Next Alignment: 2503031 2514327 NODE_76_length_11297_cov_63.4948_ID_568790 11297 1
 
-			Previous gap was negative, modifying coordinates to ignore overlap
-				Moving contig start from 11297 to 11242.
-			Align 89: 2503086 2514327 NODE_76_length_11297_cov_63.4948_ID_568790 11242 1
+			Align 81: 2503031 2514327 NODE_76_length_11297_cov_63.4948_ID_568790 11297 1
 				Gap between this and next alignment: 2514327 to 2515563 (1235 bp)
 				Next Alignment: 2515563 2546035 NODE_50_length_30544_cov_66.4058_ID_568201 30544 70
 
-			Align 90: 2515563 2546035 NODE_50_length_30544_cov_66.4058_ID_568201 30544 70
+			Align 82: 2515563 2546035 NODE_50_length_30544_cov_66.4058_ID_568201 30544 70
 				Next Alignment: 2546036 2577794 NODE_26_length_66357_cov_65.0628_ID_577324 56 31814
 
-			Align 91: 2546036 2577794 NODE_26_length_66357_cov_65.0628_ID_577324 56 31814
+			Align 83: 2546036 2577794 NODE_26_length_66357_cov_65.0628_ID_577324 56 31814
 				Negative gap (overlap) between this and next alignment: 2577794 to 2577670 (-124 bp)
 				Next Alignment: 2577670 2612212 NODE_26_length_66357_cov_65.0628_ID_577324 66357 31815
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 66357 to 66232.
-			Align 92: 2577795 2612212 NODE_26_length_66357_cov_65.0628_ID_577324 66232 31815
+			Align 84: 2577795 2612212 NODE_26_length_66357_cov_65.0628_ID_577324 66232 31815
 				Negative gap (overlap) between this and next alignment: 2612212 to 2612126 (-86 bp)
 				Next Alignment: 2612126 2671484 NODE_31_length_59359_cov_65.2289_ID_574691 59359 1
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 59359 to 59272.
-			Align 93: 2612213 2671484 NODE_31_length_59359_cov_65.2289_ID_574691 59272 1
-				Negative gap (overlap) between this and next alignment: 2671484 to 2671430 (-54 bp)
-				Next Alignment: 2671430 2752615 NODE_1_length_264572_cov_65.6157_ID_576294 183387 264572
-
-			Previous gap was negative, modifying coordinates to ignore overlap
-				Moving contig start from 183387 to 183442.
-			Align 94: 2671485 2752615 NODE_1_length_264572_cov_65.6157_ID_576294 183442 264572
-				Gap between this and next alignment: 2752615 to 2757928 (5312 bp)
-				Next Alignment: 2757928 2771780 NODE_36_length_54689_cov_65.3782_ID_575882 54689 40837
-
-			Align 95: 2757928 2771780 NODE_36_length_54689_cov_65.3782_ID_575882 54689 40837
-				Next Alignment: 2771781 2800193 NODE_36_length_54689_cov_65.3782_ID_575882 12424 40836
-
-			Align 96: 2771781 2800193 NODE_36_length_54689_cov_65.3782_ID_575882 12424 40836
-				Next Alignment: 2800194 2812616 NODE_36_length_54689_cov_65.3782_ID_575882 12423 1
-
-			Align 97: 2800194 2812616 NODE_36_length_54689_cov_65.3782_ID_575882 12423 1
-				Next Alignment: 2812617 2817781 NODE_1_length_264572_cov_65.6157_ID_576294 183386 178221
-
-			Align 98: 2812617 2817781 NODE_1_length_264572_cov_65.6157_ID_576294 183386 178221
-				Gap between this and next alignment: 2817781 to 2818197 (415 bp)
-				Next Alignment: 2818197 2996415 NODE_1_length_264572_cov_65.6157_ID_576294 178220 1
-
-			Align 99: 2818197 2996415 NODE_1_length_264572_cov_65.6157_ID_576294 178220 1
-				Negative gap (overlap) between this and next alignment: 2996415 to 2996361 (-54 bp)
+			Align 85: 2612213 2671484 NODE_31_length_59359_cov_65.2289_ID_574691 59272 1
+				Gap between this and next alignment: 2671484 to 2996361 (324876 bp)
 				Next Alignment: 2996361 2997066 NODE_129_length_706_cov_437.367_ID_579269 1 706
 
-			Previous gap was negative, modifying coordinates to ignore overlap
-				Moving contig start from 1 to 56.
-			Align 100: 2996416 2997066 NODE_129_length_706_cov_437.367_ID_579269 56 706
+			Align 86: 2996361 2997066 NODE_129_length_706_cov_437.367_ID_579269 1 706
 				Gap between this and next alignment: 2997066 to 2997640 (573 bp)
 				Next Alignment: 2997640 3049490 NODE_28_length_62495_cov_64.6429_ID_579349 62495 10645
 
-			Align 101: 2997640 3049490 NODE_28_length_62495_cov_64.6429_ID_579349 62495 10645
+			Align 87: 2997640 3049490 NODE_28_length_62495_cov_64.6429_ID_579349 62495 10645
 				Gap between this and next alignment: 3049490 to 3049753 (262 bp)
 				Next Alignment: 3049753 3060079 NODE_28_length_62495_cov_64.6429_ID_579349 10327 1
 
-			Align 102: 3049753 3060079 NODE_28_length_62495_cov_64.6429_ID_579349 10327 1
+			Align 88: 3049753 3060079 NODE_28_length_62495_cov_64.6429_ID_579349 10327 1
 				Negative gap (overlap) between this and next alignment: 3060079 to 3060025 (-54 bp)
 				Next Alignment: 3060025 3114852 NODE_34_length_54897_cov_65.9487_ID_576139 1 54828
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1 to 56.
-			Align 103: 3060080 3114852 NODE_34_length_54897_cov_65.9487_ID_576139 56 54828
+			Align 89: 3060080 3114852 NODE_34_length_54897_cov_65.9487_ID_576139 56 54828
 				Negative gap (overlap) between this and next alignment: 3114852 to 3114850 (-2 bp)
 				Next Alignment: 3114850 3130200 NODE_66_length_15351_cov_66.7403_ID_564841 1 15351
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1 to 4.
-			Align 104: 3114853 3130200 NODE_66_length_15351_cov_66.7403_ID_564841 4 15351
+			Align 90: 3114853 3130200 NODE_66_length_15351_cov_66.7403_ID_564841 4 15351
 				Gap between this and next alignment: 3130200 to 3131286 (1085 bp)
 				Next Alignment: 3131286 3186168 NODE_35_length_54883_cov_64.9749_ID_561201 1 54883
 
-			Align 105: 3131286 3186168 NODE_35_length_54883_cov_64.9749_ID_561201 1 54883
+			Align 91: 3131286 3186168 NODE_35_length_54883_cov_64.9749_ID_561201 1 54883
 				Gap between this and next alignment: 3186168 to 3187372 (1203 bp)
 				Next Alignment: 3187372 3247044 NODE_30_length_59673_cov_65.2448_ID_577117 1 59673
 
-			Align 106: 3187372 3247044 NODE_30_length_59673_cov_65.2448_ID_577117 1 59673
+			Align 92: 3187372 3247044 NODE_30_length_59673_cov_65.2448_ID_577117 1 59673
 				Negative gap (overlap) between this and next alignment: 3247044 to 3246990 (-54 bp)
 				Next Alignment: 3246990 3365171 NODE_8_length_118237_cov_65.2633_ID_573207 118237 56
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 118237 to 118182.
-			Align 107: 3247045 3365171 NODE_8_length_118237_cov_65.2633_ID_573207 118182 56
+			Align 93: 3247045 3365171 NODE_8_length_118237_cov_65.2633_ID_573207 118182 56
 				Next Alignment: 3365172 3372544 NODE_86_length_7373_cov_66.5611_ID_579429 7373 1
 
-			Align 108: 3365172 3372544 NODE_86_length_7373_cov_66.5611_ID_579429 7373 1
+			Align 94: 3365172 3372544 NODE_86_length_7373_cov_66.5611_ID_579429 7373 1
 				Gap between this and next alignment: 3372544 to 3372598 (53 bp)
 				Next Alignment: 3372598 3376844 NODE_102_length_4247_cov_67.8838_ID_579305 4247 1
 
-			Align 109: 3372598 3376844 NODE_102_length_4247_cov_67.8838_ID_579305 4247 1
-				Negative gap (overlap) between this and next alignment: 3376844 to 3376790 (-54 bp)
-				Next Alignment: 3376790 3385845 NODE_12_length_97596_cov_65.5079_ID_576017 1 9056
-
-			Previous gap was negative, modifying coordinates to ignore overlap
-				Moving contig start from 1 to 56.
-			Align 110: 3376845 3385845 NODE_12_length_97596_cov_65.5079_ID_576017 56 9056
-				Gap between this and next alignment: 3385845 to 3388997 (3151 bp)
-				Next Alignment: 3388997 3393183 NODE_12_length_97596_cov_65.5079_ID_576017 13243 9057
-
-			Align 111: 3388997 3393183 NODE_12_length_97596_cov_65.5079_ID_576017 13243 9057
-				Gap between this and next alignment: 3393183 to 3394071 (887 bp)
+			Align 95: 3372598 3376844 NODE_102_length_4247_cov_67.8838_ID_579305 4247 1
+				Gap between this and next alignment: 3376844 to 3394071 (17226 bp)
 				Next Alignment: 3394071 3450688 NODE_33_length_56618_cov_65.7604_ID_569085 1 56618
 
-			Align 112: 3394071 3450688 NODE_33_length_56618_cov_65.7604_ID_569085 1 56618
+			Align 96: 3394071 3450688 NODE_33_length_56618_cov_65.7604_ID_569085 1 56618
 				Gap between this and next alignment: 3450688 to 3451667 (978 bp)
 				Next Alignment: 3451667 3452212 NODE_131_length_546_cov_49.8961_ID_579467 546 1
 
-			Align 113: 3451667 3452212 NODE_131_length_546_cov_49.8961_ID_579467 546 1
+			Align 97: 3451667 3452212 NODE_131_length_546_cov_49.8961_ID_579467 546 1
 				Next Alignment: 3452213 3455401 NODE_107_length_3189_cov_68.0377_ID_579629 3189 1
 
-			Align 114: 3452213 3455401 NODE_107_length_3189_cov_68.0377_ID_579629 3189 1
+			Align 98: 3452213 3455401 NODE_107_length_3189_cov_68.0377_ID_579629 3189 1
 				Negative gap (overlap) between this and next alignment: 3455401 to 3455347 (-54 bp)
 				Next Alignment: 3455347 3456367 NODE_124_length_1021_cov_127.759_ID_579407 1021 1
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1021 to 966.
-			Align 115: 3455402 3456367 NODE_124_length_1021_cov_127.759_ID_579407 966 1
+			Align 99: 3455402 3456367 NODE_124_length_1021_cov_127.759_ID_579407 966 1
 				Negative gap (overlap) between this and next alignment: 3456367 to 3456313 (-54 bp)
 				Next Alignment: 3456313 3468444 NODE_73_length_12180_cov_64.1828_ID_575332 12180 49
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 12180 to 12125.
-			Align 116: 3456368 3468444 NODE_73_length_12180_cov_64.1828_ID_575332 12125 49
+			Align 100: 3456368 3468444 NODE_73_length_12180_cov_64.1828_ID_575332 12125 49
 				Gap between this and next alignment: 3468444 to 3468453 (8 bp)
 				Next Alignment: 3468453 3472997 NODE_99_length_4545_cov_65.6731_ID_579405 1 4545
 
-			Align 117: 3468453 3472997 NODE_99_length_4545_cov_65.6731_ID_579405 1 4545
+			Align 101: 3468453 3472997 NODE_99_length_4545_cov_65.6731_ID_579405 1 4545
 				Negative gap (overlap) between this and next alignment: 3472997 to 3472994 (-3 bp)
 				Next Alignment: 3472994 3478173 NODE_97_length_5180_cov_64.7481_ID_579431 5180 1
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 5180 to 5176.
-			Align 118: 3472998 3478173 NODE_97_length_5180_cov_64.7481_ID_579431 5176 1
+			Align 102: 3472998 3478173 NODE_97_length_5180_cov_64.7481_ID_579431 5176 1
 				Gap between this and next alignment: 3478173 to 3478308 (134 bp)
 				Next Alignment: 3478308 3484481 NODE_93_length_6174_cov_65.2195_ID_579403 6174 1
 
-			Align 119: 3478308 3484481 NODE_93_length_6174_cov_65.2195_ID_579403 6174 1
+			Align 103: 3478308 3484481 NODE_93_length_6174_cov_65.2195_ID_579403 6174 1
 				Negative gap (overlap) between this and next alignment: 3484481 to 3484427 (-54 bp)
 				Next Alignment: 3484427 3497677 NODE_68_length_13251_cov_67.1022_ID_579073 1 13251
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1 to 56.
-			Align 120: 3484482 3497677 NODE_68_length_13251_cov_67.1022_ID_579073 56 13251
-				Gap between this and next alignment: 3497677 to 3499180 (1502 bp)
-				Next Alignment: 3499180 3583532 NODE_12_length_97596_cov_65.5079_ID_576017 13244 97596
-
-			Align 121: 3499180 3583532 NODE_12_length_97596_cov_65.5079_ID_576017 13244 97596
-				Gap between this and next alignment: 3583532 to 3584142 (609 bp)
+			Align 104: 3484482 3497677 NODE_68_length_13251_cov_67.1022_ID_579073 56 13251
+				Gap between this and next alignment: 3497677 to 3584142 (86464 bp)
 				Next Alignment: 3584142 3619399 NODE_42_length_35258_cov_65.6974_ID_562364 1 35258
 
-			Align 122: 3584142 3619399 NODE_42_length_35258_cov_65.6974_ID_562364 1 35258
+			Align 105: 3584142 3619399 NODE_42_length_35258_cov_65.6974_ID_562364 1 35258
 				Negative gap (overlap) between this and next alignment: 3619399 to 3619345 (-54 bp)
 				Next Alignment: 3619345 3621266 NODE_113_length_1922_cov_200.055_ID_579341 1 1922
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1 to 56.
-			Align 123: 3619400 3621266 NODE_113_length_1922_cov_200.055_ID_579341 56 1922
+			Align 106: 3619400 3621266 NODE_113_length_1922_cov_200.055_ID_579341 56 1922
 				Gap between this and next alignment: 3621266 to 3622452 (1185 bp)
 				Next Alignment: 3622452 3624320 NODE_106_length_3297_cov_91.6018_ID_567619 1430 3297
 
-			Align 124: 3622452 3624320 NODE_106_length_3297_cov_91.6018_ID_567619 1430 3297
+			Align 107: 3622452 3624320 NODE_106_length_3297_cov_91.6018_ID_567619 1430 3297
 				Gap between this and next alignment: 3624320 to 3625423 (1102 bp)
 				Next Alignment: 3625423 3652090 NODE_53_length_26668_cov_63.8094_ID_563499 26668 1
 
-			Align 125: 3625423 3652090 NODE_53_length_26668_cov_63.8094_ID_563499 26668 1
+			Align 108: 3625423 3652090 NODE_53_length_26668_cov_63.8094_ID_563499 26668 1
 				Gap between this and next alignment: 3652090 to 3653176 (1085 bp)
 				Next Alignment: 3653176 3666259 NODE_69_length_13084_cov_66.3914_ID_565248 13084 1
 
-			Align 126: 3653176 3666259 NODE_69_length_13084_cov_66.3914_ID_565248 13084 1
+			Align 109: 3653176 3666259 NODE_69_length_13084_cov_66.3914_ID_565248 13084 1
 				Gap between this and next alignment: 3666259 to 3667382 (1122 bp)
 				Next Alignment: 3667382 3692596 NODE_54_length_25317_cov_65.667_ID_573632 25317 103
 
-			Align 127: 3667382 3692596 NODE_54_length_25317_cov_65.667_ID_573632 25317 103
+			Align 110: 3667382 3692596 NODE_54_length_25317_cov_65.667_ID_573632 25317 103
 				Gap between this and next alignment: 3692596 to 3694617 (2020 bp)
 				Next Alignment: 3694617 3764363 NODE_25_length_69747_cov_65.6715_ID_568701 1 69747
 
-			Align 128: 3694617 3764363 NODE_25_length_69747_cov_65.6715_ID_568701 1 69747
+			Align 111: 3694617 3764363 NODE_25_length_69747_cov_65.6715_ID_568701 1 69747
 				Gap between this and next alignment: 3764363 to 3764411 (47 bp)
 				Next Alignment: 3764411 3764931 NODE_132_length_521_cov_185.601_ID_579445 1 521
 
-			Align 129: 3764411 3764931 NODE_132_length_521_cov_185.601_ID_579445 1 521
+			Align 112: 3764411 3764931 NODE_132_length_521_cov_185.601_ID_579445 1 521
 				Gap between this and next alignment: 3764931 to 3765768 (836 bp)
 				Next Alignment: 3765768 3767196 NODE_106_length_3297_cov_91.6018_ID_567619 1 1429
 
-			Align 130: 3765768 3767196 NODE_106_length_3297_cov_91.6018_ID_567619 1 1429
+			Align 113: 3765768 3767196 NODE_106_length_3297_cov_91.6018_ID_567619 1 1429
 				Gap between this and next alignment: 3767196 to 3767521 (324 bp)
 				Next Alignment: 3767521 3862058 NODE_13_length_94538_cov_64.7736_ID_570868 1 94538
 
-			Align 131: 3767521 3862058 NODE_13_length_94538_cov_64.7736_ID_570868 1 94538
+			Align 114: 3767521 3862058 NODE_13_length_94538_cov_64.7736_ID_570868 1 94538
 				Negative gap (overlap) between this and next alignment: 3862058 to 3862004 (-54 bp)
 				Next Alignment: 3862004 3941533 NODE_19_length_79530_cov_66.0586_ID_570793 79530 1
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 79530 to 79475.
-			Align 132: 3862059 3941533 NODE_19_length_79530_cov_66.0586_ID_570793 79475 1
+			Align 115: 3862059 3941533 NODE_19_length_79530_cov_66.0586_ID_570793 79475 1
 				Gap between this and next alignment: 3941533 to 3941662 (128 bp)
 				Next Alignment: 3941662 3943363 NODE_116_length_1702_cov_462.933_ID_579267 1 1702
 
-			Align 133: 3941662 3943363 NODE_116_length_1702_cov_462.933_ID_579267 1 1702
+			Align 116: 3941662 3943363 NODE_116_length_1702_cov_462.933_ID_579267 1 1702
 				Gap between this and next alignment: 3943363 to 3943684 (320 bp)
 				Next Alignment: 3943684 3946824 NODE_109_length_3141_cov_446.949_ID_579277 3141 1
 
-			Align 134: 3943684 3946824 NODE_109_length_3141_cov_446.949_ID_579277 3141 1
+			Align 117: 3943684 3946824 NODE_109_length_3141_cov_446.949_ID_579277 3141 1
 				Gap between this and next alignment: 3946824 to 3946895 (70 bp)
 				Next Alignment: 3946895 4035225 NODE_17_length_88331_cov_65.8361_ID_568882 1 88331
 
-			Align 135: 3946895 4035225 NODE_17_length_88331_cov_65.8361_ID_568882 1 88331
+			Align 118: 3946895 4035225 NODE_17_length_88331_cov_65.8361_ID_568882 1 88331
 				Gap between this and next alignment: 4035225 to 4040746 (5520 bp)
 				Next Alignment: 4040746 4094392 NODE_37_length_53647_cov_64.6131_ID_562027 1 53647
 
-			Align 136: 4040746 4094392 NODE_37_length_53647_cov_64.6131_ID_562027 1 53647
+			Align 119: 4040746 4094392 NODE_37_length_53647_cov_64.6131_ID_562027 1 53647
 				Gap between this and next alignment: 4094392 to 4094430 (37 bp)
 				Next Alignment: 4094430 4102486 NODE_83_length_8057_cov_68.6572_ID_579351 1 8057
 
-			Align 137: 4094430 4102486 NODE_83_length_8057_cov_68.6572_ID_579351 1 8057
+			Align 120: 4094430 4102486 NODE_83_length_8057_cov_68.6572_ID_579351 1 8057
 				Gap between this and next alignment: 4102486 to 4102505 (18 bp)
 				Next Alignment: 4102505 4107692 NODE_96_length_5188_cov_67.3495_ID_579427 5188 1
 
-			Align 138: 4102505 4107692 NODE_96_length_5188_cov_67.3495_ID_579427 5188 1
+			Align 121: 4102505 4107692 NODE_96_length_5188_cov_67.3495_ID_579427 5188 1
 				Gap between this and next alignment: 4107692 to 4107707 (14 bp)
 				Next Alignment: 4107707 4112286 NODE_98_length_4580_cov_66.2225_ID_579437 1 4580
 
-			Align 139: 4107707 4112286 NODE_98_length_4580_cov_66.2225_ID_579437 1 4580
+			Align 122: 4107707 4112286 NODE_98_length_4580_cov_66.2225_ID_579437 1 4580
 				Gap between this and next alignment: 4112286 to 4117765 (5478 bp)
 				Next Alignment: 4117765 4124644 NODE_90_length_6880_cov_64.7848_ID_566348 6880 1
 
-			Align 140: 4117765 4124644 NODE_90_length_6880_cov_64.7848_ID_566348 6880 1
+			Align 123: 4117765 4124644 NODE_90_length_6880_cov_64.7848_ID_566348 6880 1
 				Negative gap (overlap) between this and next alignment: 4124644 to 4124644 (0 bp)
 				Next Alignment: 4124644 4168521 NODE_38_length_43987_cov_65.2372_ID_578445 110 43987
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 110 to 111.
-			Align 141: 4124645 4168521 NODE_38_length_43987_cov_65.2372_ID_578445 111 43987
+			Align 124: 4124645 4168521 NODE_38_length_43987_cov_65.2372_ID_578445 111 43987
 				Negative gap (overlap) between this and next alignment: 4168521 to 4168467 (-54 bp)
 				Next Alignment: 4168467 4171788 NODE_105_length_3322_cov_66.2498_ID_579363 1 3322
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1 to 56.
-			Align 142: 4168522 4171788 NODE_105_length_3322_cov_66.2498_ID_579363 56 3322
+			Align 125: 4168522 4171788 NODE_105_length_3322_cov_66.2498_ID_579363 56 3322
 				Gap between this and next alignment: 4171788 to 4171866 (77 bp)
 				Next Alignment: 4171866 4176143 NODE_101_length_4278_cov_63.9811_ID_579371 4278 1
 
-			Align 143: 4171866 4176143 NODE_101_length_4278_cov_63.9811_ID_579371 4278 1
+			Align 126: 4171866 4176143 NODE_101_length_4278_cov_63.9811_ID_579371 4278 1
 				Gap between this and next alignment: 4176143 to 4177055 (911 bp)
 				Next Alignment: 4177055 4208055 NODE_48_length_31003_cov_65.771_ID_568417 31003 1
 
-			Align 144: 4177055 4208055 NODE_48_length_31003_cov_65.771_ID_568417 31003 1
+			Align 127: 4177055 4208055 NODE_48_length_31003_cov_65.771_ID_568417 31003 1
 				Gap between this and next alignment: 4208055 to 4213110 (5054 bp)
 				Next Alignment: 4213110 4296209 NODE_5_length_135654_cov_66.1773_ID_577993 135654 52557
 
-			Align 145: 4213110 4296209 NODE_5_length_135654_cov_66.1773_ID_577993 135654 52557
+			Align 128: 4213110 4296209 NODE_5_length_135654_cov_66.1773_ID_577993 135654 52557
 				Gap between this and next alignment: 4296209 to 4296434 (224 bp)
 				Next Alignment: 4296434 4348894 NODE_5_length_135654_cov_66.1773_ID_577993 52556 96
 
-			Align 146: 4296434 4348894 NODE_5_length_135654_cov_66.1773_ID_577993 52556 96
+			Align 129: 4296434 4348894 NODE_5_length_135654_cov_66.1773_ID_577993 52556 96
 				Negative gap (overlap) between this and next alignment: 4348894 to 4348894 (0 bp)
 				Next Alignment: 4348894 4454912 NODE_10_length_106073_cov_65.3968_ID_577949 106019 1
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 106019 to 106018.
-			Align 147: 4348895 4454912 NODE_10_length_106073_cov_65.3968_ID_577949 106018 1
+			Align 130: 4348895 4454912 NODE_10_length_106073_cov_65.3968_ID_577949 106018 1
 				Negative gap (overlap) between this and next alignment: 4454912 to 4454858 (-54 bp)
 				Next Alignment: 4454858 4498241 NODE_40_length_43384_cov_65.5322_ID_567882 1 43384
 
 			Previous gap was negative, modifying coordinates to ignore overlap
 				Moving contig start from 1 to 56.
-			Align 148: 4454913 4498241 NODE_40_length_43384_cov_65.5322_ID_567882 56 43384
+			Align 131: 4454913 4498241 NODE_40_length_43384_cov_65.5322_ID_567882 56 43384
 				Gap between this and next alignment: 4498241 to 4499457 (1215 bp)
 				Next Alignment: 4499457 4507518 NODE_82_length_8062_cov_65.1847_ID_571614 8062 1
 
-			Align 149: 4499457 4507518 NODE_82_length_8062_cov_65.1847_ID_571614 8062 1
+			Align 132: 4499457 4507518 NODE_82_length_8062_cov_65.1847_ID_571614 8062 1
 				Gap between this and next alignment: 4507518 to 4508625 (1106 bp)
 				Next Alignment: 4508625 4637219 NODE_6_length_128670_cov_65.5389_ID_578481 1 128595
 
-			Align 150: 4508625 4637219 NODE_6_length_128670_cov_65.5389_ID_578481 1 128595
-				Next Alignment: 4637220 4641648 NODE_100_length_4500_cov_66.7071_ID_574904 72 4500
-
-			Align 151: 4637220 4641648 NODE_100_length_4500_cov_66.7071_ID_574904 72 4500
-			END in gap: 4641648 to 4641652 (4 bp)
+			Align 133: 4508625 4637219 NODE_6_length_128670_cov_65.5389_ID_578481 1 128595
+			END in gap: 4637219 to 4641652 (4433 bp)
 
 Analysis is finished!
 Founded SNPs were written into /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0995/runs_per_reference/Ecoli_0995/contigs_reports/nucmer_output/scaffolds.used_snps
 
 Results:
-	Local Misassemblies: 3
-	Misassemblies: 14
-		Relocations: 11
+	Local Misassemblies: 2
+	Misassemblies: 5
+		Relocations: 4
 		Translocations: 0
-		Inversions: 3
-	Misassembled Contigs: 11
-	Misassembled Contig Bases: 1018010
+		Inversions: 1
+	Misassembled Contigs: 5
+	Misassembled Contig Bases: 310368
 	Misassemblies Inter-Contig Overlap: 0
 Uncovered Regions: 0 (0)
-Unaligned Contigs: 0 + 2 part
+Unaligned Contigs: 0 + 0 part
 Partially Unaligned Contigs with Misassemblies: 0
-Unaligned Contig Bases: 126
+Unaligned Contig Bases: 0
 
 Ambiguously Mapped Contigs: 13
 Total Bases in Ambiguously Mapped Contigs: 16844
 Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
 
-	Covered Bases: 4561188
+	Covered Bases: 3846960
 
-	SNPs: 25262
-	Insertions: 123
-	Deletions: 10
+	SNPs: 21400
+	Insertions: 121
+	Deletions: 9
 
-	Positive Gaps: 80
-		Internal Gaps:  6
+	Positive Gaps: 78
+		Internal Gaps:  4
 		External Gaps:  74
-		External Gap Total:  75989
-		External Gap Average: 1027
-	Negative Gaps: 55
+		External Gap Total:  793783
+		External Gap Average: 10727
+	Negative Gaps: 48
 		Internal Overlaps:  2
-		External Overlaps:  53
-		External Overlaps Total: -2635
+		External Overlaps:  46
+		External Overlaps Total: -2280
 		External Overlaps Average: -50
 	Contigs with Redundant Alignments: 0 (0)

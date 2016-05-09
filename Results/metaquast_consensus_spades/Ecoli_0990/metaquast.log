@@ -1,4 +1,4 @@
-/home/afritz/bin/quast-3.2/metaquast.py.OLD -R /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/Ecoli_0990.fa,/net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/Ecoli_0920.fa -o /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990 /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/Ecoli_0990_spades/scaffolds.fasta
+/home/afritz/bin/quast-3.2/metaquast.py.OLD -R /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/Ecoli_ancestor.fa,/net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/Ecoli_0990.fa -o /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990 /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/Ecoli_0990_spades/scaffolds.fasta
 
 Version: 3.2, build 26.11.2015 18:55
 
@@ -7,15 +7,15 @@ System information:
   Python version: 2.7.9
   CPUs number: 60
 
-Started: 2016-05-09 09:41:31
+Started: 2016-05-09 11:25:09
 
 Logging to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/metaquast.log
 
 NOTICE: Maximum number of threads is set to 15 (use --threads option to set it manually)
 
 Reference(s):
+  /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/Ecoli_ancestor.fa ==> Ecoli_ancestor
   /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/Ecoli_0990.fa ==> Ecoli_0990
-  /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/Ecoli_0920.fa ==> Ecoli_0920
   All references combined in combined_reference.fasta
 
 Contigs:
@@ -27,15 +27,15 @@ Starting quast.py for the combined reference...
 Partitioning contigs into bins aligned to each reference..
   processing scaffolds
 
+Starting quast.py for the contigs aligned to Ecoli_ancestor
+(logging to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_ancestor/quast.log)
+
 Starting quast.py for the contigs aligned to Ecoli_0990
 (logging to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/runs_per_reference/Ecoli_0990/quast.log)
 
-No contigs were aligned to the reference Ecoli_0920, skipping..
+Skipping quast.py for the contigs not aligned anywhere (everything is aligned!)
 
-Starting quast.py for the contigs not aligned anywhere...
-(logging to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/not_aligned/quast.log)
-
-2016-05-09 10:00:00
+2016-05-09 11:29:08
 Summarizing results...
   Drawing # contigs metaQUAST summary plot...
   Drawing Largest contig metaQUAST summary plot...
@@ -59,8 +59,8 @@ Summarizing results...
 MetaQUAST finished.
   Log saved to /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0990/metaquast.log
 
-Finished: 2016-05-09 10:00:08
-Elapsed time: 0:18:36.602761
+Finished: 2016-05-09 11:29:18
+Elapsed time: 0:04:08.426969
 Total NOTICEs: 8; WARNINGs: 0; non-fatal ERRORs: 0
 
 Thank you for using QUAST!
