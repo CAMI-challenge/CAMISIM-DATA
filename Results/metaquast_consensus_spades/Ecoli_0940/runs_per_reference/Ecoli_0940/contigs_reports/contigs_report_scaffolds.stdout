@@ -1,0 +1,1949 @@
+Aligning contigs to reference...
+	Running Nucmer
+Parsing coords...
+Loading reference...
+	Loaded [Ecoli_0940_Taxon009_]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 1
+	Total Region Length: 4641652
+Analyzing contigs...
+CONTIG: NODE_1_length_600951_cov_42.6096_ID_269496 (600951bp)
+Top Length: 600951  Top ID: 99.47
+		Marking as insignificant: 3191022 3191711 | 267794 267105 | 690 690 | 95.65 | Ecoli_0940_Taxon009_ NODE_1_length_600951_cov_42.6096_ID_269496
+		Marking as insignificant: 3220324 3221026 | 267092 267794 | 703 703 | 95.02 | Ecoli_0940_Taxon009_ NODE_1_length_600951_cov_42.6096_ID_269496
+		One align captures most of this contig: 1406990 2007940 | 600951 1 | 600951 600951 | 99.47 | Ecoli_0940_Taxon009_ NODE_1_length_600951_cov_42.6096_ID_269496
+
+CONTIG: NODE_2_length_400160_cov_44.5747_ID_274764 (400160bp)
+Top Length: 336466  Top ID: 99.39
+		Skipping redundant alignment 316346 316483 | 24440 24577 | 138 138 | 97.1 | Ecoli_0940_Taxon009_ NODE_2_length_400160_cov_44.5747_ID_274764
+		Skipping redundant alignment 12427 12969 | 121760 121218 | 543 543 | 95.03 | Ecoli_0940_Taxon009_ NODE_2_length_400160_cov_44.5747_ID_274764
+		Skipping redundant alignment 544820 546174 | 122582 121228 | 1355 1355 | 95.06 | Ecoli_0940_Taxon009_ NODE_2_length_400160_cov_44.5747_ID_274764
+		Skipping redundant alignment 15918 16723 | 121759 122564 | 806 806 | 95.41 | Ecoli_0940_Taxon009_ NODE_2_length_400160_cov_44.5747_ID_274764
+		Skipping redundant alignment 177280 178048 | 222659 221891 | 769 769 | 95.06 | Ecoli_0940_Taxon009_ NODE_2_length_400160_cov_44.5747_ID_274764
+		Skipping redundant alignment 3583413 3584195 | 222674 221892 | 783 783 | 95.15 | Ecoli_0940_Taxon009_ NODE_2_length_400160_cov_44.5747_ID_274764
+		Skipping redundant alignment 188751 189518 | 222659 221892 | 768 768 | 95.18 | Ecoli_0940_Taxon009_ NODE_2_length_400160_cov_44.5747_ID_274764
+		Skipping redundant alignment 391846 392968 | 384279 385401 | 1123 1123 | 95.28 | Ecoli_0940_Taxon009_ NODE_2_length_400160_cov_44.5747_ID_274764
+		Skipping redundant alignment 1308252 1309373 | 385400 384279 | 1122 1122 | 96.08 | Ecoli_0940_Taxon009_ NODE_2_length_400160_cov_44.5747_ID_274764
+		Skipping redundant alignment 462855 463976 | 384280 385401 | 1122 1122 | 96.52 | Ecoli_0940_Taxon009_ NODE_2_length_400160_cov_44.5747_ID_274764
+		This contig is misassembled. 12 total aligns.
+			Excluding internal overlap of size 559 between Alignment 1 and 2:  2125765 2190017 | 400160 335908 | 64253 64253 --> 2125765 2189458 | 400160 336467 | 63694 63694
+			Real Alignment 1: 2189572 2526037 | 336466 1 | 336466 336466 | 99.39 | Ecoli_0940_Taxon009_ NODE_2_length_400160_cov_44.5747_ID_274764
+			  Gap between these two alignments (local misassembly). Inconsistency = 113 
+			Real Alignment 2: 2125765 2189458 | 400160 336467 | 63694 63694 | 99.4 | Ecoli_0940_Taxon009_ NODE_2_length_400160_cov_44.5747_ID_274764
+
+CONTIG: NODE_3_length_370672_cov_44.2904_ID_279962 (370672bp)
+Top Length: 370672  Top ID: 99.4
+		Marking as insignificant: 3583431 3584199 | 355378 356146 | 769 769 | 95.32 | Ecoli_0940_Taxon009_ NODE_3_length_370672_cov_44.2904_ID_279962
+		One align captures most of this contig: 694405 1065075 | 1 370672 | 370671 370672 | 99.4 | Ecoli_0940_Taxon009_ NODE_3_length_370672_cov_44.2904_ID_279962
+
+CONTIG: NODE_4_length_336621_cov_42.0451_ID_308841 (336621bp)
+Top Length: 336621  Top ID: 99.52
+		One align captures most of this contig: 2821563 3158183 | 336621 1 | 336621 336621 | 99.52 | Ecoli_0940_Taxon009_ NODE_4_length_336621_cov_42.0451_ID_308841
+
+CONTIG: NODE_5_length_332301_cov_41.6514_ID_296349 (332301bp)
+Top Length: 46647  Top ID: 95.47
+		Skipping redundant alignment 3191020 3191153 | 332168 332301 | 134 134 | 97.76 | Ecoli_0940_Taxon009_ NODE_5_length_332301_cov_41.6514_ID_296349
+		This contig is misassembled. 22 total aligns.
+			Real Alignment 1: 2290118 2302289 | 12171 1 | 12172 12171 | 95.52 | Ecoli_0940_Taxon009_ NODE_5_length_332301_cov_41.6514_ID_296349
+			  Extensive misassembly ( relocation, inconsistency = -401843 ) between these two alignments
+			Real Alignment 2: 1902173 1911862 | 13898 23587 | 9690 9690 | 95.88 | Ecoli_0940_Taxon009_ NODE_5_length_332301_cov_41.6514_ID_296349
+			  Extensive misassembly ( relocation, inconsistency = -3512 ) between these two alignments
+			Real Alignment 3: 1925543 1931613 | 46850 40780 | 6071 6071 | 95.45 | Ecoli_0940_Taxon009_ NODE_5_length_332301_cov_41.6514_ID_296349
+			  Extensive misassembly ( relocation, inconsistency = 23370 ) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 4 and 5:  1891654 1902172 | 57369 46851 | 10519 10519 --> 1891656 1902172 | 57367 46851 | 10517 10517
+			Real Alignment 4: 1891656 1902172 | 57367 46851 | 10517 10517 | 95.37 | Ecoli_0940_Taxon009_ NODE_5_length_332301_cov_41.6514_ID_296349
+			  Extensive misassembly ( relocation, inconsistency = -50989 ) between these two alignments
+			Real Alignment 5: 1931615 1942644 | 68397 57368 | 11030 11030 | 96.0 | Ecoli_0940_Taxon009_ NODE_5_length_332301_cov_41.6514_ID_296349
+			  Extensive misassembly ( relocation, inconsistency = -53855 ) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 6 and 7:  1888791 1891655 | 68399 71263 | 2865 2865 --> 1888791 1891653 | 68399 71261 | 2863 2863
+			Real Alignment 6: 1888791 1891653 | 68399 71261 | 2863 2863 | 96.06 | Ecoli_0940_Taxon009_ NODE_5_length_332301_cov_41.6514_ID_296349
+			  Extensive misassembly ( relocation, inconsistency = 50989 ) between these two alignments
+			Real Alignment 7: 1942643 1977893 | 71262 106512 | 35251 35251 | 95.56 | Ecoli_0940_Taxon009_ NODE_5_length_332301_cov_41.6514_ID_296349
+			  Extensive misassembly ( relocation, inconsistency = -66033 ) between these two alignments
+			Real Alignment 8: 1911863 1917465 | 112117 106515 | 5603 5603 | 95.4 | Ecoli_0940_Taxon009_ NODE_5_length_332301_cov_41.6514_ID_296349
+			  Extensive misassembly ( relocation, inconsistency = 40264 ) between these two alignments
+			Real Alignment 9: 1857578 1871598 | 126138 112118 | 14021 14021 | 95.13 | Ecoli_0940_Taxon009_ NODE_5_length_332301_cov_41.6514_ID_296349
+			  Extensive misassembly ( relocation, inconsistency = -206489 ) between these two alignments
+			Real Alignment 10: 1665110 1669889 | 126139 130918 | 4780 4780 | 95.65 | Ecoli_0940_Taxon009_ NODE_5_length_332301_cov_41.6514_ID_296349
+			  Extensive misassembly ( relocation, inconsistency = 16994 ) between these two alignments
+			Real Alignment 11: 1686884 1704275 | 148310 130919 | 17392 17392 | 95.47 | Ecoli_0940_Taxon009_ NODE_5_length_332301_cov_41.6514_ID_296349
+			  Extensive misassembly ( relocation, inconsistency = -124046 ) between these two alignments
+			Real Alignment 12: 1805589 1810926 | 153651 148314 | 5338 5338 | 96.01 | Ecoli_0940_Taxon009_ NODE_5_length_332301_cov_41.6514_ID_296349
+			  Extensive misassembly ( relocation, inconsistency = 90949 ) between these two alignments
+			Real Alignment 13: 1704279 1714637 | 164012 153654 | 10359 10359 | 95.52 | Ecoli_0940_Taxon009_ NODE_5_length_332301_cov_41.6514_ID_296349
+			  Extensive misassembly ( relocation, inconsistency = -44751 ) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 14 and 15:  1669890 1671468 | 164016 165594 | 1579 1579 --> 1669890 1671466 | 164016 165592 | 1577 1577
+			Real Alignment 14: 1669890 1671466 | 164016 165592 | 1577 1577 | 96.07 | Ecoli_0940_Taxon009_ NODE_5_length_332301_cov_41.6514_ID_296349
+			  Extensive misassembly ( relocation, inconsistency = 12094 ) between these two alignments
+			Real Alignment 15: 1683561 1686523 | 168554 165593 | 2963 2962 | 96.76 | Ecoli_0940_Taxon009_ NODE_5_length_332301_cov_41.6514_ID_296349
+			  Extensive misassembly ( relocation, inconsistency = 111951 ) between these two alignments
+			Real Alignment 16: 1810930 1857576 | 181010 227656 | 46647 46647 | 95.47 | Ecoli_0940_Taxon009_ NODE_5_length_332301_cov_41.6514_ID_296349
+			  Extensive misassembly ( relocation, inconsistency = -209729 ) between these two alignments
+			Real Alignment 17: 1647848 1665110 | 244919 227657 | 17263 17263 | 95.68 | Ecoli_0940_Taxon009_ NODE_5_length_332301_cov_41.6514_ID_296349
+			  Extensive misassembly ( relocation, inconsistency = -125468 ) between these two alignments
+			Real Alignment 18: 1746213 1773315 | 272022 244920 | 27103 27103 | 95.3 | Ecoli_0940_Taxon009_ NODE_5_length_332301_cov_41.6514_ID_296349
+			  Extensive misassembly ( relocation, inconsistency = -2367 ) between these two alignments
+			Real Alignment 19: 1773316 1802247 | 274390 303321 | 28932 28932 | 95.1 | Ecoli_0940_Taxon009_ NODE_5_length_332301_cov_41.6514_ID_296349
+			  Extensive misassembly ( inversion ) between these two alignments
+			Real Alignment 20: 1802248 1805586 | 307375 304037 | 3339 3339 | 96.23 | Ecoli_0940_Taxon009_ NODE_5_length_332301_cov_41.6514_ID_296349
+			  Extensive misassembly ( relocation, inconsistency = -90234 ) between these two alignments
+			Real Alignment 21: 1715353 1740278 | 307376 332301 | 24926 24926 | 95.07 | Ecoli_0940_Taxon009_ NODE_5_length_332301_cov_41.6514_ID_296349
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_6_length_313919_cov_42.4705_ID_283189 (313919bp)
+Top Length: 65859  Top ID: 95.65
+		This contig is misassembled. 16 total aligns.
+			Real Alignment 1: 687553 692174 | 14101 18722 | 4622 4622 | 95.74 | Ecoli_0940_Taxon009_ NODE_6_length_313919_cov_42.4705_ID_283189
+			  Extensive misassembly ( relocation, inconsistency = 36057 ) between these two alignments
+			Real Alignment 2: 728232 732629 | 18723 23120 | 4398 4398 | 95.68 | Ecoli_0940_Taxon009_ NODE_6_length_313919_cov_42.4705_ID_283189
+			  Extensive misassembly ( relocation, inconsistency = -55550 ) between these two alignments
+			Real Alignment 3: 677080 687552 | 33593 23121 | 10473 10473 | 95.39 | Ecoli_0940_Taxon009_ NODE_6_length_313919_cov_42.4705_ID_283189
+			  Extensive misassembly ( relocation, inconsistency = 81084 ) between these two alignments
+			Real Alignment 4: 768640 782466 | 33597 47424 | 13827 13828 | 95.51 | Ecoli_0940_Taxon009_ NODE_6_length_313919_cov_42.4705_ID_283189
+			  Extensive misassembly ( inversion ) between these two alignments
+			Real Alignment 5: 782475 789880 | 54838 47433 | 7406 7406 | 95.17 | Ecoli_0940_Taxon009_ NODE_6_length_313919_cov_42.4705_ID_283189
+			  Extensive misassembly ( inversion ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 6 and 7:  855748 860589 | 125547 120706 | 4842 4842 --> 855748 860588 | 125547 120707 | 4841 4841
+			Real Alignment 6: 789890 855748 | 54848 120706 | 65859 65859 | 95.65 | Ecoli_0940_Taxon009_ NODE_6_length_313919_cov_42.4705_ID_283189
+			  Extensive misassembly ( inversion ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 7 and 8:  855748 860588 | 125547 120707 | 4841 4841 --> 855749 860588 | 125546 120707 | 4840 4840
+			Real Alignment 7: 855749 860588 | 125546 120707 | 4840 4840 | 95.44 | Ecoli_0940_Taxon009_ NODE_6_length_313919_cov_42.4705_ID_283189
+			  Extensive misassembly ( inversion ) between these two alignments
+			Excluding internal overlap of size 9 between Alignment 8 and 9:  870550 875928 | 140886 135508 | 5379 5379 --> 870550 875919 | 140886 135517 | 5370 5370
+			Real Alignment 8: 860589 870558 | 125547 135516 | 9970 9970 | 95.22 | Ecoli_0940_Taxon009_ NODE_6_length_313919_cov_42.4705_ID_283189
+			  Extensive misassembly ( inversion ) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 9 and 10:  870550 875919 | 140886 135517 | 5370 5370 --> 870552 875919 | 140884 135517 | 5368 5368
+			Real Alignment 9: 870552 875919 | 140884 135517 | 5368 5368 | 95.33 | Ecoli_0940_Taxon009_ NODE_6_length_313919_cov_42.4705_ID_283189
+			  Extensive misassembly ( inversion ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 10 and 11:  943928 949279 | 200332 194981 | 5352 5352 --> 943928 949278 | 200332 194982 | 5351 5351
+			Real Alignment 10: 875927 930023 | 140885 194981 | 54097 54097 | 95.41 | Ecoli_0940_Taxon009_ NODE_6_length_313919_cov_42.4705_ID_283189
+			  Extensive misassembly ( relocation, inconsistency = 13904 ) between these two alignments
+			Real Alignment 11: 943928 949278 | 200332 194982 | 5351 5351 | 95.48 | Ecoli_0940_Taxon009_ NODE_6_length_313919_cov_42.4705_ID_283189
+			  Extensive misassembly ( relocation, inconsistency = -8311 ) between these two alignments
+			Real Alignment 12: 940970 943924 | 200335 203289 | 2955 2955 | 95.36 | Ecoli_0940_Taxon009_ NODE_6_length_313919_cov_42.4705_ID_283189
+			  Extensive misassembly ( relocation, inconsistency = -13906 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 13 and 14:  930023 940966 | 214237 203294 | 10944 10944 --> 930024 940966 | 214236 203294 | 10943 10943
+			Real Alignment 13: 930024 940966 | 214236 203294 | 10943 10943 | 95.83 | Ecoli_0940_Taxon009_ NODE_6_length_313919_cov_42.4705_ID_283189
+			  Extensive misassembly ( relocation, inconsistency = 8312 ) between these two alignments
+			Real Alignment 14: 949279 1000410 | 214237 265368 | 51132 51132 | 95.57 | Ecoli_0940_Taxon009_ NODE_6_length_313919_cov_42.4705_ID_283189
+			  Extensive misassembly ( inversion ) between these two alignments
+			Real Alignment 15: 1000411 1005858 | 270816 265369 | 5448 5448 | 95.26 | Ecoli_0940_Taxon009_ NODE_6_length_313919_cov_42.4705_ID_283189
+			  Extensive misassembly ( inversion ) between these two alignments
+			Real Alignment 16: 1005859 1048961 | 270817 313919 | 43103 43103 | 95.35 | Ecoli_0940_Taxon009_ NODE_6_length_313919_cov_42.4705_ID_283189
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_7_length_287299_cov_41.4755_ID_260819 (287299bp)
+Top Length: 287299  Top ID: 99.46
+		One align captures most of this contig: 2527171 2814469 | 287299 1 | 287299 287299 | 99.46 | Ecoli_0940_Taxon009_ NODE_7_length_287299_cov_41.4755_ID_260819
+
+CONTIG: NODE_8_length_282675_cov_42.1603_ID_320695 (282675bp)
+Top Length: 24392  Top ID: 95.27
+		This contig is misassembled. 28 total aligns.
+			Real Alignment 1: 4426607 4434853 | 1 8247 | 8247 8247 | 96.69 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = -154978 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 2 and 3:  4268144 4279876 | 25159 36891 | 11733 11733 --> 4268145 4279876 | 25160 36891 | 11732 11732
+			Real Alignment 2: 4279876 4296787 | 25159 8248 | 16912 16912 | 95.73 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = -28643 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 3 and 4:  4267173 4268144 | 37862 36891 | 972 972 --> 4267173 4268143 | 37862 36892 | 971 971
+			Real Alignment 3: 4268145 4279876 | 25160 36891 | 11732 11732 | 95.39 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = -12704 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 4 and 5:  4267173 4268143 | 37862 36892 | 971 971 --> 4267174 4268143 | 37861 36892 | 970 970
+			Real Alignment 4: 4267174 4268143 | 37861 36892 | 970 970 | 96.6 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = -61162 ) between these two alignments
+			Real Alignment 5: 4206982 4214463 | 37862 45343 | 7482 7482 | 95.2 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = -8330 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 6 and 7:  4206135 4206982 | 45345 46192 | 848 848 --> 4206135 4206981 | 45345 46191 | 847 847
+			Real Alignment 6: 4206135 4206981 | 45345 46191 | 847 847 | 96.7 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = 39621 ) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 7 and 8:  4228517 4243146 | 66761 81388 | 14630 14628 --> 4228519 4243146 | 66763 81388 | 14628 14626
+			Real Alignment 7: 4246603 4267173 | 66762 46192 | 20571 20571 | 95.49 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = -38655 ) between these two alignments
+			Excluding internal overlap of size 371 between Alignment 8 and 9:  4243000 4246604 | 81018 84622 | 3605 3605 --> 4243371 4246604 | 81389 84622 | 3234 3234
+			Real Alignment 8: 4228519 4243146 | 66763 81388 | 14628 14626 | 95.39 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Gap between these two alignments (local misassembly). Inconsistency = 224 
+			Excluding internal overlap of size 2 between Alignment 9 and 10:  4228015 4228518 | 85124 84621 | 504 504 --> 4228015 4228516 | 85124 84623 | 502 502
+			Real Alignment 9: 4243371 4246604 | 81389 84622 | 3234 3234 | 95.42 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = -18590 ) between these two alignments
+			Real Alignment 10: 4228015 4228516 | 85124 84623 | 502 502 | 96.63 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Gap between these two alignments (local misassembly). Inconsistency = 0 
+			Real Alignment 11: 4214465 4226117 | 98674 87022 | 11653 11653 | 95.64 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = 88333 ) between these two alignments
+			Real Alignment 12: 4122746 4125783 | 102060 99023 | 3038 3038 | 95.06 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = -39222 ) between these two alignments
+			Real Alignment 13: 4104368 4122744 | 119867 138243 | 18377 18377 | 95.21 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = 247830 ) between these two alignments
+			Real Alignment 14: 4370575 4378352 | 146021 138244 | 7778 7778 | 95.8 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = -54633 ) between these two alignments
+			Real Alignment 15: 4323723 4327108 | 146025 149410 | 3386 3386 | 96.1 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = 17112 ) between these two alignments
+			Excluding internal overlap of size 5 between Alignment 16 and 17:  4344222 4352949 | 158140 149412 | 8728 8729 --> 4344227 4352949 | 158135 149412 | 8723 8724
+			Real Alignment 16: 4344227 4352949 | 158135 149412 | 8723 8724 | 95.28 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = -44481 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 17 and 18:  4327111 4329767 | 172615 169959 | 2657 2657 --> 4327111 4329766 | 172615 169960 | 2656 2656
+			Real Alignment 17: 4308469 4320292 | 158136 169959 | 11824 11824 | 95.23 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = 6818 ) between these two alignments
+			Real Alignment 18: 4327111 4329766 | 172615 169960 | 2656 2656 | 95.63 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = 23182 ) between these two alignments
+			Real Alignment 19: 4352950 4370571 | 172617 190238 | 17622 17622 | 95.51 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = -50280 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 20 and 21:  4320292 4323722 | 193669 190239 | 3431 3431 --> 4320293 4323722 | 193668 190239 | 3430 3430
+			Real Alignment 20: 4320293 4323722 | 193668 190239 | 3430 3430 | 95.54 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = 6044 ) between these two alignments
+			Excluding internal overlap of size 4 between Alignment 21 and 22:  4296788 4308473 | 219808 208124 | 11686 11685 --> 4296788 4308469 | 219808 208128 | 11682 11681
+			Real Alignment 21: 4329767 4344225 | 193669 208127 | 14459 14459 | 95.64 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = -47438 ) between these two alignments
+			Real Alignment 22: 4296788 4308469 | 219808 208128 | 11682 11681 | 95.07 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = 126384 ) between these two alignments
+			Real Alignment 23: 4434854 4457171 | 219809 242126 | 22318 22318 | 95.71 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = 178270 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 24 and 25:  4635448 4637887 | 244572 242133 | 2440 2440 --> 4635449 4637887 | 244571 242133 | 2439 2439
+			Real Alignment 24: 4635449 4637887 | 244571 242133 | 2439 2439 | 95.29 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = 21675 ) between these two alignments
+			Real Alignment 25: 4608152 4613773 | 250193 244572 | 5622 5622 | 95.43 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = 111022 ) between these two alignments
+			Real Alignment 26: 4492982 4497129 | 254341 250194 | 4148 4148 | 95.83 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = -8090 ) between these two alignments
+			Real Alignment 27: 4489040 4492981 | 254342 258283 | 3942 3942 | 95.15 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+			  Extensive misassembly ( relocation, inconsistency = -28334 ) between these two alignments
+			Real Alignment 28: 4464648 4489039 | 282675 258284 | 24392 24392 | 95.27 | Ecoli_0940_Taxon009_ NODE_8_length_282675_cov_42.1603_ID_320695
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_9_length_264996_cov_41.7621_ID_263231 (264996bp)
+Top Length: 46161  Top ID: 95.6
+		This contig is misassembled. 19 total aligns.
+			Real Alignment 1: 2818600 2820306 | 1 1707 | 1707 1707 | 95.08 | Ecoli_0940_Taxon009_ NODE_9_length_264996_cov_41.7621_ID_263231
+			  Extensive misassembly ( relocation, inconsistency = -8722 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 2 and 3:  2691753 2692655 | 5301 4399 | 903 903 --> 2691753 2692654 | 5301 4400 | 902 902
+			Real Alignment 2: 2811589 2814276 | 4399 1712 | 2688 2688 | 95.13 | Ecoli_0940_Taxon009_ NODE_9_length_264996_cov_41.7621_ID_263231
+			  Extensive misassembly ( relocation, inconsistency = 118934 ) between these two alignments
+			Real Alignment 3: 2691753 2692654 | 5301 4400 | 902 902 | 96.79 | Ecoli_0940_Taxon009_ NODE_9_length_264996_cov_41.7621_ID_263231
+			  Extensive misassembly ( relocation, inconsistency = -48308 ) between these two alignments
+			Real Alignment 4: 2701108 2740060 | 44254 5302 | 38953 38953 | 95.5 | Ecoli_0940_Taxon009_ NODE_9_length_264996_cov_41.7621_ID_263231
+			  Extensive misassembly ( relocation, inconsistency = -43784 ) between these two alignments
+			Real Alignment 5: 2696277 2701107 | 44255 49085 | 4831 4831 | 95.09 | Ecoli_0940_Taxon009_ NODE_9_length_264996_cov_41.7621_ID_263231
+			  Extensive misassembly ( relocation, inconsistency = -8459 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 6 and 7:  2692655 2696270 | 52707 49092 | 3616 3616 --> 2692656 2696270 | 52706 49092 | 3615 3615
+			Real Alignment 6: 2692656 2696270 | 52706 49092 | 3615 3615 | 95.11 | Ecoli_0940_Taxon009_ NODE_9_length_264996_cov_41.7621_ID_263231
+			  Extensive misassembly ( relocation, inconsistency = -118934 ) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 7 and 8:  2748234 2751485 | 76858 80109 | 3252 3252 --> 2748236 2751485 | 76860 80109 | 3250 3250
+			Real Alignment 7: 2787437 2811589 | 76859 52707 | 24153 24153 | 95.59 | Ecoli_0940_Taxon009_ NODE_9_length_264996_cov_41.7621_ID_263231
+			  Extensive misassembly ( relocation, inconsistency = -63354 ) between these two alignments
+			Real Alignment 8: 2748236 2751485 | 76860 80109 | 3250 3250 | 95.36 | Ecoli_0940_Taxon009_ NODE_9_length_264996_cov_41.7621_ID_263231
+			  Extensive misassembly ( relocation, inconsistency = 60053 ) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 9 and 10:  2835987 2837208 | 105779 104558 | 1222 1222 --> 2835989 2837208 | 105777 104558 | 1220 1220
+			Real Alignment 9: 2835989 2837208 | 105777 104558 | 1220 1220 | 95.17 | Ecoli_0940_Taxon009_ NODE_9_length_264996_cov_41.7621_ID_263231
+			  Extensive misassembly ( inversion ) between these two alignments
+			Excluding internal overlap of size 3 between Alignment 10 and 11:  2837207 2839524 | 105778 108095 | 2318 2318 --> 2837207 2839521 | 105778 108092 | 2315 2315
+			Real Alignment 10: 2837207 2839521 | 105778 108092 | 2315 2315 | 95.9 | Ecoli_0940_Taxon009_ NODE_9_length_264996_cov_41.7621_ID_263231
+			  Extensive misassembly ( relocation, inconsistency = 321280 ) between these two alignments
+			Real Alignment 11: 3160802 3166531 | 113822 108093 | 5730 5730 | 95.34 | Ecoli_0940_Taxon009_ NODE_9_length_264996_cov_41.7621_ID_263231
+			  Extensive misassembly ( relocation, inconsistency = -133696 ) between these two alignments
+			Real Alignment 12: 3276068 3294496 | 132252 113824 | 18429 18429 | 95.21 | Ecoli_0940_Taxon009_ NODE_9_length_264996_cov_41.7621_ID_263231
+			  Extensive misassembly ( relocation, inconsistency = -394224 ) between these two alignments
+			Excluding internal overlap of size 5 between Alignment 13 and 14:  2995845 3001391 | 161632 167178 | 5547 5547 --> 2995850 3001391 | 161637 167178 | 5542 5542
+			Real Alignment 13: 2903483 2929656 | 135463 161636 | 26174 26174 | 95.65 | Ecoli_0940_Taxon009_ NODE_9_length_264996_cov_41.7621_ID_263231
+			  Extensive misassembly ( relocation, inconsistency = 66193 ) between these two alignments
+			Real Alignment 14: 2995850 3001391 | 161637 167178 | 5542 5542 | 95.17 | Ecoli_0940_Taxon009_ NODE_9_length_264996_cov_41.7621_ID_263231
+			  Extensive misassembly ( relocation, inconsistency = -71740 ) between these two alignments
+			Excluding internal overlap of size 5 between Alignment 15 and 16:  2995343 2995849 | 176482 175976 | 507 507 --> 2995343 2995844 | 176482 175981 | 502 502
+			Real Alignment 15: 2929652 2938453 | 175980 167179 | 8802 8802 | 96.13 | Ecoli_0940_Taxon009_ NODE_9_length_264996_cov_41.7621_ID_263231
+			  Extensive misassembly ( relocation, inconsistency = -66193 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 16 and 17:  2995343 2995844 | 176482 175981 | 502 502 --> 2995344 2995844 | 176481 175981 | 501 501
+			Real Alignment 16: 2995344 2995844 | 176481 175981 | 501 501 | 95.46 | Ecoli_0940_Taxon009_ NODE_9_length_264996_cov_41.7621_ID_263231
+			  Extensive misassembly ( relocation, inconsistency = 91860 ) between these two alignments
+			Real Alignment 17: 2892542 2903483 | 187423 176482 | 10942 10942 | 95.29 | Ecoli_0940_Taxon009_ NODE_9_length_264996_cov_41.7621_ID_263231
+			  Gap between these two alignments (local misassembly). Inconsistency = 0 
+			Excluding internal overlap of size 3 between Alignment 18 and 19:  3166529 3191084 | 240441 264996 | 24556 24556 --> 3166532 3191084 | 240444 264996 | 24553 24553
+			Real Alignment 18: 2839522 2885682 | 240443 194283 | 46161 46161 | 95.6 | Ecoli_0940_Taxon009_ NODE_9_length_264996_cov_41.7621_ID_263231
+			  Extensive misassembly ( relocation, inconsistency = 280849 ) between these two alignments
+			Real Alignment 19: 3166532 3191084 | 240444 264996 | 24553 24553 | 95.93 | Ecoli_0940_Taxon009_ NODE_9_length_264996_cov_41.7621_ID_263231
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_10_length_239637_cov_41.869_ID_317880 (239637bp)
+Top Length: 239637  Top ID: 99.41
+		One align captures most of this contig: 1066148 1305784 | 239637 1 | 239637 239637 | 99.41 | Ecoli_0940_Taxon009_ NODE_10_length_239637_cov_41.869_ID_317880
+
+CONTIG: NODE_11_length_239444_cov_43.5328_ID_289237 (239444bp)
+Top Length: 239444  Top ID: 99.45
+		Marking as insignificant: 3653352 3654812 | 64287 62827 | 1461 1461 | 95.21 | Ecoli_0940_Taxon009_ NODE_11_length_239444_cov_43.5328_ID_289237
+		One align captures most of this contig: 3701585 3941028 | 1 239444 | 239444 239444 | 99.45 | Ecoli_0940_Taxon009_ NODE_11_length_239444_cov_43.5328_ID_289237
+
+CONTIG: NODE_12_length_212865_cov_44.9302_ID_332341 (212865bp)
+Top Length: 212865  Top ID: 99.38
+		Marking as insignificant: 3191020 3191711 | 176615 175924 | 692 692 | 96.97 | Ecoli_0940_Taxon009_ NODE_12_length_212865_cov_44.9302_ID_332341
+		Marking as insignificant: 381260 382590 | 175285 176615 | 1331 1331 | 95.87 | Ecoli_0940_Taxon009_ NODE_12_length_212865_cov_44.9302_ID_332341
+		Marking as insignificant: 3219698 3221028 | 175285 176615 | 1331 1331 | 96.17 | Ecoli_0940_Taxon009_ NODE_12_length_212865_cov_44.9302_ID_332341
+		One align captures most of this contig: 4426607 4639471 | 212865 1 | 212865 212865 | 99.38 | Ecoli_0940_Taxon009_ NODE_12_length_212865_cov_44.9302_ID_332341
+
+CONTIG: NODE_13_length_208989_cov_41.6164_ID_324711 (208989bp)
+Top Length: 49429  Top ID: 95.45
+		This contig is misassembled. 18 total aligns.
+			Real Alignment 1: 2543292 2546941 | 962 4611 | 3650 3650 | 95.07 | Ecoli_0940_Taxon009_ NODE_13_length_208989_cov_41.6164_ID_324711
+			  Extensive misassembly ( relocation, inconsistency = 67551 ) between these two alignments
+			Real Alignment 2: 2614695 2631960 | 22079 4814 | 17266 17266 | 95.36 | Ecoli_0940_Taxon009_ NODE_13_length_208989_cov_41.6164_ID_324711
+			  Extensive misassembly ( relocation, inconsistency = -19717 ) between these two alignments
+			Real Alignment 3: 2612244 2614694 | 22080 24530 | 2451 2451 | 95.8 | Ecoli_0940_Taxon009_ NODE_13_length_208989_cov_41.6164_ID_324711
+			  Extensive misassembly ( relocation, inconsistency = -7678 ) between these two alignments
+			Real Alignment 4: 2607017 2612243 | 29757 24531 | 5227 5227 | 95.16 | Ecoli_0940_Taxon009_ NODE_13_length_208989_cov_41.6164_ID_324711
+			  Extensive misassembly ( relocation, inconsistency = -29476 ) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 5 and 6:  2583500 2587457 | 30490 34447 | 3958 3958 --> 2583500 2587455 | 30490 34445 | 3956 3956
+			Real Alignment 5: 2583500 2587455 | 30490 34445 | 3956 3956 | 95.38 | Ecoli_0940_Taxon009_ NODE_13_length_208989_cov_41.6164_ID_324711
+			  Extensive misassembly ( inversion ) between these two alignments
+			Real Alignment 6: 2588190 2607018 | 53274 34446 | 18829 18829 | 95.13 | Ecoli_0940_Taxon009_ NODE_13_length_208989_cov_41.6164_ID_324711
+			  Extensive misassembly ( relocation, inconsistency = 4690 ) between these two alignments
+			Real Alignment 7: 2574526 2583499 | 62248 53275 | 8974 8974 | 95.03 | Ecoli_0940_Taxon009_ NODE_13_length_208989_cov_41.6164_ID_324711
+			  Extensive misassembly ( relocation, inconsistency = -145106 ) between these two alignments
+			Real Alignment 8: 2443605 2457580 | 67460 81435 | 13976 13976 | 95.26 | Ecoli_0940_Taxon009_ NODE_13_length_208989_cov_41.6164_ID_324711
+			  Extensive misassembly ( relocation, inconsistency = 101714 ) between these two alignments
+			Real Alignment 9: 2561977 2574525 | 84118 96666 | 12549 12549 | 95.1 | Ecoli_0940_Taxon009_ NODE_13_length_208989_cov_41.6164_ID_324711
+			  Extensive misassembly ( relocation, inconsistency = -22373 ) between these two alignments
+			Real Alignment 10: 2552153 2561976 | 96667 106490 | 9824 9824 | 95.83 | Ecoli_0940_Taxon009_ NODE_13_length_208989_cov_41.6164_ID_324711
+			  Extensive misassembly ( relocation, inconsistency = -145532 ) between these two alignments
+			Real Alignment 11: 2417806 2425448 | 115494 107852 | 7643 7643 | 95.89 | Ecoli_0940_Taxon009_ NODE_13_length_208989_cov_41.6164_ID_324711
+			  Extensive misassembly ( relocation, inconsistency = -8629 ) between these two alignments
+			Real Alignment 12: 2416823 2417802 | 115498 116477 | 980 980 | 96.63 | Ecoli_0940_Taxon009_ NODE_13_length_208989_cov_41.6164_ID_324711
+			  Extensive misassembly ( relocation, inconsistency = -3374 ) between these two alignments
+			Real Alignment 13: 2414429 2416822 | 118871 116478 | 2394 2394 | 95.78 | Ecoli_0940_Taxon009_ NODE_13_length_208989_cov_41.6164_ID_324711
+			  Extensive misassembly ( relocation, inconsistency = 217595 ) between these two alignments
+			Real Alignment 14: 2634424 2683852 | 118878 168306 | 49429 49429 | 95.45 | Ecoli_0940_Taxon009_ NODE_13_length_208989_cov_41.6164_ID_324711
+			  Extensive misassembly ( relocation, inconsistency = 91246 ) between these two alignments
+			Real Alignment 15: 2775099 2787437 | 168307 180645 | 12339 12339 | 95.68 | Ecoli_0940_Taxon009_ NODE_13_length_208989_cov_41.6164_ID_324711
+			  Extensive misassembly ( relocation, inconsistency = -47378 ) between these two alignments
+			Real Alignment 16: 2740061 2748233 | 188819 180647 | 8173 8173 | 96.0 | Ecoli_0940_Taxon009_ NODE_13_length_208989_cov_41.6164_ID_324711
+			  Extensive misassembly ( relocation, inconsistency = 48308 ) between these two alignments
+			Real Alignment 17: 2683853 2691752 | 196719 188820 | 7900 7900 | 95.2 | Ecoli_0940_Taxon009_ NODE_13_length_208989_cov_41.6164_ID_324711
+			  Extensive misassembly ( relocation, inconsistency = -151300 ) between these two alignments
+			Real Alignment 18: 2822883 2823252 | 208989 208620 | 370 370 | 95.41 | Ecoli_0940_Taxon009_ NODE_13_length_208989_cov_41.6164_ID_324711
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_14_length_208102_cov_42.75_ID_278116 (208102bp)
+Top Length: 29503  Top ID: 95.53
+		This contig is misassembled. 18 total aligns.
+			Real Alignment 1: 2322113 2343021 | 34086 13178 | 20909 20909 | 95.52 | Ecoli_0940_Taxon009_ NODE_14_length_208102_cov_42.75_ID_278116
+			  Extensive misassembly ( relocation, inconsistency = -141265 ) between these two alignments
+			Real Alignment 2: 2203245 2209778 | 35575 42108 | 6534 6534 | 95.97 | Ecoli_0940_Taxon009_ NODE_14_length_208102_cov_42.75_ID_278116
+			  Extensive misassembly ( relocation, inconsistency = -4030 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 3 and 4:  2485378 2487757 | 51604 49225 | 2380 2380 --> 2485378 2487756 | 51604 49226 | 2379 2379
+			Real Alignment 3: 2209778 2212865 | 49225 46138 | 3088 3088 | 95.76 | Ecoli_0940_Taxon009_ NODE_14_length_208102_cov_42.75_ID_278116
+			  Extensive misassembly ( relocation, inconsistency = -277979 ) between these two alignments
+			Real Alignment 4: 2485378 2487756 | 51604 49226 | 2379 2379 | 95.55 | Ecoli_0940_Taxon009_ NODE_14_length_208102_cov_42.75_ID_278116
+			  Extensive misassembly ( relocation, inconsistency = -21624 ) between these two alignments
+			Real Alignment 5: 2466133 2485377 | 51605 70849 | 19245 19245 | 95.85 | Ecoli_0940_Taxon009_ NODE_14_length_208102_cov_42.75_ID_278116
+			  Extensive misassembly ( relocation, inconsistency = -25920 ) between these two alignments
+			Real Alignment 6: 2459458 2466132 | 77524 70850 | 6675 6675 | 95.49 | Ecoli_0940_Taxon009_ NODE_14_length_208102_cov_42.75_ID_278116
+			  Extensive misassembly ( relocation, inconsistency = -38518 ) between these two alignments
+			Real Alignment 7: 2427615 2432694 | 77525 82604 | 5080 5080 | 95.59 | Ecoli_0940_Taxon009_ NODE_14_length_208102_cov_42.75_ID_278116
+			  Extensive misassembly ( relocation, inconsistency = -68082 ) between these two alignments
+			Real Alignment 8: 2364613 2373073 | 91065 82605 | 8461 8461 | 95.83 | Ecoli_0940_Taxon009_ NODE_14_length_208102_cov_42.75_ID_278116
+			  Extensive misassembly ( relocation, inconsistency = 373000 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 9 and 10:  1917465 1920301 | 104782 107618 | 2837 2837 --> 1917466 1920301 | 104783 107618 | 2836 2836
+			Real Alignment 9: 1977896 1991612 | 104782 91066 | 13717 13717 | 95.37 | Ecoli_0940_Taxon009_ NODE_14_length_208102_cov_42.75_ID_278116
+			  Extensive misassembly ( relocation, inconsistency = -74147 ) between these two alignments
+			Real Alignment 10: 1917466 1920301 | 104783 107618 | 2836 2836 | 96.3 | Ecoli_0940_Taxon009_ NODE_14_length_208102_cov_42.75_ID_278116
+			  Extensive misassembly ( relocation, inconsistency = 387288 ) between these two alignments
+			Real Alignment 11: 2307590 2322112 | 107619 122141 | 14523 14523 | 95.68 | Ecoli_0940_Taxon009_ NODE_14_length_208102_cov_42.75_ID_278116
+			  Extensive misassembly ( relocation, inconsistency = 22398 ) between these two alignments
+			Real Alignment 12: 2344511 2364610 | 122142 142241 | 20100 20100 | 96.03 | Ecoli_0940_Taxon009_ NODE_14_length_208102_cov_42.75_ID_278116
+			  Extensive misassembly ( relocation, inconsistency = -373000 ) between these two alignments
+			Real Alignment 13: 1991613 1999775 | 142244 150406 | 8163 8163 | 95.03 | Ecoli_0940_Taxon009_ NODE_14_length_208102_cov_42.75_ID_278116
+			  Extensive misassembly ( relocation, inconsistency = 536934 ) between these two alignments
+			Real Alignment 14: 2536710 2543288 | 150407 156985 | 6579 6579 | 95.23 | Ecoli_0940_Taxon009_ NODE_14_length_208102_cov_42.75_ID_278116
+			  Extensive misassembly ( relocation, inconsistency = -170217 ) between these two alignments
+			Real Alignment 15: 2373074 2402576 | 186490 156988 | 29503 29503 | 95.53 | Ecoli_0940_Taxon009_ NODE_14_length_208102_cov_42.75_ID_278116
+			  Extensive misassembly ( relocation, inconsistency = 30118 ) between these two alignments
+			Excluding internal overlap of size 5 between Alignment 16 and 17:  2631956 2634423 | 197194 199661 | 2468 2468 --> 2631961 2634423 | 197199 199661 | 2463 2463
+			Real Alignment 16: 2432695 2443402 | 186491 197198 | 10708 10708 | 95.86 | Ecoli_0940_Taxon009_ NODE_14_length_208102_cov_42.75_ID_278116
+			  Extensive misassembly ( relocation, inconsistency = 188558 ) between these two alignments
+			Real Alignment 17: 2631961 2634423 | 197199 199661 | 2463 2463 | 95.58 | Ecoli_0940_Taxon009_ NODE_14_length_208102_cov_42.75_ID_278116
+			  Extensive misassembly ( relocation, inconsistency = -228442 ) between these two alignments
+			Real Alignment 18: 2405982 2414422 | 208102 199662 | 8441 8441 | 95.39 | Ecoli_0940_Taxon009_ NODE_14_length_208102_cov_42.75_ID_278116
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_15_length_204555_cov_42.7061_ID_323130 (204555bp)
+Top Length: 114590  Top ID: 99.46
+		This contig is misassembled. 2 total aligns.
+			Excluding internal overlap of size 258 between Alignment 1 and 2:  4152807 4243031 | 1 90223 | 90225 90223 --> 4152807 4242773 | 1 89965 | 89967 89965
+			Real Alignment 1: 4152807 4242773 | 1 89965 | 89967 89965 | 99.22 | Ecoli_0940_Taxon009_ NODE_15_length_204555_cov_42.7061_ID_323130
+			  Gap between these two alignments (local misassembly). Inconsistency = 337 
+			Real Alignment 2: 4243111 4357700 | 89966 204555 | 114590 114590 | 99.46 | Ecoli_0940_Taxon009_ NODE_15_length_204555_cov_42.7061_ID_323130
+
+CONTIG: NODE_16_length_200817_cov_42.3833_ID_340093 (200817bp)
+Top Length: 87341  Top ID: 95.34
+		This contig is misassembled. 9 total aligns.
+			Real Alignment 1: 1218444 1305784 | 87341 1 | 87341 87341 | 95.34 | Ecoli_0940_Taxon009_ NODE_16_length_200817_cov_42.3833_ID_340093
+			  Gap between these two alignments (local misassembly). Inconsistency = 0 
+			Real Alignment 2: 1206200 1208940 | 99585 96845 | 2741 2741 | 95.84 | Ecoli_0940_Taxon009_ NODE_16_length_200817_cov_42.3833_ID_340093
+			  Extensive misassembly ( relocation, inconsistency = -18388 ) between these two alignments
+			Real Alignment 3: 1193808 1206196 | 102841 115229 | 12389 12389 | 95.72 | Ecoli_0940_Taxon009_ NODE_16_length_200817_cov_42.3833_ID_340093
+			  Extensive misassembly ( relocation, inconsistency = -60958 ) between these two alignments
+			Real Alignment 4: 1145245 1146694 | 116685 115236 | 1450 1450 | 95.59 | Ecoli_0940_Taxon009_ NODE_16_length_200817_cov_42.3833_ID_340093
+			  Extensive misassembly ( relocation, inconsistency = -17049 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 5 and 6:  1149950 1161375 | 129029 117604 | 11426 11426 --> 1149951 1161375 | 129028 117604 | 11425 11425
+			Real Alignment 5: 1149951 1161375 | 129028 117604 | 11425 11425 | 95.62 | Ecoli_0940_Taxon009_ NODE_16_length_200817_cov_42.3833_ID_340093
+			  Extensive misassembly ( relocation, inconsistency = -43855 ) between these two alignments
+			Real Alignment 6: 1161378 1193805 | 161456 129029 | 32428 32428 | 95.44 | Ecoli_0940_Taxon009_ NODE_16_length_200817_cov_42.3833_ID_340093
+			  Extensive misassembly ( relocation, inconsistency = -87975 ) between these two alignments
+			Real Alignment 7: 1105831 1112105 | 161457 167731 | 6275 6275 | 95.28 | Ecoli_0940_Taxon009_ NODE_16_length_200817_cov_42.3833_ID_340093
+			  Extensive misassembly ( relocation, inconsistency = 4919 ) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 8 and 9:  1117026 1118538 | 169245 167733 | 1513 1513 --> 1117028 1118538 | 169243 167733 | 1511 1511
+			Real Alignment 8: 1117028 1118538 | 169243 167733 | 1511 1511 | 96.7 | Ecoli_0940_Taxon009_ NODE_16_length_200817_cov_42.3833_ID_340093
+			  Extensive misassembly ( relocation, inconsistency = 18052 ) between these two alignments
+			Real Alignment 9: 1067402 1098975 | 200817 169244 | 31574 31574 | 95.47 | Ecoli_0940_Taxon009_ NODE_16_length_200817_cov_42.3833_ID_340093
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_17_length_192650_cov_47.4727_ID_292845 (192650bp)
+Top Length: 192650  Top ID: 99.35
+		Marking as insignificant: 177280 178047 | 172088 172855 | 768 768 | 95.18 | Ecoli_0940_Taxon009_ NODE_17_length_192650_cov_47.4727_ID_292845
+		Marking as insignificant: 188751 189518 | 172088 172855 | 768 768 | 95.31 | Ecoli_0940_Taxon009_ NODE_17_length_192650_cov_47.4727_ID_292845
+		Marking as insignificant: 3583431 3584195 | 15368 14604 | 765 765 | 95.69 | Ecoli_0940_Taxon009_ NODE_17_length_192650_cov_47.4727_ID_292845
+		Marking as insignificant: 3583431 3584195 | 172091 172855 | 765 765 | 95.69 | Ecoli_0940_Taxon009_ NODE_17_length_192650_cov_47.4727_ID_292845
+		Marking as insignificant: 3583431 3584196 | 3897 3132 | 766 766 | 95.69 | Ecoli_0940_Taxon009_ NODE_17_length_192650_cov_47.4727_ID_292845
+		One align captures most of this contig: 1 192650 | 192650 1 | 192650 192650 | 99.35 | Ecoli_0940_Taxon009_ NODE_17_length_192650_cov_47.4727_ID_292845
+
+CONTIG: NODE_18_length_182348_cov_43.2201_ID_286049 (182348bp)
+Top Length: 46013  Top ID: 95.29
+		This contig is misassembled. 15 total aligns.
+			Real Alignment 1: 1740900 1746203 | 1 5305 | 5304 5305 | 96.29 | Ecoli_0940_Taxon009_ NODE_18_length_182348_cov_43.2201_ID_286049
+			  Extensive misassembly ( relocation, inconsistency = -136421 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 2 and 3:  1618929 1622010 | 28784 31865 | 3082 3082 --> 1618930 1622010 | 28785 31865 | 3081 3081
+			Real Alignment 2: 1622010 1633261 | 28784 17533 | 11252 11252 | 95.67 | Ecoli_0940_Taxon009_ NODE_18_length_182348_cov_43.2201_ID_286049
+			  Extensive misassembly ( relocation, inconsistency = -14332 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 3 and 4:  1618930 1622010 | 28785 31865 | 3081 3081 --> 1618930 1622009 | 28785 31864 | 3080 3080
+			Real Alignment 3: 1618930 1622009 | 28785 31864 | 3080 3080 | 95.55 | Ecoli_0940_Taxon009_ NODE_18_length_182348_cov_43.2201_ID_286049
+			  Extensive misassembly ( relocation, inconsistency = -21972 ) between these two alignments
+			Excluding internal overlap of size 6 between Alignment 4 and 5:  1484972 1487952 | 50751 53731 | 2981 2981 --> 1484978 1487952 | 50757 53731 | 2975 2975
+			Real Alignment 4: 1600038 1618929 | 50756 31865 | 18892 18892 | 95.34 | Ecoli_0940_Taxon009_ NODE_18_length_182348_cov_43.2201_ID_286049
+			  Extensive misassembly ( relocation, inconsistency = -133952 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 5 and 6:  1484978 1487952 | 50757 53731 | 2975 2975 --> 1484978 1487951 | 50757 53730 | 2974 2974
+			Real Alignment 5: 1484978 1487951 | 50757 53730 | 2974 2974 | 95.57 | Ecoli_0940_Taxon009_ NODE_18_length_182348_cov_43.2201_ID_286049
+			  Extensive misassembly ( relocation, inconsistency = 46928 ) between these two alignments
+			Real Alignment 6: 1534880 1547415 | 66266 53731 | 12536 12536 | 95.46 | Ecoli_0940_Taxon009_ NODE_18_length_182348_cov_43.2201_ID_286049
+			  Extensive misassembly ( relocation, inconsistency = -64261 ) between these two alignments
+			Excluding internal overlap of size 6 between Alignment 7 and 8:  1483155 1484977 | 66267 68089 | 1823 1823 --> 1483155 1484971 | 66267 68083 | 1817 1817
+			Real Alignment 7: 1483155 1484971 | 66267 68083 | 1817 1817 | 96.05 | Ecoli_0940_Taxon009_ NODE_18_length_182348_cov_43.2201_ID_286049
+			  Extensive misassembly ( relocation, inconsistency = 93603 ) between these two alignments
+			Real Alignment 8: 1578575 1600043 | 89552 68084 | 21469 21469 | 95.65 | Ecoli_0940_Taxon009_ NODE_18_length_182348_cov_43.2201_ID_286049
+			  Extensive misassembly ( relocation, inconsistency = -42160 ) between these two alignments
+			Real Alignment 9: 1557890 1578574 | 89559 110243 | 20685 20685 | 95.12 | Ecoli_0940_Taxon009_ NODE_18_length_182348_cov_43.2201_ID_286049
+			  Extensive misassembly ( relocation, inconsistency = -22336 ) between these two alignments
+			Real Alignment 10: 1556241 1557881 | 111886 110246 | 1641 1641 | 95.25 | Ecoli_0940_Taxon009_ NODE_18_length_182348_cov_43.2201_ID_286049
+			  Extensive misassembly ( relocation, inconsistency = -32286 ) between these two alignments
+			Real Alignment 11: 1533969 1534879 | 120260 121170 | 911 911 | 95.61 | Ecoli_0940_Taxon009_ NODE_18_length_182348_cov_43.2201_ID_286049
+			  Extensive misassembly ( relocation, inconsistency = -57479 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 12 and 13:  1477401 1483154 | 126924 121171 | 5754 5754 --> 1477402 1483154 | 126923 121171 | 5753 5753
+			Real Alignment 12: 1477402 1483154 | 126923 121171 | 5753 5753 | 96.07 | Ecoli_0940_Taxon009_ NODE_18_length_182348_cov_43.2201_ID_286049
+			  Extensive misassembly ( relocation, inconsistency = -56568 ) between these two alignments
+			Real Alignment 13: 1487957 1533969 | 172936 126924 | 46013 46013 | 95.29 | Ecoli_0940_Taxon009_ NODE_18_length_182348_cov_43.2201_ID_286049
+			  Extensive misassembly ( relocation, inconsistency = 13441 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 14 and 15:  1409406 1413077 | 182348 178677 | 3672 3672 --> 1409406 1413076 | 182348 178678 | 3671 3671
+			Real Alignment 14: 1547415 1553151 | 172941 178677 | 5737 5737 | 95.35 | Ecoli_0940_Taxon009_ NODE_18_length_182348_cov_43.2201_ID_286049
+			  Extensive misassembly ( relocation, inconsistency = -143746 ) between these two alignments
+			Real Alignment 15: 1409406 1413076 | 182348 178678 | 3671 3671 | 95.4 | Ecoli_0940_Taxon009_ NODE_18_length_182348_cov_43.2201_ID_286049
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_19_length_177303_cov_41.2005_ID_313826 (177303bp)
+Top Length: 33877  Top ID: 95.43
+		This contig is misassembled. 16 total aligns.
+			Real Alignment 1: 3221910 3255786 | 1 33877 | 33877 33877 | 95.43 | Ecoli_0940_Taxon009_ NODE_19_length_177303_cov_41.2005_ID_313826
+			  Extensive misassembly ( relocation, inconsistency = -160807 ) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 2 and 3:  3136074 3137588 | 44152 42637 | 1515 1516 --> 3136074 3137586 | 44152 42639 | 1513 1514
+			Real Alignment 2: 3094980 3103740 | 33878 42638 | 8761 8761 | 95.22 | Ecoli_0940_Taxon009_ NODE_19_length_177303_cov_41.2005_ID_313826
+			  Extensive misassembly ( relocation, inconsistency = 32333 ) between these two alignments
+			Real Alignment 3: 3136074 3137586 | 44152 42639 | 1513 1514 | 95.12 | Ecoli_0940_Taxon009_ NODE_19_length_177303_cov_41.2005_ID_313826
+			  Extensive misassembly ( relocation, inconsistency = 42847 ) between these two alignments
+			Excluding internal overlap of size 6 between Alignment 4 and 5:  3125511 3127719 | 60566 62774 | 2209 2209 --> 3125517 3127719 | 60572 62774 | 2203 2203
+			Real Alignment 4: 3191711 3196852 | 55430 60571 | 5142 5142 | 95.33 | Ecoli_0940_Taxon009_ NODE_19_length_177303_cov_41.2005_ID_313826
+			  Extensive misassembly ( relocation, inconsistency = -71336 ) between these two alignments
+			Real Alignment 5: 3125517 3127719 | 60572 62774 | 2203 2203 | 96.79 | Ecoli_0940_Taxon009_ NODE_19_length_177303_cov_41.2005_ID_313826
+			  Extensive misassembly ( relocation, inconsistency = -25753 ) between these two alignments
+			Real Alignment 6: 3103744 3125508 | 86316 64552 | 21765 21765 | 95.49 | Ecoli_0940_Taxon009_ NODE_19_length_177303_cov_41.2005_ID_313826
+			  Extensive misassembly ( relocation, inconsistency = 12076 ) between these two alignments
+			Real Alignment 7: 3137585 3146382 | 86317 95114 | 8798 8798 | 95.29 | Ecoli_0940_Taxon009_ NODE_19_length_177303_cov_41.2005_ID_313826
+			  Extensive misassembly ( relocation, inconsistency = -118599 ) between these two alignments
+			Real Alignment 8: 3029343 3030269 | 96674 97600 | 927 927 | 95.04 | Ecoli_0940_Taxon009_ NODE_19_length_177303_cov_41.2005_ID_313826
+			  Gap between these two alignments (local misassembly). Inconsistency = 0 
+			Excluding internal overlap of size 1 between Alignment 9 and 10:  3336134 3338285 | 100809 102960 | 2152 2152 --> 3336135 3338285 | 100810 102960 | 2151 2151
+			Real Alignment 9: 3030550 3033478 | 97881 100809 | 2929 2929 | 96.55 | Ecoli_0940_Taxon009_ NODE_19_length_177303_cov_41.2005_ID_313826
+			  Extensive misassembly ( relocation, inconsistency = 302656 ) between these two alignments
+			Real Alignment 10: 3336135 3338285 | 100810 102960 | 2151 2151 | 95.68 | Ecoli_0940_Taxon009_ NODE_19_length_177303_cov_41.2005_ID_313826
+			  Extensive misassembly ( relocation, inconsistency = -9952 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 11 and 12:  3328334 3336134 | 102961 110761 | 7801 7801 --> 3328334 3336133 | 102961 110760 | 7800 7800
+			Real Alignment 11: 3328334 3336133 | 102961 110760 | 7800 7800 | 95.73 | Ecoli_0940_Taxon009_ NODE_19_length_177303_cov_41.2005_ID_313826
+			  Extensive misassembly ( relocation, inconsistency = -302656 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 12 and 13:  3033478 3045773 | 110761 123056 | 12296 12296 --> 3033478 3045772 | 110761 123055 | 12295 12295
+			Real Alignment 12: 3033478 3045772 | 110761 123055 | 12295 12295 | 95.38 | Ecoli_0940_Taxon009_ NODE_19_length_177303_cov_41.2005_ID_313826
+			  Extensive misassembly ( relocation, inconsistency = 255638 ) between these two alignments
+			Real Alignment 13: 3301411 3319746 | 123056 141391 | 18336 18336 | 95.69 | Ecoli_0940_Taxon009_ NODE_19_length_177303_cov_41.2005_ID_313826
+			  Extensive misassembly ( relocation, inconsistency = -1292 ) between these two alignments
+			Real Alignment 14: 3319747 3328333 | 151270 142684 | 8587 8587 | 95.03 | Ecoli_0940_Taxon009_ NODE_19_length_177303_cov_41.2005_ID_313826
+			  Extensive misassembly ( relocation, inconsistency = 11244 ) between these two alignments
+			Real Alignment 15: 3339578 3361243 | 151271 172936 | 21666 21666 | 95.32 | Ecoli_0940_Taxon009_ NODE_19_length_177303_cov_41.2005_ID_313826
+			  Extensive misassembly ( relocation, inconsistency = 15506 ) between these two alignments
+			Real Alignment 16: 3376753 3381116 | 172940 177303 | 4364 4364 | 96.17 | Ecoli_0940_Taxon009_ NODE_19_length_177303_cov_41.2005_ID_313826
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_20_length_169489_cov_42.3185_ID_287702 (169489bp)
+Top Length: 69597  Top ID: 95.5
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 3768235 3837831 | 1 69597 | 69597 69597 | 95.5 | Ecoli_0940_Taxon009_ NODE_20_length_169489_cov_42.3185_ID_287702
+			  Extensive misassembly ( relocation, inconsistency = 41508 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 2 and 3:  3852853 3879338 | 102062 128547 | 26486 26486 --> 3852854 3879338 | 102063 128547 | 26485 26485
+			Real Alignment 2: 3879340 3911804 | 102062 69598 | 32465 32465 | 95.52 | Ecoli_0940_Taxon009_ NODE_20_length_169489_cov_42.3185_ID_287702
+			  Extensive misassembly ( relocation, inconsistency = -58951 ) between these two alignments
+			Real Alignment 3: 3852854 3879338 | 102063 128547 | 26485 26485 | 95.74 | Ecoli_0940_Taxon009_ NODE_20_length_169489_cov_42.3185_ID_287702
+			  Extensive misassembly ( relocation, inconsistency = -41507 ) between these two alignments
+			Real Alignment 4: 3837832 3852854 | 143570 128548 | 15023 15023 | 95.27 | Ecoli_0940_Taxon009_ NODE_20_length_169489_cov_42.3185_ID_287702
+			  Extensive misassembly ( relocation, inconsistency = 58950 ) between these two alignments
+			Real Alignment 5: 3911805 3937723 | 143571 169489 | 25919 25919 | 95.81 | Ecoli_0940_Taxon009_ NODE_20_length_169489_cov_42.3185_ID_287702
+
+CONTIG: NODE_21_length_168810_cov_42.2355_ID_291345 (168810bp)
+Top Length: 36684  Top ID: 95.4
+		Skipping redundant alignment 3497533 3497677 | 168666 168810 | 145 145 | 95.86 | Ecoli_0940_Taxon009_ NODE_21_length_168810_cov_42.2355_ID_291345
+		This contig is misassembled. 16 total aligns.
+			Real Alignment 1: 13267 13856 | 1 590 | 590 590 | 95.25 | Ecoli_0940_Taxon009_ NODE_21_length_168810_cov_42.2355_ID_291345
+			  Gap between these two alignments (local misassembly). Inconsistency = 0 
+			Excluding internal overlap of size 2 between Alignment 2 and 3:  13958 15919 | 692 2653 | 1962 1962 --> 13958 15917 | 692 2651 | 1960 1960
+			Real Alignment 2: 13958 15917 | 692 2651 | 1960 1960 | 95.21 | Ecoli_0940_Taxon009_ NODE_21_length_168810_cov_42.2355_ID_291345
+			  Extensive misassembly ( relocation, inconsistency = -14543 ) between these two alignments
+			Real Alignment 3: 1375 12428 | 13705 2652 | 11054 11054 | 95.27 | Ecoli_0940_Taxon009_ NODE_21_length_168810_cov_42.2355_ID_291345
+			  Extensive misassembly ( relocation, inconsistency = -4578291 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 4 and 5:  4568559 4579663 | 24812 13708 | 11105 11105 --> 4568560 4579663 | 24811 13708 | 11104 11104
+			Real Alignment 4: 4568560 4579663 | 24811 13708 | 11104 11104 | 95.94 | Ecoli_0940_Taxon009_ NODE_21_length_168810_cov_42.2355_ID_291345
+			  Extensive misassembly ( relocation, inconsistency = -51922 ) between these two alignments
+			Real Alignment 5: 4527742 4564425 | 24812 61495 | 36684 36684 | 95.4 | Ecoli_0940_Taxon009_ NODE_21_length_168810_cov_42.2355_ID_291345
+			  Extensive misassembly ( relocation, inconsistency = -4450577 ) between these two alignments
+			Real Alignment 6: 113849 121274 | 68921 61496 | 7426 7426 | 95.35 | Ecoli_0940_Taxon009_ NODE_21_length_168810_cov_42.2355_ID_291345
+			  Extensive misassembly ( relocation, inconsistency = -53183 ) between these two alignments
+			Real Alignment 7: 162211 166281 | 73742 69672 | 4071 4071 | 95.58 | Ecoli_0940_Taxon009_ NODE_21_length_168810_cov_42.2355_ID_291345
+			  Extensive misassembly ( relocation, inconsistency = -133789 ) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 8 and 9:  134056 135074 | 91985 90967 | 1019 1019 --> 134056 135072 | 91985 90969 | 1017 1017
+			Real Alignment 8: 278774 295999 | 90968 73743 | 17226 17226 | 95.51 | Ecoli_0940_Taxon009_ NODE_21_length_168810_cov_42.2355_ID_291345
+			  Extensive misassembly ( relocation, inconsistency = 143701 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 9 and 10:  134056 135072 | 91985 90969 | 1017 1017 --> 134057 135072 | 91984 90969 | 1016 1016
+			Real Alignment 9: 134057 135072 | 91984 90969 | 1016 1016 | 95.88 | Ecoli_0940_Taxon009_ NODE_21_length_168810_cov_42.2355_ID_291345
+			  Extensive misassembly ( relocation, inconsistency = 128930 ) between these two alignments
+			Real Alignment 10: 264003 267587 | 91985 95569 | 3585 3585 | 95.68 | Ecoli_0940_Taxon009_ NODE_21_length_168810_cov_42.2355_ID_291345
+			  Extensive misassembly ( inversion ) between these two alignments
+			Real Alignment 11: 267588 269198 | 97180 95570 | 1611 1611 | 95.47 | Ecoli_0940_Taxon009_ NODE_21_length_168810_cov_42.2355_ID_291345
+			  Extensive misassembly ( inversion ) between these two alignments
+			Real Alignment 12: 269199 278773 | 97181 106755 | 9575 9575 | 95.46 | Ecoli_0940_Taxon009_ NODE_21_length_168810_cov_42.2355_ID_291345
+			  Extensive misassembly ( relocation, inconsistency = -143701 ) between these two alignments
+			Real Alignment 13: 135074 161030 | 106757 132713 | 25957 25957 | 95.65 | Ecoli_0940_Taxon009_ NODE_21_length_168810_cov_42.2355_ID_291345
+			  Extensive misassembly ( relocation, inconsistency = -44070 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 14 and 15:  121720 134056 | 137473 149809 | 12337 12337 --> 121720 134055 | 137473 149808 | 12336 12336
+			Real Alignment 14: 121720 134055 | 137473 149808 | 12336 12336 | 95.74 | Ecoli_0940_Taxon009_ NODE_21_length_168810_cov_42.2355_ID_291345
+			  Extensive misassembly ( relocation, inconsistency = 110948 ) between these two alignments
+			Real Alignment 15: 245004 264003 | 168808 149809 | 19000 19000 | 95.52 | Ecoli_0940_Taxon009_ NODE_21_length_168810_cov_42.2355_ID_291345
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_22_length_158580_cov_42.2149_ID_306302 (158580bp)
+Top Length: 158580  Top ID: 99.51
+		One align captures most of this contig: 3223154 3381733 | 1 158580 | 158580 158580 | 99.51 | Ecoli_0940_Taxon009_ NODE_22_length_158580_cov_42.2149_ID_306302
+
+CONTIG: NODE_23_length_154472_cov_48.0011_ID_311648 (154472bp)
+Top Length: 154472  Top ID: 99.25
+		Marking as insignificant: 177280 178047 | 84476 85243 | 768 768 | 95.18 | Ecoli_0940_Taxon009_ NODE_23_length_154472_cov_48.0011_ID_311648
+		Marking as insignificant: 188751 189519 | 84476 85244 | 769 769 | 95.32 | Ecoli_0940_Taxon009_ NODE_23_length_154472_cov_48.0011_ID_311648
+		One align captures most of this contig: 3498953 3653424 | 1 154472 | 154472 154472 | 99.25 | Ecoli_0940_Taxon009_ NODE_23_length_154472_cov_48.0011_ID_311648
+
+CONTIG: NODE_24_length_152051_cov_42.8507_ID_299620 (152051bp)
+Top Length: 81725  Top ID: 95.58
+		This contig is misassembled. 4 total aligns.
+			Real Alignment 1: 3499180 3580904 | 81725 1 | 81725 81725 | 95.58 | Ecoli_0940_Taxon009_ NODE_24_length_152051_cov_42.8507_ID_299620
+			  Extensive misassembly ( relocation, inconsistency = -153553 ) between these two alignments
+			Real Alignment 2: 3427352 3468440 | 81726 122814 | 41089 41089 | 95.51 | Ecoli_0940_Taxon009_ NODE_24_length_152051_cov_42.8507_ID_299620
+			  Extensive misassembly ( inversion ) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 3 and 4:  3484480 3497677 | 138854 152051 | 13198 13198 --> 3484482 3497677 | 138856 152051 | 13196 13196
+			Real Alignment 3: 3468438 3484478 | 138855 122815 | 16041 16041 | 95.32 | Ecoli_0940_Taxon009_ NODE_24_length_152051_cov_42.8507_ID_299620
+			  Extensive misassembly ( inversion ) between these two alignments
+			Real Alignment 4: 3484482 3497677 | 138856 152051 | 13196 13196 | 95.77 | Ecoli_0940_Taxon009_ NODE_24_length_152051_cov_42.8507_ID_299620
+
+CONTIG: NODE_25_length_132167_cov_41.4316_ID_265549 (132167bp)
+Top Length: 67663  Top ID: 95.38
+		This contig is misassembled. 6 total aligns.
+			Excluding internal overlap of size 3 between Alignment 1 and 2:  567403 570260 | 70518 67661 | 2858 2858 --> 567403 570257 | 70518 67664 | 2855 2855
+			Real Alignment 1: 393798 461460 | 1 67663 | 67663 67663 | 95.38 | Ecoli_0940_Taxon009_ NODE_25_length_132167_cov_41.4316_ID_265549
+			  Extensive misassembly ( relocation, inconsistency = 105942 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 2 and 3:  613462 615292 | 70518 72348 | 1831 1831 --> 613463 615292 | 70519 72348 | 1830 1830
+			Real Alignment 2: 567403 570257 | 70518 67664 | 2855 2855 | 96.01 | Ecoli_0940_Taxon009_ NODE_25_length_132167_cov_41.4316_ID_265549
+			  Extensive misassembly ( relocation, inconsistency = 43205 ) between these two alignments
+			Real Alignment 3: 613463 615292 | 70519 72348 | 1830 1830 | 95.08 | Ecoli_0940_Taxon009_ NODE_25_length_132167_cov_41.4316_ID_265549
+			  Extensive misassembly ( relocation, inconsistency = -22378 ) between these two alignments
+			Real Alignment 4: 592915 611112 | 90546 72349 | 18198 18198 | 95.03 | Ecoli_0940_Taxon009_ NODE_25_length_132167_cov_41.4316_ID_265549
+			  Extensive misassembly ( relocation, inconsistency = -48879 ) between these two alignments
+			Real Alignment 5: 562234 567403 | 90547 95716 | 5170 5170 | 96.62 | Ecoli_0940_Taxon009_ NODE_25_length_132167_cov_41.4316_ID_265549
+			  Extensive misassembly ( relocation, inconsistency = 45540 ) between these two alignments
+			Real Alignment 6: 615293 649394 | 98066 132167 | 34102 34102 | 95.24 | Ecoli_0940_Taxon009_ NODE_25_length_132167_cov_41.4316_ID_265549
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_26_length_131763_cov_43.0139_ID_307696 (131763bp)
+Top Length: 49790  Top ID: 95.61
+		This contig is misassembled. 10 total aligns.
+			Excluding internal overlap of size 1 between Alignment 1 and 2:  3203154 3213776 | 1 10623 | 10623 10623 --> 3203154 3213775 | 1 10622 | 10622 10622
+			Real Alignment 1: 3203154 3213775 | 1 10622 | 10622 10622 | 95.44 | Ecoli_0940_Taxon009_ NODE_26_length_131763_cov_43.0139_ID_307696
+			  Extensive misassembly ( relocation, inconsistency = -275322 ) between these two alignments
+			Real Alignment 2: 2938454 2988243 | 60412 10623 | 49790 49790 | 95.61 | Ecoli_0940_Taxon009_ NODE_26_length_131763_cov_43.0139_ID_307696
+			  Extensive misassembly ( relocation, inconsistency = 13148 ) between these two alignments
+			Real Alignment 3: 3001392 3010567 | 60413 69588 | 9176 9176 | 95.19 | Ecoli_0940_Taxon009_ NODE_26_length_131763_cov_43.0139_ID_307696
+			  Extensive misassembly ( relocation, inconsistency = 8454 ) between these two alignments
+			Real Alignment 4: 3019025 3027788 | 69592 78355 | 8764 8764 | 95.3 | Ecoli_0940_Taxon009_ NODE_26_length_131763_cov_43.0139_ID_307696
+			  Extensive misassembly ( relocation, inconsistency = 31579 ) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 5 and 6:  3159930 3160750 | 100223 101043 | 821 821 --> 3159932 3160750 | 100225 101043 | 819 819
+			Real Alignment 5: 3059370 3081236 | 100224 78358 | 21867 21867 | 96.12 | Ecoli_0940_Taxon009_ NODE_26_length_131763_cov_43.0139_ID_307696
+			  Extensive misassembly ( relocation, inconsistency = 78695 ) between these two alignments
+			Real Alignment 6: 3159932 3160750 | 100225 101043 | 819 819 | 95.49 | Ecoli_0940_Taxon009_ NODE_26_length_131763_cov_43.0139_ID_307696
+			  Extensive misassembly ( relocation, inconsistency = -150185 ) between these two alignments
+			Real Alignment 7: 3010568 3012795 | 103273 101046 | 2228 2228 | 96.63 | Ecoli_0940_Taxon009_ NODE_26_length_131763_cov_43.0139_ID_307696
+			  Extensive misassembly ( relocation, inconsistency = 275427 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 8 and 9:  3294497 3301411 | 109548 116462 | 6915 6915 --> 3294497 3301410 | 109548 116461 | 6914 6914
+			Real Alignment 8: 3294497 3301410 | 109548 116461 | 6914 6914 | 95.36 | Ecoli_0940_Taxon009_ NODE_26_length_131763_cov_43.0139_ID_307696
+			  Extensive misassembly ( relocation, inconsistency = -255638 ) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 9 and 10:  3158227 3159931 | 131763 130059 | 1705 1705 --> 3158227 3159929 | 131763 130061 | 1703 1703
+			Real Alignment 9: 3045773 3059371 | 116462 130060 | 13599 13599 | 96.39 | Ecoli_0940_Taxon009_ NODE_26_length_131763_cov_43.0139_ID_307696
+			  Extensive misassembly ( relocation, inconsistency = 98855 ) between these two alignments
+			Real Alignment 10: 3158227 3159929 | 131763 130061 | 1703 1703 | 95.66 | Ecoli_0940_Taxon009_ NODE_26_length_131763_cov_43.0139_ID_307696
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_27_length_121957_cov_41.3191_ID_303800 (121957bp)
+Top Length: 33232  Top ID: 95.61
+		This contig is misassembled. 10 total aligns.
+			Real Alignment 1: 4040981 4074212 | 1 33232 | 33232 33232 | 95.61 | Ecoli_0940_Taxon009_ NODE_27_length_121957_cov_41.3191_ID_303800
+			  Extensive misassembly ( relocation, inconsistency = 108013 ) between these two alignments
+			Real Alignment 2: 4182228 4185671 | 36678 33235 | 3444 3444 | 96.28 | Ecoli_0940_Taxon009_ NODE_27_length_121957_cov_41.3191_ID_303800
+			  Extensive misassembly ( relocation, inconsistency = 6723 ) between these two alignments
+			Real Alignment 3: 4192403 4199886 | 36687 44170 | 7484 7484 | 95.08 | Ecoli_0940_Taxon009_ NODE_27_length_121957_cov_41.3191_ID_303800
+			  Extensive misassembly ( inversion ) between these two alignments
+			Excluding internal overlap of size 8 between Alignment 4 and 5:  4199887 4205788 | 50167 44266 | 5902 5902 --> 4199895 4205788 | 50159 44266 | 5894 5894
+			Real Alignment 4: 4199895 4205788 | 50159 44266 | 5894 5894 | 96.32 | Ecoli_0940_Taxon009_ NODE_27_length_121957_cov_41.3191_ID_303800
+			  Extensive misassembly ( relocation, inconsistency = -79915 ) between these two alignments
+			Real Alignment 5: 4125874 4137235 | 50160 61522 | 11362 11363 | 95.56 | Ecoli_0940_Taxon009_ NODE_27_length_121957_cov_41.3191_ID_303800
+			  Gap between these two alignments (local misassembly). Inconsistency = 0 
+			Real Alignment 6: 4142440 4147062 | 66727 71349 | 4623 4623 | 95.26 | Ecoli_0940_Taxon009_ NODE_27_length_121957_cov_41.3191_ID_303800
+			  Extensive misassembly ( relocation, inconsistency = 38609 ) between these two alignments
+			Real Alignment 7: 4185672 4187645 | 73323 71350 | 1974 1974 | 95.54 | Ecoli_0940_Taxon009_ NODE_27_length_121957_cov_41.3191_ID_303800
+			  Extensive misassembly ( relocation, inconsistency = -113431 ) between these two alignments
+			Real Alignment 8: 4074216 4081439 | 73325 80548 | 7224 7224 | 95.64 | Ecoli_0940_Taxon009_ NODE_27_length_121957_cov_41.3191_ID_303800
+			  Extensive misassembly ( relocation, inconsistency = 312096 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 9 and 10:  4087863 4104368 | 118253 101748 | 16506 16506 --> 4087863 4104367 | 118253 101749 | 16505 16505
+			Real Alignment 9: 4396158 4414735 | 101748 83171 | 18578 18578 | 95.27 | Ecoli_0940_Taxon009_ NODE_27_length_121957_cov_41.3191_ID_303800
+			  Extensive misassembly ( relocation, inconsistency = 291790 ) between these two alignments
+			Real Alignment 10: 4087863 4104367 | 118253 101749 | 16505 16505 | 95.43 | Ecoli_0940_Taxon009_ NODE_27_length_121957_cov_41.3191_ID_303800
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_28_length_117335_cov_41.6847_ID_301973 (117335bp)
+Top Length: 73661  Top ID: 95.34
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 2491786 2501250 | 9465 1 | 9465 9465 | 95.81 | Ecoli_0940_Taxon009_ NODE_28_length_117335_cov_41.6847_ID_301973
+			  Extensive misassembly ( relocation, inconsistency = -288384 ) between these two alignments
+			Real Alignment 2: 2212867 2286527 | 9466 83126 | 73661 73661 | 95.34 | Ecoli_0940_Taxon009_ NODE_28_length_117335_cov_41.6847_ID_301973
+			  Extensive misassembly ( relocation, inconsistency = -269407 ) between these two alignments
+			Real Alignment 3: 2017121 2027879 | 93885 83127 | 10759 10759 | 95.9 | Ecoli_0940_Taxon009_ NODE_28_length_117335_cov_41.6847_ID_301973
+			  Extensive misassembly ( relocation, inconsistency = 1833 ) between these two alignments
+			Real Alignment 4: 2005164 2007124 | 104009 102049 | 1961 1961 | 95.77 | Ecoli_0940_Taxon009_ NODE_28_length_117335_cov_41.6847_ID_301973
+			  Extensive misassembly ( relocation, inconsistency = 26303 ) between these two alignments
+			Real Alignment 5: 2033430 2046532 | 104012 117114 | 13103 13103 | 95.21 | Ecoli_0940_Taxon009_ NODE_28_length_117335_cov_41.6847_ID_301973
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_29_length_116014_cov_42.6488_ID_295357 (116014bp)
+Top Length: 116014  Top ID: 99.4
+		Marking as insignificant: 3202281 3202392 | 116014 115903 | 112 112 | 96.43 | Ecoli_0940_Taxon009_ NODE_29_length_116014_cov_42.6488_ID_295357
+		Marking as insignificant: 3382148 3382261 | 116014 115901 | 114 114 | 97.37 | Ecoli_0940_Taxon009_ NODE_29_length_116014_cov_42.6488_ID_295357
+		One align captures most of this contig: 576409 692422 | 1 116014 | 116014 116014 | 99.4 | Ecoli_0940_Taxon009_ NODE_29_length_116014_cov_42.6488_ID_295357
+
+CONTIG: NODE_30_length_114786_cov_41.1853_ID_305306 (114786bp)
+Top Length: 114783  Top ID: 99.5
+		Marking as insignificant: 3382148 3382256 | 1 109 | 109 109 | 97.25 | Ecoli_0940_Taxon009_ NODE_30_length_114786_cov_41.1853_ID_305306
+		Marking as insignificant: 3202281 3202393 | 1 113 | 113 113 | 95.58 | Ecoli_0940_Taxon009_ NODE_30_length_114786_cov_41.1853_ID_305306
+		One align captures most of this contig: 2008380 2123162 | 4 114786 | 114783 114783 | 99.5 | Ecoli_0940_Taxon009_ NODE_30_length_114786_cov_41.1853_ID_305306
+
+CONTIG: NODE_31_length_110783_cov_45.4778_ID_328449 (110783bp)
+Top Length: 110783  Top ID: 99.3
+		Marking as insignificant: 15918 16723 | 30061 30866 | 806 806 | 95.53 | Ecoli_0940_Taxon009_ NODE_31_length_110783_cov_45.4778_ID_328449
+		One align captures most of this contig: 464921 575703 | 110783 1 | 110783 110783 | 99.3 | Ecoli_0940_Taxon009_ NODE_31_length_110783_cov_45.4778_ID_328449
+
+CONTIG: NODE_32_length_109022_cov_43.1878_ID_301005 (109022bp)
+Top Length: 31093  Top ID: 95.18
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 3202281 3202392 | 109022 108911 | 112 112 | 96.43 | Ecoli_0940_Taxon009_ NODE_32_length_109022_cov_43.1878_ID_301005
+		This contig is misassembled. 7 total aligns.
+			Excluding internal overlap of size 1 between Alignment 1 and 2:  3722958 3744279 | 28095 49416 | 21322 21322 --> 3722959 3744279 | 28096 49416 | 21321 21321
+			Real Alignment 1: 3617950 3646044 | 1 28095 | 28095 28095 | 95.65 | Ecoli_0940_Taxon009_ NODE_32_length_109022_cov_43.1878_ID_301005
+			  Extensive misassembly ( relocation, inconsistency = 76914 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 2 and 3:  3744279 3762544 | 67681 49416 | 18266 18266 --> 3744279 3762543 | 67681 49417 | 18265 18265
+			Real Alignment 2: 3722959 3744279 | 28096 49416 | 21321 21321 | 95.27 | Ecoli_0940_Taxon009_ NODE_32_length_109022_cov_43.1878_ID_301005
+			  Extensive misassembly ( inversion ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 3 and 4:  3762544 3764410 | 67681 69547 | 1867 1867 --> 3762545 3764410 | 67682 69547 | 1866 1866
+			Real Alignment 3: 3744279 3762543 | 67681 49417 | 18265 18265 | 95.52 | Ecoli_0940_Taxon009_ NODE_32_length_109022_cov_43.1878_ID_301005
+			  Extensive misassembly ( inversion ) between these two alignments
+			Real Alignment 4: 3762545 3764410 | 67682 69547 | 1866 1866 | 96.84 | Ecoli_0940_Taxon009_ NODE_32_length_109022_cov_43.1878_ID_301005
+			  Extensive misassembly ( relocation, inconsistency = -179821 ) between these two alignments
+			Real Alignment 5: 3584590 3615682 | 100640 69548 | 31093 31093 | 95.18 | Ecoli_0940_Taxon009_ NODE_32_length_109022_cov_43.1878_ID_301005
+			  Extensive misassembly ( relocation, inconsistency = 194060 ) between these two alignments
+			Real Alignment 6: 3382148 3382260 | 109022 108910 | 113 113 | 97.35 | Ecoli_0940_Taxon009_ NODE_32_length_109022_cov_43.1878_ID_301005
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_33_length_105176_cov_41.071_ID_302938 (105176bp)
+Top Length: 105176  Top ID: 99.55
+		One align captures most of this contig: 4042702 4147877 | 1 105176 | 105176 105176 | 99.55 | Ecoli_0940_Taxon009_ NODE_33_length_105176_cov_41.071_ID_302938
+
+CONTIG: NODE_34_length_99298_cov_42.9336_ID_335181 (99298bp)
+Top Length: 23722  Top ID: 95.33
+		This contig is misassembled. 7 total aligns.
+			Excluding internal overlap of size 2 between Alignment 1 and 2:  57279 72699 | 18015 2595 | 15421 15421 --> 57281 72699 | 18013 2595 | 15419 15419
+			Real Alignment 1: 57281 72699 | 18013 2595 | 15419 15419 | 95.51 | Ecoli_0940_Taxon009_ NODE_34_length_99298_cov_42.9336_ID_335181
+			  Extensive misassembly ( relocation, inconsistency = -39141 ) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 2 and 3:  24092 33560 | 51202 41734 | 9469 9469 --> 24092 33558 | 51202 41736 | 9467 9467
+			Real Alignment 2: 33559 57280 | 18014 41735 | 23722 23722 | 95.33 | Ecoli_0940_Taxon009_ NODE_34_length_99298_cov_42.9336_ID_335181
+			  Extensive misassembly ( relocation, inconsistency = -33189 ) between these two alignments
+			Real Alignment 3: 24092 33558 | 51202 41736 | 9467 9467 | 95.03 | Ecoli_0940_Taxon009_ NODE_34_length_99298_cov_42.9336_ID_335181
+			  Extensive misassembly ( relocation, inconsistency = 39139 ) between these two alignments
+			Real Alignment 4: 91224 113850 | 69729 92355 | 22627 22627 | 95.9 | Ecoli_0940_Taxon009_ NODE_34_length_99298_cov_42.9336_ID_335181
+			  Extensive misassembly ( relocation, inconsistency = 47932 ) between these two alignments
+			Real Alignment 5: 161783 162210 | 92356 92783 | 428 428 | 96.03 | Ecoli_0940_Taxon009_ NODE_34_length_99298_cov_42.9336_ID_335181
+			  Extensive misassembly ( relocation, inconsistency = 133789 ) between these two alignments
+			Real Alignment 6: 296000 297640 | 92784 94424 | 1641 1641 | 96.28 | Ecoli_0940_Taxon009_ NODE_34_length_99298_cov_42.9336_ID_335181
+			  Extensive misassembly ( relocation, inconsistency = 4266340 ) between these two alignments
+			Real Alignment 7: 4564426 4568559 | 94870 99003 | 4134 4134 | 96.03 | Ecoli_0940_Taxon009_ NODE_34_length_99298_cov_42.9336_ID_335181
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_35_length_95039_cov_42.9234_ID_268022 (95039bp)
+Top Length: 17193  Top ID: 95.6
+		Skipping redundant alignment 3382148 3382260 | 1 113 | 113 113 | 97.35 | Ecoli_0940_Taxon009_ NODE_35_length_95039_cov_42.9234_ID_268022
+		Skipping redundant alignment 3202281 3202392 | 1 112 | 112 112 | 96.43 | Ecoli_0940_Taxon009_ NODE_35_length_95039_cov_42.9234_ID_268022
+		This contig is misassembled. 11 total aligns.
+			Real Alignment 1: 1321019 1334995 | 13977 1 | 13977 13977 | 95.84 | Ecoli_0940_Taxon009_ NODE_35_length_95039_cov_42.9234_ID_268022
+			  Extensive misassembly ( relocation, inconsistency = 3122 ) between these two alignments
+			Real Alignment 2: 1338118 1345237 | 13978 21097 | 7120 7120 | 95.22 | Ecoli_0940_Taxon009_ NODE_35_length_95039_cov_42.9234_ID_268022
+			  Extensive misassembly ( relocation, inconsistency = 85396 ) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 3 and 4:  1430635 1433166 | 23630 21099 | 2532 2532 --> 1430637 1433166 | 23628 21099 | 2530 2530
+			Real Alignment 3: 1430637 1433166 | 23628 21099 | 2530 2530 | 95.58 | Ecoli_0940_Taxon009_ NODE_35_length_95039_cov_42.9234_ID_268022
+			  Extensive misassembly ( relocation, inconsistency = 371919 ) between these two alignments
+			Real Alignment 4: 1054046 1058717 | 28300 23629 | 4672 4672 | 95.48 | Ecoli_0940_Taxon009_ NODE_35_length_95039_cov_42.9234_ID_268022
+			  Extensive misassembly ( relocation, inconsistency = -303510 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 5 and 6:  1418786 1427845 | 39265 48324 | 9060 9060 --> 1418787 1427845 | 39266 48324 | 9059 9059
+			Real Alignment 5: 1346591 1357555 | 39265 28301 | 10965 10965 | 95.38 | Ecoli_0940_Taxon009_ NODE_35_length_95039_cov_42.9234_ID_268022
+			  Extensive misassembly ( relocation, inconsistency = 61231 ) between these two alignments
+			Real Alignment 6: 1418787 1427845 | 39266 48324 | 9059 9059 | 96.13 | Ecoli_0940_Taxon009_ NODE_35_length_95039_cov_42.9234_ID_268022
+			  Extensive misassembly ( relocation, inconsistency = -338389 ) between these two alignments
+			Real Alignment 7: 1098970 1104916 | 63784 57838 | 5947 5947 | 95.46 | Ecoli_0940_Taxon009_ NODE_35_length_95039_cov_42.9234_ID_268022
+			  Extensive misassembly ( relocation, inconsistency = 8707 ) between these two alignments
+			Real Alignment 8: 1118540 1135732 | 68701 85893 | 17193 17193 | 95.6 | Ecoli_0940_Taxon009_ NODE_35_length_95039_cov_42.9234_ID_268022
+			  Extensive misassembly ( relocation, inconsistency = -79803 ) between these two alignments
+			Real Alignment 9: 1058716 1065075 | 88680 95039 | 6360 6360 | 95.93 | Ecoli_0940_Taxon009_ NODE_35_length_95039_cov_42.9234_ID_268022
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_36_length_87458_cov_42.1353_ID_323681 (87458bp)
+Top Length: 60592  Top ID: 95.5
+		This contig is misassembled. 2 total aligns.
+			Excluding internal overlap of size 2 between Alignment 1 and 2:  3947796 3974661 | 87458 60593 | 26866 26866 --> 3947796 3974659 | 87458 60595 | 26864 26864
+			Real Alignment 1: 3977240 4037831 | 3 60594 | 60592 60592 | 95.5 | Ecoli_0940_Taxon009_ NODE_36_length_87458_cov_42.1353_ID_323681
+			  Extensive misassembly ( relocation, inconsistency = -90036 ) between these two alignments
+			Real Alignment 2: 3947796 3974659 | 87458 60595 | 26864 26864 | 95.25 | Ecoli_0940_Taxon009_ NODE_36_length_87458_cov_42.1353_ID_323681
+
+CONTIG: NODE_37_length_82213_cov_43.1418_ID_334388 (82213bp)
+Top Length: 16072  Top ID: 95.46
+		This contig is misassembled. 10 total aligns.
+			Excluding internal overlap of size 4 between Alignment 1 and 2:  4626743 4631521 | 20513 15735 | 4779 4779 --> 4626743 4631517 | 20513 15739 | 4775 4775
+			Real Alignment 1: 4512070 4527579 | 15738 229 | 15510 15510 | 95.6 | Ecoli_0940_Taxon009_ NODE_37_length_82213_cov_43.1418_ID_334388
+			  Extensive misassembly ( relocation, inconsistency = -119448 ) between these two alignments
+			Excluding internal overlap of size 3 between Alignment 2 and 3:  4499271 4503433 | 20511 24673 | 4163 4163 --> 4499274 4503433 | 20514 24673 | 4160 4160
+			Real Alignment 2: 4626743 4631517 | 20513 15739 | 4775 4775 | 95.94 | Ecoli_0940_Taxon009_ NODE_37_length_82213_cov_43.1418_ID_334388
+			  Extensive misassembly ( relocation, inconsistency = -132244 ) between these two alignments
+			Real Alignment 3: 4499274 4503433 | 20514 24673 | 4160 4160 | 96.11 | Ecoli_0940_Taxon009_ NODE_37_length_82213_cov_43.1418_ID_334388
+			  Gap between these two alignments (local misassembly). Inconsistency = 0 
+			Excluding internal overlap of size 4 between Alignment 4 and 5:  4631518 4635448 | 33310 37240 | 3931 3931 --> 4631522 4635448 | 33314 37240 | 3927 3927
+			Real Alignment 4: 4504466 4512073 | 25706 33313 | 7608 7608 | 95.56 | Ecoli_0940_Taxon009_ NODE_37_length_82213_cov_43.1418_ID_334388
+			  Extensive misassembly ( relocation, inconsistency = 119448 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 5 and 6:  4613773 4614782 | 37240 38249 | 1010 1010 --> 4613774 4614782 | 37241 38249 | 1009 1009
+			Real Alignment 5: 4631522 4635448 | 33314 37240 | 3927 3927 | 95.5 | Ecoli_0940_Taxon009_ NODE_37_length_82213_cov_43.1418_ID_334388
+			  Extensive misassembly ( relocation, inconsistency = -21675 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 6 and 7:  4613774 4614782 | 37241 38249 | 1009 1009 --> 4613774 4614781 | 37241 38248 | 1008 1008
+			Real Alignment 6: 4613774 4614781 | 37241 38248 | 1008 1008 | 95.35 | Ecoli_0940_Taxon009_ NODE_37_length_82213_cov_43.1418_ID_334388
+			  Extensive misassembly ( relocation, inconsistency = -22702 ) between these two alignments
+			Real Alignment 7: 4592080 4608151 | 38249 54320 | 16072 16072 | 95.46 | Ecoli_0940_Taxon009_ NODE_37_length_82213_cov_43.1418_ID_334388
+			  Extensive misassembly ( relocation, inconsistency = -111022 ) between these two alignments
+			Real Alignment 8: 4497130 4499270 | 54321 56461 | 2141 2141 | 95.98 | Ecoli_0940_Taxon009_ NODE_37_length_82213_cov_43.1418_ID_334388
+			  Extensive misassembly ( relocation, inconsistency = 115510 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 9 and 10:  4614782 4626744 | 68425 56463 | 11963 11963 --> 4614783 4626744 | 68424 56463 | 11962 11962
+			Real Alignment 9: 4614783 4626744 | 68424 56463 | 11962 11962 | 95.75 | Ecoli_0940_Taxon009_ NODE_37_length_82213_cov_43.1418_ID_334388
+			  Extensive misassembly ( relocation, inconsistency = 22702 ) between these two alignments
+			Real Alignment 10: 4579666 4592080 | 80839 68425 | 12415 12415 | 95.93 | Ecoli_0940_Taxon009_ NODE_37_length_82213_cov_43.1418_ID_334388
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_38_length_79962_cov_44.8706_ID_266600 (79962bp)
+Top Length: 79962  Top ID: 99.41
+		Marking as insignificant: 2501453 2501598 | 9291 9436 | 146 146 | 96.58 | Ecoli_0940_Taxon009_ NODE_38_length_79962_cov_44.8706_ID_266600
+		Marking as insignificant: 1308252 1309511 | 10557 9298 | 1260 1260 | 96.27 | Ecoli_0940_Taxon009_ NODE_38_length_79962_cov_44.8706_ID_266600
+		Marking as insignificant: 462711 463980 | 9293 10562 | 1270 1270 | 96.54 | Ecoli_0940_Taxon009_ NODE_38_length_79962_cov_44.8706_ID_266600
+		One align captures most of this contig: 382411 462372 | 1 79962 | 79962 79962 | 99.41 | Ecoli_0940_Taxon009_ NODE_38_length_79962_cov_44.8706_ID_266600
+
+CONTIG: NODE_39_length_79757_cov_40.292_ID_326572 (79757bp)
+Top Length: 41576  Top ID: 95.5
+		This contig is misassembled. 5 total aligns.
+			Excluding internal overlap of size 11 between Alignment 1 and 2:  1920302 1923822 | 2544 6065 | 3521 3522 --> 1920302 1923811 | 2544 6054 | 3510 3511
+			Real Alignment 1: 1920302 1923811 | 2544 6054 | 3510 3511 | 95.32 | Ecoli_0940_Taxon009_ NODE_39_length_79757_cov_40.292_ID_326572
+			  Extensive misassembly ( relocation, inconsistency = 362716 ) between these two alignments
+			Real Alignment 2: 2286528 2290122 | 9649 6055 | 3595 3595 | 95.22 | Ecoli_0940_Taxon009_ NODE_39_length_79757_cov_40.292_ID_326572
+			  Extensive misassembly ( relocation, inconsistency = -238129 ) between these two alignments
+			Real Alignment 3: 2058509 2058770 | 16165 16426 | 262 262 | 97.71 | Ecoli_0940_Taxon009_ NODE_39_length_79757_cov_40.292_ID_326572
+			  Extensive misassembly ( inversion ) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 4 and 5:  2058770 2080524 | 38183 16429 | 21755 21755 --> 2058772 2080524 | 38181 16429 | 21753 21753
+			Real Alignment 4: 2058772 2080524 | 38181 16429 | 21753 21753 | 95.21 | Ecoli_0940_Taxon009_ NODE_39_length_79757_cov_40.292_ID_326572
+			  Extensive misassembly ( inversion ) between these two alignments
+			Real Alignment 5: 2080526 2122101 | 38182 79757 | 41576 41576 | 95.5 | Ecoli_0940_Taxon009_ NODE_39_length_79757_cov_40.292_ID_326572
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_40_length_77400_cov_43.4439_ID_315366 (77400bp)
+Top Length: 46533  Top ID: 95.55
+		This contig is misassembled. 3 total aligns.
+			Excluding internal overlap of size 1 between Alignment 1 and 2:  660172 677079 | 27734 10827 | 16908 16908 --> 660173 677079 | 27733 10827 | 16907 16907
+			Real Alignment 1: 660173 677079 | 27733 10827 | 16907 16907 | 95.68 | Ecoli_0940_Taxon009_ NODE_40_length_77400_cov_43.4439_ID_315366
+			  Extensive misassembly ( relocation, inconsistency = -183071 ) between these two alignments
+			Real Alignment 2: 494009 540541 | 27734 74266 | 46533 46533 | 95.55 | Ecoli_0940_Taxon009_ NODE_40_length_77400_cov_43.4439_ID_315366
+			  Extensive misassembly ( inversion ) between these two alignments
+			Real Alignment 3: 540542 542168 | 75893 74267 | 1627 1627 | 95.39 | Ecoli_0940_Taxon009_ NODE_40_length_77400_cov_43.4439_ID_315366
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_41_length_71263_cov_42.5064_ID_299015 (71263bp)
+Top Length: 71263  Top ID: 99.49
+		One align captures most of this contig: 3426415 3497677 | 1 71263 | 71263 71263 | 99.49 | Ecoli_0940_Taxon009_ NODE_41_length_71263_cov_42.5064_ID_299015
+
+CONTIG: NODE_42_length_71019_cov_43.2481_ID_268900 (71019bp)
+Top Length: 71019  Top ID: 99.26
+		One align captures most of this contig: 1335644 1406662 | 71019 1 | 71019 71019 | 99.26 | Ecoli_0940_Taxon009_ NODE_42_length_71019_cov_43.2481_ID_268900
+
+CONTIG: NODE_43_length_69839_cov_42.341_ID_338475 (69839bp)
+Top Length: 69837  Top ID: 99.37
+		One align captures most of this contig: 245004 314840 | 3 69839 | 69837 69837 | 99.37 | Ecoli_0940_Taxon009_ NODE_43_length_69839_cov_42.341_ID_338475
+
+CONTIG: NODE_44_length_67069_cov_42.9385_ID_267387 (67069bp)
+Top Length: 30216  Top ID: 95.53
+		Skipping redundant alignment 3382148 3382259 | 1 112 | 112 112 | 97.32 | Ecoli_0940_Taxon009_ NODE_44_length_67069_cov_42.9385_ID_267387
+		This contig is misassembled. 6 total aligns.
+			Real Alignment 1: 3202281 3202394 | 1 114 | 114 114 | 96.49 | Ecoli_0940_Taxon009_ NODE_44_length_67069_cov_42.9385_ID_267387
+			  Extensive misassembly ( relocation, inconsistency = -1211995 ) between these two alignments
+			Real Alignment 2: 1999776 2004196 | 9491 13911 | 4421 4421 | 96.13 | Ecoli_0940_Taxon009_ NODE_44_length_67069_cov_42.9385_ID_267387
+			  Extensive misassembly ( relocation, inconsistency = 1922 ) between these two alignments
+			Real Alignment 3: 2009930 2017122 | 24915 17723 | 7193 7193 | 95.62 | Ecoli_0940_Taxon009_ NODE_44_length_67069_cov_42.9385_ID_267387
+			  Extensive misassembly ( relocation, inconsistency = -166697 ) between these two alignments
+			Real Alignment 4: 2146408 2176623 | 55134 24919 | 30216 30216 | 95.53 | Ecoli_0940_Taxon009_ NODE_44_length_67069_cov_42.9385_ID_267387
+			  Extensive misassembly ( relocation, inconsistency = -48300 ) between these two alignments
+			Real Alignment 5: 2128324 2140258 | 55135 67069 | 11935 11935 | 95.86 | Ecoli_0940_Taxon009_ NODE_44_length_67069_cov_42.9385_ID_267387
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_45_length_61654_cov_42.6377_ID_337987 (61654bp)
+Top Length: 61654  Top ID: 99.51
+		One align captures most of this contig: 3976374 4038027 | 61654 1 | 61654 61654 | 99.51 | Ecoli_0940_Taxon009_ NODE_45_length_61654_cov_42.6377_ID_337987
+
+CONTIG: NODE_46_length_60167_cov_39.5893_ID_329427 (60167bp)
+Top Length: 60167  Top ID: 99.63
+		One align captures most of this contig: 4358225 4418391 | 60167 1 | 60167 60167 | 99.63 | Ecoli_0940_Taxon009_ NODE_46_length_60167_cov_39.5893_ID_329427
+
+CONTIG: NODE_47_length_56510_cov_43.8507_ID_327653 (56510bp)
+Top Length: 39201  Top ID: 95.62
+		Skipping redundant alignment 3202281 3202392 | 56510 56399 | 112 112 | 96.43 | Ecoli_0940_Taxon009_ NODE_47_length_56510_cov_43.8507_ID_327653
+		This contig is misassembled. 5 total aligns.
+			Excluding internal overlap of size 6 between Alignment 1 and 2:  3373915 3376750 | 39196 42031 | 2836 2836 --> 3373921 3376750 | 39202 42031 | 2830 2830
+			Real Alignment 1: 3383952 3423151 | 39201 1 | 39200 39201 | 95.62 | Ecoli_0940_Taxon009_ NODE_47_length_56510_cov_43.8507_ID_327653
+			  Extensive misassembly ( relocation, inconsistency = -49231 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 2 and 3:  3373921 3376750 | 39202 42031 | 2830 2830 --> 3373921 3376749 | 39202 42030 | 2829 2829
+			Real Alignment 2: 3373921 3376749 | 39202 42030 | 2829 2829 | 95.7 | Ecoli_0940_Taxon009_ NODE_47_length_56510_cov_43.8507_ID_327653
+			  Extensive misassembly ( relocation, inconsistency = -15506 ) between these two alignments
+			Excluding internal overlap of size 5 between Alignment 3 and 4:  3382148 3383956 | 56510 54702 | 1809 1809 --> 3382148 3383951 | 56510 54707 | 1804 1804
+			Real Alignment 3: 3361244 3373920 | 42031 54706 | 12677 12676 | 95.8 | Ecoli_0940_Taxon009_ NODE_47_length_56510_cov_43.8507_ID_327653
+			  Extensive misassembly ( relocation, inconsistency = 8227 ) between these two alignments
+			Real Alignment 4: 3382148 3383951 | 56510 54707 | 1804 1804 | 96.3 | Ecoli_0940_Taxon009_ NODE_47_length_56510_cov_43.8507_ID_327653
+
+CONTIG: NODE_48_length_54320_cov_43.2375_ID_313176 (54320bp)
+Top Length: 20282  Top ID: 95.93
+		This contig is misassembled. 6 total aligns.
+			Real Alignment 1: 3198621 3201249 | 2629 1 | 2629 2629 | 96.88 | Ecoli_0940_Taxon009_ NODE_48_length_54320_cov_43.2375_ID_313176
+			  Extensive misassembly ( relocation, inconsistency = 162484 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 2 and 3:  3027791 3029343 | 10975 9423 | 1553 1553 --> 3027792 3029343 | 10974 9423 | 1552 1552
+			Real Alignment 2: 3027792 3029343 | 10974 9423 | 1552 1552 | 96.01 | Ecoli_0940_Taxon009_ NODE_48_length_54320_cov_43.2375_ID_313176
+			  Extensive misassembly ( relocation, inconsistency = 51892 ) between these two alignments
+			Real Alignment 3: 3081236 3094977 | 10975 24716 | 13742 13742 | 95.13 | Ecoli_0940_Taxon009_ NODE_48_length_54320_cov_43.2375_ID_313176
+			  Extensive misassembly ( relocation, inconsistency = 160807 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 4 and 5:  2988243 2992132 | 48889 45000 | 3890 3890 --> 2988243 2992131 | 48889 45001 | 3889 3889
+			Real Alignment 4: 3255787 3276068 | 24719 45000 | 20282 20282 | 95.93 | Ecoli_0940_Taxon009_ NODE_48_length_54320_cov_43.2375_ID_313176
+			  Extensive misassembly ( relocation, inconsistency = -287826 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 5 and 6:  2988243 2992131 | 48889 45001 | 3889 3889 --> 2988244 2992131 | 48888 45001 | 3888 3888
+			Real Alignment 5: 2988244 2992131 | 48888 45001 | 3888 3888 | 95.53 | Ecoli_0940_Taxon009_ NODE_48_length_54320_cov_43.2375_ID_313176
+			  Extensive misassembly ( relocation, inconsistency = 221644 ) between these two alignments
+			Real Alignment 6: 3213776 3219207 | 48889 54320 | 5432 5432 | 95.91 | Ecoli_0940_Taxon009_ NODE_48_length_54320_cov_43.2375_ID_313176
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_49_length_43765_cov_41.9605_ID_331650 (43765bp)
+Top Length: 43765  Top ID: 99.33
+		One align captures most of this contig: 3656833 3700597 | 43765 1 | 43765 43765 | 99.33 | Ecoli_0940_Taxon009_ NODE_49_length_43765_cov_41.9605_ID_331650
+
+CONTIG: NODE_50_length_43168_cov_46.4458_ID_294942 (43168bp)
+Top Length: 43168  Top ID: 99.22
+		Marking as insignificant: 3220337 3221028 | 9622 10313 | 692 692 | 95.09 | Ecoli_0940_Taxon009_ NODE_50_length_43168_cov_46.4458_ID_294942
+		One align captures most of this contig: 3158165 3201332 | 43168 1 | 43168 43168 | 99.22 | Ecoli_0940_Taxon009_ NODE_50_length_43168_cov_46.4458_ID_294942
+
+CONTIG: NODE_51_length_43118_cov_42.8835_ID_274366 (43118bp)
+Top Length: 7681  Top ID: 96.25
+		This contig is partially unaligned. (Aligned 7681 out of 43118 bases)
+		Alignment: 1357556 1365236 | 3195 10875 | 7681 7681 | 96.25 | Ecoli_0940_Taxon009_ NODE_51_length_43118_cov_42.8835_ID_274366
+		Unaligned bases: 1 to 3194 (3194)
+		Unaligned bases: 10876 to 43118 (32243)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_52_length_42788_cov_41.0738_ID_320266 (42788bp)
+Top Length: 42788  Top ID: 99.36
+		One align captures most of this contig: 338142 380929 | 1 42788 | 42788 42788 | 99.36 | Ecoli_0940_Taxon009_ NODE_52_length_42788_cov_41.0738_ID_320266
+
+CONTIG: NODE_53_length_40599_cov_40.9236_ID_336051 (40599bp)
+Top Length: 17864  Top ID: 95.07
+		This contig is misassembled. 5 total aligns.
+			Real Alignment 1: 752181 757503 | 1 5323 | 5323 5323 | 95.94 | Ecoli_0940_Taxon009_ NODE_53_length_40599_cov_40.9236_ID_336051
+			  Extensive misassembly ( relocation, inconsistency = -64357 ) between these two alignments
+			Real Alignment 2: 693147 708737 | 5324 20914 | 15591 15591 | 95.75 | Ecoli_0940_Taxon009_ NODE_53_length_40599_cov_40.9236_ID_336051
+			  Extensive misassembly ( inversion ) between these two alignments
+			Real Alignment 3: 708738 726601 | 38778 20915 | 17864 17864 | 95.07 | Ecoli_0940_Taxon009_ NODE_53_length_40599_cov_40.9236_ID_336051
+			  Extensive misassembly ( inversion ) between these two alignments
+			Real Alignment 4: 726602 728231 | 38779 40408 | 1630 1630 | 96.32 | Ecoli_0940_Taxon009_ NODE_53_length_40599_cov_40.9236_ID_336051
+			  Extensive misassembly ( relocation, inconsistency = -36057 ) between these two alignments
+			Real Alignment 5: 692175 692365 | 40409 40599 | 191 191 | 97.38 | Ecoli_0940_Taxon009_ NODE_53_length_40599_cov_40.9236_ID_336051
+
+CONTIG: NODE_54_length_39954_cov_42.3442_ID_327274 (39954bp)
+Top Length: 39954  Top ID: 99.45
+		One align captures most of this contig: 3383198 3423151 | 39954 1 | 39954 39954 | 99.45 | Ecoli_0940_Taxon009_ NODE_54_length_39954_cov_42.3442_ID_327274
+
+CONTIG: NODE_55_length_37203_cov_41.5418_ID_336461 (37203bp)
+Top Length: 27334  Top ID: 95.73
+		This contig is misassembled. 2 total aligns.
+			Excluding internal overlap of size 1 between Alignment 1 and 2:  650303 660172 | 37203 27334 | 9870 9870 --> 650303 660171 | 37203 27335 | 9869 9869
+			Real Alignment 1: 466676 494009 | 1 27334 | 27334 27334 | 95.73 | Ecoli_0940_Taxon009_ NODE_55_length_37203_cov_41.5418_ID_336461
+			  Extensive misassembly ( relocation, inconsistency = 156293 ) between these two alignments
+			Real Alignment 2: 650303 660171 | 37203 27335 | 9869 9869 | 95.79 | Ecoli_0940_Taxon009_ NODE_55_length_37203_cov_41.5418_ID_336461
+
+CONTIG: NODE_56_length_35013_cov_43.5203_ID_332020 (35013bp)
+Top Length: 34809  Top ID: 95.35
+		One align captures most of this contig: 3656833 3691641 | 35013 205 | 34809 34809 | 95.35 | Ecoli_0940_Taxon009_ NODE_56_length_35013_cov_43.5203_ID_332020
+
+CONTIG: NODE_57_length_32079_cov_42.9977_ID_331308 (32079bp)
+Top Length: 20972  Top ID: 95.57
+		Skipping redundant alignment 3191020 3191153 | 134 1 | 134 134 | 97.76 | Ecoli_0940_Taxon009_ NODE_57_length_32079_cov_42.9977_ID_331308
+		This contig is misassembled. 4 total aligns.
+			Excluding internal overlap of size 2 between Alignment 1 and 2:  1396321 1399761 | 11107 7667 | 3441 3441 --> 1396321 1399759 | 11107 7669 | 3439 3439
+			Real Alignment 1: 1460376 1468043 | 7668 1 | 7668 7668 | 95.44 | Ecoli_0940_Taxon009_ NODE_57_length_32079_cov_42.9977_ID_331308
+			  Extensive misassembly ( relocation, inconsistency = 60616 ) between these two alignments
+			Real Alignment 2: 1396321 1399759 | 11107 7669 | 3439 3439 | 95.79 | Ecoli_0940_Taxon009_ NODE_57_length_32079_cov_42.9977_ID_331308
+			  Extensive misassembly ( relocation, inconsistency = 39119 ) between these two alignments
+			Real Alignment 3: 1438879 1459850 | 11108 32079 | 20972 20972 | 95.57 | Ecoli_0940_Taxon009_ NODE_57_length_32079_cov_42.9977_ID_331308
+
+CONTIG: NODE_58_length_32075_cov_42.6323_ID_337462 (32075bp)
+Top Length: 18519  Top ID: 95.44
+		This contig is misassembled. 3 total aligns.
+			Real Alignment 1: 341742 349770 | 8031 3 | 8029 8029 | 95.4 | Ecoli_0940_Taxon009_ NODE_58_length_32075_cov_42.6323_ID_337462
+			  Extensive misassembly ( relocation, inconsistency = -13554 ) between these two alignments
+			Real Alignment 2: 336217 341741 | 8032 13556 | 5525 5525 | 96.05 | Ecoli_0940_Taxon009_ NODE_58_length_32075_cov_42.6323_ID_337462
+			  Extensive misassembly ( relocation, inconsistency = -24044 ) between these two alignments
+			Real Alignment 3: 317698 336216 | 32075 13557 | 18519 18519 | 95.44 | Ecoli_0940_Taxon009_ NODE_58_length_32075_cov_42.6323_ID_337462
+
+CONTIG: NODE_59_length_31326_cov_46.225_ID_337086 (31326bp)
+Top Length: 16217  Top ID: 95.33
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 576698 592914 | 1 16217 | 16217 16217 | 95.33 | Ecoli_0940_Taxon009_ NODE_59_length_31326_cov_46.225_ID_337086
+			  Extensive misassembly ( relocation, inconsistency = -45790 ) between these two alignments
+			Real Alignment 2: 547125 562233 | 31326 16218 | 15109 15109 | 95.84 | Ecoli_0940_Taxon009_ NODE_59_length_31326_cov_46.225_ID_337086
+
+CONTIG: NODE_60_length_31152_cov_41.9929_ID_319931 (31152bp)
+Top Length: 8548  Top ID: 96.34
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 31152 and total length of all aligns is 14378
+		Alignment: 366552 375099 | 25322 16775 | 8548 8548 | 96.34 | Ecoli_0940_Taxon009_ NODE_60_length_31152_cov_41.9929_ID_319931
+		Alignment: 375099 380929 | 25322 31152 | 5831 5831 | 95.52 | Ecoli_0940_Taxon009_ NODE_60_length_31152_cov_41.9929_ID_319931
+		Unaligned bases: 16774
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+CONTIG: NODE_61_length_31019_cov_43.41_ID_336808 (31019bp)
+Top Length: 24440  Top ID: 95.82
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2126506 2128323 | 1 1818 | 1818 1818 | 96.86 | Ecoli_0940_Taxon009_ NODE_61_length_31019_cov_43.41_ID_336808
+			  Extensive misassembly ( relocation, inconsistency = 368513 ) between these two alignments
+			Real Alignment 2: 2501598 2526037 | 6580 31019 | 24440 24440 | 95.82 | Ecoli_0940_Taxon009_ NODE_61_length_31019_cov_43.41_ID_336808
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_62_length_28754_cov_45.0522_ID_304937 (28754bp)
+Top Length: 21374  Top ID: 95.52
+		This contig is partially unaligned. (Aligned 21374 out of 28754 bases)
+		Alignment: 3701585 3722958 | 1 21374 | 21374 21374 | 95.52 | Ecoli_0940_Taxon009_ NODE_62_length_28754_cov_45.0522_ID_304937
+		Unaligned bases: 21375 to 28754 (7380)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_63_length_28645_cov_40.7383_ID_339368 (28645bp)
+Top Length: 28645  Top ID: 99.55
+		One align captures most of this contig: 210642 239286 | 28645 1 | 28645 28645 | 99.55 | Ecoli_0940_Taxon009_ NODE_63_length_28645_cov_40.7383_ID_339368
+
+CONTIG: NODE_64_length_28568_cov_40.4499_ID_339642 (28568bp)
+Top Length: 28568  Top ID: 95.18
+		One align captures most of this contig: 210719 239286 | 28568 1 | 28568 28568 | 95.18 | Ecoli_0940_Taxon009_ NODE_64_length_28568_cov_40.4499_ID_339642
+
+CONTIG: NODE_65_length_27734_cov_45.3971_ID_294617 (27734bp)
+Top Length: 7819  Top ID: 95.5
+		This contig is misassembled. 6 total aligns.
+			Excluding internal overlap of size 175 between Alignment 1 and 2:  4040587 4040845 | 1 259 | 259 259 --> 4040587 4040670 | 1 84 | 84 84
+			Real Alignment 1: 4040587 4040670 | 1 84 | 84 84 | 95.75 | Ecoli_0940_Taxon009_ NODE_65_length_27734_cov_45.3971_ID_294617
+			  Extensive misassembly ( relocation, inconsistency = 146977 ) between these two alignments
+			Real Alignment 2: 4187648 4192393 | 85 4830 | 4746 4746 | 95.2 | Ecoli_0940_Taxon009_ NODE_65_length_27734_cov_45.3971_ID_294617
+			  Extensive misassembly ( relocation, inconsistency = -13305 ) between these two alignments
+			Real Alignment 3: 4179089 4182228 | 7970 4831 | 3140 3140 | 95.67 | Ecoli_0940_Taxon009_ NODE_65_length_27734_cov_45.3971_ID_294617
+			  Extensive misassembly ( relocation, inconsistency = -100789 ) between these two alignments
+			Excluding internal overlap of size 6 between Alignment 4 and 5:  4167601 4173127 | 14389 19916 | 5527 5528 --> 4167607 4173127 | 14395 19916 | 5521 5522
+			Real Alignment 4: 4081440 4087863 | 7971 14394 | 6424 6424 | 95.28 | Ecoli_0940_Taxon009_ NODE_65_length_27734_cov_45.3971_ID_294617
+			  Extensive misassembly ( relocation, inconsistency = 79743 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 5 and 6:  4167607 4173127 | 14395 19916 | 5521 5522 --> 4167607 4173126 | 14395 19915 | 5520 5521
+			Real Alignment 5: 4167607 4173126 | 14395 19915 | 5520 5521 | 95.15 | Ecoli_0940_Taxon009_ NODE_65_length_27734_cov_45.3971_ID_294617
+			  Extensive misassembly ( relocation, inconsistency = -16235 ) between these two alignments
+			Real Alignment 6: 4156892 4164710 | 27734 19916 | 7819 7819 | 95.5 | Ecoli_0940_Taxon009_ NODE_65_length_27734_cov_45.3971_ID_294617
+
+CONTIG: NODE_66_length_25312_cov_43.6003_ID_340563 (25312bp)
+Top Length: 25312  Top ID: 99.26
+		One align captures most of this contig: 1309786 1335097 | 1 25312 | 25312 25312 | 99.26 | Ecoli_0940_Taxon009_ NODE_66_length_25312_cov_43.6003_ID_340563
+
+CONTIG: NODE_67_length_24596_cov_41.9531_ID_328205 (24596bp)
+Top Length: 7685  Top ID: 95.06
+		This contig is misassembled. 5 total aligns.
+			Excluding internal overlap of size 3 between Alignment 1 and 2:  1345237 1346591 | 6721 5367 | 1355 1355 --> 1345240 1346591 | 6718 5367 | 1352 1352
+			Real Alignment 1: 1345240 1346591 | 6718 5367 | 1352 1352 | 95.87 | Ecoli_0940_Taxon009_ NODE_67_length_24596_cov_41.9531_ID_328205
+			  Extensive misassembly ( relocation, inconsistency = 86574 ) between these two alignments
+			Real Alignment 2: 1433166 1438878 | 6719 12431 | 5713 5713 | 95.26 | Ecoli_0940_Taxon009_ NODE_67_length_24596_cov_41.9531_ID_328205
+			  Extensive misassembly ( relocation, inconsistency = -50243 ) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 3 and 4:  1318629 1321018 | 20116 22505 | 2390 2390 --> 1318630 1321018 | 20117 22505 | 2389 2389
+			Real Alignment 3: 1388636 1396320 | 20116 12432 | 7685 7685 | 95.06 | Ecoli_0940_Taxon009_ NODE_67_length_24596_cov_41.9531_ID_328205
+			  Extensive misassembly ( relocation, inconsistency = -77691 ) between these two alignments
+			Real Alignment 4: 1318630 1321018 | 20117 22505 | 2389 2389 | 96.15 | Ecoli_0940_Taxon009_ NODE_67_length_24596_cov_41.9531_ID_328205
+			  Extensive misassembly ( relocation, inconsistency = 15008 ) between these two alignments
+			Real Alignment 5: 1336027 1338117 | 24596 22506 | 2091 2091 | 96.22 | Ecoli_0940_Taxon009_ NODE_67_length_24596_cov_41.9531_ID_328205
+		This contig has significant unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_68_length_23852_cov_41.5317_ID_324422 (23852bp)
+Top Length: 23852  Top ID: 99.4
+		One align captures most of this contig: 3950517 3974368 | 23852 1 | 23852 23852 | 99.4 | Ecoli_0940_Taxon009_ NODE_68_length_23852_cov_41.5317_ID_324422
+
+CONTIG: NODE_69_length_23223_cov_40.8889_ID_339122 (23223bp)
+Top Length: 15863  Top ID: 95.34
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 169706 177063 | 7358 1 | 7358 7358 | 95.31 | Ecoli_0940_Taxon009_ NODE_69_length_23223_cov_40.8889_ID_339122
+			  Extensive misassembly ( relocation, inconsistency = 121912 ) between these two alignments
+			Real Alignment 2: 298978 314840 | 7361 23223 | 15863 15863 | 95.34 | Ecoli_0940_Taxon009_ NODE_69_length_23223_cov_40.8889_ID_339122
+
+CONTIG: NODE_70_length_20489_cov_42.7089_ID_337797 (20489bp)
+Top Length: 20489  Top ID: 99.56
+		One align captures most of this contig: 317698 338186 | 20489 1 | 20489 20489 | 99.56 | Ecoli_0940_Taxon009_ NODE_70_length_20489_cov_42.7089_ID_337797
+
+CONTIG: NODE_71_length_15425_cov_51.6999_ID_339921 (15425bp)
+Top Length: 15425  Top ID: 99.26
+		Marking as insignificant: 188576 188750 | 2267 2441 | 175 175 | 95.43 | Ecoli_0940_Taxon009_ NODE_71_length_15425_cov_51.6999_ID_339921
+		Marking as insignificant: 1554751 1555981 | 2260 3490 | 1231 1231 | 95.54 | Ecoli_0940_Taxon009_ NODE_71_length_15425_cov_51.6999_ID_339921
+		Marking as insignificant: 4640156 4641393 | 2261 3498 | 1238 1238 | 95.07 | Ecoli_0940_Taxon009_ NODE_71_length_15425_cov_51.6999_ID_339921
+		One align captures most of this contig: 194660 210084 | 1 15425 | 15425 15425 | 99.26 | Ecoli_0940_Taxon009_ NODE_71_length_15425_cov_51.6999_ID_339921
+
+CONTIG: NODE_72_length_12321_cov_38.4324_ID_341078 (12321bp)
+Top Length: 12039  Top ID: 95.44
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 2176627 2188665 | 12039 1 | 12039 12039 | 95.44 | Ecoli_0940_Taxon009_ NODE_72_length_12321_cov_38.4324_ID_341078
+			  Extensive misassembly ( relocation, inconsistency = 166697 ) between these two alignments
+			Real Alignment 2: 2009648 2009929 | 12321 12040 | 282 282 | 96.45 | Ecoli_0940_Taxon009_ NODE_72_length_12321_cov_38.4324_ID_341078
+
+CONTIG: NODE_73_length_12244_cov_42.2305_ID_313667 (12244bp)
+Top Length: 12244  Top ID: 99.71
+		One align captures most of this contig: 3203154 3215397 | 1 12244 | 12244 12244 | 99.71 | Ecoli_0940_Taxon009_ NODE_73_length_12244_cov_42.2305_ID_313667
+
+CONTIG: NODE_74_length_12059_cov_41.4952_ID_340821 (12059bp)
+Top Length: 12056  Top ID: 95.31
+		One align captures most of this contig: 198052 210107 | 1 12056 | 12056 12056 | 95.31 | Ecoli_0940_Taxon009_ NODE_74_length_12059_cov_41.4952_ID_340821
+
+CONTIG: NODE_75_length_8482_cov_44.3517_ID_340955 (8482bp)
+Top Length: 8482  Top ID: 95.92
+		Marking as insignificant: 3191018 3191153 | 136 1 | 136 136 | 97.79 | Ecoli_0940_Taxon009_ NODE_75_length_8482_cov_44.3517_ID_340955
+		One align captures most of this contig: 382457 390938 | 1 8482 | 8482 8482 | 95.92 | Ecoli_0940_Taxon009_ NODE_75_length_8482_cov_44.3517_ID_340955
+
+CONTIG: NODE_76_length_8064_cov_42.7586_ID_341337 (8064bp)
+Top Length: 8064  Top ID: 95.05
+		One align captures most of this contig: 180742 188805 | 1 8064 | 8064 8064 | 95.05 | Ecoli_0940_Taxon009_ NODE_76_length_8064_cov_42.7586_ID_341337
+
+CONTIG: NODE_77_length_5979_cov_43.1764_ID_340448 (5979bp)
+Top Length: 4395  Top ID: 95.59
+		This contig is misassembled. 2 total aligns.
+			Excluding internal overlap of size 1 between Alignment 1 and 2:  4637887 4639471 | 1585 1 | 1585 1585 --> 4637888 4639471 | 1584 1 | 1584 1584
+			Real Alignment 1: 4637888 4639471 | 1584 1 | 1584 1584 | 96.4 | Ecoli_0940_Taxon009_ NODE_77_length_5979_cov_43.1764_ID_340448
+			  Extensive misassembly ( relocation, inconsistency = -182294 ) between these two alignments
+			Real Alignment 2: 4457178 4461572 | 1585 5979 | 4395 4395 | 95.59 | Ecoli_0940_Taxon009_ NODE_77_length_5979_cov_43.1764_ID_340448
+
+CONTIG: NODE_78_length_2810_cov_368.286_ID_342314 (2810bp)
+Top Length: 2810  Top ID: 95.23
+		Marking as insignificant: 2820313 2821354 | 1043 1 | 1042 1043 | 95.59 | Ecoli_0940_Taxon009_ NODE_78_length_2810_cov_368.286_ID_342314
+		This contig has 3 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 4422144 4424951 | 2810 1 | 2808 2810 | 95.23 | Ecoli_0940_Taxon009_ NODE_78_length_2810_cov_368.286_ID_342314
+		Skipping alignment  3423663 3426469 | 1 2810 | 2807 2810 | 95.13 | Ecoli_0940_Taxon009_ NODE_78_length_2810_cov_368.286_ID_342314
+		Skipping alignment  4037838 4040641 | 2805 1 | 2804 2805 | 95.15 | Ecoli_0940_Taxon009_ NODE_78_length_2810_cov_368.286_ID_342314
+
+CONTIG: NODE_79_length_2698_cov_46.328_ID_341775 (2698bp)
+Top Length: 2698  Top ID: 96.55
+		One align captures most of this contig: 572915 575612 | 1 2698 | 2698 2698 | 96.55 | Ecoli_0940_Taxon009_ NODE_79_length_2698_cov_46.328_ID_341775
+
+CONTIG: NODE_80_length_2634_cov_50.2462_ID_342424 (2634bp)
+Top Length: 2634  Top ID: 99.47
+		One align captures most of this contig: 1305730 1308363 | 2634 1 | 2634 2634 | 99.47 | Ecoli_0940_Taxon009_ NODE_80_length_2634_cov_50.2462_ID_342424
+
+CONTIG: NODE_84_length_1975_cov_375.256_ID_342420 (1975bp)
+Top Length: 1557  Top ID: 95.83
+		This contig is partially unaligned. (Aligned 1557 out of 1975 bases)
+		Alignment: 3497623 3499179 | 1 1557 | 1557 1557 | 95.83 | Ecoli_0940_Taxon009_ NODE_84_length_1975_cov_375.256_ID_342420
+		Unaligned bases: 1558 to 1975 (418)
+
+CONTIG: NODE_85_length_1912_cov_145.369_ID_341546 (1912bp)
+Top Length: 1912  Top ID: 98.22
+		Marking as insignificant: 2526750 2527327 | 1 578 | 578 578 | 95.5 | Ecoli_0940_Taxon009_ NODE_85_length_1912_cov_145.369_ID_341546
+		Marking as insignificant: 3201811 3202389 | 1 579 | 579 579 | 95.34 | Ecoli_0940_Taxon009_ NODE_85_length_1912_cov_145.369_ID_341546
+		Marking as insignificant: 692310 692892 | 583 1 | 583 583 | 95.37 | Ecoli_0940_Taxon009_ NODE_85_length_1912_cov_145.369_ID_341546
+		Marking as insignificant: 576174 576756 | 1 583 | 583 583 | 95.54 | Ecoli_0940_Taxon009_ NODE_85_length_1912_cov_145.369_ID_341546
+		One align captures most of this contig: 2122647 2124558 | 1 1912 | 1912 1912 | 98.22 | Ecoli_0940_Taxon009_ NODE_85_length_1912_cov_145.369_ID_341546
+
+CONTIG: NODE_86_length_1826_cov_31.8363_ID_342612 (1826bp)
+Top Length: 1826  Top ID: 100.0
+		One align captures most of this contig: 3215979 3217804 | 1 1826 | 1826 1826 | 100.0 | Ecoli_0940_Taxon009_ NODE_86_length_1826_cov_31.8363_ID_342612
+
+CONTIG: NODE_87_length_1788_cov_50.3462_ID_341878 (1788bp)
+Top Length: 1788  Top ID: 97.09
+		One align captures most of this contig: 17328 19115 | 1 1788 | 1788 1788 | 97.09 | Ecoli_0940_Taxon009_ NODE_87_length_1788_cov_50.3462_ID_341878
+
+CONTIG: NODE_88_length_1765_cov_57.6386_ID_342432 (1765bp)
+Top Length: 1765  Top ID: 95.47
+		One align captures most of this contig: 4424897 4426661 | 1 1765 | 1765 1765 | 95.47 | Ecoli_0940_Taxon009_ NODE_88_length_1765_cov_57.6386_ID_342432
+
+CONTIG: NODE_90_length_1508_cov_57.6511_ID_342434 (1508bp)
+Top Length: 1508  Top ID: 96.15
+		Marking as insignificant: 3497533 3497677 | 1364 1508 | 145 145 | 95.86 | Ecoli_0940_Taxon009_ NODE_90_length_1508_cov_57.6511_ID_342434
+		One align captures most of this contig: 4418337 4419842 | 1 1508 | 1506 1508 | 96.15 | Ecoli_0940_Taxon009_ NODE_90_length_1508_cov_57.6511_ID_342434
+
+CONTIG: NODE_91_length_1324_cov_64.7384_ID_342422 (1324bp)
+Top Length: 1324  Top ID: 98.56
+		One align captures most of this contig: 316429 317752 | 1 1324 | 1324 1324 | 98.56 | Ecoli_0940_Taxon009_ NODE_91_length_1324_cov_64.7384_ID_342422
+
+CONTIG: NODE_92_length_1299_cov_33.6029_ID_342622 (1299bp)
+Top Length: 1299  Top ID: 100.0
+		One align captures most of this contig: 3221910 3223208 | 1299 1 | 1299 1299 | 100.0 | Ecoli_0940_Taxon009_ NODE_92_length_1299_cov_33.6029_ID_342622
+
+CONTIG: NODE_94_length_1192_cov_34.6588_ID_342558 (1192bp)
+Top Length: 1192  Top ID: 100.0
+		One align captures most of this contig: 3948673 3949864 | 1192 1 | 1192 1192 | 100.0 | Ecoli_0940_Taxon009_ NODE_94_length_1192_cov_34.6588_ID_342558
+
+CONTIG: NODE_95_length_1127_cov_32.6828_ID_341713 (1127bp)
+Top Length: 1127  Top ID: 100.0
+		One align captures most of this contig: 2819395 2820521 | 1 1127 | 1127 1127 | 100.0 | Ecoli_0940_Taxon009_ NODE_95_length_1127_cov_32.6828_ID_341713
+
+CONTIG: NODE_96_length_1081_cov_63.9795_ID_342430 (1081bp)
+Top Length: 1079  Top ID: 97.96
+		One align captures most of this contig: 3946772 3947850 | 1079 1 | 1079 1079 | 97.96 | Ecoli_0940_Taxon009_ NODE_96_length_1081_cov_63.9795_ID_342430
+
+CONTIG: NODE_97_length_1059_cov_66.9811_ID_342426 (1059bp)
+Top Length: 1059  Top ID: 98.11
+		One align captures most of this contig: 463917 464975 | 1059 1 | 1059 1059 | 98.11 | Ecoli_0940_Taxon009_ NODE_97_length_1059_cov_66.9811_ID_342426
+
+CONTIG: NODE_98_length_1045_cov_68.6323_ID_342448 (1045bp)
+Top Length: 1045  Top ID: 97.7
+		Marking as insignificant: 3202281 3202389 | 1045 937 | 109 109 | 96.33 | Ecoli_0940_Taxon009_ NODE_98_length_1045_cov_68.6323_ID_342448
+		Marking as insignificant: 3382148 3382256 | 1045 937 | 109 109 | 97.25 | Ecoli_0940_Taxon009_ NODE_98_length_1045_cov_68.6323_ID_342448
+		One align captures most of this contig: 192596 193640 | 1 1045 | 1045 1045 | 97.7 | Ecoli_0940_Taxon009_ NODE_98_length_1045_cov_68.6323_ID_342448
+
+CONTIG: NODE_99_length_1001_cov_64.3605_ID_342428 (1001bp)
+Top Length: 1001  Top ID: 97.0
+		One align captures most of this contig: 3220964 3221964 | 1001 1 | 1001 1001 | 97.0 | Ecoli_0940_Taxon009_ NODE_99_length_1001_cov_64.3605_ID_342428
+
+CONTIG: NODE_101_length_910_cov_30.4409_ID_342628 (910bp)
+Top Length: 910  Top ID: 100.0
+		One align captures most of this contig: 3947796 3948705 | 1 910 | 910 910 | 100.0 | Ecoli_0940_Taxon009_ NODE_101_length_910_cov_30.4409_ID_342628
+
+CONTIG: NODE_103_length_853_cov_30.6667_ID_342486 (853bp)
+Top Length: 853  Top ID: 100.0
+		One align captures most of this contig: 4040981 4041833 | 853 1 | 853 853 | 100.0 | Ecoli_0940_Taxon009_ NODE_103_length_853_cov_30.6667_ID_342486
+
+CONTIG: NODE_105_length_794_cov_44.4912_ID_342466 (794bp)
+Top Length: 785  Top ID: 98.98
+		One align captures most of this contig: 4639417 4640201 | 794 10 | 785 785 | 98.98 | Ecoli_0940_Taxon009_ NODE_105_length_794_cov_44.4912_ID_342466
+
+CONTIG: NODE_107_length_743_cov_83.7573_ID_342462 (743bp)
+Top Length: 743  Top ID: 96.77
+		Marking as insignificant: 4152284 4152552 | 743 475 | 269 269 | 95.54 | Ecoli_0940_Taxon009_ NODE_107_length_743_cov_83.7573_ID_342462
+		One align captures most of this contig: 3940974 3941716 | 1 743 | 743 743 | 96.77 | Ecoli_0940_Taxon009_ NODE_107_length_743_cov_83.7573_ID_342462
+
+CONTIG: NODE_110_length_680_cov_68.5072_ID_342476 (680bp)
+Top Length: 680  Top ID: 96.47
+		Marking as insignificant: 381256 381394 | 542 680 | 139 139 | 95.68 | Ecoli_0940_Taxon009_ NODE_110_length_680_cov_68.5072_ID_342476
+		One align captures most of this contig: 3219153 3219832 | 1 680 | 680 680 | 96.47 | Ecoli_0940_Taxon009_ NODE_110_length_680_cov_68.5072_ID_342476
+
+CONTIG: NODE_112_length_659_cov_460.937_ID_342332 (659bp)
+Top Length: 659  Top ID: 97.12
+		Marking as insignificant: 3700442 3701098 | 657 1 | 657 657 | 95.14 | Ecoli_0940_Taxon009_ NODE_112_length_659_cov_460.937_ID_342332
+		Marking as insignificant: 3201207 3201865 | 1 659 | 659 659 | 95.75 | Ecoli_0940_Taxon009_ NODE_112_length_659_cov_460.937_ID_342332
+		Marking as insignificant: 575570 576228 | 1 659 | 659 659 | 95.75 | Ecoli_0940_Taxon009_ NODE_112_length_659_cov_460.937_ID_342332
+		Marking as insignificant: 1335411 1336069 | 659 1 | 659 659 | 95.9 | Ecoli_0940_Taxon009_ NODE_112_length_659_cov_460.937_ID_342332
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 2526146 2526804 | 1 659 | 659 659 | 97.12 | Ecoli_0940_Taxon009_ NODE_112_length_659_cov_460.937_ID_342332
+		Skipping alignment  194056 194714 | 659 1 | 659 659 | 96.36 | Ecoli_0940_Taxon009_ NODE_112_length_659_cov_460.937_ID_342332
+
+CONTIG: NODE_114_length_658_cov_67.4395_ID_342636 (658bp)
+Top Length: 658  Top ID: 99.09
+		One align captures most of this contig: 3202551 3203208 | 658 1 | 658 658 | 99.09 | Ecoli_0940_Taxon009_ NODE_114_length_658_cov_67.4395_ID_342636
+
+CONTIG: NODE_115_length_624_cov_72.5395_ID_342444 (624bp)
+Top Length: 177  Top ID: 96.61
+		This contig is partially unaligned. (Aligned 177 out of 624 bases)
+		Alignment: 3946772 3946948 | 3 179 | 177 177 | 96.61 | Ecoli_0940_Taxon009_ NODE_115_length_624_cov_72.5395_ID_342444
+		Unaligned bases: 1 to 2 (2)
+		Unaligned bases: 180 to 624 (445)
+
+CONTIG: NODE_119_length_584_cov_62.4197_ID_342436 (584bp)
+Top Length: 584  Top ID: 95.38
+		One align captures most of this contig: 3701056 3701639 | 1 584 | 584 584 | 95.38 | Ecoli_0940_Taxon009_ NODE_119_length_584_cov_62.4197_ID_342436
+
+CONTIG: NODE_122_length_563_cov_39.5531_ID_342514 (563bp)
+Top Length: 563  Top ID: 100.0
+		One align captures most of this contig: 3218645 3219207 | 563 1 | 563 563 | 100.0 | Ecoli_0940_Taxon009_ NODE_122_length_563_cov_39.5531_ID_342514
+
+CONTIG: NODE_125_length_530_cov_56.3116_ID_342458 (530bp)
+Top Length: 530  Top ID: 96.6
+		One align captures most of this contig: 1065021 1065550 | 530 1 | 530 530 | 96.6 | Ecoli_0940_Taxon009_ NODE_125_length_530_cov_56.3116_ID_342458
+
+CONTIG: NODE_128_length_520_cov_89.0753_ID_342480 (520bp)
+Top Length: 520  Top ID: 96.15
+		One align captures most of this contig: 380875 381394 | 520 1 | 520 520 | 96.15 | Ecoli_0940_Taxon009_ NODE_128_length_520_cov_89.0753_ID_342480
+
+CONTIG: NODE_130_length_515_cov_28.0913_ID_342592 (515bp)
+Top Length: 515  Top ID: 100.0
+		One align captures most of this contig: 4042015 4042529 | 1 515 | 515 515 | 100.0 | Ecoli_0940_Taxon009_ NODE_130_length_515_cov_28.0913_ID_342592
+
+CONTIG: NODE_131_length_512_cov_39.3982_ID_342602 (512bp)
+Top Length: 512  Top ID: 100.0
+		One align captures most of this contig: 2818935 2819446 | 512 1 | 512 512 | 100.0 | Ecoli_0940_Taxon009_ NODE_131_length_512_cov_39.3982_ID_342602
+
+CONTIG: NODE_132_length_506_cov_41.98_ID_342478 (506bp)
+Top Length: 506  Top ID: 98.62
+		One align captures most of this contig: 2525983 2526488 | 506 1 | 506 506 | 98.62 | Ecoli_0940_Taxon009_ NODE_132_length_506_cov_41.98_ID_342478
+
+Analyzing coverage...
+Writing SNPs into /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0940/runs_per_reference/Ecoli_0940/contigs_reports/nucmer_output/scaffolds.used_snps
+	Reference Ecoli_0940_Taxon009_: 381 total alignments. 1 total regions.
+		Region: 1 to 4641652 (4641652 bp)
+			Align 1: 1 192650 NODE_17_length_192650_cov_47.4727_ID_292845 192650 1
+				The next alignment (1375 12428 NODE_21_length_168810_cov_42.2355_ID_291345 13705 2652) is redundant. Skipping.
+				The next alignment (13267 13856 NODE_21_length_168810_cov_42.2355_ID_291345 1 590) is redundant. Skipping.
+				The next alignment (13958 15917 NODE_21_length_168810_cov_42.2355_ID_291345 692 2651) is redundant. Skipping.
+				The next alignment (17328 19115 NODE_87_length_1788_cov_50.3462_ID_341878 1 1788) is redundant. Skipping.
+				The next alignment (24092 33558 NODE_34_length_99298_cov_42.9336_ID_335181 51202 41736) is redundant. Skipping.
+				The next alignment (33559 57280 NODE_34_length_99298_cov_42.9336_ID_335181 18014 41735) is redundant. Skipping.
+				The next alignment (57281 72699 NODE_34_length_99298_cov_42.9336_ID_335181 18013 2595) is redundant. Skipping.
+				The next alignment (91224 113850 NODE_34_length_99298_cov_42.9336_ID_335181 69729 92355) is redundant. Skipping.
+				The next alignment (113849 121274 NODE_21_length_168810_cov_42.2355_ID_291345 68921 61496) is redundant. Skipping.
+				The next alignment (121720 134055 NODE_21_length_168810_cov_42.2355_ID_291345 137473 149808) is redundant. Skipping.
+				The next alignment (134057 135072 NODE_21_length_168810_cov_42.2355_ID_291345 91984 90969) is redundant. Skipping.
+				The next alignment (135074 161030 NODE_21_length_168810_cov_42.2355_ID_291345 106757 132713) is redundant. Skipping.
+				The next alignment (161783 162210 NODE_34_length_99298_cov_42.9336_ID_335181 92356 92783) is redundant. Skipping.
+				The next alignment (162211 166281 NODE_21_length_168810_cov_42.2355_ID_291345 73742 69672) is redundant. Skipping.
+				The next alignment (169706 177063 NODE_69_length_23223_cov_40.8889_ID_339122 7358 1) is redundant. Skipping.
+				The next alignment (180742 188805 NODE_76_length_8064_cov_42.7586_ID_341337 1 8064) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 192650 to 192596 (-54 bp)
+				Next Alignment: 192596 193640 NODE_98_length_1045_cov_68.6323_ID_342448 1 1045
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 18: 192651 193640 NODE_98_length_1045_cov_68.6323_ID_342448 56 1045
+				Gap between this and next alignment: 193640 to 194660 (1019 bp)
+				Next Alignment: 194660 210084 NODE_71_length_15425_cov_51.6999_ID_339921 1 15425
+
+			Align 19: 194660 210084 NODE_71_length_15425_cov_51.6999_ID_339921 1 15425
+				Negative gap (overlap) between this and next alignment: 210084 to 198052 (-12032 bp)
+				Next Alignment: 198052 210107 NODE_74_length_12059_cov_41.4952_ID_340821 1 12056
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 12034.
+			Align 20: 210085 210107 NODE_74_length_12059_cov_41.4952_ID_340821 12034 12056
+				Gap between this and next alignment: 210107 to 210642 (534 bp)
+				Next Alignment: 210642 239286 NODE_63_length_28645_cov_40.7383_ID_339368 28645 1
+
+			Align 21: 210642 239286 NODE_63_length_28645_cov_40.7383_ID_339368 28645 1
+				The next alignment (210719 239286 NODE_64_length_28568_cov_40.4499_ID_339642 28568 1) is redundant. Skipping.
+				Gap between this and next alignment: 239286 to 245004 (5717 bp)
+				Next Alignment: 245004 264003 NODE_21_length_168810_cov_42.2355_ID_291345 168808 149809
+
+			Align 23: 245004 264003 NODE_21_length_168810_cov_42.2355_ID_291345 168808 149809
+				Negative gap (overlap) between this and next alignment: 264003 to 245004 (-18999 bp)
+				Next Alignment: 245004 314840 NODE_43_length_69839_cov_42.341_ID_338475 3 69839
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 3 to 19003.
+			Align 24: 264004 314840 NODE_43_length_69839_cov_42.341_ID_338475 19003 69839
+				The next alignment (264003 267587 NODE_21_length_168810_cov_42.2355_ID_291345 91985 95569) is redundant. Skipping.
+				The next alignment (267588 269198 NODE_21_length_168810_cov_42.2355_ID_291345 97180 95570) is redundant. Skipping.
+				The next alignment (269199 278773 NODE_21_length_168810_cov_42.2355_ID_291345 97181 106755) is redundant. Skipping.
+				The next alignment (278774 295999 NODE_21_length_168810_cov_42.2355_ID_291345 90968 73743) is redundant. Skipping.
+				The next alignment (296000 297640 NODE_34_length_99298_cov_42.9336_ID_335181 92784 94424) is redundant. Skipping.
+				The next alignment (298978 314840 NODE_69_length_23223_cov_40.8889_ID_339122 7361 23223) is redundant. Skipping.
+				Gap between this and next alignment: 314840 to 316429 (1588 bp)
+				Next Alignment: 316429 317752 NODE_91_length_1324_cov_64.7384_ID_342422 1 1324
+
+			Align 31: 316429 317752 NODE_91_length_1324_cov_64.7384_ID_342422 1 1324
+				Negative gap (overlap) between this and next alignment: 317752 to 317698 (-54 bp)
+				Next Alignment: 317698 336216 NODE_58_length_32075_cov_42.6323_ID_337462 32075 13557
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 32075 to 32020.
+			Align 32: 317753 336216 NODE_58_length_32075_cov_42.6323_ID_337462 32020 13557
+				Negative gap (overlap) between this and next alignment: 336216 to 317698 (-18518 bp)
+				Next Alignment: 317698 338186 NODE_70_length_20489_cov_42.7089_ID_337797 20489 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 20489 to 1970.
+			Align 33: 336217 338186 NODE_70_length_20489_cov_42.7089_ID_337797 1970 1
+				Negative gap (overlap) between this and next alignment: 338186 to 336217 (-1969 bp)
+				Next Alignment: 336217 341741 NODE_58_length_32075_cov_42.6323_ID_337462 8032 13556
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 8032 to 10002.
+			Align 34: 338187 341741 NODE_58_length_32075_cov_42.6323_ID_337462 10002 13556
+				Negative gap (overlap) between this and next alignment: 341741 to 338142 (-3599 bp)
+				Next Alignment: 338142 380929 NODE_52_length_42788_cov_41.0738_ID_320266 1 42788
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 3601.
+			Align 35: 341742 380929 NODE_52_length_42788_cov_41.0738_ID_320266 3601 42788
+				The next alignment (341742 349770 NODE_58_length_32075_cov_42.6323_ID_337462 8031 3) is redundant. Skipping.
+				The next alignment (366552 375099 NODE_60_length_31152_cov_41.9929_ID_319931 25322 16775) is redundant. Skipping.
+				The next alignment (375099 380929 NODE_60_length_31152_cov_41.9929_ID_319931 25322 31152) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 380929 to 380875 (-54 bp)
+				Next Alignment: 380875 381394 NODE_128_length_520_cov_89.0753_ID_342480 520 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 520 to 465.
+			Align 39: 380930 381394 NODE_128_length_520_cov_89.0753_ID_342480 465 1
+				Gap between this and next alignment: 381394 to 382411 (1016 bp)
+				Next Alignment: 382411 462372 NODE_38_length_79962_cov_44.8706_ID_266600 1 79962
+
+			Align 40: 382411 462372 NODE_38_length_79962_cov_44.8706_ID_266600 1 79962
+				The next alignment (382457 390938 NODE_75_length_8482_cov_44.3517_ID_340955 1 8482) is redundant. Skipping.
+				The next alignment (393798 461460 NODE_25_length_132167_cov_41.4316_ID_265549 1 67663) is redundant. Skipping.
+				Gap between this and next alignment: 462372 to 463917 (1544 bp)
+				Next Alignment: 463917 464975 NODE_97_length_1059_cov_66.9811_ID_342426 1059 1
+
+			Align 43: 463917 464975 NODE_97_length_1059_cov_66.9811_ID_342426 1059 1
+				Negative gap (overlap) between this and next alignment: 464975 to 464921 (-54 bp)
+				Next Alignment: 464921 575703 NODE_31_length_110783_cov_45.4778_ID_328449 110783 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 110783 to 110728.
+			Align 44: 464976 575703 NODE_31_length_110783_cov_45.4778_ID_328449 110728 1
+				The next alignment (466676 494009 NODE_55_length_37203_cov_41.5418_ID_336461 1 27334) is redundant. Skipping.
+				The next alignment (494009 540541 NODE_40_length_77400_cov_43.4439_ID_315366 27734 74266) is redundant. Skipping.
+				The next alignment (540542 542168 NODE_40_length_77400_cov_43.4439_ID_315366 75893 74267) is redundant. Skipping.
+				The next alignment (547125 562233 NODE_59_length_31326_cov_46.225_ID_337086 31326 16218) is redundant. Skipping.
+				The next alignment (562234 567403 NODE_25_length_132167_cov_41.4316_ID_265549 90547 95716) is redundant. Skipping.
+				The next alignment (567403 570257 NODE_25_length_132167_cov_41.4316_ID_265549 70518 67664) is redundant. Skipping.
+				The next alignment (572915 575612 NODE_79_length_2698_cov_46.328_ID_341775 1 2698) is redundant. Skipping.
+				Gap between this and next alignment: 575703 to 576409 (705 bp)
+				Next Alignment: 576409 692422 NODE_29_length_116014_cov_42.6488_ID_295357 1 116014
+
+			Align 52: 576409 692422 NODE_29_length_116014_cov_42.6488_ID_295357 1 116014
+				The next alignment (576698 592914 NODE_59_length_31326_cov_46.225_ID_337086 1 16217) is redundant. Skipping.
+				The next alignment (592915 611112 NODE_25_length_132167_cov_41.4316_ID_265549 90546 72349) is redundant. Skipping.
+				The next alignment (613463 615292 NODE_25_length_132167_cov_41.4316_ID_265549 70519 72348) is redundant. Skipping.
+				The next alignment (615293 649394 NODE_25_length_132167_cov_41.4316_ID_265549 98066 132167) is redundant. Skipping.
+				The next alignment (650303 660171 NODE_55_length_37203_cov_41.5418_ID_336461 37203 27335) is redundant. Skipping.
+				The next alignment (660173 677079 NODE_40_length_77400_cov_43.4439_ID_315366 27733 10827) is redundant. Skipping.
+				The next alignment (677080 687552 NODE_6_length_313919_cov_42.4705_ID_283189 33593 23121) is redundant. Skipping.
+				The next alignment (687553 692174 NODE_6_length_313919_cov_42.4705_ID_283189 14101 18722) is redundant. Skipping.
+				The next alignment (692175 692365 NODE_53_length_40599_cov_40.9236_ID_336051 40409 40599) is redundant. Skipping.
+				Gap between this and next alignment: 692422 to 693147 (724 bp)
+				Next Alignment: 693147 708737 NODE_53_length_40599_cov_40.9236_ID_336051 5324 20914
+
+			Align 62: 693147 708737 NODE_53_length_40599_cov_40.9236_ID_336051 5324 20914
+				Negative gap (overlap) between this and next alignment: 708737 to 694405 (-14332 bp)
+				Next Alignment: 694405 1065075 NODE_3_length_370672_cov_44.2904_ID_279962 1 370672
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 14334.
+			Align 63: 708738 1065075 NODE_3_length_370672_cov_44.2904_ID_279962 14334 370672
+				The next alignment (708738 726601 NODE_53_length_40599_cov_40.9236_ID_336051 38778 20915) is redundant. Skipping.
+				The next alignment (726602 728231 NODE_53_length_40599_cov_40.9236_ID_336051 38779 40408) is redundant. Skipping.
+				The next alignment (728232 732629 NODE_6_length_313919_cov_42.4705_ID_283189 18723 23120) is redundant. Skipping.
+				The next alignment (752181 757503 NODE_53_length_40599_cov_40.9236_ID_336051 1 5323) is redundant. Skipping.
+				The next alignment (768640 782466 NODE_6_length_313919_cov_42.4705_ID_283189 33597 47424) is redundant. Skipping.
+				The next alignment (782475 789880 NODE_6_length_313919_cov_42.4705_ID_283189 54838 47433) is redundant. Skipping.
+				The next alignment (789890 855748 NODE_6_length_313919_cov_42.4705_ID_283189 54848 120706) is redundant. Skipping.
+				The next alignment (855749 860588 NODE_6_length_313919_cov_42.4705_ID_283189 125546 120707) is redundant. Skipping.
+				The next alignment (860589 870558 NODE_6_length_313919_cov_42.4705_ID_283189 125547 135516) is redundant. Skipping.
+				The next alignment (870552 875919 NODE_6_length_313919_cov_42.4705_ID_283189 140884 135517) is redundant. Skipping.
+				The next alignment (875927 930023 NODE_6_length_313919_cov_42.4705_ID_283189 140885 194981) is redundant. Skipping.
+				The next alignment (930024 940966 NODE_6_length_313919_cov_42.4705_ID_283189 214236 203294) is redundant. Skipping.
+				The next alignment (940970 943924 NODE_6_length_313919_cov_42.4705_ID_283189 200335 203289) is redundant. Skipping.
+				The next alignment (943928 949278 NODE_6_length_313919_cov_42.4705_ID_283189 200332 194982) is redundant. Skipping.
+				The next alignment (949279 1000410 NODE_6_length_313919_cov_42.4705_ID_283189 214237 265368) is redundant. Skipping.
+				The next alignment (1000411 1005858 NODE_6_length_313919_cov_42.4705_ID_283189 270816 265369) is redundant. Skipping.
+				The next alignment (1005859 1048961 NODE_6_length_313919_cov_42.4705_ID_283189 270817 313919) is redundant. Skipping.
+				The next alignment (1054046 1058717 NODE_35_length_95039_cov_42.9234_ID_268022 28300 23629) is redundant. Skipping.
+				The next alignment (1058716 1065075 NODE_35_length_95039_cov_42.9234_ID_268022 88680 95039) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1065075 to 1065021 (-54 bp)
+				Next Alignment: 1065021 1065550 NODE_125_length_530_cov_56.3116_ID_342458 530 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 530 to 475.
+			Align 83: 1065076 1065550 NODE_125_length_530_cov_56.3116_ID_342458 475 1
+				Gap between this and next alignment: 1065550 to 1066148 (597 bp)
+				Next Alignment: 1066148 1305784 NODE_10_length_239637_cov_41.869_ID_317880 239637 1
+
+			Align 84: 1066148 1305784 NODE_10_length_239637_cov_41.869_ID_317880 239637 1
+				The next alignment (1067402 1098975 NODE_16_length_200817_cov_42.3833_ID_340093 200817 169244) is redundant. Skipping.
+				The next alignment (1098970 1104916 NODE_35_length_95039_cov_42.9234_ID_268022 63784 57838) is redundant. Skipping.
+				The next alignment (1105831 1112105 NODE_16_length_200817_cov_42.3833_ID_340093 161457 167731) is redundant. Skipping.
+				The next alignment (1117028 1118538 NODE_16_length_200817_cov_42.3833_ID_340093 169243 167733) is redundant. Skipping.
+				The next alignment (1118540 1135732 NODE_35_length_95039_cov_42.9234_ID_268022 68701 85893) is redundant. Skipping.
+				The next alignment (1145245 1146694 NODE_16_length_200817_cov_42.3833_ID_340093 116685 115236) is redundant. Skipping.
+				The next alignment (1149951 1161375 NODE_16_length_200817_cov_42.3833_ID_340093 129028 117604) is redundant. Skipping.
+				The next alignment (1161378 1193805 NODE_16_length_200817_cov_42.3833_ID_340093 161456 129029) is redundant. Skipping.
+				The next alignment (1193808 1206196 NODE_16_length_200817_cov_42.3833_ID_340093 102841 115229) is redundant. Skipping.
+				The next alignment (1206200 1208940 NODE_16_length_200817_cov_42.3833_ID_340093 99585 96845) is redundant. Skipping.
+				The next alignment (1218444 1305784 NODE_16_length_200817_cov_42.3833_ID_340093 87341 1) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 1305784 to 1305730 (-54 bp)
+				Next Alignment: 1305730 1308363 NODE_80_length_2634_cov_50.2462_ID_342424 2634 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2634 to 2579.
+			Align 96: 1305785 1308363 NODE_80_length_2634_cov_50.2462_ID_342424 2579 1
+				Gap between this and next alignment: 1308363 to 1309786 (1422 bp)
+				Next Alignment: 1309786 1335097 NODE_66_length_25312_cov_43.6003_ID_340563 1 25312
+
+			Align 97: 1309786 1335097 NODE_66_length_25312_cov_43.6003_ID_340563 1 25312
+				The next alignment (1318630 1321018 NODE_67_length_24596_cov_41.9531_ID_328205 20117 22505) is redundant. Skipping.
+				The next alignment (1321019 1334995 NODE_35_length_95039_cov_42.9234_ID_268022 13977 1) is redundant. Skipping.
+				Gap between this and next alignment: 1335097 to 1335644 (546 bp)
+				Next Alignment: 1335644 1406662 NODE_42_length_71019_cov_43.2481_ID_268900 71019 1
+
+			Align 100: 1335644 1406662 NODE_42_length_71019_cov_43.2481_ID_268900 71019 1
+				The next alignment (1336027 1338117 NODE_67_length_24596_cov_41.9531_ID_328205 24596 22506) is redundant. Skipping.
+				The next alignment (1338118 1345237 NODE_35_length_95039_cov_42.9234_ID_268022 13978 21097) is redundant. Skipping.
+				The next alignment (1345240 1346591 NODE_67_length_24596_cov_41.9531_ID_328205 6718 5367) is redundant. Skipping.
+				The next alignment (1346591 1357555 NODE_35_length_95039_cov_42.9234_ID_268022 39265 28301) is redundant. Skipping.
+				The next alignment (1357556 1365236 NODE_51_length_43118_cov_42.8835_ID_274366 3195 10875) is redundant. Skipping.
+				The next alignment (1388636 1396320 NODE_67_length_24596_cov_41.9531_ID_328205 20116 12432) is redundant. Skipping.
+				The next alignment (1396321 1399759 NODE_57_length_32079_cov_42.9977_ID_331308 11107 7669) is redundant. Skipping.
+				Gap between this and next alignment: 1406662 to 1406990 (327 bp)
+				Next Alignment: 1406990 2007940 NODE_1_length_600951_cov_42.6096_ID_269496 600951 1
+
+			Align 108: 1406990 2007940 NODE_1_length_600951_cov_42.6096_ID_269496 600951 1
+				The next alignment (1409406 1413076 NODE_18_length_182348_cov_43.2201_ID_286049 182348 178678) is redundant. Skipping.
+				The next alignment (1418787 1427845 NODE_35_length_95039_cov_42.9234_ID_268022 39266 48324) is redundant. Skipping.
+				The next alignment (1430637 1433166 NODE_35_length_95039_cov_42.9234_ID_268022 23628 21099) is redundant. Skipping.
+				The next alignment (1433166 1438878 NODE_67_length_24596_cov_41.9531_ID_328205 6719 12431) is redundant. Skipping.
+				The next alignment (1438879 1459850 NODE_57_length_32079_cov_42.9977_ID_331308 11108 32079) is redundant. Skipping.
+				The next alignment (1460376 1468043 NODE_57_length_32079_cov_42.9977_ID_331308 7668 1) is redundant. Skipping.
+				The next alignment (1477402 1483154 NODE_18_length_182348_cov_43.2201_ID_286049 126923 121171) is redundant. Skipping.
+				The next alignment (1483155 1484971 NODE_18_length_182348_cov_43.2201_ID_286049 66267 68083) is redundant. Skipping.
+				The next alignment (1484978 1487951 NODE_18_length_182348_cov_43.2201_ID_286049 50757 53730) is redundant. Skipping.
+				The next alignment (1487957 1533969 NODE_18_length_182348_cov_43.2201_ID_286049 172936 126924) is redundant. Skipping.
+				The next alignment (1533969 1534879 NODE_18_length_182348_cov_43.2201_ID_286049 120260 121170) is redundant. Skipping.
+				The next alignment (1534880 1547415 NODE_18_length_182348_cov_43.2201_ID_286049 66266 53731) is redundant. Skipping.
+				The next alignment (1547415 1553151 NODE_18_length_182348_cov_43.2201_ID_286049 172941 178677) is redundant. Skipping.
+				The next alignment (1556241 1557881 NODE_18_length_182348_cov_43.2201_ID_286049 111886 110246) is redundant. Skipping.
+				The next alignment (1557890 1578574 NODE_18_length_182348_cov_43.2201_ID_286049 89559 110243) is redundant. Skipping.
+				The next alignment (1578575 1600043 NODE_18_length_182348_cov_43.2201_ID_286049 89552 68084) is redundant. Skipping.
+				The next alignment (1600038 1618929 NODE_18_length_182348_cov_43.2201_ID_286049 50756 31865) is redundant. Skipping.
+				The next alignment (1618930 1622009 NODE_18_length_182348_cov_43.2201_ID_286049 28785 31864) is redundant. Skipping.
+				The next alignment (1622010 1633261 NODE_18_length_182348_cov_43.2201_ID_286049 28784 17533) is redundant. Skipping.
+				The next alignment (1647848 1665110 NODE_5_length_332301_cov_41.6514_ID_296349 244919 227657) is redundant. Skipping.
+				The next alignment (1665110 1669889 NODE_5_length_332301_cov_41.6514_ID_296349 126139 130918) is redundant. Skipping.
+				The next alignment (1669890 1671466 NODE_5_length_332301_cov_41.6514_ID_296349 164016 165592) is redundant. Skipping.
+				The next alignment (1683561 1686523 NODE_5_length_332301_cov_41.6514_ID_296349 168554 165593) is redundant. Skipping.
+				The next alignment (1686884 1704275 NODE_5_length_332301_cov_41.6514_ID_296349 148310 130919) is redundant. Skipping.
+				The next alignment (1704279 1714637 NODE_5_length_332301_cov_41.6514_ID_296349 164012 153654) is redundant. Skipping.
+				The next alignment (1715353 1740278 NODE_5_length_332301_cov_41.6514_ID_296349 307376 332301) is redundant. Skipping.
+				The next alignment (1740900 1746203 NODE_18_length_182348_cov_43.2201_ID_286049 1 5305) is redundant. Skipping.
+				The next alignment (1746213 1773315 NODE_5_length_332301_cov_41.6514_ID_296349 272022 244920) is redundant. Skipping.
+				The next alignment (1773316 1802247 NODE_5_length_332301_cov_41.6514_ID_296349 274390 303321) is redundant. Skipping.
+				The next alignment (1802248 1805586 NODE_5_length_332301_cov_41.6514_ID_296349 307375 304037) is redundant. Skipping.
+				The next alignment (1805589 1810926 NODE_5_length_332301_cov_41.6514_ID_296349 153651 148314) is redundant. Skipping.
+				The next alignment (1810930 1857576 NODE_5_length_332301_cov_41.6514_ID_296349 181010 227656) is redundant. Skipping.
+				The next alignment (1857578 1871598 NODE_5_length_332301_cov_41.6514_ID_296349 126138 112118) is redundant. Skipping.
+				The next alignment (1888791 1891653 NODE_5_length_332301_cov_41.6514_ID_296349 68399 71261) is redundant. Skipping.
+				The next alignment (1891656 1902172 NODE_5_length_332301_cov_41.6514_ID_296349 57367 46851) is redundant. Skipping.
+				The next alignment (1902173 1911862 NODE_5_length_332301_cov_41.6514_ID_296349 13898 23587) is redundant. Skipping.
+				The next alignment (1911863 1917465 NODE_5_length_332301_cov_41.6514_ID_296349 112117 106515) is redundant. Skipping.
+				The next alignment (1917466 1920301 NODE_14_length_208102_cov_42.75_ID_278116 104783 107618) is redundant. Skipping.
+				The next alignment (1920302 1923811 NODE_39_length_79757_cov_40.292_ID_326572 2544 6054) is redundant. Skipping.
+				The next alignment (1925543 1931613 NODE_5_length_332301_cov_41.6514_ID_296349 46850 40780) is redundant. Skipping.
+				The next alignment (1931615 1942644 NODE_5_length_332301_cov_41.6514_ID_296349 68397 57368) is redundant. Skipping.
+				The next alignment (1942643 1977893 NODE_5_length_332301_cov_41.6514_ID_296349 71262 106512) is redundant. Skipping.
+				The next alignment (1977896 1991612 NODE_14_length_208102_cov_42.75_ID_278116 104782 91066) is redundant. Skipping.
+				The next alignment (1991613 1999775 NODE_14_length_208102_cov_42.75_ID_278116 142244 150406) is redundant. Skipping.
+				The next alignment (1999776 2004196 NODE_44_length_67069_cov_42.9385_ID_267387 9491 13911) is redundant. Skipping.
+				The next alignment (2005164 2007124 NODE_28_length_117335_cov_41.6847_ID_301973 104009 102049) is redundant. Skipping.
+				Gap between this and next alignment: 2007940 to 2008380 (439 bp)
+				Next Alignment: 2008380 2123162 NODE_30_length_114786_cov_41.1853_ID_305306 4 114786
+
+			Align 155: 2008380 2123162 NODE_30_length_114786_cov_41.1853_ID_305306 4 114786
+				The next alignment (2009648 2009929 NODE_72_length_12321_cov_38.4324_ID_341078 12321 12040) is redundant. Skipping.
+				The next alignment (2009930 2017122 NODE_44_length_67069_cov_42.9385_ID_267387 24915 17723) is redundant. Skipping.
+				The next alignment (2017121 2027879 NODE_28_length_117335_cov_41.6847_ID_301973 93885 83127) is redundant. Skipping.
+				The next alignment (2033430 2046532 NODE_28_length_117335_cov_41.6847_ID_301973 104012 117114) is redundant. Skipping.
+				The next alignment (2058509 2058770 NODE_39_length_79757_cov_40.292_ID_326572 16165 16426) is redundant. Skipping.
+				The next alignment (2058772 2080524 NODE_39_length_79757_cov_40.292_ID_326572 38181 16429) is redundant. Skipping.
+				The next alignment (2080526 2122101 NODE_39_length_79757_cov_40.292_ID_326572 38182 79757) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 2123162 to 2122647 (-515 bp)
+				Next Alignment: 2122647 2124558 NODE_85_length_1912_cov_145.369_ID_341546 1 1912
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 517.
+			Align 163: 2123163 2124558 NODE_85_length_1912_cov_145.369_ID_341546 517 1912
+				Gap between this and next alignment: 2124558 to 2125765 (1206 bp)
+				Next Alignment: 2125765 2189458 NODE_2_length_400160_cov_44.5747_ID_274764 400160 336467
+
+			Align 164: 2125765 2189458 NODE_2_length_400160_cov_44.5747_ID_274764 400160 336467
+				The next alignment (2126506 2128323 NODE_61_length_31019_cov_43.41_ID_336808 1 1818) is redundant. Skipping.
+				The next alignment (2128324 2140258 NODE_44_length_67069_cov_42.9385_ID_267387 55135 67069) is redundant. Skipping.
+				The next alignment (2146408 2176623 NODE_44_length_67069_cov_42.9385_ID_267387 55134 24919) is redundant. Skipping.
+				The next alignment (2176627 2188665 NODE_72_length_12321_cov_38.4324_ID_341078 12039 1) is redundant. Skipping.
+				Gap between this and next alignment: 2189458 to 2189572 (113 bp)
+				Next Alignment: 2189572 2526037 NODE_2_length_400160_cov_44.5747_ID_274764 336466 1
+
+			Align 169: 2189572 2526037 NODE_2_length_400160_cov_44.5747_ID_274764 336466 1
+				The next alignment (2203245 2209778 NODE_14_length_208102_cov_42.75_ID_278116 35575 42108) is redundant. Skipping.
+				The next alignment (2209778 2212865 NODE_14_length_208102_cov_42.75_ID_278116 49225 46138) is redundant. Skipping.
+				The next alignment (2212867 2286527 NODE_28_length_117335_cov_41.6847_ID_301973 9466 83126) is redundant. Skipping.
+				The next alignment (2286528 2290122 NODE_39_length_79757_cov_40.292_ID_326572 9649 6055) is redundant. Skipping.
+				The next alignment (2290118 2302289 NODE_5_length_332301_cov_41.6514_ID_296349 12171 1) is redundant. Skipping.
+				The next alignment (2307590 2322112 NODE_14_length_208102_cov_42.75_ID_278116 107619 122141) is redundant. Skipping.
+				The next alignment (2322113 2343021 NODE_14_length_208102_cov_42.75_ID_278116 34086 13178) is redundant. Skipping.
+				The next alignment (2344511 2364610 NODE_14_length_208102_cov_42.75_ID_278116 122142 142241) is redundant. Skipping.
+				The next alignment (2364613 2373073 NODE_14_length_208102_cov_42.75_ID_278116 91065 82605) is redundant. Skipping.
+				The next alignment (2373074 2402576 NODE_14_length_208102_cov_42.75_ID_278116 186490 156988) is redundant. Skipping.
+				The next alignment (2405982 2414422 NODE_14_length_208102_cov_42.75_ID_278116 208102 199662) is redundant. Skipping.
+				The next alignment (2414429 2416822 NODE_13_length_208989_cov_41.6164_ID_324711 118871 116478) is redundant. Skipping.
+				The next alignment (2416823 2417802 NODE_13_length_208989_cov_41.6164_ID_324711 115498 116477) is redundant. Skipping.
+				The next alignment (2417806 2425448 NODE_13_length_208989_cov_41.6164_ID_324711 115494 107852) is redundant. Skipping.
+				The next alignment (2427615 2432694 NODE_14_length_208102_cov_42.75_ID_278116 77525 82604) is redundant. Skipping.
+				The next alignment (2432695 2443402 NODE_14_length_208102_cov_42.75_ID_278116 186491 197198) is redundant. Skipping.
+				The next alignment (2443605 2457580 NODE_13_length_208989_cov_41.6164_ID_324711 67460 81435) is redundant. Skipping.
+				The next alignment (2459458 2466132 NODE_14_length_208102_cov_42.75_ID_278116 77524 70850) is redundant. Skipping.
+				The next alignment (2466133 2485377 NODE_14_length_208102_cov_42.75_ID_278116 51605 70849) is redundant. Skipping.
+				The next alignment (2485378 2487756 NODE_14_length_208102_cov_42.75_ID_278116 51604 49226) is redundant. Skipping.
+				The next alignment (2491786 2501250 NODE_28_length_117335_cov_41.6847_ID_301973 9465 1) is redundant. Skipping.
+				The next alignment (2501598 2526037 NODE_61_length_31019_cov_43.41_ID_336808 6580 31019) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 2526037 to 2525983 (-54 bp)
+				Next Alignment: 2525983 2526488 NODE_132_length_506_cov_41.98_ID_342478 506 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 506 to 451.
+			Align 192: 2526038 2526488 NODE_132_length_506_cov_41.98_ID_342478 451 1
+				Negative gap (overlap) between this and next alignment: 2526488 to 2526146 (-342 bp)
+				Next Alignment: 2526146 2526804 NODE_112_length_659_cov_460.937_ID_342332 1 659
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 344.
+			Align 193: 2526489 2526804 NODE_112_length_659_cov_460.937_ID_342332 344 659
+				Gap between this and next alignment: 2526804 to 2527171 (366 bp)
+				Next Alignment: 2527171 2814469 NODE_7_length_287299_cov_41.4755_ID_260819 287299 1
+
+			Align 194: 2527171 2814469 NODE_7_length_287299_cov_41.4755_ID_260819 287299 1
+				The next alignment (2536710 2543288 NODE_14_length_208102_cov_42.75_ID_278116 150407 156985) is redundant. Skipping.
+				The next alignment (2543292 2546941 NODE_13_length_208989_cov_41.6164_ID_324711 962 4611) is redundant. Skipping.
+				The next alignment (2552153 2561976 NODE_13_length_208989_cov_41.6164_ID_324711 96667 106490) is redundant. Skipping.
+				The next alignment (2561977 2574525 NODE_13_length_208989_cov_41.6164_ID_324711 84118 96666) is redundant. Skipping.
+				The next alignment (2574526 2583499 NODE_13_length_208989_cov_41.6164_ID_324711 62248 53275) is redundant. Skipping.
+				The next alignment (2583500 2587455 NODE_13_length_208989_cov_41.6164_ID_324711 30490 34445) is redundant. Skipping.
+				The next alignment (2588190 2607018 NODE_13_length_208989_cov_41.6164_ID_324711 53274 34446) is redundant. Skipping.
+				The next alignment (2607017 2612243 NODE_13_length_208989_cov_41.6164_ID_324711 29757 24531) is redundant. Skipping.
+				The next alignment (2612244 2614694 NODE_13_length_208989_cov_41.6164_ID_324711 22080 24530) is redundant. Skipping.
+				The next alignment (2614695 2631960 NODE_13_length_208989_cov_41.6164_ID_324711 22079 4814) is redundant. Skipping.
+				The next alignment (2631961 2634423 NODE_14_length_208102_cov_42.75_ID_278116 197199 199661) is redundant. Skipping.
+				The next alignment (2634424 2683852 NODE_13_length_208989_cov_41.6164_ID_324711 118878 168306) is redundant. Skipping.
+				The next alignment (2683853 2691752 NODE_13_length_208989_cov_41.6164_ID_324711 196719 188820) is redundant. Skipping.
+				The next alignment (2691753 2692654 NODE_9_length_264996_cov_41.7621_ID_263231 5301 4400) is redundant. Skipping.
+				The next alignment (2692656 2696270 NODE_9_length_264996_cov_41.7621_ID_263231 52706 49092) is redundant. Skipping.
+				The next alignment (2696277 2701107 NODE_9_length_264996_cov_41.7621_ID_263231 44255 49085) is redundant. Skipping.
+				The next alignment (2701108 2740060 NODE_9_length_264996_cov_41.7621_ID_263231 44254 5302) is redundant. Skipping.
+				The next alignment (2740061 2748233 NODE_13_length_208989_cov_41.6164_ID_324711 188819 180647) is redundant. Skipping.
+				The next alignment (2748236 2751485 NODE_9_length_264996_cov_41.7621_ID_263231 76860 80109) is redundant. Skipping.
+				The next alignment (2775099 2787437 NODE_13_length_208989_cov_41.6164_ID_324711 168307 180645) is redundant. Skipping.
+				The next alignment (2787437 2811589 NODE_9_length_264996_cov_41.7621_ID_263231 76859 52707) is redundant. Skipping.
+				The next alignment (2811589 2814276 NODE_9_length_264996_cov_41.7621_ID_263231 4399 1712) is redundant. Skipping.
+				Gap between this and next alignment: 2814469 to 2818600 (4130 bp)
+				Next Alignment: 2818600 2820306 NODE_9_length_264996_cov_41.7621_ID_263231 1 1707
+
+			Align 217: 2818600 2820306 NODE_9_length_264996_cov_41.7621_ID_263231 1 1707
+				The next alignment (2818935 2819446 NODE_131_length_512_cov_39.3982_ID_342602 512 1) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 2820306 to 2819395 (-911 bp)
+				Next Alignment: 2819395 2820521 NODE_95_length_1127_cov_32.6828_ID_341713 1 1127
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 913.
+			Align 219: 2820307 2820521 NODE_95_length_1127_cov_32.6828_ID_341713 913 1127
+				Gap between this and next alignment: 2820521 to 2821563 (1041 bp)
+				Next Alignment: 2821563 3158183 NODE_4_length_336621_cov_42.0451_ID_308841 336621 1
+
+			Align 220: 2821563 3158183 NODE_4_length_336621_cov_42.0451_ID_308841 336621 1
+				The next alignment (2822883 2823252 NODE_13_length_208989_cov_41.6164_ID_324711 208989 208620) is redundant. Skipping.
+				The next alignment (2835989 2837208 NODE_9_length_264996_cov_41.7621_ID_263231 105777 104558) is redundant. Skipping.
+				The next alignment (2837207 2839521 NODE_9_length_264996_cov_41.7621_ID_263231 105778 108092) is redundant. Skipping.
+				The next alignment (2839522 2885682 NODE_9_length_264996_cov_41.7621_ID_263231 240443 194283) is redundant. Skipping.
+				The next alignment (2892542 2903483 NODE_9_length_264996_cov_41.7621_ID_263231 187423 176482) is redundant. Skipping.
+				The next alignment (2903483 2929656 NODE_9_length_264996_cov_41.7621_ID_263231 135463 161636) is redundant. Skipping.
+				The next alignment (2929652 2938453 NODE_9_length_264996_cov_41.7621_ID_263231 175980 167179) is redundant. Skipping.
+				The next alignment (2938454 2988243 NODE_26_length_131763_cov_43.0139_ID_307696 60412 10623) is redundant. Skipping.
+				The next alignment (2988244 2992131 NODE_48_length_54320_cov_43.2375_ID_313176 48888 45001) is redundant. Skipping.
+				The next alignment (2995344 2995844 NODE_9_length_264996_cov_41.7621_ID_263231 176481 175981) is redundant. Skipping.
+				The next alignment (2995850 3001391 NODE_9_length_264996_cov_41.7621_ID_263231 161637 167178) is redundant. Skipping.
+				The next alignment (3001392 3010567 NODE_26_length_131763_cov_43.0139_ID_307696 60413 69588) is redundant. Skipping.
+				The next alignment (3010568 3012795 NODE_26_length_131763_cov_43.0139_ID_307696 103273 101046) is redundant. Skipping.
+				The next alignment (3019025 3027788 NODE_26_length_131763_cov_43.0139_ID_307696 69592 78355) is redundant. Skipping.
+				The next alignment (3027792 3029343 NODE_48_length_54320_cov_43.2375_ID_313176 10974 9423) is redundant. Skipping.
+				The next alignment (3029343 3030269 NODE_19_length_177303_cov_41.2005_ID_313826 96674 97600) is redundant. Skipping.
+				The next alignment (3030550 3033478 NODE_19_length_177303_cov_41.2005_ID_313826 97881 100809) is redundant. Skipping.
+				The next alignment (3033478 3045772 NODE_19_length_177303_cov_41.2005_ID_313826 110761 123055) is redundant. Skipping.
+				The next alignment (3045773 3059371 NODE_26_length_131763_cov_43.0139_ID_307696 116462 130060) is redundant. Skipping.
+				The next alignment (3059370 3081236 NODE_26_length_131763_cov_43.0139_ID_307696 100224 78358) is redundant. Skipping.
+				The next alignment (3081236 3094977 NODE_48_length_54320_cov_43.2375_ID_313176 10975 24716) is redundant. Skipping.
+				The next alignment (3094980 3103740 NODE_19_length_177303_cov_41.2005_ID_313826 33878 42638) is redundant. Skipping.
+				The next alignment (3103744 3125508 NODE_19_length_177303_cov_41.2005_ID_313826 86316 64552) is redundant. Skipping.
+				The next alignment (3125517 3127719 NODE_19_length_177303_cov_41.2005_ID_313826 60572 62774) is redundant. Skipping.
+				The next alignment (3136074 3137586 NODE_19_length_177303_cov_41.2005_ID_313826 44152 42639) is redundant. Skipping.
+				The next alignment (3137585 3146382 NODE_19_length_177303_cov_41.2005_ID_313826 86317 95114) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 3158183 to 3158165 (-18 bp)
+				Next Alignment: 3158165 3201332 NODE_50_length_43168_cov_46.4458_ID_294942 43168 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 43168 to 43149.
+			Align 247: 3158184 3201332 NODE_50_length_43168_cov_46.4458_ID_294942 43149 1
+				The next alignment (3158227 3159929 NODE_26_length_131763_cov_43.0139_ID_307696 131763 130061) is redundant. Skipping.
+				The next alignment (3159932 3160750 NODE_26_length_131763_cov_43.0139_ID_307696 100225 101043) is redundant. Skipping.
+				The next alignment (3160802 3166531 NODE_9_length_264996_cov_41.7621_ID_263231 113822 108093) is redundant. Skipping.
+				The next alignment (3166532 3191084 NODE_9_length_264996_cov_41.7621_ID_263231 240444 264996) is redundant. Skipping.
+				The next alignment (3191711 3196852 NODE_19_length_177303_cov_41.2005_ID_313826 55430 60571) is redundant. Skipping.
+				The next alignment (3198621 3201249 NODE_48_length_54320_cov_43.2375_ID_313176 2629 1) is redundant. Skipping.
+				Gap between this and next alignment: 3201332 to 3202281 (948 bp)
+				Next Alignment: 3202281 3202394 NODE_44_length_67069_cov_42.9385_ID_267387 1 114
+
+			Align 254: 3202281 3202394 NODE_44_length_67069_cov_42.9385_ID_267387 1 114
+				Gap between this and next alignment: 3202394 to 3202551 (156 bp)
+				Next Alignment: 3202551 3203208 NODE_114_length_658_cov_67.4395_ID_342636 658 1
+
+			Align 255: 3202551 3203208 NODE_114_length_658_cov_67.4395_ID_342636 658 1
+				Negative gap (overlap) between this and next alignment: 3203208 to 3203154 (-54 bp)
+				Next Alignment: 3203154 3213775 NODE_26_length_131763_cov_43.0139_ID_307696 1 10622
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 256: 3203209 3213775 NODE_26_length_131763_cov_43.0139_ID_307696 56 10622
+				Negative gap (overlap) between this and next alignment: 3213775 to 3203154 (-10621 bp)
+				Next Alignment: 3203154 3215397 NODE_73_length_12244_cov_42.2305_ID_313667 1 12244
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 10623.
+			Align 257: 3213776 3215397 NODE_73_length_12244_cov_42.2305_ID_313667 10623 12244
+				Negative gap (overlap) between this and next alignment: 3215397 to 3213776 (-1621 bp)
+				Next Alignment: 3213776 3219207 NODE_48_length_54320_cov_43.2375_ID_313176 48889 54320
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 48889 to 50511.
+			Align 258: 3215398 3219207 NODE_48_length_54320_cov_43.2375_ID_313176 50511 54320
+				The next alignment (3215979 3217804 NODE_86_length_1826_cov_31.8363_ID_342612 1 1826) is redundant. Skipping.
+				The next alignment (3218645 3219207 NODE_122_length_563_cov_39.5531_ID_342514 563 1) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 3219207 to 3219153 (-54 bp)
+				Next Alignment: 3219153 3219832 NODE_110_length_680_cov_68.5072_ID_342476 1 680
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 261: 3219208 3219832 NODE_110_length_680_cov_68.5072_ID_342476 56 680
+				Gap between this and next alignment: 3219832 to 3220964 (1131 bp)
+				Next Alignment: 3220964 3221964 NODE_99_length_1001_cov_64.3605_ID_342428 1001 1
+
+			Align 262: 3220964 3221964 NODE_99_length_1001_cov_64.3605_ID_342428 1001 1
+				Negative gap (overlap) between this and next alignment: 3221964 to 3221910 (-54 bp)
+				Next Alignment: 3221910 3255786 NODE_19_length_177303_cov_41.2005_ID_313826 1 33877
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 263: 3221965 3255786 NODE_19_length_177303_cov_41.2005_ID_313826 56 33877
+				The next alignment (3221910 3223208 NODE_92_length_1299_cov_33.6029_ID_342622 1299 1) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 3255786 to 3223154 (-32632 bp)
+				Next Alignment: 3223154 3381733 NODE_22_length_158580_cov_42.2149_ID_306302 1 158580
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 32634.
+			Align 265: 3255787 3381733 NODE_22_length_158580_cov_42.2149_ID_306302 32634 158580
+				The next alignment (3255787 3276068 NODE_48_length_54320_cov_43.2375_ID_313176 24719 45000) is redundant. Skipping.
+				The next alignment (3276068 3294496 NODE_9_length_264996_cov_41.7621_ID_263231 132252 113824) is redundant. Skipping.
+				The next alignment (3294497 3301410 NODE_26_length_131763_cov_43.0139_ID_307696 109548 116461) is redundant. Skipping.
+				The next alignment (3301411 3319746 NODE_19_length_177303_cov_41.2005_ID_313826 123056 141391) is redundant. Skipping.
+				The next alignment (3319747 3328333 NODE_19_length_177303_cov_41.2005_ID_313826 151270 142684) is redundant. Skipping.
+				The next alignment (3328334 3336133 NODE_19_length_177303_cov_41.2005_ID_313826 102961 110760) is redundant. Skipping.
+				The next alignment (3336135 3338285 NODE_19_length_177303_cov_41.2005_ID_313826 100810 102960) is redundant. Skipping.
+				The next alignment (3339578 3361243 NODE_19_length_177303_cov_41.2005_ID_313826 151271 172936) is redundant. Skipping.
+				The next alignment (3361244 3373920 NODE_47_length_56510_cov_43.8507_ID_327653 42031 54706) is redundant. Skipping.
+				The next alignment (3373921 3376749 NODE_47_length_56510_cov_43.8507_ID_327653 39202 42030) is redundant. Skipping.
+				The next alignment (3376753 3381116 NODE_19_length_177303_cov_41.2005_ID_313826 172940 177303) is redundant. Skipping.
+				Gap between this and next alignment: 3381733 to 3382148 (414 bp)
+				Next Alignment: 3382148 3382260 NODE_32_length_109022_cov_43.1878_ID_301005 109022 108910
+
+			Align 277: 3382148 3382260 NODE_32_length_109022_cov_43.1878_ID_301005 109022 108910
+				Negative gap (overlap) between this and next alignment: 3382260 to 3382148 (-112 bp)
+				Next Alignment: 3382148 3383951 NODE_47_length_56510_cov_43.8507_ID_327653 56510 54707
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 56510 to 56397.
+			Align 278: 3382261 3383951 NODE_47_length_56510_cov_43.8507_ID_327653 56397 54707
+				Negative gap (overlap) between this and next alignment: 3383951 to 3383198 (-753 bp)
+				Next Alignment: 3383198 3423151 NODE_54_length_39954_cov_42.3442_ID_327274 39954 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 39954 to 39200.
+			Align 279: 3383952 3423151 NODE_54_length_39954_cov_42.3442_ID_327274 39200 1
+				The next alignment (3383952 3423151 NODE_47_length_56510_cov_43.8507_ID_327653 39201 1) is redundant. Skipping.
+				Gap between this and next alignment: 3423151 to 3426415 (3263 bp)
+				Next Alignment: 3426415 3497677 NODE_41_length_71263_cov_42.5064_ID_299015 1 71263
+
+			Align 281: 3426415 3497677 NODE_41_length_71263_cov_42.5064_ID_299015 1 71263
+				The next alignment (3427352 3468440 NODE_24_length_152051_cov_42.8507_ID_299620 81726 122814) is redundant. Skipping.
+				The next alignment (3468438 3484478 NODE_24_length_152051_cov_42.8507_ID_299620 138855 122815) is redundant. Skipping.
+				The next alignment (3484482 3497677 NODE_24_length_152051_cov_42.8507_ID_299620 138856 152051) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 3497677 to 3497623 (-54 bp)
+				Next Alignment: 3497623 3499179 NODE_84_length_1975_cov_375.256_ID_342420 1 1557
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 285: 3497678 3499179 NODE_84_length_1975_cov_375.256_ID_342420 56 1557
+				Negative gap (overlap) between this and next alignment: 3499179 to 3498953 (-226 bp)
+				Next Alignment: 3498953 3653424 NODE_23_length_154472_cov_48.0011_ID_311648 1 154472
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 228.
+			Align 286: 3499180 3653424 NODE_23_length_154472_cov_48.0011_ID_311648 228 154472
+				The next alignment (3499180 3580904 NODE_24_length_152051_cov_42.8507_ID_299620 81725 1) is redundant. Skipping.
+				The next alignment (3584590 3615682 NODE_32_length_109022_cov_43.1878_ID_301005 100640 69548) is redundant. Skipping.
+				The next alignment (3617950 3646044 NODE_32_length_109022_cov_43.1878_ID_301005 1 28095) is redundant. Skipping.
+				Gap between this and next alignment: 3653424 to 3656833 (3408 bp)
+				Next Alignment: 3656833 3700597 NODE_49_length_43765_cov_41.9605_ID_331650 43765 1
+
+			Align 290: 3656833 3700597 NODE_49_length_43765_cov_41.9605_ID_331650 43765 1
+				The next alignment (3656833 3691641 NODE_56_length_35013_cov_43.5203_ID_332020 35013 205) is redundant. Skipping.
+				Gap between this and next alignment: 3700597 to 3701056 (458 bp)
+				Next Alignment: 3701056 3701639 NODE_119_length_584_cov_62.4197_ID_342436 1 584
+
+			Align 292: 3701056 3701639 NODE_119_length_584_cov_62.4197_ID_342436 1 584
+				Negative gap (overlap) between this and next alignment: 3701639 to 3701585 (-54 bp)
+				Next Alignment: 3701585 3941028 NODE_11_length_239444_cov_43.5328_ID_289237 1 239444
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 293: 3701640 3941028 NODE_11_length_239444_cov_43.5328_ID_289237 56 239444
+				The next alignment (3701585 3722958 NODE_62_length_28754_cov_45.0522_ID_304937 1 21374) is redundant. Skipping.
+				The next alignment (3722959 3744279 NODE_32_length_109022_cov_43.1878_ID_301005 28096 49416) is redundant. Skipping.
+				The next alignment (3744279 3762543 NODE_32_length_109022_cov_43.1878_ID_301005 67681 49417) is redundant. Skipping.
+				The next alignment (3762545 3764410 NODE_32_length_109022_cov_43.1878_ID_301005 67682 69547) is redundant. Skipping.
+				The next alignment (3768235 3837831 NODE_20_length_169489_cov_42.3185_ID_287702 1 69597) is redundant. Skipping.
+				The next alignment (3837832 3852854 NODE_20_length_169489_cov_42.3185_ID_287702 143570 128548) is redundant. Skipping.
+				The next alignment (3852854 3879338 NODE_20_length_169489_cov_42.3185_ID_287702 102063 128547) is redundant. Skipping.
+				The next alignment (3879340 3911804 NODE_20_length_169489_cov_42.3185_ID_287702 102062 69598) is redundant. Skipping.
+				The next alignment (3911805 3937723 NODE_20_length_169489_cov_42.3185_ID_287702 143571 169489) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 3941028 to 3940974 (-54 bp)
+				Next Alignment: 3940974 3941716 NODE_107_length_743_cov_83.7573_ID_342462 1 743
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 303: 3941029 3941716 NODE_107_length_743_cov_83.7573_ID_342462 56 743
+				Gap between this and next alignment: 3941716 to 3946772 (5055 bp)
+				Next Alignment: 3946772 3947850 NODE_96_length_1081_cov_63.9795_ID_342430 1079 1
+
+			Align 304: 3946772 3947850 NODE_96_length_1081_cov_63.9795_ID_342430 1079 1
+				The next alignment (3946772 3946948 NODE_115_length_624_cov_72.5395_ID_342444 3 179) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 3947850 to 3947796 (-54 bp)
+				Next Alignment: 3947796 3974659 NODE_36_length_87458_cov_42.1353_ID_323681 87458 60595
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 87458 to 87403.
+			Align 306: 3947851 3974659 NODE_36_length_87458_cov_42.1353_ID_323681 87403 60595
+				The next alignment (3947796 3948705 NODE_101_length_910_cov_30.4409_ID_342628 1 910) is redundant. Skipping.
+				The next alignment (3948673 3949864 NODE_94_length_1192_cov_34.6588_ID_342558 1192 1) is redundant. Skipping.
+				The next alignment (3950517 3974368 NODE_68_length_23852_cov_41.5317_ID_324422 23852 1) is redundant. Skipping.
+				Gap between this and next alignment: 3974659 to 3976374 (1714 bp)
+				Next Alignment: 3976374 4038027 NODE_45_length_61654_cov_42.6377_ID_337987 61654 1
+
+			Align 310: 3976374 4038027 NODE_45_length_61654_cov_42.6377_ID_337987 61654 1
+				The next alignment (3977240 4037831 NODE_36_length_87458_cov_42.1353_ID_323681 3 60594) is redundant. Skipping.
+				Gap between this and next alignment: 4038027 to 4040587 (2559 bp)
+				Next Alignment: 4040587 4040670 NODE_65_length_27734_cov_45.3971_ID_294617 1 84
+
+			Align 312: 4040587 4040670 NODE_65_length_27734_cov_45.3971_ID_294617 1 84
+				Gap between this and next alignment: 4040670 to 4040981 (310 bp)
+				Next Alignment: 4040981 4074212 NODE_27_length_121957_cov_41.3191_ID_303800 1 33232
+
+			Align 313: 4040981 4074212 NODE_27_length_121957_cov_41.3191_ID_303800 1 33232
+				The next alignment (4040981 4041833 NODE_103_length_853_cov_30.6667_ID_342486 853 1) is redundant. Skipping.
+				The next alignment (4042015 4042529 NODE_130_length_515_cov_28.0913_ID_342592 1 515) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 4074212 to 4042702 (-31510 bp)
+				Next Alignment: 4042702 4147877 NODE_33_length_105176_cov_41.071_ID_302938 1 105176
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 31512.
+			Align 316: 4074213 4147877 NODE_33_length_105176_cov_41.071_ID_302938 31512 105176
+				The next alignment (4074216 4081439 NODE_27_length_121957_cov_41.3191_ID_303800 73325 80548) is redundant. Skipping.
+				The next alignment (4081440 4087863 NODE_65_length_27734_cov_45.3971_ID_294617 7971 14394) is redundant. Skipping.
+				The next alignment (4087863 4104367 NODE_27_length_121957_cov_41.3191_ID_303800 118253 101749) is redundant. Skipping.
+				The next alignment (4104368 4122744 NODE_8_length_282675_cov_42.1603_ID_320695 119867 138243) is redundant. Skipping.
+				The next alignment (4122746 4125783 NODE_8_length_282675_cov_42.1603_ID_320695 102060 99023) is redundant. Skipping.
+				The next alignment (4125874 4137235 NODE_27_length_121957_cov_41.3191_ID_303800 50160 61522) is redundant. Skipping.
+				The next alignment (4142440 4147062 NODE_27_length_121957_cov_41.3191_ID_303800 66727 71349) is redundant. Skipping.
+				Gap between this and next alignment: 4147877 to 4152807 (4929 bp)
+				Next Alignment: 4152807 4242773 NODE_15_length_204555_cov_42.7061_ID_323130 1 89965
+
+			Align 324: 4152807 4242773 NODE_15_length_204555_cov_42.7061_ID_323130 1 89965
+				The next alignment (4156892 4164710 NODE_65_length_27734_cov_45.3971_ID_294617 27734 19916) is redundant. Skipping.
+				The next alignment (4167607 4173126 NODE_65_length_27734_cov_45.3971_ID_294617 14395 19915) is redundant. Skipping.
+				The next alignment (4179089 4182228 NODE_65_length_27734_cov_45.3971_ID_294617 7970 4831) is redundant. Skipping.
+				The next alignment (4182228 4185671 NODE_27_length_121957_cov_41.3191_ID_303800 36678 33235) is redundant. Skipping.
+				The next alignment (4185672 4187645 NODE_27_length_121957_cov_41.3191_ID_303800 73323 71350) is redundant. Skipping.
+				The next alignment (4187648 4192393 NODE_65_length_27734_cov_45.3971_ID_294617 85 4830) is redundant. Skipping.
+				The next alignment (4192403 4199886 NODE_27_length_121957_cov_41.3191_ID_303800 36687 44170) is redundant. Skipping.
+				The next alignment (4199895 4205788 NODE_27_length_121957_cov_41.3191_ID_303800 50159 44266) is redundant. Skipping.
+				The next alignment (4206135 4206981 NODE_8_length_282675_cov_42.1603_ID_320695 45345 46191) is redundant. Skipping.
+				The next alignment (4206982 4214463 NODE_8_length_282675_cov_42.1603_ID_320695 37862 45343) is redundant. Skipping.
+				The next alignment (4214465 4226117 NODE_8_length_282675_cov_42.1603_ID_320695 98674 87022) is redundant. Skipping.
+				The next alignment (4228015 4228516 NODE_8_length_282675_cov_42.1603_ID_320695 85124 84623) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 4242773 to 4228519 (-14254 bp)
+				Next Alignment: 4228519 4243146 NODE_8_length_282675_cov_42.1603_ID_320695 66763 81388
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 66763 to 81018.
+			Align 337: 4242774 4243146 NODE_8_length_282675_cov_42.1603_ID_320695 81018 81388
+				Negative gap (overlap) between this and next alignment: 4243146 to 4243111 (-35 bp)
+				Next Alignment: 4243111 4357700 NODE_15_length_204555_cov_42.7061_ID_323130 89966 204555
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 89966 to 90002.
+			Align 338: 4243147 4357700 NODE_15_length_204555_cov_42.7061_ID_323130 90002 204555
+				The next alignment (4243371 4246604 NODE_8_length_282675_cov_42.1603_ID_320695 81389 84622) is redundant. Skipping.
+				The next alignment (4246603 4267173 NODE_8_length_282675_cov_42.1603_ID_320695 66762 46192) is redundant. Skipping.
+				The next alignment (4267174 4268143 NODE_8_length_282675_cov_42.1603_ID_320695 37861 36892) is redundant. Skipping.
+				The next alignment (4268145 4279876 NODE_8_length_282675_cov_42.1603_ID_320695 25160 36891) is redundant. Skipping.
+				The next alignment (4279876 4296787 NODE_8_length_282675_cov_42.1603_ID_320695 25159 8248) is redundant. Skipping.
+				The next alignment (4296788 4308469 NODE_8_length_282675_cov_42.1603_ID_320695 219808 208128) is redundant. Skipping.
+				The next alignment (4308469 4320292 NODE_8_length_282675_cov_42.1603_ID_320695 158136 169959) is redundant. Skipping.
+				The next alignment (4320293 4323722 NODE_8_length_282675_cov_42.1603_ID_320695 193668 190239) is redundant. Skipping.
+				The next alignment (4323723 4327108 NODE_8_length_282675_cov_42.1603_ID_320695 146025 149410) is redundant. Skipping.
+				The next alignment (4327111 4329766 NODE_8_length_282675_cov_42.1603_ID_320695 172615 169960) is redundant. Skipping.
+				The next alignment (4329767 4344225 NODE_8_length_282675_cov_42.1603_ID_320695 193669 208127) is redundant. Skipping.
+				The next alignment (4344227 4352949 NODE_8_length_282675_cov_42.1603_ID_320695 158135 149412) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 4357700 to 4352950 (-4750 bp)
+				Next Alignment: 4352950 4370571 NODE_8_length_282675_cov_42.1603_ID_320695 172617 190238
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 172617 to 177368.
+			Align 351: 4357701 4370571 NODE_8_length_282675_cov_42.1603_ID_320695 177368 190238
+				Negative gap (overlap) between this and next alignment: 4370571 to 4358225 (-12346 bp)
+				Next Alignment: 4358225 4418391 NODE_46_length_60167_cov_39.5893_ID_329427 60167 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 60167 to 47820.
+			Align 352: 4370572 4418391 NODE_46_length_60167_cov_39.5893_ID_329427 47820 1
+				The next alignment (4370575 4378352 NODE_8_length_282675_cov_42.1603_ID_320695 146021 138244) is redundant. Skipping.
+				The next alignment (4396158 4414735 NODE_27_length_121957_cov_41.3191_ID_303800 101748 83171) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 4418391 to 4418337 (-54 bp)
+				Next Alignment: 4418337 4419842 NODE_90_length_1508_cov_57.6511_ID_342434 1 1508
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 355: 4418392 4419842 NODE_90_length_1508_cov_57.6511_ID_342434 56 1508
+				Gap between this and next alignment: 4419842 to 4422144 (2301 bp)
+				Next Alignment: 4422144 4424951 NODE_78_length_2810_cov_368.286_ID_342314 2810 1
+
+			Align 356: 4422144 4424951 NODE_78_length_2810_cov_368.286_ID_342314 2810 1
+				Negative gap (overlap) between this and next alignment: 4424951 to 4424897 (-54 bp)
+				Next Alignment: 4424897 4426661 NODE_88_length_1765_cov_57.6386_ID_342432 1 1765
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 357: 4424952 4426661 NODE_88_length_1765_cov_57.6386_ID_342432 56 1765
+				Negative gap (overlap) between this and next alignment: 4426661 to 4426607 (-54 bp)
+				Next Alignment: 4426607 4434853 NODE_8_length_282675_cov_42.1603_ID_320695 1 8247
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 56.
+			Align 358: 4426662 4434853 NODE_8_length_282675_cov_42.1603_ID_320695 56 8247
+				Negative gap (overlap) between this and next alignment: 4434853 to 4426607 (-8246 bp)
+				Next Alignment: 4426607 4639471 NODE_12_length_212865_cov_44.9302_ID_332341 212865 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 212865 to 204618.
+			Align 359: 4434854 4639471 NODE_12_length_212865_cov_44.9302_ID_332341 204618 1
+				The next alignment (4434854 4457171 NODE_8_length_282675_cov_42.1603_ID_320695 219809 242126) is redundant. Skipping.
+				The next alignment (4457178 4461572 NODE_77_length_5979_cov_43.1764_ID_340448 1585 5979) is redundant. Skipping.
+				The next alignment (4464648 4489039 NODE_8_length_282675_cov_42.1603_ID_320695 282675 258284) is redundant. Skipping.
+				The next alignment (4489040 4492981 NODE_8_length_282675_cov_42.1603_ID_320695 254342 258283) is redundant. Skipping.
+				The next alignment (4492982 4497129 NODE_8_length_282675_cov_42.1603_ID_320695 254341 250194) is redundant. Skipping.
+				The next alignment (4497130 4499270 NODE_37_length_82213_cov_43.1418_ID_334388 54321 56461) is redundant. Skipping.
+				The next alignment (4499274 4503433 NODE_37_length_82213_cov_43.1418_ID_334388 20514 24673) is redundant. Skipping.
+				The next alignment (4504466 4512073 NODE_37_length_82213_cov_43.1418_ID_334388 25706 33313) is redundant. Skipping.
+				The next alignment (4512070 4527579 NODE_37_length_82213_cov_43.1418_ID_334388 15738 229) is redundant. Skipping.
+				The next alignment (4527742 4564425 NODE_21_length_168810_cov_42.2355_ID_291345 24812 61495) is redundant. Skipping.
+				The next alignment (4564426 4568559 NODE_34_length_99298_cov_42.9336_ID_335181 94870 99003) is redundant. Skipping.
+				The next alignment (4568560 4579663 NODE_21_length_168810_cov_42.2355_ID_291345 24811 13708) is redundant. Skipping.
+				The next alignment (4579666 4592080 NODE_37_length_82213_cov_43.1418_ID_334388 80839 68425) is redundant. Skipping.
+				The next alignment (4592080 4608151 NODE_37_length_82213_cov_43.1418_ID_334388 38249 54320) is redundant. Skipping.
+				The next alignment (4608152 4613773 NODE_8_length_282675_cov_42.1603_ID_320695 250193 244572) is redundant. Skipping.
+				The next alignment (4613774 4614781 NODE_37_length_82213_cov_43.1418_ID_334388 37241 38248) is redundant. Skipping.
+				The next alignment (4614783 4626744 NODE_37_length_82213_cov_43.1418_ID_334388 68424 56463) is redundant. Skipping.
+				The next alignment (4626743 4631517 NODE_37_length_82213_cov_43.1418_ID_334388 20513 15739) is redundant. Skipping.
+				The next alignment (4631522 4635448 NODE_37_length_82213_cov_43.1418_ID_334388 33314 37240) is redundant. Skipping.
+				The next alignment (4635449 4637887 NODE_8_length_282675_cov_42.1603_ID_320695 244571 242133) is redundant. Skipping.
+				The next alignment (4637888 4639471 NODE_77_length_5979_cov_43.1764_ID_340448 1584 1) is redundant. Skipping.
+				Negative gap (overlap) between this and next alignment: 4639471 to 4639417 (-54 bp)
+				Next Alignment: 4639417 4640201 NODE_105_length_794_cov_44.4912_ID_342466 794 10
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 794 to 739.
+			Align 381: 4639472 4640201 NODE_105_length_794_cov_44.4912_ID_342466 739 10
+			END in gap: 4640201 to 4641652 (1451 bp)
+
+Analysis is finished!
+Founded SNPs were written into /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0940/runs_per_reference/Ecoli_0940/contigs_reports/nucmer_output/scaffolds.used_snps
+
+Results:
+	Local Misassemblies: 10
+	Misassemblies: 261
+		Relocations: 238
+		Translocations: 0
+		Inversions: 23
+	Misassembled Contigs: 37
+	Misassembled Contig Bases: 4271262
+	Misassemblies Inter-Contig Overlap: 0
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 0 + 5 part
+Partially Unaligned Contigs with Misassemblies: 1
+Unaligned Contig Bases: 60456
+
+Ambiguously Mapped Contigs: 2
+Total Bases in Ambiguously Mapped Contigs: 3469
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 4590521
+
+	SNPs: 34469
+	Insertions: 30
+	Deletions: 27
+
+	Positive Gaps: 32
+		Internal Gaps:  1
+		External Gaps:  31
+		External Gap Total:  51018
+		External Gap Average: 1646
+	Negative Gaps: 40
+		Internal Overlaps:  0
+		External Overlaps:  40
+		External Overlaps Total: -189313
+		External Overlaps Average: -4733
+	Contigs with Redundant Alignments: 34 (3886640)

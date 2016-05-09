@@ -1,0 +1,132 @@
+Aligning contigs to reference...
+	Running Nucmer
+Parsing coords...
+Loading reference...
+	Loaded [Ecoli_0920_Taxon005_]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 1
+	Total Region Length: 4641652
+Analyzing contigs...
+CONTIG: NODE_4_length_275891_cov_55.8038_ID_509497 (275891bp)
+Top Length: 5352  Top ID: 95.09
+		This contig is misassembled. 3 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 275891 and total length of all aligns is 10582
+		Alignment: 3858040 3862437 | 19285 14888 | 4398 4398 | 95.11 | Ecoli_0920_Taxon005_ NODE_4_length_275891_cov_55.8038_ID_509497
+		Alignment: 3808203 3809034 | 43747 42916 | 832 832 | 96.75 | Ecoli_0920_Taxon005_ NODE_4_length_275891_cov_55.8038_ID_509497
+		Alignment: 3641390 3646741 | 191304 196655 | 5352 5352 | 95.09 | Ecoli_0920_Taxon005_ NODE_4_length_275891_cov_55.8038_ID_509497
+		Unaligned bases: 265309
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+CONTIG: NODE_18_length_121680_cov_55.0607_ID_413013 (121680bp)
+Top Length: 2858  Top ID: 95.28
+		This contig is partially unaligned. (Aligned 2858 out of 121680 bases)
+		Alignment: 4020409 4023266 | 63197 60340 | 2858 2858 | 95.28 | Ecoli_0920_Taxon005_ NODE_18_length_121680_cov_55.0607_ID_413013
+		Unaligned bases: 1 to 60339 (60339)
+		Unaligned bases: 63198 to 121680 (58483)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+CONTIG: NODE_32_length_83030_cov_59.1589_ID_459001 (83030bp)
+Top Length: 52438  Top ID: 95.25
+		Skipping redundant alignment 4113421 4114672 | 18073 19324 | 1252 1252 | 95.53 | Ecoli_0920_Taxon005_ NODE_32_length_83030_cov_59.1589_ID_459001
+		This contig is misassembled. 3 total aligns.
+			Excluding internal overlap of size 1 between Alignment 1 and 2:  4210392 4240982 | 83028 52438 | 30591 30591 --> 4210392 4240981 | 83028 52439 | 30590 30590
+			Real Alignment 1: 4241075 4293512 | 52438 1 | 52438 52438 | 95.25 | Ecoli_0920_Taxon005_ NODE_32_length_83030_cov_59.1589_ID_459001
+			  Gap between these two alignments (local misassembly). Inconsistency = 93 
+			Real Alignment 2: 4210392 4240981 | 83028 52439 | 30590 30590 | 95.16 | Ecoli_0920_Taxon005_ NODE_32_length_83030_cov_59.1589_ID_459001
+
+CONTIG: NODE_57_length_41109_cov_54.5339_ID_479502 (41109bp)
+Top Length: 40523  Top ID: 95.26
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 552078 552562 | 1 485 | 485 485 | 95.05 | Ecoli_0920_Taxon005_ NODE_57_length_41109_cov_54.5339_ID_479502
+			  Overlap between these two alignments (local misassembly). Inconsistency = -102 
+			Real Alignment 2: 552562 593084 | 587 41109 | 40523 40523 | 95.26 | Ecoli_0920_Taxon005_ NODE_57_length_41109_cov_54.5339_ID_479502
+
+CONTIG: NODE_79_length_28874_cov_52.8666_ID_493988 (28874bp)
+Top Length: 633  Top ID: 96.37
+		Skipping redundant alignment 254023 254212 | 521 332 | 190 190 | 97.89 | Ecoli_0920_Taxon005_ NODE_79_length_28874_cov_52.8666_ID_493988
+		This contig is partially unaligned. (Aligned 633 out of 28874 bases)
+		Alignment: 254023 254654 | 633 1 | 632 633 | 96.37 | Ecoli_0920_Taxon005_ NODE_79_length_28874_cov_52.8666_ID_493988
+		Unaligned bases: 634 to 28874 (28241)
+		This contig has both significant aligned and unaligned parts (of length >= min-contig)! It can contain interspecies translocations
+
+Analyzing coverage...
+Writing SNPs into /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0965/runs_per_reference/Ecoli_0920/contigs_reports/nucmer_output/scaffolds.used_snps
+	Reference Ecoli_0920_Taxon005_: 9 total alignments. 1 total regions.
+		Region: 1 to 4641652 (4641652 bp)
+			START in gap: 1 to 254023 (254022 bp)
+			Align 1: 254023 254654 NODE_79_length_28874_cov_52.8666_ID_493988 633 1
+				Gap between this and next alignment: 254654 to 552078 (297423 bp)
+				Next Alignment: 552078 552562 NODE_57_length_41109_cov_54.5339_ID_479502 1 485
+
+			Align 2: 552078 552562 NODE_57_length_41109_cov_54.5339_ID_479502 1 485
+				Negative gap (overlap) between this and next alignment: 552562 to 552562 (0 bp)
+				Next Alignment: 552562 593084 NODE_57_length_41109_cov_54.5339_ID_479502 587 41109
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 587 to 588.
+			Align 3: 552563 593084 NODE_57_length_41109_cov_54.5339_ID_479502 588 41109
+				Gap between this and next alignment: 593084 to 3641390 (3048305 bp)
+				Next Alignment: 3641390 3646741 NODE_4_length_275891_cov_55.8038_ID_509497 191304 196655
+
+			Align 4: 3641390 3646741 NODE_4_length_275891_cov_55.8038_ID_509497 191304 196655
+				Gap between this and next alignment: 3646741 to 3808203 (161461 bp)
+				Next Alignment: 3808203 3809034 NODE_4_length_275891_cov_55.8038_ID_509497 43747 42916
+
+			Align 5: 3808203 3809034 NODE_4_length_275891_cov_55.8038_ID_509497 43747 42916
+				Gap between this and next alignment: 3809034 to 3858040 (49005 bp)
+				Next Alignment: 3858040 3862437 NODE_4_length_275891_cov_55.8038_ID_509497 19285 14888
+
+			Align 6: 3858040 3862437 NODE_4_length_275891_cov_55.8038_ID_509497 19285 14888
+				Gap between this and next alignment: 3862437 to 4020409 (157971 bp)
+				Next Alignment: 4020409 4023266 NODE_18_length_121680_cov_55.0607_ID_413013 63197 60340
+
+			Align 7: 4020409 4023266 NODE_18_length_121680_cov_55.0607_ID_413013 63197 60340
+				Gap between this and next alignment: 4023266 to 4210392 (187125 bp)
+				Next Alignment: 4210392 4240981 NODE_32_length_83030_cov_59.1589_ID_459001 83028 52439
+
+			Align 8: 4210392 4240981 NODE_32_length_83030_cov_59.1589_ID_459001 83028 52439
+				Gap between this and next alignment: 4240981 to 4241075 (93 bp)
+				Next Alignment: 4241075 4293512 NODE_32_length_83030_cov_59.1589_ID_459001 52438 1
+
+			Align 9: 4241075 4293512 NODE_32_length_83030_cov_59.1589_ID_459001 52438 1
+			END in gap: 4293512 to 4641652 (348140 bp)
+
+Analysis is finished!
+Founded SNPs were written into /net/metagenomics/projects/afritz_assemblies/Similarity_Experiment/Ecoli_OneTree/metaquast_consensus_spades/Ecoli_0965/runs_per_reference/Ecoli_0920/contigs_reports/nucmer_output/scaffolds.used_snps
+
+Results:
+	Local Misassemblies: 2
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap: 0
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 0 + 3 part
+Partially Unaligned Contigs with Misassemblies: 1
+Unaligned Contig Bases: 412372
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 138107
+
+	SNPs: 6573
+	Insertions: 3
+	Deletions: 2
+
+	Positive Gaps: 9
+		Internal Gaps:  3
+		External Gaps:  6
+		External Gap Total:  4292986
+		External Gap Average: 715498
+	Negative Gaps: 1
+		Internal Overlaps:  1
+		External Overlaps:  0
+		External Overlaps Total:  0
+		External Overlaps Average: 0
+	Contigs with Redundant Alignments: 0 (0)
