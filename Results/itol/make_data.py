@@ -24,5 +24,6 @@ for n in name_count:
 	if name_count[n] < 2:
 		vals[n].append(0)
 
-for n in vals:
-	print "%s\t%s" % (n,vals[n])
+#for n in vals:
+#	print "%s\t%s" % (n,vals[n])
+print len(vals)

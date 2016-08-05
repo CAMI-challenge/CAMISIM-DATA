@@ -1,0 +1,101 @@
+/homes/afritz/bin/quast/quast.pyc -t 8 --meta  --combined-ref  --ambiguity-usage one -R /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/quast_corrected_input/combined_reference.fasta -o /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output --labels final.contigs /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/out/final.contigs.fa
+
+Started: 2016-07-29 15:13:04
+
+Logging to /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/quast.log
+
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used.
+
+Reference:
+
+Contigs:
+  /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/out/final.contigs.fa ==> final.contigs
+
+2016-07-29 15:13:05
+Running Basic statistics processor...
+  Reference genome:
+    combined_reference.fasta, Reference length = 10957366, Reference GC % = 50.49
+  Contig files: 
+    final.contigs
+  Calculating N50 and L50...
+    final.contigs, N50 = 1300, L50 = 1338, Total length = 6209297, GC % = 50.34, # N's per 100 kbp =  0.00
+  Drawing cumulative plot...
+    saved to /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/basic_stats/GC_content_plot.pdf
+  Drawing Nx plot...
+    saved to /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/basic_stats/NGx_plot.pdf
+Done.
+
+2016-07-29 15:13:10
+Running Contig analyzer...
+  final.contigs
+  Logging to files /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/contigs_reports/contigs_report_final.contigs.stdout and contigs_report_final.contigs.stderr...
+  Running Nucmer
+  bin/quast/libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/contigs_reports/nucmer_output/final.contigs \
+  /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/quast_corrected_input/combined_reference.fasta \
+  /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/../quast_corrected_input/final.contigs.fa \
+  >> /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/contigs_reports/contigs_report_final.contigs.stdout \
+  2>> /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/contigs_reports/contigs_report_final.contigs.stderr
+  bin/quast/libs/MUMmer3.23-linux/delta-filter -i 95 -l 0 /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/contigs_reports/nucmer_output/final.contigs.delta \
+  > /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/contigs_reports/nucmer_output/final.contigs.fdelta \
+  2> /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/contigs_reports/contigs_report_final.contigs.stderr
+  bin/quast/libs/MUMmer3.23-linux/show-coords /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/contigs_reports/nucmer_output/final.contigs.delta \
+  > /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/contigs_reports/nucmer_output/final.contigs.coords_tmp \
+  2> /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/contigs_reports/contigs_report_final.contigs.stderr
+  bin/quast/libs/MUMmer3.23-linux/show-snps -S -T -H /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/contigs_reports/nucmer_output/final.contigs.delta \
+  < /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/contigs_reports/nucmer_output/final.contigs.coords.headless \
+  > /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/contigs_reports/nucmer_output/final.contigs.all_snps \
+  2> /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/contigs_reports/contigs_report_final.contigs.stderr
+  Alignments: ../../vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/contigs_reports/alignments_final.contigs.tsv
+  Analysis is finished.
+
+  Information about interspecies translocations by references is saved to /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/contigs_reports/interspecies_translocations_by_refs.info
+  Creating total report...
+    saved to /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/contigs_reports/misassemblies_plot.pdf
+Done.
+
+2016-07-29 15:14:49
+Running NA-NGA calculation...
+  final.contigs, Largest alignment = 9465, NA50 = 1300, NGA50 = 607, LA50 = 1338, LGA50 = 4182
+  Drawing cumulative plot...
+    saved to /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/aligned_stats/NGAx_plot.pdf
+Done.
+
+2016-07-29 15:14:51
+Running Genome analyzer...
+  NOTICE: No file with genes provided. Use the -G option if you want to specify it.
+  NOTICE: No file with operons provided. Use the -O option if you want to specify it.
+  final.contigs
+  Analysis is finished.
+  Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2016-07-29 15:14:59
+Drawing large plots...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating contig alignment plot...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2016-07-29 15:15:19
+RESULTS:
+  Text versions of total report are saved to /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/report.html
+  PDF version (tables and plots) saved to /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/report.pdf
+  Contig alignment plot: /vol/cami-scratch/Simpipeline/iTol_genomes/Escherichia_coli_O157:H7_0985/quast_strain/combined_quast_output/alignment.svg
