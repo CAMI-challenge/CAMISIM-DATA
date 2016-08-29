@@ -7,7 +7,7 @@ import ast
 fname = sys.argv[1]
 t = ast.literal_eval(sys.argv[2])
 f = open(fname)
-per = fname.split('.')[0].split('_')[1]
+per = fname.split('.')[0].split('_')[-1]
 
 name_count = {}
 vals = {}
@@ -56,7 +56,7 @@ if t:
 					str_an = val[1]
 				else:
 					str_ev = val[1]
-		nvals[a] = [con_an,str_an,con_ev,str_ev]
+		nvals[a] = [con_an,con_ev,str_an,str_ev]
 	toWrite = ""
 	for a in nvals:
 		toWrite += "%s\t%s\t%s\t%s\t%s\n" % (a + "_" + per,nvals[a][0],nvals[a][1],nvals[a][2],nvals[a][3])
