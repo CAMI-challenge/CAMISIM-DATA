@@ -35,9 +35,9 @@ if t:
 		a = tot[0]
 		b = tot[1].lstrip()
 		if a in nvals:
-			nvals[a].extend([(n,int(ast.literal_eval(g)[0])) for g in vals[n]])
+			nvals[a].extend([(n,float(ast.literal_eval(g)[0])) for g in vals[n]])
 		else:
-			nvals[a] = [(n,int(ast.literal_eval(g)[0])) for g in vals[n]]
+			nvals[a] = [(n,float(ast.literal_eval(g)[0])) for g in vals[n]]
 	for a in nvals:
 		con_an = False
 		str_an = False
