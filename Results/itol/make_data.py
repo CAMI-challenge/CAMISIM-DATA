@@ -7,6 +7,7 @@ import ast
 fname = sys.argv[1]
 t = ast.literal_eval(sys.argv[2])
 f = open(fname)
+per = fname.split('.')[0].split('_')[1]
 
 name_count = {}
 vals = {}
@@ -56,9 +57,9 @@ if t:
 				else:
 					str_ev = val[1]
 		nvals[a] = [con_an,str_an,con_ev,str_ev]
-	toWrite = "strain\tancestor consensus\tevolved consensus\tancestor strain\tevolved strain\n"
+	toWrite = ""
 	for a in nvals:
-		toWrite += "%s\t%s\t%s\t%s\t%s\n" % (a,nvals[a][0],nvals[a][1],nvals[a][2],nvals[a][3])
+		toWrite += "%s\t%s\t%s\t%s\t%s\n" % (a + "_" + per,nvals[a][0],nvals[a][1],nvals[a][2],nvals[a][3])
 	print toWrite
 else:
 	for n in vals:
