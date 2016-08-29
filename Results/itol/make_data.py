@@ -39,42 +39,26 @@ if t:
 		else:
 			nvals[a] = [(n,float(ast.literal_eval(g)[0])) for g in vals[n]]
 	for a in nvals:
-		con_an = False
-		str_an = False
-		con_ev = False
-		str_ev = False
-		if len(nvals[a]) < 4:
-			for val in nvals[a]:
-				name = val[0].split()
-				if name[1].startswith("quast_con"):
-					if name[0].split('_')[-1].startswith("ancestor"):
-						con_an = True
-					else:
-						con_ev = True
-
+		con_an = 'NA'
+		str_an = 'NA'
+		con_ev = 'NA'
+		str_ev = 'NA'
+		for val in nvals[a]:
+			name = val[0].split()
+			if name[1].startswith("quast_con"):
+				if name[0].split('_')[-1].startswith("ancestor"):
+					con_an = val[1]
 				else:
-					if name[0].split('_')[-1].startswith("ancestor"):
-						str_an = True
-					else:
-						str_ev = True
-		else:
-			con_an = True
-			str_an = True
-			con_ev = True
-			str_ev = True
-		ex = [con_an,str_an,con_ev,str_ev]
-		v = []
-		pos = 0
-		for b in ex:
-			if b:
-				v.append(nvals[a][pos])
-				pos += 1
+					con_ev = val[1]
 			else:
-				v.append(('NA','NA'))
-		nvals[a] = v
+				if name[0].split('_')[-1].startswith("ancestor"):
+					str_an = val[1]
+				else:
+					str_ev = val[1]
+		nvals[a] = [con_an,str_an,con_ev,str_ev]
 	toWrite = "strain\tancestor consensus\tevolved consensus\tancestor strain\tevolved strain\n"
 	for a in nvals:
-		toWrite += "%s\t%s\t%s\t%s\t%s\n" % (a,nvals[a][0][1],nvals[a][2][1],nvals[a][1][1],nvals[a][3][1])
+		toWrite += "%s\t%s\t%s\t%s\t%s\n" % (a,nvals[a][0],nvals[a][1],nvals[a][2],nvals[a][3])
 	print toWrite
 else:
 	for n in vals:
