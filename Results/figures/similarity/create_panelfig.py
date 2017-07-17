@@ -110,24 +110,24 @@ filename_art = '../../art_%s_megahit/Ecoli_09%s/summary/TXT/%s.txt'
 filename_wgsim = '../../metaquast_%s_megahit/Ecoli_09%s/summary/TXT/%s.txt'
 l1 = "00 05 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95".split()
 l2 = "00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19".split()
-res_mega_con_ = get_metric(tool,metric,"consensus",filename_wgsim,l1)
-res_mega_strain = get_metric(tool,metric,"strain",filename_wgsim,l1)
-res_mega_con = get_metric(tool,metric,"consensus",filename_art,l2)
-res_mega_strain = get_metric(tool,metric,"strain",filename_art,l2)
+res_mega_con_wgsim = get_metric(tool,metric,"consensus",filename_wgsim,l1)
+res_mega_strain_wgsim = get_metric(tool,metric,"strain",filename_wgsim,l1)
+res_mega_con_art = get_metric(tool,metric,"consensus",filename_art,l2)
+res_mega_strain_art = get_metric(tool,metric,"strain",filename_art,l2)
 sim = [0.9,0.905,0.91,0.915,0.92,0.925,0.93,0.935,0.94,0.945,0.95,0.955,0.96,0.965,0.97,0.975,0.98,0.985,0.99,0.995]
 
 f, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, sharex='col', sharey='row')
 # ecoli individual plot
-ax1.plot(range(len(res_mega_strain)),[y for (z,y) in res_mega_strain],label="E.coli K 12", color='red')
-ax1.plot(range(len(res_mega_strain)),[z for (z,y) in res_mega_strain],label="evolved E.coli", color='blue')
-ax1.plot(range(len(res_mega_con)),[y for (z,y) in res_mega_con],label="E.coli K 12 consensus",ls='--', color='red')
-ax1.plot(range(len(res_mega_con)),[z for (z,y) in res_mega_con],label="evolved E.coli consensus",ls='--', color='blue')
+ax1.plot(range(len(res_mega_strain_wgsim)),[y for (z,y) in res_mega_strain_wgsim],label="E.coli K 12", color='red')
+ax1.plot(range(len(res_mega_strain_wgsim)),[z for (z,y) in res_mega_strain_wgsim],label="evolved E.coli", color='blue')
+ax1.plot(range(len(res_mega_con_wgsim)),[y for (z,y) in res_mega_con_wgsim],label="E.coli K 12 consensus",ls='--', color='red')
+ax1.plot(range(len(res_mega_con_wgsim)),[z for (z,y) in res_mega_con_wgsim],label="evolved E.coli consensus",ls='--', color='blue')
 ax1.legend(loc='lower left')
 ax1.set_title("E.coli genome fraction with different error profiles") 
-ax3.plot(range(len(res_mega_strain)),[y for (z,y) in res_mega_strain],label="E.coli K 12", color='red')
-ax3.plot(range(len(res_mega_strain)),[z for (z,y) in res_mega_strain],label="evolved E.coli", color='blue')
-ax3.plot(range(len(res_mega_con)),[y for (z,y) in res_mega_con],label="E.coli K 12 consensus",ls='--', color='red')
-ax3.plot(range(len(res_mega_con)),[z for (z,y) in res_mega_con],label="evolved E.coli consensus",ls='--', color='blue')
+ax3.plot(range(len(res_mega_strain_art)),[y for (z,y) in res_mega_strain_art],label="E.coli K 12", color='red')
+ax3.plot(range(len(res_mega_strain_art)),[z for (z,y) in res_mega_strain_art],label="evolved E.coli", color='blue')
+ax3.plot(range(len(res_mega_con_art)),[y for (z,y) in res_mega_con_art],label="E.coli K 12 consensus",ls='--', color='red')
+ax3.plot(range(len(res_mega_con_art)),[z for (z,y) in res_mega_con_art],label="evolved E.coli consensus",ls='--', color='blue')
 ax3.legend(loc='lower left')
 
 # all genomes plot
