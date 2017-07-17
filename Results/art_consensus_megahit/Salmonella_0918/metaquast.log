@@ -1,0 +1,66 @@
+/home/afritz/bin/quast-3.2/metaquast.py.OLD -R /home/afritz/data/Similarity_ART/Salmonella_OneTree/Salmonella_0920.fa,/home/afritz/data/Similarity_ART/Salmonella_OneTree/Salmonella_0918.fa -o /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0918 /net/sgi/metagenomics/data/salmonella_similarity_art/assemblies/Salmonella_0918/final.contigs.fa
+
+Version: 3.2, build 26.11.2015 18:55
+
+System information:
+  OS: Linux-3.16.0-4-amd64-x86_64-with-debian-8.8 (linux_64)
+  Python version: 2.7.9
+  CPUs number: 34
+
+Started: 2017-06-22 14:53:15
+
+Logging to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0918/metaquast.log
+
+NOTICE: Maximum number of threads is set to 8 (use --threads option to set it manually)
+
+Reference(s):
+  /home/afritz/data/Similarity_ART/Salmonella_OneTree/Salmonella_0920.fa ==> Salmonella_0920
+  /home/afritz/data/Similarity_ART/Salmonella_OneTree/Salmonella_0918.fa ==> Salmonella_0918
+  All references combined in combined_reference.fasta
+
+Contigs:
+  /net/sgi/metagenomics/data/salmonella_similarity_art/assemblies/Salmonella_0918/final.contigs.fa ==> final.contigs
+
+Starting quast.py for the combined reference...
+(logging to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0918/combined_reference/quast.log)
+
+Partitioning contigs into bins aligned to each reference..
+  processing final.contigs
+
+Starting quast.py for the contigs aligned to Salmonella_0920
+(logging to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0918/runs_per_reference/Salmonella_0920/quast.log)
+
+Starting quast.py for the contigs aligned to Salmonella_0918
+(logging to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0918/runs_per_reference/Salmonella_0918/quast.log)
+
+Skipping quast.py for the contigs not aligned anywhere (everything is aligned!)
+
+2017-06-22 14:57:07
+Summarizing results...
+  Drawing # contigs metaQUAST summary plot...
+  Drawing Largest contig metaQUAST summary plot...
+  Drawing Total length metaQUAST summary plot...
+  Drawing Total length (>= 1000 bp) metaQUAST summary plot...
+  Drawing Total length (>= 10000 bp) metaQUAST summary plot...
+  Drawing Total length (>= 50000 bp) metaQUAST summary plot...
+  Drawing # misassemblies metaQUAST summary plot...
+  Drawing metaQUAST summary misassemblies plot for final.contigs...
+  Drawing Misassembled contigs length metaQUAST summary plot...
+  Drawing # mismatches per 100 kbp metaQUAST summary plot...
+  Drawing # indels per 100 kbp metaQUAST summary plot...
+  Drawing # N's per 100 kbp metaQUAST summary plot...
+  Drawing Genome fraction (%) metaQUAST summary plot...
+  Drawing Duplication ratio metaQUAST summary plot...
+  Drawing NGA50 metaQUAST summary plot...
+
+  Text versions of reports and plots for each metric (for all references and assemblies) are saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0918/summary/
+  Extended version of HTML-report (for all references and assemblies) is saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0918/report.html
+
+MetaQUAST finished.
+  Log saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0918/metaquast.log
+
+Finished: 2017-06-22 14:57:14
+Elapsed time: 0:03:58.774142
+Total NOTICEs: 8; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

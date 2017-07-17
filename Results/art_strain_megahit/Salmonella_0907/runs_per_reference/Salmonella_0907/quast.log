@@ -1,0 +1,119 @@
+/home/afritz/bin/quast-3.2/quast.pyc --meta  --no-check-meta  --contig-thresholds 1000,5000,10000,25000,50000 -R /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/quast_corrected_input/Salmonella_0907.fa -o /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907 --labels final.contigs /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/quast_corrected_input/final.contigs_to_Salmonella_0907.fasta
+
+Started: 2017-06-22 12:45:23
+
+Logging to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/quast.log
+
+NOTICE: Maximum number of threads is set to 8 (use --threads option to set it manually)
+
+Main parameters: 
+  Threads: 8, meta: true, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/quast_corrected_input/Salmonella_0907.fa ==> Salmonella_0907
+
+Contigs:
+  /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/quast_corrected_input/final.contigs_to_Salmonella_0907.fasta ==> final.contigs
+
+2017-06-22 12:45:23
+Running Basic statistics processor...
+  Reference genome:
+    Salmonella_0907.fa, Reference length = 4857432, Reference GC % = 52.23
+  Contig files: 
+    final.contigs
+  Calculating N50 and L50...
+    final.contigs, N50 = 5552, L50 = 284, Total length = 4933596, GC % = 52.24, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/basic_stats/GC_content_plot.pdf
+Done.
+
+2017-06-22 12:45:26
+Running Contig analyzer...
+  final.contigs
+  Logging to files /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/contigs_reports/contigs_report_final.contigs.stdout and contigs_report_final.contigs.stderr...
+  Running Nucmer
+  libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/contigs_reports/nucmer_output/final.contigs \
+  /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/quast_corrected_input/Salmonella_0907.fa \
+  /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/quast_corrected_input/final.contigs_to_Salmonella_0907.fasta \
+  >> /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/contigs_reports/contigs_report_final.contigs.stdout \
+  2>> /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/contigs_reports/contigs_report_final.contigs.stderr
+  libs/MUMmer3.23-linux/delta-filter -i 95 -l 0 /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/contigs_reports/nucmer_output/final.contigs.delta \
+  > /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/contigs_reports/nucmer_output/final.contigs.fdelta \
+  2> /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/contigs_reports/contigs_report_final.contigs.stderr
+  libs/MUMmer3.23-linux/show-coords /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/contigs_reports/nucmer_output/final.contigs.delta \
+  > /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/contigs_reports/nucmer_output/final.contigs.coords_tmp \
+  2> /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/contigs_reports/contigs_report_final.contigs.stderr
+  libs/MUMmer3.23-linux/show-snps -S -T -H /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/contigs_reports/nucmer_output/final.contigs.delta \
+  < /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/contigs_reports/nucmer_output/final.contigs.coords.headless \
+  > /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/contigs_reports/nucmer_output/final.contigs.all_snps \
+  2> /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/contigs_reports/contigs_report_final.contigs.stderr
+  Alignments: ../../../../net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/contigs_reports/alignments_final.contigs.tsv
+  Analysis is finished.
+
+  Creating total report...
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/contigs_reports/misassemblies_plot.pdf
+Done.
+
+2017-06-22 12:45:54
+Running NA-NGA calculation...
+  final.contigs, Largest alignment = 26127, NA50 = 5552, NGA50 = 5675, LA50 = 284, LGA50 = 277
+  Drawing cumulative plot...
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/aligned_stats/NGAx_plot.pdf
+Done.
+
+2017-06-22 12:45:56
+Running Genome analyzer...
+  NOTICE: No file with genes provided. Use the -G option if you want to specify it.
+  NOTICE: No file with operons provided. Use the -O option if you want to specify it.
+  final.contigs
+  Analysis is finished.
+  Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2017-06-22 12:45:59
+Drawing large plots...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating contig alignment plot...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2017-06-22 12:46:05
+RESULTS:
+  Text versions of total report are saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/report.html
+  PDF version (tables and plots) saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/report.pdf
+  Contig alignment plot: /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/runs_per_reference/Salmonella_0907/alignment.svg
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/summary/PDF/#_contigs.pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/summary/PDF/Largest_contig.pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/summary/PDF/Total_length.pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/summary/PDF/Total_length_(>=_1000_bp).pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/summary/PDF/Total_length_(>=_10000_bp).pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/summary/PDF/Total_length_(>=_50000_bp).pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/summary/PDF/#_misassemblies.pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/summary/PDF/final.contigs_misassemblies.pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/summary/PDF/Misassembled_contigs_length.pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/summary/PDF/#_mismatches_per_100_kbp.pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/summary/PDF/#_indels_per_100_kbp.pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/summary/PDF/#_N's_per_100_kbp.pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/summary/PDF/Genome_fraction_(%).pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/summary/PDF/Duplication_ratio.pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_patched/Salmonella_0907/summary/PDF/NGA50.pdf

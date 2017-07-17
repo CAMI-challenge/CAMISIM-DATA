@@ -1,0 +1,57 @@
+/home/afritz/bin/quast-3.2/quast.pyc --meta  --no-check-meta  --contig-thresholds 1000,5000,10000,25000,50000 -o /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/not_aligned --labels final.contigs /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/quast_corrected_input/final.contigs_not_aligned_anywhere.fasta
+
+Started: 2017-06-22 13:52:05
+
+Logging to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/not_aligned/quast.log
+
+NOTICE: Maximum number of threads is set to 8 (use --threads option to set it manually)
+
+Main parameters: 
+  Threads: 8, meta: true, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/quast_corrected_input/final.contigs_not_aligned_anywhere.fasta ==> final.contigs
+
+2017-06-22 13:52:05
+Running Basic statistics processor...
+  Contig files: 
+    final.contigs
+  Calculating N50 and L50...
+    final.contigs, N50 = 556, L50 = 1, Total length = 556, GC % = 53.60, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/not_aligned/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/not_aligned/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/not_aligned/basic_stats/GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2017-06-22 13:52:06
+Drawing large plots...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 1: Creating PDF with all tables and plots...
+Done
+
+2017-06-22 13:52:07
+RESULTS:
+  Text versions of total report are saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/not_aligned/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/not_aligned/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/not_aligned/report.html
+  PDF version (tables and plots) saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/not_aligned/report.pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/summary/PDF/#_contigs.pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/summary/PDF/Largest_contig.pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/summary/PDF/Total_length.pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/summary/PDF/Total_length_(>=_1000_bp).pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/summary/PDF/Total_length_(>=_10000_bp).pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/summary/PDF/Total_length_(>=_50000_bp).pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/summary/PDF/#_misassemblies.pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/summary/PDF/final.contigs_misassemblies.pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/summary/PDF/Misassembled_contigs_length.pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/summary/PDF/#_mismatches_per_100_kbp.pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/summary/PDF/#_indels_per_100_kbp.pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/summary/PDF/#_N's_per_100_kbp.pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/summary/PDF/Genome_fraction_(%).pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/summary/PDF/Duplication_ratio.pdf
+    saved to /net/sgi/metagenomics/data/salmonella_similarity_art/quast_unpatched/Salmonella_0912/summary/PDF/NGA50.pdf
