@@ -1,0 +1,26 @@
+/home/afritz/bin/quast-3.2/quast.py -R /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/050_error/Ecoli_cov2/source_genomes/e_coli_k12.fa -o /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/050_error/Ecoli_cov2/quast_metaSPAde /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/050_error/Ecoli_cov2/metaSPAdes/contigs.fasta
+
+Version: 3.2, build 26.11.2015 18:55
+
+System information:
+  OS: Linux-3.16.0-4-amd64-x86_64-with-debian-8.8 (linux_64)
+  Python version: 2.7.9
+  CPUs number: 60
+
+Started: 2017-09-06 15:04:24
+
+Logging to /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/050_error/Ecoli_cov2/quast_metaSPAde/quast.log
+
+NOTICE: Maximum number of threads is set to 15 (use --threads option to set it manually)
+
+Main parameters: 
+  Threads: 15, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/050_error/Ecoli_cov2/source_genomes/e_coli_k12.fa ==> e_coli_k12
+
+Contigs:
+  /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/050_error/Ecoli_cov2/metaSPAdes/contigs.fasta ==> contigs
+WARNING: Skipping contigs because it doesn't contain contigs >= 500 bp.
+
+ERROR! None of the assembly files contains correct contigs. Please, provide different files or decrease --min-contig threshold.

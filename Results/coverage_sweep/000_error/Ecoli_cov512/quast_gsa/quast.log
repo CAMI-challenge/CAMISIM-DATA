@@ -1,0 +1,117 @@
+/home/afritz/bin/quast-3.2/quast.py -R 000_error/Ecoli_cov512/source_genomes/e_coli_k12.fa -o 000_error/Ecoli_cov512/quast_gsa 000_error/Ecoli_cov512/2017.08.16_12.08.35_sample_0/contigs/anonymous_gsa.fasta
+
+Version: 3.2, build 26.11.2015 18:55
+
+System information:
+  OS: Linux-3.16.0-4-amd64-x86_64-with-debian-8.8 (linux_64)
+  Python version: 2.7.9
+  CPUs number: 62
+
+Started: 2017-08-22 10:04:03
+
+Logging to /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/000_error/Ecoli_cov512/quast_gsa/quast.log
+
+NOTICE: Maximum number of threads is set to 15 (use --threads option to set it manually)
+
+Main parameters: 
+  Threads: 15, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  000_error/Ecoli_cov512/source_genomes/e_coli_k12.fa ==> e_coli_k12
+
+Contigs:
+  000_error/Ecoli_cov512/2017.08.16_12.08.35_sample_0/contigs/anonymous_gsa.fasta ==> anonymous_gsa
+
+2017-08-22 10:04:04
+Running Basic statistics processor...
+  Reference genome:
+    e_coli_k12.fa, Reference length = 4641652, Reference GC % = 50.79
+  Contig files: 
+    anonymous_gsa
+  Calculating N50 and L50...
+    anonymous_gsa, N50 = 4641799, L50 = 1, Total length = 4641799, GC % = 50.79, # N's per 100 kbp =  3.19
+  Drawing Nx plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/000_error/Ecoli_cov512/quast_gsa/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/000_error/Ecoli_cov512/quast_gsa/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/000_error/Ecoli_cov512/quast_gsa/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/000_error/Ecoli_cov512/quast_gsa/basic_stats/GC_content_plot.pdf
+Done.
+
+2017-08-22 10:04:07
+Running Contig analyzer...
+  anonymous_gsa
+  Logging to files /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/000_error/Ecoli_cov512/quast_gsa/contigs_reports/contigs_report_anonymous_gsa.stdout and contigs_report_anonymous_gsa.stderr...
+  Running Nucmer
+  /home/afritz/bin/quast-3.2/libs/MUMmer3.23-linux/nucmer -c 65 -l 65 --maxmatch -p \
+  000_error/Ecoli_cov512/quast_gsa/contigs_reports/nucmer_output/anonymous_gsa 000_error/Ecoli_cov512/quast_gsa/quast_corrected_input/e_coli_k12.fa \
+  000_error/Ecoli_cov512/quast_gsa/quast_corrected_input/anonymous_gsa.fasta >> 000_error/Ecoli_cov512/quast_gsa/contigs_reports/contigs_report_anonymous_gsa.stdout \
+  2>> 000_error/Ecoli_cov512/quast_gsa/contigs_reports/contigs_report_anonymous_gsa.stderr
+  /home/afritz/bin/quast-3.2/libs/MUMmer3.23-linux/delta-filter -i 95 -l 0 000_error/Ecoli_cov512/quast_gsa/contigs_reports/nucmer_output/anonymous_gsa.delta \
+  > 000_error/Ecoli_cov512/quast_gsa/contigs_reports/nucmer_output/anonymous_gsa.fdelta \
+  2> 000_error/Ecoli_cov512/quast_gsa/contigs_reports/contigs_report_anonymous_gsa.stderr
+  /home/afritz/bin/quast-3.2/libs/MUMmer3.23-linux/show-coords 000_error/Ecoli_cov512/quast_gsa/contigs_reports/nucmer_output/anonymous_gsa.delta \
+  > 000_error/Ecoli_cov512/quast_gsa/contigs_reports/nucmer_output/anonymous_gsa.coords_tmp \
+  2> 000_error/Ecoli_cov512/quast_gsa/contigs_reports/contigs_report_anonymous_gsa.stderr
+  /home/afritz/bin/quast-3.2/libs/MUMmer3.23-linux/show-snps -S -T -H 000_error/Ecoli_cov512/quast_gsa/contigs_reports/nucmer_output/anonymous_gsa.delta \
+  < 000_error/Ecoli_cov512/quast_gsa/contigs_reports/nucmer_output/anonymous_gsa.coords.headless \
+  > 000_error/Ecoli_cov512/quast_gsa/contigs_reports/nucmer_output/anonymous_gsa.all_snps \
+  2> 000_error/Ecoli_cov512/quast_gsa/contigs_reports/contigs_report_anonymous_gsa.stderr
+  Alignments: 000_error/Ecoli_cov512/quast_gsa/contigs_reports/alignments_anonymous_gsa.tsv
+  Analysis is finished.
+
+  Creating total report...
+    saved to /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/000_error/Ecoli_cov512/quast_gsa/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/000_error/Ecoli_cov512/quast_gsa/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/000_error/Ecoli_cov512/quast_gsa/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/000_error/Ecoli_cov512/quast_gsa/contigs_reports/misassemblies_plot.pdf
+Done.
+
+2017-08-22 10:04:24
+Running NA-NGA calculation...
+  anonymous_gsa, Largest alignment = 4641651, NA50 = 4641651, NGA50 = 4641651, LA50 = 1, LGA50 = 1
+  Drawing cumulative plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/000_error/Ecoli_cov512/quast_gsa/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/000_error/Ecoli_cov512/quast_gsa/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/000_error/Ecoli_cov512/quast_gsa/aligned_stats/NGAx_plot.pdf
+Done.
+
+2017-08-22 10:04:26
+Running Genome analyzer...
+  NOTICE: No file with genes provided. Use the -G option if you want to specify it.
+  NOTICE: No file with operons provided. Use the -O option if you want to specify it.
+  anonymous_gsa
+  Analysis is finished.
+  Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2017-08-22 10:04:28
+Drawing large plots...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating contig alignment plot...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2017-08-22 10:04:30
+RESULTS:
+  Text versions of total report are saved to /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/000_error/Ecoli_cov512/quast_gsa/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/000_error/Ecoli_cov512/quast_gsa/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/000_error/Ecoli_cov512/quast_gsa/report.html
+  PDF version (tables and plots) saved to /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/000_error/Ecoli_cov512/quast_gsa/report.pdf
+  Contig alignment plot: /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/000_error/Ecoli_cov512/quast_gsa/alignment.svg
+  Log saved to /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/000_error/Ecoli_cov512/quast_gsa/quast.log
+
+Finished: 2017-08-22 10:04:30
+Elapsed time: 0:00:26.586652
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

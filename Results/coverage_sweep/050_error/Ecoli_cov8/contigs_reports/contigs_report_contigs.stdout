@@ -1,0 +1,211 @@
+Aligning contigs to reference...
+	Running Nucmer
+Parsing coords...
+Loading reference...
+	Loaded [gi_556503834_ref_NC_000913.3_]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 1
+	Total Region Length: 4641652
+Analyzing contigs...
+CONTIG: NODE_1_length_3609_cov_31.576_ID_6545 (3609bp)
+Top Length: 3609  Top ID: 98.95
+		Marking as insignificant: 3423418 3423548 | 125 255 | 131 131 | 98.47 | gi_556503834_ref_NC_000913.3_ NODE_1_length_3609_cov_31.576_ID_6545
+		Marking as insignificant: 2726062 2729297 | 123 3367 | 3236 3245 | 99.48 | gi_556503834_ref_NC_000913.3_ NODE_1_length_3609_cov_31.576_ID_6545
+		Marking as insignificant: 4168519 4171761 | 3367 125 | 3243 3243 | 99.85 | gi_556503834_ref_NC_000913.3_ NODE_1_length_3609_cov_31.576_ID_6545
+		Marking as insignificant: 4209921 4213166 | 3367 123 | 3246 3245 | 99.91 | gi_556503834_ref_NC_000913.3_ NODE_1_length_3609_cov_31.576_ID_6545
+		Marking as insignificant: 3943582 3946948 | 3367 1 | 3367 3367 | 99.35 | gi_556503834_ref_NC_000913.3_ NODE_1_length_3609_cov_31.576_ID_6545
+		Marking as insignificant: 3423658 3427138 | 120 3609 | 3481 3490 | 98.74 | gi_556503834_ref_NC_000913.3_ NODE_1_length_3609_cov_31.576_ID_6545
+		Marking as insignificant: 4037155 4040641 | 3609 125 | 3487 3485 | 99.03 | gi_556503834_ref_NC_000913.3_ NODE_1_length_3609_cov_31.576_ID_6545
+		One align captures most of this contig: 225395 229004 | 3609 1 | 3610 3609 | 98.95 | gi_556503834_ref_NC_000913.3_ NODE_1_length_3609_cov_31.576_ID_6545
+
+CONTIG: NODE_2_length_2058_cov_32.0864_ID_6547 (2058bp)
+Top Length: 2056  Top ID: 99.27
+		Marking as insignificant: 223625 225364 | 126 1866 | 1740 1741 | 98.97 | gi_556503834_ref_NC_000913.3_ NODE_2_length_2058_cov_32.0864_ID_6547
+		Marking as insignificant: 3427169 3428908 | 1866 126 | 1740 1741 | 99.54 | gi_556503834_ref_NC_000913.3_ NODE_2_length_2058_cov_32.0864_ID_6547
+		Marking as insignificant: 4035262 4037124 | 3 1866 | 1863 1864 | 98.98 | gi_556503834_ref_NC_000913.3_ NODE_2_length_2058_cov_32.0864_ID_6547
+		Marking as insignificant: 4208001 4209933 | 126 2058 | 1933 1933 | 99.38 | gi_556503834_ref_NC_000913.3_ NODE_2_length_2058_cov_32.0864_ID_6547
+		Marking as insignificant: 4166390 4168531 | 3 2058 | 2142 2056 | 95.05 | gi_556503834_ref_NC_000913.3_ NODE_2_length_2058_cov_32.0864_ID_6547
+		One align captures most of this contig: 3941539 3943594 | 3 2058 | 2056 2056 | 99.27 | gi_556503834_ref_NC_000913.3_ NODE_2_length_2058_cov_32.0864_ID_6547
+
+CONTIG: NODE_3_length_1470_cov_20.8311_ID_6549 (1470bp)
+Top Length: 1367  Top ID: 99.27
+		Skipping redundant alignment 391703 392967 | 1368 104 | 1265 1265 | 99.6 | gi_556503834_ref_NC_000913.3_ NODE_3_length_1470_cov_20.8311_ID_6549
+		Skipping redundant alignment 2170170 2171428 | 104 1362 | 1259 1259 | 99.68 | gi_556503834_ref_NC_000913.3_ NODE_3_length_1470_cov_20.8311_ID_6549
+		Skipping redundant alignment 315229 316483 | 108 1362 | 1255 1255 | 99.68 | gi_556503834_ref_NC_000913.3_ NODE_3_length_1470_cov_20.8311_ID_6549
+		This contig is misassembled. 5 total aligns.
+			Excluding internal overlap of size 1260 between Alignment 1 and 2:  1094244 1095605 | 1363 2 | 1362 1362 --> 1095504 1095605 | 103 2 | 102 102
+			Real Alignment 1: 1095504 1095605 | 103 2 | 102 102 | 99.19 | gi_556503834_ref_NC_000913.3_ NODE_3_length_1470_cov_20.8311_ID_6549
+			  Extensive misassembly ( relocation, inconsistency = -528830 ) between these two alignments
+			Real Alignment 2: 566776 568142 | 104 1470 | 1367 1367 | 99.27 | gi_556503834_ref_NC_000913.3_ NODE_3_length_1470_cov_20.8311_ID_6549
+
+CONTIG: NODE_4_length_1444_cov_53.8906_ID_6551 (1444bp)
+Top Length: 1320  Top ID: 99.47
+		Skipping redundant alignment 3652029 3653230 | 122 1323 | 1202 1202 | 100.0 | gi_556503834_ref_NC_000913.3_ NODE_4_length_1444_cov_53.8906_ID_6551
+		Skipping redundant alignment 1299499 1300699 | 1323 123 | 1201 1201 | 100.0 | gi_556503834_ref_NC_000913.3_ NODE_4_length_1444_cov_53.8906_ID_6551
+		Skipping redundant alignment 3130146 3131346 | 1323 123 | 1201 1201 | 100.0 | gi_556503834_ref_NC_000913.3_ NODE_4_length_1444_cov_53.8906_ID_6551
+		Skipping redundant alignment 574586 575785 | 124 1323 | 1200 1200 | 100.0 | gi_556503834_ref_NC_000913.3_ NODE_4_length_1444_cov_53.8906_ID_6551
+		Skipping redundant alignment 687847 689045 | 125 1323 | 1199 1199 | 100.0 | gi_556503834_ref_NC_000913.3_ NODE_4_length_1444_cov_53.8906_ID_6551
+		Skipping redundant alignment 1396044 1397242 | 1323 125 | 1199 1199 | 100.0 | gi_556503834_ref_NC_000913.3_ NODE_4_length_1444_cov_53.8906_ID_6551
+		Skipping redundant alignment 3365552 3366750 | 125 1323 | 1199 1199 | 100.0 | gi_556503834_ref_NC_000913.3_ NODE_4_length_1444_cov_53.8906_ID_6551
+		Skipping redundant alignment 2101745 2102943 | 125 1323 | 1199 1199 | 99.92 | gi_556503834_ref_NC_000913.3_ NODE_4_length_1444_cov_53.8906_ID_6551
+		Skipping redundant alignment 2066156 2067353 | 126 1323 | 1198 1198 | 99.58 | gi_556503834_ref_NC_000913.3_ NODE_4_length_1444_cov_53.8906_ID_6551
+		This contig is misassembled. 11 total aligns.
+			Excluding internal overlap of size 1199 between Alignment 1 and 2:  273951 275270 | 125 1444 | 1320 1320 --> 275150 275270 | 1324 1444 | 121 121
+			Real Alignment 1: 2288794 2290113 | 4 1323 | 1320 1320 | 99.47 | gi_556503834_ref_NC_000913.3_ NODE_4_length_1444_cov_53.8906_ID_6551
+			  Extensive misassembly ( relocation, inconsistency = -2014964 ) between these two alignments
+			Real Alignment 2: 275150 275270 | 1324 1444 | 121 121 | 99.39 | gi_556503834_ref_NC_000913.3_ NODE_4_length_1444_cov_53.8906_ID_6551
+
+CONTIG: NODE_5_length_1029_cov_24.7269_ID_6553 (1029bp)
+Top Length: 1029  Top ID: 98.54
+		Marking as insignificant: 1650843 1651548 | 204 909 | 706 706 | 100.0 | gi_556503834_ref_NC_000913.3_ NODE_5_length_1029_cov_24.7269_ID_6553
+		Marking as insignificant: 4498603 4499511 | 1 909 | 909 909 | 98.79 | gi_556503834_ref_NC_000913.3_ NODE_5_length_1029_cov_24.7269_ID_6553
+		Marking as insignificant: 2996361 2997269 | 909 1 | 909 909 | 98.79 | gi_556503834_ref_NC_000913.3_ NODE_5_length_1029_cov_24.7269_ID_6553
+		Marking as insignificant: 381682 382590 | 1 909 | 909 909 | 98.79 | gi_556503834_ref_NC_000913.3_ NODE_5_length_1029_cov_24.7269_ID_6553
+		Marking as insignificant: 3186518 3187427 | 1 910 | 910 910 | 98.79 | gi_556503834_ref_NC_000913.3_ NODE_5_length_1029_cov_24.7269_ID_6553
+		Marking as insignificant: 1467909 1468818 | 910 1 | 910 910 | 98.79 | gi_556503834_ref_NC_000913.3_ NODE_5_length_1029_cov_24.7269_ID_6553
+		One align captures most of this contig: 2068821 2069849 | 1029 1 | 1029 1029 | 98.54 | gi_556503834_ref_NC_000913.3_ NODE_5_length_1029_cov_24.7269_ID_6553
+
+CONTIG: NODE_6_length_1007_cov_15.3403_ID_6555 (1007bp)
+Top Length: 914  Top ID: 98.91
+		Skipping redundant alignment 2759941 2760086 | 1 146 | 146 146 | 96.58 | gi_556503834_ref_NC_000913.3_ NODE_6_length_1007_cov_15.3403_ID_6555
+		Skipping redundant alignment 1978502 1979270 | 146 914 | 769 769 | 99.48 | gi_556503834_ref_NC_000913.3_ NODE_6_length_1007_cov_15.3403_ID_6555
+		Skipping redundant alignment 257908 258676 | 147 915 | 769 769 | 99.48 | gi_556503834_ref_NC_000913.3_ NODE_6_length_1007_cov_15.3403_ID_6555
+		Skipping redundant alignment 3583427 3584195 | 915 147 | 769 769 | 99.48 | gi_556503834_ref_NC_000913.3_ NODE_6_length_1007_cov_15.3403_ID_6555
+		Skipping redundant alignment 279163 279930 | 147 914 | 768 768 | 99.35 | gi_556503834_ref_NC_000913.3_ NODE_6_length_1007_cov_15.3403_ID_6555
+		Skipping redundant alignment 1049778 1050545 | 914 147 | 768 768 | 99.09 | gi_556503834_ref_NC_000913.3_ NODE_6_length_1007_cov_15.3403_ID_6555
+		This contig is misassembled. 8 total aligns.
+			Excluding internal overlap of size 768 between Alignment 1 and 2:  19796 20656 | 147 1007 | 861 861 --> 20564 20656 | 915 1007 | 93 93
+			Real Alignment 1: 290488 291401 | 1 914 | 914 914 | 98.91 | gi_556503834_ref_NC_000913.3_ NODE_6_length_1007_cov_15.3403_ID_6555
+			  Extensive misassembly ( relocation, inconsistency = -270838 ) between these two alignments
+			Real Alignment 2: 20564 20656 | 915 1007 | 93 93 | 99.3 | gi_556503834_ref_NC_000913.3_ NODE_6_length_1007_cov_15.3403_ID_6555
+
+CONTIG: NODE_7_length_809_cov_16.3846_ID_6557 (809bp)
+Top Length: 807  Top ID: 97.89
+		Marking as insignificant: 4508420 4508679 | 809 550 | 260 260 | 96.54 | gi_556503834_ref_NC_000913.3_ NODE_7_length_809_cov_16.3846_ID_6557
+		Marking as insignificant: 270527 270800 | 536 809 | 274 274 | 95.64 | gi_556503834_ref_NC_000913.3_ NODE_7_length_809_cov_16.3846_ID_6557
+		Marking as insignificant: 4498181 4498672 | 494 3 | 492 492 | 98.58 | gi_556503834_ref_NC_000913.3_ NODE_7_length_809_cov_16.3846_ID_6557
+		Marking as insignificant: 2069780 2070271 | 3 494 | 492 492 | 98.58 | gi_556503834_ref_NC_000913.3_ NODE_7_length_809_cov_16.3846_ID_6557
+		Marking as insignificant: 381260 381751 | 494 3 | 492 492 | 98.58 | gi_556503834_ref_NC_000913.3_ NODE_7_length_809_cov_16.3846_ID_6557
+		Marking as insignificant: 3186095 3186587 | 495 3 | 493 493 | 98.58 | gi_556503834_ref_NC_000913.3_ NODE_7_length_809_cov_16.3846_ID_6557
+		Marking as insignificant: 2997200 2997694 | 3 497 | 495 495 | 98.59 | gi_556503834_ref_NC_000913.3_ NODE_7_length_809_cov_16.3846_ID_6557
+		One align captures most of this contig: 1468749 1469555 | 3 809 | 807 807 | 97.89 | gi_556503834_ref_NC_000913.3_ NODE_7_length_809_cov_16.3846_ID_6557
+
+CONTIG: NODE_8_length_682_cov_4.90271_ID_6559 (682bp)
+Top Length: 680  Top ID: 96.47
+		Marking as insignificant: 732376 733049 | 1 674 | 674 674 | 96.14 | gi_556503834_ref_NC_000913.3_ NODE_8_length_682_cov_4.90271_ID_6559
+		This contig has 3 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 3621985 3622664 | 1 680 | 680 680 | 96.47 | gi_556503834_ref_NC_000913.3_ NODE_8_length_682_cov_4.90271_ID_6559
+		Skipping alignment  734247 734923 | 1 677 | 677 677 | 96.31 | gi_556503834_ref_NC_000913.3_ NODE_8_length_682_cov_4.90271_ID_6559
+		Skipping alignment  3764976 3765649 | 1 674 | 674 674 | 96.59 | gi_556503834_ref_NC_000913.3_ NODE_8_length_682_cov_4.90271_ID_6559
+
+CONTIG: NODE_9_length_616_cov_3.06595_ID_6561 (616bp)
+Top Length: 610  Top ID: 96.07
+		Marking as insignificant: 736497 736681 | 4 188 | 185 185 | 96.22 | gi_556503834_ref_NC_000913.3_ NODE_9_length_616_cov_3.06595_ID_6561
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 3624433 3625042 | 7 616 | 610 610 | 96.07 | gi_556503834_ref_NC_000913.3_ NODE_9_length_616_cov_3.06595_ID_6561
+		Skipping alignment  736877 737489 | 4 616 | 613 613 | 95.43 | gi_556503834_ref_NC_000913.3_ NODE_9_length_616_cov_3.06595_ID_6561
+
+CONTIG: NODE_10_length_517_cov_2.82684_ID_6563 (517bp)
+Top Length: 517  Top ID: 96.13
+		One align captures most of this contig: 3624863 3625379 | 1 517 | 517 517 | 96.13 | gi_556503834_ref_NC_000913.3_ NODE_10_length_517_cov_2.82684_ID_6563
+
+Analyzing coverage...
+Writing SNPs into /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/050_error/Ecoli_cov8/quast_metaSPAde/contigs_reports/nucmer_output/contigs.used_snps
+	Reference gi_556503834_ref_NC_000913.3_: 13 total alignments. 1 total regions.
+		Region: 1 to 4641652 (4641652 bp)
+			START in gap: 1 to 20564 (20563 bp)
+			Align 1: 20564 20656 NODE_6_length_1007_cov_15.3403_ID_6555 915 1007
+				Gap between this and next alignment: 20656 to 225395 (204738 bp)
+				Next Alignment: 225395 229004 NODE_1_length_3609_cov_31.576_ID_6545 3609 1
+
+			Align 2: 225395 229004 NODE_1_length_3609_cov_31.576_ID_6545 3609 1
+				Gap between this and next alignment: 229004 to 275150 (46145 bp)
+				Next Alignment: 275150 275270 NODE_4_length_1444_cov_53.8906_ID_6551 1324 1444
+
+			Align 3: 275150 275270 NODE_4_length_1444_cov_53.8906_ID_6551 1324 1444
+				Gap between this and next alignment: 275270 to 290488 (15217 bp)
+				Next Alignment: 290488 291401 NODE_6_length_1007_cov_15.3403_ID_6555 1 914
+
+			Align 4: 290488 291401 NODE_6_length_1007_cov_15.3403_ID_6555 1 914
+				Gap between this and next alignment: 291401 to 566776 (275374 bp)
+				Next Alignment: 566776 568142 NODE_3_length_1470_cov_20.8311_ID_6549 104 1470
+
+			Align 5: 566776 568142 NODE_3_length_1470_cov_20.8311_ID_6549 104 1470
+				Gap between this and next alignment: 568142 to 1095504 (527361 bp)
+				Next Alignment: 1095504 1095605 NODE_3_length_1470_cov_20.8311_ID_6549 103 2
+
+			Align 6: 1095504 1095605 NODE_3_length_1470_cov_20.8311_ID_6549 103 2
+				Gap between this and next alignment: 1095605 to 1468749 (373143 bp)
+				Next Alignment: 1468749 1469555 NODE_7_length_809_cov_16.3846_ID_6557 3 809
+
+			Align 7: 1468749 1469555 NODE_7_length_809_cov_16.3846_ID_6557 3 809
+				Gap between this and next alignment: 1469555 to 2068821 (599265 bp)
+				Next Alignment: 2068821 2069849 NODE_5_length_1029_cov_24.7269_ID_6553 1029 1
+
+			Align 8: 2068821 2069849 NODE_5_length_1029_cov_24.7269_ID_6553 1029 1
+				Gap between this and next alignment: 2069849 to 2288794 (218944 bp)
+				Next Alignment: 2288794 2290113 NODE_4_length_1444_cov_53.8906_ID_6551 4 1323
+
+			Align 9: 2288794 2290113 NODE_4_length_1444_cov_53.8906_ID_6551 4 1323
+				Gap between this and next alignment: 2290113 to 3621985 (1331871 bp)
+				Next Alignment: 3621985 3622664 NODE_8_length_682_cov_4.90271_ID_6559 1 680
+
+			Align 10: 3621985 3622664 NODE_8_length_682_cov_4.90271_ID_6559 1 680
+				Gap between this and next alignment: 3622664 to 3624433 (1768 bp)
+				Next Alignment: 3624433 3625042 NODE_9_length_616_cov_3.06595_ID_6561 7 616
+
+			Align 11: 3624433 3625042 NODE_9_length_616_cov_3.06595_ID_6561 7 616
+				Negative gap (overlap) between this and next alignment: 3625042 to 3624863 (-179 bp)
+				Next Alignment: 3624863 3625379 NODE_10_length_517_cov_2.82684_ID_6563 1 517
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 181.
+			Align 12: 3625043 3625379 NODE_10_length_517_cov_2.82684_ID_6563 181 517
+				Gap between this and next alignment: 3625379 to 3941539 (316159 bp)
+				Next Alignment: 3941539 3943594 NODE_2_length_2058_cov_32.0864_ID_6547 3 2058
+
+			Align 13: 3941539 3943594 NODE_2_length_2058_cov_32.0864_ID_6547 3 2058
+			END in gap: 3943594 to 4641652 (698058 bp)
+
+Analysis is finished!
+Founded SNPs were written into /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/050_error/Ecoli_cov8/quast_metaSPAde/contigs_reports/nucmer_output/contigs.used_snps
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 3
+		Relocations: 3
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 3
+	Misassembled Contig Bases: 3921
+	Misassemblies Inter-Contig Overlap: 0
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 0 + 0 part
+Partially Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 0
+
+Ambiguously Mapped Contigs: 2
+Total Bases in Ambiguously Mapped Contigs: 1290
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 13046
+
+	SNPs: 189
+	Insertions: 0
+	Deletions: 1
+
+	Positive Gaps: 13
+		Internal Gaps:  1
+		External Gaps:  12
+		External Gap Total:  4101245
+		External Gap Average: 341770
+	Negative Gaps: 1
+		Internal Overlaps:  0
+		External Overlaps:  1
+		External Overlaps Total: -179
+		External Overlaps Average: -179
+	Contigs with Redundant Alignments: 0 (0)
