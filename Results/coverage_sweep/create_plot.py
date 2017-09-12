@@ -68,7 +68,7 @@ def create_plot(statistics, gs_statistics):
         i += 1
     axes[-1][0].set_xlabel("Coverage", size = 15)
     axes[-1][1].set_xlabel("Coverage", size = 15)
-    plt.legend(loc=9, bbox_to_anchor=(-0.1, -0.25), ncol=4, fontsize=15)
+    plt.legend(loc=9, bbox_to_anchor=(-0.1, -0.25), ncol=5, fontsize=15)
     plt.show()
     return
 
