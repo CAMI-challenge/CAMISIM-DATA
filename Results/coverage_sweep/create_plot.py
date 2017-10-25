@@ -15,7 +15,7 @@ def get_metric(metric, statistics):
                 if len(tool) == 1:
                     tool = "MEGAHIT"
                 else:
-                    tool = "SPAdes"
+                    tool = "metaSPAdes"
             else:
                 stuff = line.split()
                 value = stuff[-1]
@@ -62,7 +62,7 @@ def create_plot(statistics, gs_statistics):
                 axes[j][i].set_ylabel(metrics[metric],size=15)
                 axes[j][i].set_xticks(x_points)
                 axes[j][i].set_xticklabels(x)
-            values_gs = gs_statistics['SPAdes'][metric+"_gs"]['ART']
+            values_gs = gs_statistics['metaSPAdes'][metric+"_gs"]['ART']
             axes[j][i].plot(x_points,values_gs,color='black',label="ART CAMI Gold Standard")
             j += 1
         i += 1
