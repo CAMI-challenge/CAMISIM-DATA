@@ -37,10 +37,10 @@ def get_metric(metric, statistics):
 def create_plot(statistics, gs_statistics):
     x_points = [0,1,2,3,4,5,6,7,8]
     x = [2,4,8,16,32,64,128,256,512]
-    matplotlib.rcParams['xtick.labelsize'] = 15
-    matplotlib.rcParams['ytick.labelsize'] = 15
+    matplotlib.rcParams['xtick.labelsize'] = 23
+    matplotlib.rcParams['ytick.labelsize'] = 23
     f, axes = plt.subplots(3,2,sharex='col', sharey='row')
-    f.suptitle("Coverage dependent assembly performance", fontsize=20)
+    #f.suptitle("Coverage dependent assembly performance", fontsize=20)
     labels = {'000' : '0% error rate', '020':'2% error rate','050':'5% error rate','ART':'ART CAMI error profile'}
     metrics = {'gf':"Genome fraction (%)",'nga':"NGA50",'contigs':"# contigs"}
     i = 0
@@ -58,18 +58,20 @@ def create_plot(statistics, gs_statistics):
                     axes[j][i].get_yaxis().set_major_formatter(ScalarFormatter())
                     axes[j][i].get_yaxis().get_major_formatter().set_scientific(False)
                 if j == 0:
-                    axes[j][i].set_title(tool, size=15)
-                axes[j][i].set_ylabel(metrics[metric],size=15)
+                    axes[j][i].set_title(tool, size=23)
+                axes[j][i].set_ylabel(metrics[metric],size=23)
                 axes[j][i].set_xticks(x_points)
                 axes[j][i].set_xticklabels(x)
             values_gs = gs_statistics['metaSPAdes'][metric+"_gs"]['ART']
-            axes[j][i].plot(x_points,values_gs,color='black',label="ART CAMI Gold Standard")
+            axes[j][i].plot(x_points,values_gs,color='black',label="Gold Standard")
             j += 1
         i += 1
-    axes[-1][0].set_xlabel("Coverage", size = 15)
-    axes[-1][1].set_xlabel("Coverage", size = 15)
-    plt.legend(loc=9, bbox_to_anchor=(-0.1, -0.25), ncol=5, fontsize=15)
-    plt.show()
+    axes[-1][0].set_xlabel("Coverage", size = 23)
+    axes[-1][1].set_xlabel("Coverage", size = 23)
+    lgd = plt.legend(loc=9, bbox_to_anchor=(-0.1, -0.35), ncol=5, fontsize=23)
+    #plt.show()
+    f.set_size_inches(19.2,11.8)
+    f.savefig('samplefigure', bbox_extra_artists=(lgd,), bbox_inches='tight')
     return
 
 
