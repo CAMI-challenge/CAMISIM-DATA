@@ -55,8 +55,8 @@ def create_plot(statistics, gs_statistics):
                 axes[j][i].plot(x_points,values,label=labels[error])
                 if metric != "gf":
                     axes[j][i].set_yscale("log")
-                    axes[j][i].get_yaxis().set_major_formatter(ScalarFormatter())
-                    axes[j][i].get_yaxis().get_major_formatter().set_scientific(False)
+                    #axes[j][i].get_yaxis().set_major_formatter(ScalarFormatter())
+                    #axes[j][i].get_yaxis().get_major_formatter().set_scientific(False)
                 if j == 0:
                     axes[j][i].set_title(tool, size=23)
                 axes[j][i].set_ylabel(metrics[metric],size=23)
