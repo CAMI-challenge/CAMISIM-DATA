@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from matplotlib.ticker import ScalarFormatter
 import matplotlib
 import matplotlib.pyplot as plt
