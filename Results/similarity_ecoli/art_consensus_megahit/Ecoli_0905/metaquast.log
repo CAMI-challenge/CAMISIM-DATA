@@ -1,4 +1,4 @@
-/home/afritz/bin/quast-3.2/metaquast.py.OLD -R /home/afritz/data/Similarity_ART/Ecoli_OneTree/Ecoli_0920.fa,/home/afritz/data/Similarity_ART/Ecoli_OneTree/Ecoli_0905.fa -o /net/sgi/metagenomics/data/ecoli_similarity_art/quast_unpatched/Ecoli_0905 /net/sgi/metagenomics/data/ecoli_similarity_art/assemblies/Ecoli_0905/final.contigs.fa
+/home/afritz/bin/quast-3.2/metaquast.py.OLD -R /home/afritz/data/Similarity_ART/Ecoli_OneTree/Ecoli_0920.fa,/home/afritz/data/Similarity_ART/Ecoli_OneTree/Ecoli_0901.fa -o /net/sgi/metagenomics/data/ecoli_similarity_art/quast_unpatched/Ecoli_0901 /net/sgi/metagenomics/data/ecoli_similarity_art/assemblies/Ecoli_0901/final.contigs.fa
 
 Version: 3.2, build 26.11.2015 18:55
 
@@ -7,36 +7,36 @@ System information:
   Python version: 2.7.9
   CPUs number: 34
 
-Started: 2017-06-22 12:28:42
+Started: 2017-06-22 11:47:22
 
-Logging to /net/sgi/metagenomics/data/ecoli_similarity_art/quast_unpatched/Ecoli_0905/metaquast.log
+Logging to /net/sgi/metagenomics/data/ecoli_similarity_art/quast_unpatched/Ecoli_0901/metaquast.log
 
 NOTICE: Maximum number of threads is set to 8 (use --threads option to set it manually)
 
 Reference(s):
   /home/afritz/data/Similarity_ART/Ecoli_OneTree/Ecoli_0920.fa ==> Ecoli_0920
-  /home/afritz/data/Similarity_ART/Ecoli_OneTree/Ecoli_0905.fa ==> Ecoli_0905
+  /home/afritz/data/Similarity_ART/Ecoli_OneTree/Ecoli_0901.fa ==> Ecoli_0901
   All references combined in combined_reference.fasta
 
 Contigs:
-  /net/sgi/metagenomics/data/ecoli_similarity_art/assemblies/Ecoli_0905/final.contigs.fa ==> final.contigs
+  /net/sgi/metagenomics/data/ecoli_similarity_art/assemblies/Ecoli_0901/final.contigs.fa ==> final.contigs
 
 Starting quast.py for the combined reference...
-(logging to /net/sgi/metagenomics/data/ecoli_similarity_art/quast_unpatched/Ecoli_0905/combined_reference/quast.log)
+(logging to /net/sgi/metagenomics/data/ecoli_similarity_art/quast_unpatched/Ecoli_0901/combined_reference/quast.log)
 
 Partitioning contigs into bins aligned to each reference..
   processing final.contigs
 
 Starting quast.py for the contigs aligned to Ecoli_0920
-(logging to /net/sgi/metagenomics/data/ecoli_similarity_art/quast_unpatched/Ecoli_0905/runs_per_reference/Ecoli_0920/quast.log)
+(logging to /net/sgi/metagenomics/data/ecoli_similarity_art/quast_unpatched/Ecoli_0901/runs_per_reference/Ecoli_0920/quast.log)
 
-Starting quast.py for the contigs aligned to Ecoli_0905
-(logging to /net/sgi/metagenomics/data/ecoli_similarity_art/quast_unpatched/Ecoli_0905/runs_per_reference/Ecoli_0905/quast.log)
+Starting quast.py for the contigs aligned to Ecoli_0901
+(logging to /net/sgi/metagenomics/data/ecoli_similarity_art/quast_unpatched/Ecoli_0901/runs_per_reference/Ecoli_0901/quast.log)
 
 Starting quast.py for the contigs not aligned anywhere...
-(logging to /net/sgi/metagenomics/data/ecoli_similarity_art/quast_unpatched/Ecoli_0905/not_aligned/quast.log)
+(logging to /net/sgi/metagenomics/data/ecoli_similarity_art/quast_unpatched/Ecoli_0901/not_aligned/quast.log)
 
-2017-06-22 12:33:38
+2017-06-22 11:52:22
 Summarizing results...
   Drawing # contigs metaQUAST summary plot...
   Drawing Largest contig metaQUAST summary plot...
@@ -54,14 +54,14 @@ Summarizing results...
   Drawing Duplication ratio metaQUAST summary plot...
   Drawing NGA50 metaQUAST summary plot...
 
-  Text versions of reports and plots for each metric (for all references and assemblies) are saved to /net/sgi/metagenomics/data/ecoli_similarity_art/quast_unpatched/Ecoli_0905/summary/
-  Extended version of HTML-report (for all references and assemblies) is saved to /net/sgi/metagenomics/data/ecoli_similarity_art/quast_unpatched/Ecoli_0905/report.html
+  Text versions of reports and plots for each metric (for all references and assemblies) are saved to /net/sgi/metagenomics/data/ecoli_similarity_art/quast_unpatched/Ecoli_0901/summary/
+  Extended version of HTML-report (for all references and assemblies) is saved to /net/sgi/metagenomics/data/ecoli_similarity_art/quast_unpatched/Ecoli_0901/report.html
 
 MetaQUAST finished.
-  Log saved to /net/sgi/metagenomics/data/ecoli_similarity_art/quast_unpatched/Ecoli_0905/metaquast.log
+  Log saved to /net/sgi/metagenomics/data/ecoli_similarity_art/quast_unpatched/Ecoli_0901/metaquast.log
 
-Finished: 2017-06-22 12:33:43
-Elapsed time: 0:05:01.640476
+Finished: 2017-06-22 11:52:28
+Elapsed time: 0:05:06.061425
 Total NOTICEs: 10; WARNINGs: 0; non-fatal ERRORs: 0
 
 Thank you for using QUAST!
