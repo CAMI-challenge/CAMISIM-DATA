@@ -6,6 +6,8 @@ This folder contains 5 subfolders:
  - itol_evaluation
  - similarity_ecoli
 
+All the scripts used for creating tables and plots are provided within the repo, alongside the data used for creating them. The full data, i.e. all the assemblies and raw data can be found on the BIFO servers under /net/metagenomics/projects/afritz_assemblies
+
 ### coverage_sweep
 Contains the quast output of the coverage sweep data, sorted by error profile (0,2,5% and ART), once with SPAdes and MEGAHIT 1.0.3 and in the subfolder megahit_111 with MEGAHIT 1.1.2
 
