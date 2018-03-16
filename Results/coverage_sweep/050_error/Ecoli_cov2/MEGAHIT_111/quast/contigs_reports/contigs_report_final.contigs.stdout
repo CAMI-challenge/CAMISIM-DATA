@@ -1,0 +1,2759 @@
+Aligning contigs to reference...
+	Running Nucmer
+Parsing coords...
+Loading reference...
+	Loaded [gi_556503834_ref_NC_000913.3_]
+Loading SNPs...
+Loading regions...
+	No regions given, using whole reference.
+	Total Regions: 1
+	Total Region Length: 4641652
+Analyzing contigs...
+CONTIG: k141_10_flag_1_multi_1.0000_len_503 (503bp)
+		This contig is unaligned. (503 bp)
+		Unaligned bases: 503  total: 503
+
+CONTIG: k141_13_flag_1_multi_2.0000_len_508 (508bp)
+Top Length: 508  Top ID: 97.05
+		One align captures most of this contig: 2757621 2758128 | 508 1 | 508 508 | 97.05 | gi_556503834_ref_NC_000913.3_ k141_13_flag_1_multi_2.0000_len_508
+
+CONTIG: k141_16_flag_1_multi_1.0000_len_559 (559bp)
+		This contig is unaligned. (559 bp)
+		Unaligned bases: 559  total: 1062
+
+CONTIG: k141_21_flag_1_multi_3.0000_len_512 (512bp)
+Top Length: 512  Top ID: 97.66
+		Marking as insignificant: 4038612 4039122 | 512 1 | 511 512 | 96.68 | gi_556503834_ref_NC_000913.3_ k141_21_flag_1_multi_3.0000_len_512
+		This contig has 6 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 226852 227363 | 512 1 | 512 512 | 97.66 | gi_556503834_ref_NC_000913.3_ k141_21_flag_1_multi_3.0000_len_512
+		Skipping alignment  2727580 2728091 | 1 512 | 512 512 | 97.07 | gi_556503834_ref_NC_000913.3_ k141_21_flag_1_multi_3.0000_len_512
+		Skipping alignment  3425179 3425690 | 1 512 | 512 512 | 97.07 | gi_556503834_ref_NC_000913.3_ k141_21_flag_1_multi_3.0000_len_512
+		Skipping alignment  3944797 3945308 | 512 1 | 512 512 | 97.07 | gi_556503834_ref_NC_000913.3_ k141_21_flag_1_multi_3.0000_len_512
+		Skipping alignment  4169734 4170245 | 512 1 | 512 512 | 97.07 | gi_556503834_ref_NC_000913.3_ k141_21_flag_1_multi_3.0000_len_512
+		Skipping alignment  4211136 4211647 | 512 1 | 512 512 | 97.07 | gi_556503834_ref_NC_000913.3_ k141_21_flag_1_multi_3.0000_len_512
+
+CONTIG: k141_34_flag_1_multi_1.0000_len_610 (610bp)
+Top Length: 610  Top ID: 96.07
+		One align captures most of this contig: 763176 763785 | 1 610 | 610 610 | 96.07 | gi_556503834_ref_NC_000913.3_ k141_34_flag_1_multi_1.0000_len_610
+
+CONTIG: k141_35_flag_1_multi_1.0000_len_537 (537bp)
+		This contig is unaligned. (537 bp)
+		Unaligned bases: 537  total: 1599
+
+CONTIG: k141_56_flag_1_multi_1.0000_len_571 (571bp)
+Top Length: 570  Top ID: 96.84
+		One align captures most of this contig: 1005051 1005620 | 571 2 | 570 570 | 96.84 | gi_556503834_ref_NC_000913.3_ k141_56_flag_1_multi_1.0000_len_571
+
+CONTIG: k141_64_flag_1_multi_2.0000_len_766 (766bp)
+Top Length: 766  Top ID: 96.34
+		One align captures most of this contig: 3160876 3161641 | 1 766 | 766 766 | 96.34 | gi_556503834_ref_NC_000913.3_ k141_64_flag_1_multi_2.0000_len_766
+
+CONTIG: k141_70_flag_1_multi_1.0000_len_552 (552bp)
+Top Length: 552  Top ID: 95.11
+		One align captures most of this contig: 2860388 2860939 | 552 1 | 552 552 | 95.11 | gi_556503834_ref_NC_000913.3_ k141_70_flag_1_multi_1.0000_len_552
+
+CONTIG: k141_74_flag_1_multi_1.0000_len_538 (538bp)
+Top Length: 538  Top ID: 96.1
+		One align captures most of this contig: 3897903 3898440 | 538 1 | 538 538 | 96.1 | gi_556503834_ref_NC_000913.3_ k141_74_flag_1_multi_1.0000_len_538
+
+CONTIG: k141_82_flag_1_multi_1.0000_len_575 (575bp)
+		This contig is unaligned. (575 bp)
+		Unaligned bases: 575  total: 2174
+
+CONTIG: k141_89_flag_1_multi_2.0000_len_637 (637bp)
+Top Length: 637  Top ID: 96.7
+		One align captures most of this contig: 117805 118441 | 1 637 | 637 637 | 96.7 | gi_556503834_ref_NC_000913.3_ k141_89_flag_1_multi_2.0000_len_637
+
+CONTIG: k141_90_flag_1_multi_1.0000_len_565 (565bp)
+Top Length: 565  Top ID: 96.46
+		One align captures most of this contig: 3717038 3717602 | 565 1 | 565 565 | 96.46 | gi_556503834_ref_NC_000913.3_ k141_90_flag_1_multi_1.0000_len_565
+
+CONTIG: k141_93_flag_1_multi_1.0000_len_700 (700bp)
+Top Length: 700  Top ID: 97.29
+		One align captures most of this contig: 3511340 3512039 | 1 700 | 700 700 | 97.29 | gi_556503834_ref_NC_000913.3_ k141_93_flag_1_multi_1.0000_len_700
+
+CONTIG: k141_103_flag_1_multi_2.0000_len_722 (722bp)
+Top Length: 722  Top ID: 97.37
+		One align captures most of this contig: 3797085 3797806 | 1 722 | 722 722 | 97.37 | gi_556503834_ref_NC_000913.3_ k141_103_flag_1_multi_2.0000_len_722
+
+CONTIG: k141_114_flag_1_multi_1.0000_len_716 (716bp)
+Top Length: 716  Top ID: 95.53
+		One align captures most of this contig: 1072666 1073381 | 1 716 | 716 716 | 95.53 | gi_556503834_ref_NC_000913.3_ k141_114_flag_1_multi_1.0000_len_716
+
+CONTIG: k141_124_flag_1_multi_2.0000_len_678 (678bp)
+Top Length: 678  Top ID: 95.87
+		One align captures most of this contig: 3132814 3133491 | 678 1 | 678 678 | 95.87 | gi_556503834_ref_NC_000913.3_ k141_124_flag_1_multi_2.0000_len_678
+
+CONTIG: k141_131_flag_1_multi_2.0000_len_564 (564bp)
+Top Length: 560  Top ID: 96.07
+		One align captures most of this contig: 4268160 4268719 | 1 560 | 560 560 | 96.07 | gi_556503834_ref_NC_000913.3_ k141_131_flag_1_multi_2.0000_len_564
+
+CONTIG: k141_132_flag_1_multi_1.0000_len_590 (590bp)
+Top Length: 590  Top ID: 95.76
+		One align captures most of this contig: 3212148 3212737 | 1 590 | 590 590 | 95.76 | gi_556503834_ref_NC_000913.3_ k141_132_flag_1_multi_1.0000_len_590
+
+CONTIG: k141_134_flag_1_multi_2.0000_len_650 (650bp)
+Top Length: 650  Top ID: 97.39
+		One align captures most of this contig: 3937083 3937732 | 650 1 | 650 650 | 97.39 | gi_556503834_ref_NC_000913.3_ k141_134_flag_1_multi_2.0000_len_650
+
+CONTIG: k141_138_flag_1_multi_1.0000_len_508 (508bp)
+Top Length: 508  Top ID: 97.05
+		One align captures most of this contig: 3572285 3572792 | 1 508 | 508 508 | 97.05 | gi_556503834_ref_NC_000913.3_ k141_138_flag_1_multi_1.0000_len_508
+
+CONTIG: k141_159_flag_1_multi_2.0000_len_561 (561bp)
+Top Length: 560  Top ID: 96.07
+		One align captures most of this contig: 1445276 1445835 | 560 1 | 560 560 | 96.07 | gi_556503834_ref_NC_000913.3_ k141_159_flag_1_multi_2.0000_len_561
+
+CONTIG: k141_167_flag_1_multi_2.0000_len_509 (509bp)
+Top Length: 509  Top ID: 97.84
+		One align captures most of this contig: 107665 108173 | 1 509 | 509 509 | 97.84 | gi_556503834_ref_NC_000913.3_ k141_167_flag_1_multi_2.0000_len_509
+
+CONTIG: k141_170_flag_1_multi_1.0000_len_516 (516bp)
+Top Length: 516  Top ID: 95.54
+		One align captures most of this contig: 1167797 1168312 | 1 516 | 516 516 | 95.54 | gi_556503834_ref_NC_000913.3_ k141_170_flag_1_multi_1.0000_len_516
+
+CONTIG: k141_185_flag_1_multi_1.0000_len_511 (511bp)
+		This contig is unaligned. (511 bp)
+		Unaligned bases: 511  total: 2685
+
+CONTIG: k141_188_flag_1_multi_1.0000_len_506 (506bp)
+		This contig is unaligned. (506 bp)
+		Unaligned bases: 506  total: 3191
+
+CONTIG: k141_192_flag_1_multi_2.0000_len_532 (532bp)
+Top Length: 532  Top ID: 95.49
+		One align captures most of this contig: 436585 437116 | 1 532 | 532 532 | 95.49 | gi_556503834_ref_NC_000913.3_ k141_192_flag_1_multi_2.0000_len_532
+
+CONTIG: k141_195_flag_1_multi_1.0000_len_553 (553bp)
+Top Length: 553  Top ID: 96.75
+		One align captures most of this contig: 1183125 1183677 | 1 553 | 553 553 | 96.75 | gi_556503834_ref_NC_000913.3_ k141_195_flag_1_multi_1.0000_len_553
+
+CONTIG: k141_196_flag_1_multi_2.0000_len_534 (534bp)
+Top Length: 534  Top ID: 97.94
+		One align captures most of this contig: 690654 691187 | 1 534 | 534 534 | 97.94 | gi_556503834_ref_NC_000913.3_ k141_196_flag_1_multi_2.0000_len_534
+
+CONTIG: k141_197_flag_1_multi_2.0000_len_544 (544bp)
+Top Length: 544  Top ID: 97.98
+		One align captures most of this contig: 1064572 1065115 | 1 544 | 544 544 | 97.98 | gi_556503834_ref_NC_000913.3_ k141_197_flag_1_multi_2.0000_len_544
+
+CONTIG: k141_205_flag_1_multi_2.0000_len_524 (524bp)
+Top Length: 524  Top ID: 95.99
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 2730629 2731152 | 1 524 | 524 524 | 95.99 | gi_556503834_ref_NC_000913.3_ k141_205_flag_1_multi_2.0000_len_524
+		Skipping alignment  3428234 3428757 | 1 524 | 524 524 | 95.23 | gi_556503834_ref_NC_000913.3_ k141_205_flag_1_multi_2.0000_len_524
+
+CONTIG: k141_210_flag_1_multi_1.0000_len_1172 (1172bp)
+Top Length: 1172  Top ID: 95.9
+		One align captures most of this contig: 50864 52035 | 1172 1 | 1172 1172 | 95.9 | gi_556503834_ref_NC_000913.3_ k141_210_flag_1_multi_1.0000_len_1172
+
+CONTIG: k141_211_flag_1_multi_2.0000_len_580 (580bp)
+Top Length: 580  Top ID: 98.28
+		One align captures most of this contig: 396773 397352 | 1 580 | 580 580 | 98.28 | gi_556503834_ref_NC_000913.3_ k141_211_flag_1_multi_2.0000_len_580
+
+CONTIG: k141_227_flag_1_multi_1.0000_len_618 (618bp)
+Top Length: 618  Top ID: 96.28
+		One align captures most of this contig: 3562801 3563418 | 1 618 | 618 618 | 96.28 | gi_556503834_ref_NC_000913.3_ k141_227_flag_1_multi_1.0000_len_618
+
+CONTIG: k141_248_flag_1_multi_1.0000_len_540 (540bp)
+Top Length: 540  Top ID: 96.67
+		One align captures most of this contig: 314047 314586 | 1 540 | 540 540 | 96.67 | gi_556503834_ref_NC_000913.3_ k141_248_flag_1_multi_1.0000_len_540
+
+CONTIG: k141_254_flag_1_multi_1.0000_len_529 (529bp)
+Top Length: 529  Top ID: 96.22
+		One align captures most of this contig: 3712537 3713065 | 529 1 | 529 529 | 96.22 | gi_556503834_ref_NC_000913.3_ k141_254_flag_1_multi_1.0000_len_529
+
+CONTIG: k141_267_flag_1_multi_1.0000_len_510 (510bp)
+Top Length: 510  Top ID: 95.69
+		One align captures most of this contig: 3878911 3879420 | 510 1 | 510 510 | 95.69 | gi_556503834_ref_NC_000913.3_ k141_267_flag_1_multi_1.0000_len_510
+
+CONTIG: k141_270_flag_1_multi_2.0000_len_548 (548bp)
+Top Length: 548  Top ID: 95.44
+		One align captures most of this contig: 4131243 4131790 | 548 1 | 548 548 | 95.44 | gi_556503834_ref_NC_000913.3_ k141_270_flag_1_multi_2.0000_len_548
+
+CONTIG: k141_273_flag_1_multi_1.0000_len_589 (589bp)
+Top Length: 589  Top ID: 97.11
+		One align captures most of this contig: 1953875 1954463 | 1 589 | 589 589 | 97.11 | gi_556503834_ref_NC_000913.3_ k141_273_flag_1_multi_1.0000_len_589
+
+CONTIG: k141_278_flag_1_multi_1.0000_len_538 (538bp)
+Top Length: 535  Top ID: 97.2
+		One align captures most of this contig: 3844460 3844994 | 535 1 | 535 535 | 97.2 | gi_556503834_ref_NC_000913.3_ k141_278_flag_1_multi_1.0000_len_538
+
+CONTIG: k141_279_flag_1_multi_1.0000_len_537 (537bp)
+Top Length: 525  Top ID: 96.19
+		This contig is partially unaligned. (Aligned 525 out of 537 bases)
+		Alignment: 1699045 1699569 | 536 12 | 525 525 | 96.19 | gi_556503834_ref_NC_000913.3_ k141_279_flag_1_multi_1.0000_len_537
+		Unaligned bases: 1 to 11 (11)
+		Unaligned bases: 537 to 537 (1)
+
+CONTIG: k141_287_flag_1_multi_1.0000_len_569 (569bp)
+Top Length: 569  Top ID: 96.31
+		One align captures most of this contig: 2689478 2690046 | 569 1 | 569 569 | 96.31 | gi_556503834_ref_NC_000913.3_ k141_287_flag_1_multi_1.0000_len_569
+
+CONTIG: k141_289_flag_1_multi_1.0000_len_540 (540bp)
+Top Length: 540  Top ID: 95.19
+		One align captures most of this contig: 769632 770171 | 540 1 | 540 540 | 95.19 | gi_556503834_ref_NC_000913.3_ k141_289_flag_1_multi_1.0000_len_540
+
+CONTIG: k141_292_flag_1_multi_1.0000_len_516 (516bp)
+Top Length: 516  Top ID: 96.9
+		One align captures most of this contig: 821939 822454 | 516 1 | 516 516 | 96.9 | gi_556503834_ref_NC_000913.3_ k141_292_flag_1_multi_1.0000_len_516
+
+CONTIG: k141_294_flag_1_multi_1.0000_len_541 (541bp)
+		This contig is unaligned. (541 bp)
+		Unaligned bases: 541  total: 3732
+
+CONTIG: k141_297_flag_1_multi_1.0000_len_704 (704bp)
+Top Length: 704  Top ID: 97.59
+		One align captures most of this contig: 453489 454192 | 704 1 | 704 704 | 97.59 | gi_556503834_ref_NC_000913.3_ k141_297_flag_1_multi_1.0000_len_704
+
+CONTIG: k141_299_flag_1_multi_2.0000_len_518 (518bp)
+Top Length: 518  Top ID: 97.1
+		One align captures most of this contig: 365292 365809 | 1 518 | 518 518 | 97.1 | gi_556503834_ref_NC_000913.3_ k141_299_flag_1_multi_2.0000_len_518
+
+CONTIG: k141_301_flag_1_multi_1.0000_len_527 (527bp)
+Top Length: 527  Top ID: 97.72
+		One align captures most of this contig: 3026733 3027259 | 527 1 | 527 527 | 97.72 | gi_556503834_ref_NC_000913.3_ k141_301_flag_1_multi_1.0000_len_527
+
+CONTIG: k141_306_flag_1_multi_2.0000_len_500 (500bp)
+Top Length: 500  Top ID: 96.2
+		One align captures most of this contig: 848155 848654 | 500 1 | 500 500 | 96.2 | gi_556503834_ref_NC_000913.3_ k141_306_flag_1_multi_2.0000_len_500
+
+CONTIG: k141_311_flag_1_multi_1.0000_len_664 (664bp)
+		This contig is unaligned. (664 bp)
+		Unaligned bases: 664  total: 4396
+
+CONTIG: k141_321_flag_1_multi_2.0000_len_538 (538bp)
+Top Length: 538  Top ID: 95.54
+		One align captures most of this contig: 4428542 4429079 | 1 538 | 538 538 | 95.54 | gi_556503834_ref_NC_000913.3_ k141_321_flag_1_multi_2.0000_len_538
+
+CONTIG: k141_322_flag_1_multi_1.0000_len_517 (517bp)
+Top Length: 517  Top ID: 96.52
+		One align captures most of this contig: 733118 733634 | 1 517 | 517 517 | 96.52 | gi_556503834_ref_NC_000913.3_ k141_322_flag_1_multi_1.0000_len_517
+
+CONTIG: k141_325_flag_1_multi_1.0000_len_728 (728bp)
+Top Length: 728  Top ID: 95.6
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 1633978 1634705 | 1 728 | 728 728 | 95.6 | gi_556503834_ref_NC_000913.3_ k141_325_flag_1_multi_1.0000_len_728
+		Skipping alignment  1432591 1433318 | 728 1 | 728 728 | 95.47 | gi_556503834_ref_NC_000913.3_ k141_325_flag_1_multi_1.0000_len_728
+
+CONTIG: k141_334_flag_1_multi_1.0000_len_814 (814bp)
+Top Length: 814  Top ID: 96.19
+		One align captures most of this contig: 3458561 3459374 | 1 814 | 814 814 | 96.19 | gi_556503834_ref_NC_000913.3_ k141_334_flag_1_multi_1.0000_len_814
+
+CONTIG: k141_338_flag_1_multi_2.0000_len_513 (513bp)
+Top Length: 513  Top ID: 96.1
+		One align captures most of this contig: 3485114 3485626 | 1 513 | 513 513 | 96.1 | gi_556503834_ref_NC_000913.3_ k141_338_flag_1_multi_2.0000_len_513
+
+CONTIG: k141_340_flag_1_multi_1.0000_len_553 (553bp)
+Top Length: 553  Top ID: 95.48
+		One align captures most of this contig: 2638688 2639240 | 553 1 | 553 553 | 95.48 | gi_556503834_ref_NC_000913.3_ k141_340_flag_1_multi_1.0000_len_553
+
+CONTIG: k141_350_flag_1_multi_1.0000_len_551 (551bp)
+Top Length: 549  Top ID: 96.54
+		One align captures most of this contig: 4152517 4153065 | 551 3 | 549 549 | 96.54 | gi_556503834_ref_NC_000913.3_ k141_350_flag_1_multi_1.0000_len_551
+
+CONTIG: k141_363_flag_1_multi_3.0000_len_898 (898bp)
+Top Length: 727  Top ID: 97.8
+		Skipping redundant alignment 2514902 2515617 | 898 183 | 716 716 | 97.91 | gi_556503834_ref_NC_000913.3_ k141_363_flag_1_multi_3.0000_len_898
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 608636 609362 | 898 172 | 727 727 | 97.8 | gi_556503834_ref_NC_000913.3_ k141_363_flag_1_multi_3.0000_len_898
+		This contig is partially unaligned. (Aligned 727 out of 898 bases)
+		Alignment: 16016 16743 | 898 171 | 728 728 | 97.53 | gi_556503834_ref_NC_000913.3_ k141_363_flag_1_multi_3.0000_len_898
+		Unaligned bases: 1 to 170 (170)
+
+CONTIG: k141_367_flag_1_multi_1.0000_len_683 (683bp)
+Top Length: 683  Top ID: 95.31
+		One align captures most of this contig: 1212558 1213240 | 1 683 | 683 683 | 95.31 | gi_556503834_ref_NC_000913.3_ k141_367_flag_1_multi_1.0000_len_683
+
+CONTIG: k141_375_flag_1_multi_1.0000_len_560 (560bp)
+Top Length: 560  Top ID: 96.07
+		One align captures most of this contig: 4440618 4441177 | 1 560 | 560 560 | 96.07 | gi_556503834_ref_NC_000913.3_ k141_375_flag_1_multi_1.0000_len_560
+
+CONTIG: k141_380_flag_1_multi_2.0000_len_557 (557bp)
+Top Length: 557  Top ID: 97.31
+		One align captures most of this contig: 2437812 2438368 | 557 1 | 557 557 | 97.31 | gi_556503834_ref_NC_000913.3_ k141_380_flag_1_multi_2.0000_len_557
+
+CONTIG: k141_383_flag_1_multi_2.0000_len_582 (582bp)
+Top Length: 582  Top ID: 96.22
+		One align captures most of this contig: 4059215 4059796 | 1 582 | 582 582 | 96.22 | gi_556503834_ref_NC_000913.3_ k141_383_flag_1_multi_2.0000_len_582
+
+CONTIG: k141_384_flag_1_multi_1.0000_len_522 (522bp)
+Top Length: 522  Top ID: 97.13
+		One align captures most of this contig: 4517598 4518119 | 1 522 | 522 522 | 97.13 | gi_556503834_ref_NC_000913.3_ k141_384_flag_1_multi_1.0000_len_522
+
+CONTIG: k141_385_flag_1_multi_1.0000_len_603 (603bp)
+Top Length: 600  Top ID: 95.33
+		One align captures most of this contig: 1290136 1290735 | 4 603 | 600 600 | 95.33 | gi_556503834_ref_NC_000913.3_ k141_385_flag_1_multi_1.0000_len_603
+
+CONTIG: k141_398_flag_1_multi_1.0000_len_504 (504bp)
+Top Length: 504  Top ID: 96.83
+		One align captures most of this contig: 2025862 2026365 | 504 1 | 504 504 | 96.83 | gi_556503834_ref_NC_000913.3_ k141_398_flag_1_multi_1.0000_len_504
+
+CONTIG: k141_406_flag_1_multi_2.0000_len_504 (504bp)
+Top Length: 501  Top ID: 95.81
+		One align captures most of this contig: 389197 389697 | 504 4 | 501 501 | 95.81 | gi_556503834_ref_NC_000913.3_ k141_406_flag_1_multi_2.0000_len_504
+
+CONTIG: k141_410_flag_1_multi_2.0000_len_522 (522bp)
+Top Length: 522  Top ID: 97.51
+		One align captures most of this contig: 3804210 3804731 | 522 1 | 522 522 | 97.51 | gi_556503834_ref_NC_000913.3_ k141_410_flag_1_multi_2.0000_len_522
+
+CONTIG: k141_416_flag_1_multi_2.0000_len_558 (558bp)
+Top Length: 555  Top ID: 96.4
+		One align captures most of this contig: 4379142 4379696 | 1 555 | 555 555 | 96.4 | gi_556503834_ref_NC_000913.3_ k141_416_flag_1_multi_2.0000_len_558
+
+CONTIG: k141_424_flag_1_multi_1.0000_len_594 (594bp)
+Top Length: 594  Top ID: 95.62
+		One align captures most of this contig: 333135 333728 | 594 1 | 594 594 | 95.62 | gi_556503834_ref_NC_000913.3_ k141_424_flag_1_multi_1.0000_len_594
+
+CONTIG: k141_425_flag_1_multi_1.0000_len_644 (644bp)
+Top Length: 644  Top ID: 95.81
+		One align captures most of this contig: 2816928 2817571 | 1 644 | 644 644 | 95.81 | gi_556503834_ref_NC_000913.3_ k141_425_flag_1_multi_1.0000_len_644
+
+CONTIG: k141_454_flag_1_multi_1.0000_len_774 (774bp)
+Top Length: 774  Top ID: 96.64
+		One align captures most of this contig: 795176 795949 | 1 774 | 774 774 | 96.64 | gi_556503834_ref_NC_000913.3_ k141_454_flag_1_multi_1.0000_len_774
+
+CONTIG: k141_455_flag_1_multi_1.0000_len_516 (516bp)
+Top Length: 516  Top ID: 97.29
+		One align captures most of this contig: 3705010 3705525 | 1 516 | 516 516 | 97.29 | gi_556503834_ref_NC_000913.3_ k141_455_flag_1_multi_1.0000_len_516
+
+CONTIG: k141_458_flag_1_multi_1.0000_len_906 (906bp)
+Top Length: 906  Top ID: 95.58
+		One align captures most of this contig: 2373353 2374258 | 1 906 | 906 906 | 95.58 | gi_556503834_ref_NC_000913.3_ k141_458_flag_1_multi_1.0000_len_906
+
+CONTIG: k141_461_flag_1_multi_2.0000_len_510 (510bp)
+Top Length: 510  Top ID: 97.06
+		One align captures most of this contig: 4186617 4187126 | 1 510 | 510 510 | 97.06 | gi_556503834_ref_NC_000913.3_ k141_461_flag_1_multi_2.0000_len_510
+
+CONTIG: k141_468_flag_1_multi_1.0000_len_510 (510bp)
+Top Length: 509  Top ID: 96.46
+		One align captures most of this contig: 1760575 1761083 | 1 509 | 509 509 | 96.46 | gi_556503834_ref_NC_000913.3_ k141_468_flag_1_multi_1.0000_len_510
+
+CONTIG: k141_474_flag_1_multi_1.0000_len_554 (554bp)
+Top Length: 554  Top ID: 96.03
+		One align captures most of this contig: 3380174 3380727 | 554 1 | 554 554 | 96.03 | gi_556503834_ref_NC_000913.3_ k141_474_flag_1_multi_1.0000_len_554
+
+CONTIG: k141_476_flag_1_multi_2.0000_len_668 (668bp)
+Top Length: 667  Top ID: 96.55
+		One align captures most of this contig: 894591 895257 | 2 668 | 667 667 | 96.55 | gi_556503834_ref_NC_000913.3_ k141_476_flag_1_multi_2.0000_len_668
+
+CONTIG: k141_483_flag_1_multi_2.0000_len_629 (629bp)
+Top Length: 629  Top ID: 96.34
+		One align captures most of this contig: 2766697 2767325 | 629 1 | 629 629 | 96.34 | gi_556503834_ref_NC_000913.3_ k141_483_flag_1_multi_2.0000_len_629
+
+CONTIG: k141_492_flag_1_multi_1.0000_len_528 (528bp)
+Top Length: 528  Top ID: 96.4
+		One align captures most of this contig: 4252475 4253002 | 528 1 | 528 528 | 96.4 | gi_556503834_ref_NC_000913.3_ k141_492_flag_1_multi_1.0000_len_528
+
+CONTIG: k141_493_flag_1_multi_2.0000_len_542 (542bp)
+Top Length: 539  Top ID: 97.96
+		One align captures most of this contig: 273357 273895 | 539 1 | 539 539 | 97.96 | gi_556503834_ref_NC_000913.3_ k141_493_flag_1_multi_2.0000_len_542
+
+CONTIG: k141_496_flag_1_multi_2.0000_len_523 (523bp)
+Top Length: 523  Top ID: 96.94
+		One align captures most of this contig: 249956 250478 | 523 1 | 523 523 | 96.94 | gi_556503834_ref_NC_000913.3_ k141_496_flag_1_multi_2.0000_len_523
+
+CONTIG: k141_502_flag_1_multi_1.0000_len_549 (549bp)
+Top Length: 549  Top ID: 96.72
+		One align captures most of this contig: 3537826 3538374 | 549 1 | 549 549 | 96.72 | gi_556503834_ref_NC_000913.3_ k141_502_flag_1_multi_1.0000_len_549
+
+CONTIG: k141_509_flag_1_multi_1.0000_len_512 (512bp)
+		This contig is unaligned. (512 bp)
+		Unaligned bases: 512  total: 4908
+
+CONTIG: k141_511_flag_1_multi_2.0000_len_734 (734bp)
+Top Length: 734  Top ID: 95.91
+		One align captures most of this contig: 1904730 1905463 | 734 1 | 734 734 | 95.91 | gi_556503834_ref_NC_000913.3_ k141_511_flag_1_multi_2.0000_len_734
+
+CONTIG: k141_512_flag_1_multi_1.0000_len_677 (677bp)
+Top Length: 677  Top ID: 95.27
+		One align captures most of this contig: 1921334 1922010 | 677 1 | 677 677 | 95.27 | gi_556503834_ref_NC_000913.3_ k141_512_flag_1_multi_1.0000_len_677
+
+CONTIG: k141_516_flag_1_multi_2.0000_len_630 (630bp)
+Top Length: 630  Top ID: 96.35
+		One align captures most of this contig: 4326644 4327273 | 630 1 | 630 630 | 96.35 | gi_556503834_ref_NC_000913.3_ k141_516_flag_1_multi_2.0000_len_630
+
+CONTIG: k141_520_flag_1_multi_1.0000_len_589 (589bp)
+Top Length: 589  Top ID: 96.26
+		One align captures most of this contig: 4229238 4229826 | 589 1 | 589 589 | 96.26 | gi_556503834_ref_NC_000913.3_ k141_520_flag_1_multi_1.0000_len_589
+
+CONTIG: k141_524_flag_1_multi_1.0000_len_584 (584bp)
+Top Length: 584  Top ID: 96.75
+		One align captures most of this contig: 1232531 1233114 | 584 1 | 584 584 | 96.75 | gi_556503834_ref_NC_000913.3_ k141_524_flag_1_multi_1.0000_len_584
+
+CONTIG: k141_538_flag_1_multi_1.0000_len_511 (511bp)
+Top Length: 511  Top ID: 96.48
+		One align captures most of this contig: 3178164 3178674 | 511 1 | 511 511 | 96.48 | gi_556503834_ref_NC_000913.3_ k141_538_flag_1_multi_1.0000_len_511
+
+CONTIG: k141_539_flag_1_multi_1.0000_len_597 (597bp)
+Top Length: 597  Top ID: 95.98
+		One align captures most of this contig: 3582904 3583500 | 597 1 | 597 597 | 95.98 | gi_556503834_ref_NC_000913.3_ k141_539_flag_1_multi_1.0000_len_597
+
+CONTIG: k141_542_flag_1_multi_2.0000_len_698 (698bp)
+Top Length: 694  Top ID: 96.69
+		One align captures most of this contig: 2942400 2943093 | 5 698 | 694 694 | 96.69 | gi_556503834_ref_NC_000913.3_ k141_542_flag_1_multi_2.0000_len_698
+
+CONTIG: k141_554_flag_1_multi_1.0000_len_501 (501bp)
+Top Length: 501  Top ID: 97.01
+		One align captures most of this contig: 4108967 4109467 | 1 501 | 501 501 | 97.01 | gi_556503834_ref_NC_000913.3_ k141_554_flag_1_multi_1.0000_len_501
+
+CONTIG: k141_555_flag_1_multi_1.0000_len_591 (591bp)
+Top Length: 591  Top ID: 96.28
+		One align captures most of this contig: 2848057 2848647 | 1 591 | 591 591 | 96.28 | gi_556503834_ref_NC_000913.3_ k141_555_flag_1_multi_1.0000_len_591
+
+CONTIG: k141_556_flag_1_multi_1.0000_len_702 (702bp)
+Top Length: 699  Top ID: 95.42
+		One align captures most of this contig: 2257739 2258437 | 702 4 | 699 699 | 95.42 | gi_556503834_ref_NC_000913.3_ k141_556_flag_1_multi_1.0000_len_702
+
+CONTIG: k141_563_flag_1_multi_3.0000_len_954 (954bp)
+Top Length: 954  Top ID: 97.38
+		Marking as insignificant: 1650843 1651400 | 558 1 | 558 558 | 97.85 | gi_556503834_ref_NC_000913.3_ k141_563_flag_1_multi_3.0000_len_954
+		This contig has 6 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 381489 382442 | 954 1 | 954 954 | 97.38 | gi_556503834_ref_NC_000913.3_ k141_563_flag_1_multi_3.0000_len_954
+		Skipping alignment  1468058 1469011 | 1 954 | 954 954 | 97.38 | gi_556503834_ref_NC_000913.3_ k141_563_flag_1_multi_3.0000_len_954
+		Skipping alignment  2069089 2070042 | 1 954 | 954 954 | 97.38 | gi_556503834_ref_NC_000913.3_ k141_563_flag_1_multi_3.0000_len_954
+		Skipping alignment  2996509 2997462 | 1 954 | 954 954 | 97.38 | gi_556503834_ref_NC_000913.3_ k141_563_flag_1_multi_3.0000_len_954
+		Skipping alignment  3186325 3187278 | 954 1 | 954 954 | 97.38 | gi_556503834_ref_NC_000913.3_ k141_563_flag_1_multi_3.0000_len_954
+		Skipping alignment  4498410 4499363 | 954 1 | 954 954 | 97.38 | gi_556503834_ref_NC_000913.3_ k141_563_flag_1_multi_3.0000_len_954
+
+CONTIG: k141_568_flag_1_multi_4.0000_len_1111 (1111bp)
+Top Length: 970  Top ID: 97.84
+		Skipping redundant alignment 3583427 3584195 | 910 142 | 769 769 | 98.57 | gi_556503834_ref_NC_000913.3_ k141_568_flag_1_multi_4.0000_len_1111
+		Skipping redundant alignment 1978503 1979270 | 142 909 | 768 768 | 98.57 | gi_556503834_ref_NC_000913.3_ k141_568_flag_1_multi_4.0000_len_1111
+		Skipping redundant alignment 279163 279930 | 142 909 | 768 768 | 97.92 | gi_556503834_ref_NC_000913.3_ k141_568_flag_1_multi_4.0000_len_1111
+		Skipping redundant alignment 290634 291401 | 142 909 | 768 768 | 97.92 | gi_556503834_ref_NC_000913.3_ k141_568_flag_1_multi_4.0000_len_1111
+		Skipping redundant alignment 1049778 1050545 | 909 142 | 768 768 | 97.92 | gi_556503834_ref_NC_000913.3_ k141_568_flag_1_multi_4.0000_len_1111
+		This contig is misassembled. 7 total aligns.
+			Excluding internal overlap of size 769 between Alignment 1 and 2:  19655 20564 | 1 910 | 910 910 --> 19655 19795 | 1 141 | 141 141
+			Real Alignment 1: 19655 19795 | 1 141 | 141 141 | 98.24 | gi_556503834_ref_NC_000913.3_ k141_568_flag_1_multi_4.0000_len_1111
+			  Extensive misassembly ( relocation, inconsistency = 238112 ) between these two alignments
+			Real Alignment 2: 257908 258877 | 142 1111 | 970 970 | 97.84 | gi_556503834_ref_NC_000913.3_ k141_568_flag_1_multi_4.0000_len_1111
+
+CONTIG: k141_575_flag_1_multi_2.0000_len_525 (525bp)
+Top Length: 525  Top ID: 97.52
+		One align captures most of this contig: 3099850 3100374 | 1 525 | 525 525 | 97.52 | gi_556503834_ref_NC_000913.3_ k141_575_flag_1_multi_2.0000_len_525
+
+CONTIG: k141_581_flag_1_multi_1.0000_len_564 (564bp)
+Top Length: 564  Top ID: 96.99
+		One align captures most of this contig: 2053524 2054087 | 1 564 | 564 564 | 96.99 | gi_556503834_ref_NC_000913.3_ k141_581_flag_1_multi_1.0000_len_564
+
+CONTIG: k141_582_flag_1_multi_3.0000_len_593 (593bp)
+Top Length: 593  Top ID: 98.65
+		Marking as insignificant: 224740 225332 | 593 1 | 593 593 | 97.31 | gi_556503834_ref_NC_000913.3_ k141_582_flag_1_multi_3.0000_len_593
+		This contig has 6 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 2729596 2730188 | 1 593 | 593 593 | 98.65 | gi_556503834_ref_NC_000913.3_ k141_582_flag_1_multi_3.0000_len_593
+		Skipping alignment  3427201 3427793 | 1 593 | 593 593 | 98.65 | gi_556503834_ref_NC_000913.3_ k141_582_flag_1_multi_3.0000_len_593
+		Skipping alignment  4167628 4168220 | 593 1 | 593 593 | 98.65 | gi_556503834_ref_NC_000913.3_ k141_582_flag_1_multi_3.0000_len_593
+		Skipping alignment  3942777 3943369 | 593 1 | 593 593 | 98.48 | gi_556503834_ref_NC_000913.3_ k141_582_flag_1_multi_3.0000_len_593
+		Skipping alignment  4036500 4037092 | 593 1 | 593 593 | 98.48 | gi_556503834_ref_NC_000913.3_ k141_582_flag_1_multi_3.0000_len_593
+		Skipping alignment  4209116 4209708 | 593 1 | 593 593 | 98.48 | gi_556503834_ref_NC_000913.3_ k141_582_flag_1_multi_3.0000_len_593
+
+CONTIG: k141_587_flag_1_multi_2.0000_len_525 (525bp)
+Top Length: 523  Top ID: 95.98
+		One align captures most of this contig: 1437361 1437883 | 3 525 | 523 523 | 95.98 | gi_556503834_ref_NC_000913.3_ k141_587_flag_1_multi_2.0000_len_525
+
+CONTIG: k141_592_flag_1_multi_2.0000_len_643 (643bp)
+Top Length: 643  Top ID: 96.42
+		One align captures most of this contig: 2474643 2475285 | 643 1 | 643 643 | 96.42 | gi_556503834_ref_NC_000913.3_ k141_592_flag_1_multi_2.0000_len_643
+
+CONTIG: k141_595_flag_1_multi_2.0000_len_548 (548bp)
+Top Length: 548  Top ID: 96.9
+		One align captures most of this contig: 4261450 4261997 | 548 1 | 548 548 | 96.9 | gi_556503834_ref_NC_000913.3_ k141_595_flag_1_multi_2.0000_len_548
+
+CONTIG: k141_601_flag_1_multi_2.0000_len_520 (520bp)
+Top Length: 517  Top ID: 95.74
+		One align captures most of this contig: 3254962 3255478 | 517 1 | 517 517 | 95.74 | gi_556503834_ref_NC_000913.3_ k141_601_flag_1_multi_2.0000_len_520
+
+CONTIG: k141_610_flag_1_multi_1.0000_len_516 (516bp)
+Top Length: 516  Top ID: 96.12
+		One align captures most of this contig: 1025372 1025887 | 516 1 | 516 516 | 96.12 | gi_556503834_ref_NC_000913.3_ k141_610_flag_1_multi_1.0000_len_516
+
+CONTIG: k141_611_flag_1_multi_1.0000_len_578 (578bp)
+Top Length: 577  Top ID: 96.19
+		One align captures most of this contig: 4464498 4465074 | 578 2 | 577 577 | 96.19 | gi_556503834_ref_NC_000913.3_ k141_611_flag_1_multi_1.0000_len_578
+
+CONTIG: k141_615_flag_1_multi_1.0000_len_532 (532bp)
+Top Length: 532  Top ID: 97.56
+		One align captures most of this contig: 1989706 1990237 | 532 1 | 532 532 | 97.56 | gi_556503834_ref_NC_000913.3_ k141_615_flag_1_multi_1.0000_len_532
+
+CONTIG: k141_618_flag_1_multi_1.0000_len_571 (571bp)
+Top Length: 569  Top ID: 96.31
+		One align captures most of this contig: 643769 644337 | 569 1 | 569 569 | 96.31 | gi_556503834_ref_NC_000913.3_ k141_618_flag_1_multi_1.0000_len_571
+
+CONTIG: k141_621_flag_1_multi_1.0000_len_503 (503bp)
+Top Length: 503  Top ID: 97.22
+		One align captures most of this contig: 1770771 1771273 | 503 1 | 503 503 | 97.22 | gi_556503834_ref_NC_000913.3_ k141_621_flag_1_multi_1.0000_len_503
+
+CONTIG: k141_624_flag_1_multi_2.0000_len_574 (574bp)
+Top Length: 574  Top ID: 96.86
+		One align captures most of this contig: 1156340 1156913 | 1 574 | 574 574 | 96.86 | gi_556503834_ref_NC_000913.3_ k141_624_flag_1_multi_2.0000_len_574
+
+CONTIG: k141_625_flag_1_multi_1.0000_len_680 (680bp)
+Top Length: 680  Top ID: 95.59
+		One align captures most of this contig: 4052162 4052841 | 1 680 | 680 680 | 95.59 | gi_556503834_ref_NC_000913.3_ k141_625_flag_1_multi_1.0000_len_680
+
+CONTIG: k141_627_flag_1_multi_2.0000_len_607 (607bp)
+Top Length: 607  Top ID: 95.88
+		One align captures most of this contig: 3316923 3317529 | 607 1 | 607 607 | 95.88 | gi_556503834_ref_NC_000913.3_ k141_627_flag_1_multi_2.0000_len_607
+
+CONTIG: k141_641_flag_1_multi_1.0000_len_611 (611bp)
+Top Length: 611  Top ID: 96.07
+		One align captures most of this contig: 3990915 3991525 | 1 611 | 611 611 | 96.07 | gi_556503834_ref_NC_000913.3_ k141_641_flag_1_multi_1.0000_len_611
+
+CONTIG: k141_652_flag_1_multi_2.0000_len_613 (613bp)
+		This contig is unaligned. (613 bp)
+		Unaligned bases: 613  total: 5521
+
+CONTIG: k141_654_flag_1_multi_1.0000_len_522 (522bp)
+Top Length: 519  Top ID: 96.72
+		One align captures most of this contig: 4446468 4446986 | 4 522 | 519 519 | 96.72 | gi_556503834_ref_NC_000913.3_ k141_654_flag_1_multi_1.0000_len_522
+
+CONTIG: k141_657_flag_1_multi_3.0000_len_616 (616bp)
+Top Length: 616  Top ID: 97.24
+		Marking as insignificant: 3426262 3426868 | 616 1 | 607 616 | 95.62 | gi_556503834_ref_NC_000913.3_ k141_657_flag_1_multi_3.0000_len_616
+		Marking as insignificant: 2728663 2729269 | 616 1 | 607 616 | 95.78 | gi_556503834_ref_NC_000913.3_ k141_657_flag_1_multi_3.0000_len_616
+		This contig has 5 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 225665 226280 | 1 616 | 616 616 | 97.24 | gi_556503834_ref_NC_000913.3_ k141_657_flag_1_multi_3.0000_len_616
+		Skipping alignment  4209949 4210564 | 1 616 | 616 616 | 96.92 | gi_556503834_ref_NC_000913.3_ k141_657_flag_1_multi_3.0000_len_616
+		Skipping alignment  4037425 4038040 | 1 616 | 616 616 | 96.75 | gi_556503834_ref_NC_000913.3_ k141_657_flag_1_multi_3.0000_len_616
+		Skipping alignment  4168547 4169162 | 1 616 | 616 616 | 96.75 | gi_556503834_ref_NC_000913.3_ k141_657_flag_1_multi_3.0000_len_616
+		Skipping alignment  3943610 3944225 | 1 616 | 616 616 | 96.43 | gi_556503834_ref_NC_000913.3_ k141_657_flag_1_multi_3.0000_len_616
+
+CONTIG: k141_659_flag_1_multi_2.0000_len_665 (665bp)
+Top Length: 665  Top ID: 96.24
+		One align captures most of this contig: 1763445 1764109 | 665 1 | 665 665 | 96.24 | gi_556503834_ref_NC_000913.3_ k141_659_flag_1_multi_2.0000_len_665
+
+CONTIG: k141_662_flag_1_multi_2.0000_len_620 (620bp)
+Top Length: 620  Top ID: 98.06
+		One align captures most of this contig: 1795043 1795662 | 1 620 | 620 620 | 98.06 | gi_556503834_ref_NC_000913.3_ k141_662_flag_1_multi_2.0000_len_620
+
+CONTIG: k141_666_flag_1_multi_2.0000_len_695 (695bp)
+Top Length: 695  Top ID: 96.12
+		Marking as insignificant: 3666176 3666648 | 223 695 | 473 473 | 95.56 | gi_556503834_ref_NC_000913.3_ k141_666_flag_1_multi_2.0000_len_695
+		One align captures most of this contig: 1570419 1571113 | 1 695 | 695 695 | 96.12 | gi_556503834_ref_NC_000913.3_ k141_666_flag_1_multi_2.0000_len_695
+
+CONTIG: k141_668_flag_1_multi_1.0000_len_529 (529bp)
+Top Length: 526  Top ID: 96.39
+		One align captures most of this contig: 1452359 1452884 | 1 526 | 526 526 | 96.39 | gi_556503834_ref_NC_000913.3_ k141_668_flag_1_multi_1.0000_len_529
+
+CONTIG: k141_669_flag_1_multi_3.0000_len_598 (598bp)
+Top Length: 596  Top ID: 96.98
+		Marking as insignificant: 4499111 4499509 | 2 400 | 399 399 | 98.75 | gi_556503834_ref_NC_000913.3_ k141_669_flag_1_multi_3.0000_len_598
+		Marking as insignificant: 3187026 3187424 | 2 400 | 399 399 | 98.75 | gi_556503834_ref_NC_000913.3_ k141_669_flag_1_multi_3.0000_len_598
+		Marking as insignificant: 2996363 2996761 | 400 2 | 399 399 | 98.75 | gi_556503834_ref_NC_000913.3_ k141_669_flag_1_multi_3.0000_len_598
+		Marking as insignificant: 1651148 1651546 | 2 400 | 399 399 | 98.75 | gi_556503834_ref_NC_000913.3_ k141_669_flag_1_multi_3.0000_len_598
+		Marking as insignificant: 1467912 1468310 | 400 2 | 399 399 | 98.75 | gi_556503834_ref_NC_000913.3_ k141_669_flag_1_multi_3.0000_len_598
+		Marking as insignificant: 382190 382588 | 2 400 | 399 399 | 98.75 | gi_556503834_ref_NC_000913.3_ k141_669_flag_1_multi_3.0000_len_598
+		One align captures most of this contig: 2068746 2069341 | 597 2 | 596 596 | 96.98 | gi_556503834_ref_NC_000913.3_ k141_669_flag_1_multi_3.0000_len_598
+
+CONTIG: k141_678_flag_1_multi_2.0000_len_537 (537bp)
+		This contig is unaligned. (537 bp)
+		Unaligned bases: 537  total: 6058
+
+CONTIG: k141_679_flag_1_multi_2.0000_len_518 (518bp)
+Top Length: 518  Top ID: 96.91
+		One align captures most of this contig: 3012300 3012817 | 518 1 | 518 518 | 96.91 | gi_556503834_ref_NC_000913.3_ k141_679_flag_1_multi_2.0000_len_518
+
+CONTIG: k141_681_flag_1_multi_1.0000_len_784 (784bp)
+Top Length: 782  Top ID: 97.44
+		One align captures most of this contig: 1459505 1460286 | 1 782 | 782 782 | 97.44 | gi_556503834_ref_NC_000913.3_ k141_681_flag_1_multi_1.0000_len_784
+
+CONTIG: k141_685_flag_1_multi_1.0000_len_911 (911bp)
+Top Length: 911  Top ID: 95.5
+		One align captures most of this contig: 3429872 3430782 | 911 1 | 911 911 | 95.5 | gi_556503834_ref_NC_000913.3_ k141_685_flag_1_multi_1.0000_len_911
+
+CONTIG: k141_694_flag_1_multi_1.0000_len_559 (559bp)
+Top Length: 559  Top ID: 96.42
+		One align captures most of this contig: 406373 406931 | 559 1 | 559 559 | 96.42 | gi_556503834_ref_NC_000913.3_ k141_694_flag_1_multi_1.0000_len_559
+
+CONTIG: k141_705_flag_1_multi_2.0000_len_583 (583bp)
+Top Length: 583  Top ID: 96.74
+		One align captures most of this contig: 301675 302257 | 583 1 | 583 583 | 96.74 | gi_556503834_ref_NC_000913.3_ k141_705_flag_1_multi_2.0000_len_583
+
+CONTIG: k141_707_flag_1_multi_1.0000_len_552 (552bp)
+Top Length: 552  Top ID: 96.38
+		One align captures most of this contig: 4428945 4429496 | 1 552 | 552 552 | 96.38 | gi_556503834_ref_NC_000913.3_ k141_707_flag_1_multi_1.0000_len_552
+
+CONTIG: k141_716_flag_1_multi_2.0000_len_581 (581bp)
+Top Length: 581  Top ID: 97.25
+		One align captures most of this contig: 1872498 1873078 | 1 581 | 581 581 | 97.25 | gi_556503834_ref_NC_000913.3_ k141_716_flag_1_multi_2.0000_len_581
+
+CONTIG: k141_721_flag_1_multi_1.0000_len_518 (518bp)
+		This contig is unaligned. (518 bp)
+		Unaligned bases: 518  total: 6576
+
+CONTIG: k141_727_flag_1_multi_1.0000_len_562 (562bp)
+Top Length: 562  Top ID: 95.55
+		One align captures most of this contig: 4295088 4295649 | 562 1 | 562 562 | 95.55 | gi_556503834_ref_NC_000913.3_ k141_727_flag_1_multi_1.0000_len_562
+
+CONTIG: k141_728_flag_1_multi_2.0000_len_557 (557bp)
+Top Length: 557  Top ID: 97.13
+		One align captures most of this contig: 2033594 2034150 | 557 1 | 557 557 | 97.13 | gi_556503834_ref_NC_000913.3_ k141_728_flag_1_multi_2.0000_len_557
+
+CONTIG: k141_741_flag_1_multi_2.0000_len_531 (531bp)
+Top Length: 531  Top ID: 95.86
+		One align captures most of this contig: 2697096 2697626 | 531 1 | 531 531 | 95.86 | gi_556503834_ref_NC_000913.3_ k141_741_flag_1_multi_2.0000_len_531
+
+CONTIG: k141_742_flag_1_multi_2.0000_len_533 (533bp)
+Top Length: 532  Top ID: 96.62
+		One align captures most of this contig: 2618288 2618819 | 1 532 | 532 532 | 96.62 | gi_556503834_ref_NC_000913.3_ k141_742_flag_1_multi_2.0000_len_533
+
+CONTIG: k141_745_flag_1_multi_1.0000_len_508 (508bp)
+		This contig is unaligned. (508 bp)
+		Unaligned bases: 508  total: 7084
+
+CONTIG: k141_760_flag_1_multi_1.0000_len_788 (788bp)
+Top Length: 788  Top ID: 95.18
+		One align captures most of this contig: 3483840 3484627 | 788 1 | 788 788 | 95.18 | gi_556503834_ref_NC_000913.3_ k141_760_flag_1_multi_1.0000_len_788
+
+CONTIG: k141_770_flag_1_multi_1.0000_len_541 (541bp)
+		This contig is unaligned. (541 bp)
+		Unaligned bases: 541  total: 7625
+
+CONTIG: k141_774_flag_1_multi_1.0000_len_527 (527bp)
+Top Length: 527  Top ID: 95.83
+		One align captures most of this contig: 4319417 4319943 | 1 527 | 527 527 | 95.83 | gi_556503834_ref_NC_000913.3_ k141_774_flag_1_multi_1.0000_len_527
+
+CONTIG: k141_776_flag_1_multi_1.0000_len_508 (508bp)
+		This contig is unaligned. (508 bp)
+		Unaligned bases: 508  total: 8133
+
+CONTIG: k141_779_flag_1_multi_1.0000_len_642 (642bp)
+Top Length: 640  Top ID: 97.81
+		One align captures most of this contig: 721927 722566 | 1 640 | 640 640 | 97.81 | gi_556503834_ref_NC_000913.3_ k141_779_flag_1_multi_1.0000_len_642
+
+CONTIG: k141_782_flag_1_multi_1.0000_len_622 (622bp)
+Top Length: 622  Top ID: 97.43
+		One align captures most of this contig: 2941422 2942043 | 1 622 | 622 622 | 97.43 | gi_556503834_ref_NC_000913.3_ k141_782_flag_1_multi_1.0000_len_622
+
+CONTIG: k141_787_flag_1_multi_1.0000_len_742 (742bp)
+Top Length: 742  Top ID: 97.17
+		One align captures most of this contig: 4201526 4202267 | 1 742 | 742 742 | 97.17 | gi_556503834_ref_NC_000913.3_ k141_787_flag_1_multi_1.0000_len_742
+
+CONTIG: k141_788_flag_1_multi_1.0000_len_536 (536bp)
+		This contig is unaligned. (536 bp)
+		Unaligned bases: 536  total: 8669
+
+CONTIG: k141_789_flag_1_multi_2.0000_len_604 (604bp)
+Top Length: 561  Top ID: 95.37
+		This contig is partially unaligned. (Aligned 561 out of 604 bases)
+		Alignment: 737768 738328 | 604 44 | 561 561 | 95.37 | gi_556503834_ref_NC_000913.3_ k141_789_flag_1_multi_2.0000_len_604
+		Unaligned bases: 1 to 43 (43)
+
+CONTIG: k141_795_flag_1_multi_1.0000_len_532 (532bp)
+Top Length: 525  Top ID: 97.52
+		One align captures most of this contig: 3986827 3987351 | 525 1 | 525 525 | 97.52 | gi_556503834_ref_NC_000913.3_ k141_795_flag_1_multi_1.0000_len_532
+
+CONTIG: k141_798_flag_1_multi_2.0000_len_540 (540bp)
+Top Length: 540  Top ID: 96.3
+		One align captures most of this contig: 2009396 2009935 | 540 1 | 540 540 | 96.3 | gi_556503834_ref_NC_000913.3_ k141_798_flag_1_multi_2.0000_len_540
+
+CONTIG: k141_803_flag_1_multi_4.0000_len_1319 (1319bp)
+Top Length: 1316  Top ID: 98.63
+		This contig has 7 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 3423890 3425205 | 1316 1 | 1316 1316 | 98.63 | gi_556503834_ref_NC_000913.3_ k141_803_flag_1_multi_4.0000_len_1319
+		Skipping alignment  227337 228652 | 1 1316 | 1316 1316 | 98.25 | gi_556503834_ref_NC_000913.3_ k141_803_flag_1_multi_4.0000_len_1319
+		Skipping alignment  4039096 4040413 | 1 1316 | 1318 1316 | 98.1 | gi_556503834_ref_NC_000913.3_ k141_803_flag_1_multi_4.0000_len_1319
+		Skipping alignment  2726291 2727606 | 1316 1 | 1316 1316 | 97.95 | gi_556503834_ref_NC_000913.3_ k141_803_flag_1_multi_4.0000_len_1319
+		Skipping alignment  3945282 3946597 | 1 1316 | 1316 1316 | 97.95 | gi_556503834_ref_NC_000913.3_ k141_803_flag_1_multi_4.0000_len_1319
+		Skipping alignment  4170219 4171534 | 1 1316 | 1316 1316 | 97.95 | gi_556503834_ref_NC_000913.3_ k141_803_flag_1_multi_4.0000_len_1319
+		Skipping alignment  4211621 4212936 | 1 1316 | 1316 1316 | 97.65 | gi_556503834_ref_NC_000913.3_ k141_803_flag_1_multi_4.0000_len_1319
+
+CONTIG: k141_814_flag_1_multi_1.0000_len_539 (539bp)
+Top Length: 536  Top ID: 97.01
+		One align captures most of this contig: 210869 211404 | 1 536 | 536 536 | 97.01 | gi_556503834_ref_NC_000913.3_ k141_814_flag_1_multi_1.0000_len_539
+
+CONTIG: k141_822_flag_1_multi_1.0000_len_778 (778bp)
+Top Length: 778  Top ID: 95.89
+		One align captures most of this contig: 4154055 4154832 | 778 1 | 778 778 | 95.89 | gi_556503834_ref_NC_000913.3_ k141_822_flag_1_multi_1.0000_len_778
+
+CONTIG: k141_823_flag_1_multi_1.0000_len_582 (582bp)
+Top Length: 582  Top ID: 96.39
+		One align captures most of this contig: 2712419 2713000 | 582 1 | 582 582 | 96.39 | gi_556503834_ref_NC_000913.3_ k141_823_flag_1_multi_1.0000_len_582
+
+CONTIG: k141_834_flag_1_multi_1.0000_len_543 (543bp)
+Top Length: 542  Top ID: 96.68
+		One align captures most of this contig: 1413904 1414445 | 542 1 | 542 542 | 96.68 | gi_556503834_ref_NC_000913.3_ k141_834_flag_1_multi_1.0000_len_543
+
+CONTIG: k141_842_flag_1_multi_2.0000_len_603 (603bp)
+Top Length: 603  Top ID: 97.51
+		One align captures most of this contig: 454493 455095 | 1 603 | 603 603 | 97.51 | gi_556503834_ref_NC_000913.3_ k141_842_flag_1_multi_2.0000_len_603
+
+CONTIG: k141_844_flag_1_multi_1.0000_len_724 (724bp)
+Top Length: 724  Top ID: 96.55
+		One align captures most of this contig: 4397907 4398630 | 1 724 | 724 724 | 96.55 | gi_556503834_ref_NC_000913.3_ k141_844_flag_1_multi_1.0000_len_724
+
+CONTIG: k141_850_flag_1_multi_2.0000_len_640 (640bp)
+Top Length: 495  Top ID: 97.17
+		This contig is partially unaligned. (Aligned 495 out of 640 bases)
+		Alignment: 3216645 3217139 | 495 1 | 495 495 | 97.17 | gi_556503834_ref_NC_000913.3_ k141_850_flag_1_multi_2.0000_len_640
+		Unaligned bases: 496 to 640 (145)
+
+CONTIG: k141_851_flag_1_multi_1.0000_len_693 (693bp)
+		This contig is unaligned. (693 bp)
+		Unaligned bases: 693  total: 9362
+
+CONTIG: k141_852_flag_1_multi_1.0000_len_718 (718bp)
+Top Length: 718  Top ID: 95.96
+		One align captures most of this contig: 3260830 3261547 | 718 1 | 718 718 | 95.96 | gi_556503834_ref_NC_000913.3_ k141_852_flag_1_multi_1.0000_len_718
+
+CONTIG: k141_862_flag_1_multi_1.0000_len_651 (651bp)
+		This contig is unaligned. (651 bp)
+		Unaligned bases: 651  total: 10013
+
+CONTIG: k141_872_flag_1_multi_1.0000_len_580 (580bp)
+Top Length: 580  Top ID: 97.41
+		One align captures most of this contig: 433383 433962 | 580 1 | 580 580 | 97.41 | gi_556503834_ref_NC_000913.3_ k141_872_flag_1_multi_1.0000_len_580
+
+CONTIG: k141_877_flag_1_multi_1.0000_len_511 (511bp)
+Top Length: 511  Top ID: 95.12
+		One align captures most of this contig: 4317969 4318479 | 511 1 | 511 511 | 95.12 | gi_556503834_ref_NC_000913.3_ k141_877_flag_1_multi_1.0000_len_511
+
+CONTIG: k141_882_flag_1_multi_1.0000_len_613 (613bp)
+Top Length: 613  Top ID: 96.08
+		One align captures most of this contig: 4200103 4200715 | 1 613 | 613 613 | 96.08 | gi_556503834_ref_NC_000913.3_ k141_882_flag_1_multi_1.0000_len_613
+
+CONTIG: k141_884_flag_1_multi_1.0000_len_501 (501bp)
+Top Length: 501  Top ID: 95.41
+		One align captures most of this contig: 331215 331715 | 501 1 | 501 501 | 95.41 | gi_556503834_ref_NC_000913.3_ k141_884_flag_1_multi_1.0000_len_501
+
+CONTIG: k141_886_flag_1_multi_1.0000_len_766 (766bp)
+Top Length: 766  Top ID: 96.48
+		One align captures most of this contig: 2392232 2392997 | 1 766 | 766 766 | 96.48 | gi_556503834_ref_NC_000913.3_ k141_886_flag_1_multi_1.0000_len_766
+
+CONTIG: k141_888_flag_1_multi_1.0000_len_523 (523bp)
+		This contig is unaligned. (523 bp)
+		Unaligned bases: 523  total: 10536
+
+CONTIG: k141_889_flag_1_multi_1.0000_len_553 (553bp)
+Top Length: 553  Top ID: 96.93
+		One align captures most of this contig: 191916 192468 | 553 1 | 553 553 | 96.93 | gi_556503834_ref_NC_000913.3_ k141_889_flag_1_multi_1.0000_len_553
+
+CONTIG: k141_895_flag_1_multi_1.0000_len_779 (779bp)
+Top Length: 779  Top ID: 95.64
+		One align captures most of this contig: 2616420 2617198 | 779 1 | 779 779 | 95.64 | gi_556503834_ref_NC_000913.3_ k141_895_flag_1_multi_1.0000_len_779
+
+CONTIG: k141_900_flag_1_multi_1.0000_len_651 (651bp)
+Top Length: 651  Top ID: 97.39
+		One align captures most of this contig: 3753424 3754074 | 651 1 | 651 651 | 97.39 | gi_556503834_ref_NC_000913.3_ k141_900_flag_1_multi_1.0000_len_651
+
+CONTIG: k141_903_flag_1_multi_1.0000_len_678 (678bp)
+		This contig is unaligned. (678 bp)
+		Unaligned bases: 678  total: 11214
+
+CONTIG: k141_908_flag_1_multi_1.0000_len_506 (506bp)
+Top Length: 506  Top ID: 96.84
+		One align captures most of this contig: 2139234 2139739 | 1 506 | 506 506 | 96.84 | gi_556503834_ref_NC_000913.3_ k141_908_flag_1_multi_1.0000_len_506
+
+CONTIG: k141_920_flag_1_multi_1.0000_len_714 (714bp)
+Top Length: 714  Top ID: 95.52
+		One align captures most of this contig: 2339621 2340334 | 1 714 | 714 714 | 95.52 | gi_556503834_ref_NC_000913.3_ k141_920_flag_1_multi_1.0000_len_714
+
+CONTIG: k141_924_flag_1_multi_2.0000_len_550 (550bp)
+Top Length: 550  Top ID: 96.91
+		One align captures most of this contig: 3622838 3623387 | 1 550 | 550 550 | 96.91 | gi_556503834_ref_NC_000913.3_ k141_924_flag_1_multi_2.0000_len_550
+
+CONTIG: k141_928_flag_1_multi_1.0000_len_584 (584bp)
+Top Length: 584  Top ID: 95.55
+		One align captures most of this contig: 4467904 4468487 | 584 1 | 584 584 | 95.55 | gi_556503834_ref_NC_000913.3_ k141_928_flag_1_multi_1.0000_len_584
+
+CONTIG: k141_947_flag_1_multi_2.0000_len_573 (573bp)
+Top Length: 573  Top ID: 97.21
+		One align captures most of this contig: 3098025 3098597 | 573 1 | 573 573 | 97.21 | gi_556503834_ref_NC_000913.3_ k141_947_flag_1_multi_2.0000_len_573
+
+CONTIG: k141_956_flag_1_multi_2.0000_len_514 (514bp)
+Top Length: 514  Top ID: 95.33
+		One align captures most of this contig: 3766286 3766799 | 1 514 | 514 514 | 95.33 | gi_556503834_ref_NC_000913.3_ k141_956_flag_1_multi_2.0000_len_514
+
+CONTIG: k141_959_flag_1_multi_1.0000_len_905 (905bp)
+Top Length: 904  Top ID: 95.58
+		One align captures most of this contig: 2098708 2099611 | 1 904 | 904 904 | 95.58 | gi_556503834_ref_NC_000913.3_ k141_959_flag_1_multi_1.0000_len_905
+
+CONTIG: k141_967_flag_1_multi_1.0000_len_539 (539bp)
+Top Length: 539  Top ID: 95.92
+		One align captures most of this contig: 1082850 1083388 | 1 539 | 539 539 | 95.92 | gi_556503834_ref_NC_000913.3_ k141_967_flag_1_multi_1.0000_len_539
+
+CONTIG: k141_972_flag_1_multi_1.0000_len_535 (535bp)
+Top Length: 535  Top ID: 96.45
+		One align captures most of this contig: 2710224 2710758 | 535 1 | 535 535 | 96.45 | gi_556503834_ref_NC_000913.3_ k141_972_flag_1_multi_1.0000_len_535
+
+CONTIG: k141_974_flag_1_multi_2.0000_len_612 (612bp)
+Top Length: 612  Top ID: 96.09
+		This contig has 7 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 226407 227018 | 1 612 | 612 612 | 96.09 | gi_556503834_ref_NC_000913.3_ k141_974_flag_1_multi_2.0000_len_612
+		Skipping alignment  2727925 2728536 | 612 1 | 612 612 | 95.77 | gi_556503834_ref_NC_000913.3_ k141_974_flag_1_multi_2.0000_len_612
+		Skipping alignment  3425524 3426135 | 612 1 | 612 612 | 95.77 | gi_556503834_ref_NC_000913.3_ k141_974_flag_1_multi_2.0000_len_612
+		Skipping alignment  3944352 3944963 | 1 612 | 612 612 | 95.77 | gi_556503834_ref_NC_000913.3_ k141_974_flag_1_multi_2.0000_len_612
+		Skipping alignment  4169289 4169900 | 1 612 | 612 612 | 95.77 | gi_556503834_ref_NC_000913.3_ k141_974_flag_1_multi_2.0000_len_612
+		Skipping alignment  4210691 4211302 | 1 612 | 612 612 | 95.77 | gi_556503834_ref_NC_000913.3_ k141_974_flag_1_multi_2.0000_len_612
+		Skipping alignment  4038167 4038777 | 1 612 | 611 612 | 95.6 | gi_556503834_ref_NC_000913.3_ k141_974_flag_1_multi_2.0000_len_612
+
+CONTIG: k141_980_flag_1_multi_2.0000_len_761 (761bp)
+Top Length: 761  Top ID: 96.85
+		One align captures most of this contig: 2796145 2796905 | 1 761 | 761 761 | 96.85 | gi_556503834_ref_NC_000913.3_ k141_980_flag_1_multi_2.0000_len_761
+
+CONTIG: k141_982_flag_1_multi_2.0000_len_523 (523bp)
+Top Length: 523  Top ID: 96.94
+		One align captures most of this contig: 1716928 1717450 | 523 1 | 523 523 | 96.94 | gi_556503834_ref_NC_000913.3_ k141_982_flag_1_multi_2.0000_len_523
+
+CONTIG: k141_985_flag_1_multi_1.0000_len_605 (605bp)
+Top Length: 602  Top ID: 96.68
+		One align captures most of this contig: 1118402 1119003 | 602 1 | 602 602 | 96.68 | gi_556503834_ref_NC_000913.3_ k141_985_flag_1_multi_1.0000_len_605
+
+CONTIG: k141_994_flag_1_multi_2.0000_len_592 (592bp)
+Top Length: 592  Top ID: 96.62
+		One align captures most of this contig: 3044514 3045105 | 1 592 | 592 592 | 96.62 | gi_556503834_ref_NC_000913.3_ k141_994_flag_1_multi_2.0000_len_592
+
+CONTIG: k141_1002_flag_1_multi_2.0000_len_675 (675bp)
+Top Length: 675  Top ID: 97.93
+		One align captures most of this contig: 1295897 1296571 | 675 1 | 675 675 | 97.93 | gi_556503834_ref_NC_000913.3_ k141_1002_flag_1_multi_2.0000_len_675
+
+CONTIG: k141_1004_flag_1_multi_1.0000_len_656 (656bp)
+		This contig is unaligned. (656 bp)
+		Unaligned bases: 656  total: 11870
+
+CONTIG: k141_1013_flag_1_multi_2.0000_len_560 (560bp)
+Top Length: 559  Top ID: 95.53
+		One align captures most of this contig: 1851948 1852506 | 560 2 | 559 559 | 95.53 | gi_556503834_ref_NC_000913.3_ k141_1013_flag_1_multi_2.0000_len_560
+
+CONTIG: k141_1025_flag_1_multi_2.0000_len_569 (569bp)
+Top Length: 569  Top ID: 95.96
+		One align captures most of this contig: 950592 951160 | 569 1 | 569 569 | 95.96 | gi_556503834_ref_NC_000913.3_ k141_1025_flag_1_multi_2.0000_len_569
+
+CONTIG: k141_1026_flag_1_multi_1.0000_len_529 (529bp)
+Top Length: 529  Top ID: 97.35
+		One align captures most of this contig: 2065216 2065744 | 529 1 | 529 529 | 97.35 | gi_556503834_ref_NC_000913.3_ k141_1026_flag_1_multi_1.0000_len_529
+
+CONTIG: k141_1029_flag_1_multi_1.0000_len_512 (512bp)
+Top Length: 511  Top ID: 96.48
+		One align captures most of this contig: 1006397 1006907 | 512 2 | 511 511 | 96.48 | gi_556503834_ref_NC_000913.3_ k141_1029_flag_1_multi_1.0000_len_512
+
+CONTIG: k141_1035_flag_1_multi_1.0000_len_568 (568bp)
+Top Length: 298  Top ID: 95.64
+		This contig is partially unaligned. (Aligned 298 out of 568 bases)
+		Alignment: 1746515 1746812 | 298 1 | 298 298 | 95.64 | gi_556503834_ref_NC_000913.3_ k141_1035_flag_1_multi_1.0000_len_568
+		Unaligned bases: 299 to 568 (270)
+
+CONTIG: k141_1045_flag_1_multi_2.0000_len_620 (620bp)
+Top Length: 620  Top ID: 97.58
+		One align captures most of this contig: 220953 221572 | 1 620 | 620 620 | 97.58 | gi_556503834_ref_NC_000913.3_ k141_1045_flag_1_multi_2.0000_len_620
+
+CONTIG: k141_1046_flag_1_multi_1.0000_len_522 (522bp)
+Top Length: 522  Top ID: 95.98
+		One align captures most of this contig: 3780295 3780816 | 522 1 | 522 522 | 95.98 | gi_556503834_ref_NC_000913.3_ k141_1046_flag_1_multi_1.0000_len_522
+
+CONTIG: k141_1049_flag_1_multi_2.0000_len_708 (708bp)
+Top Length: 708  Top ID: 96.89
+		One align captures most of this contig: 277225 277932 | 1 708 | 708 708 | 96.89 | gi_556503834_ref_NC_000913.3_ k141_1049_flag_1_multi_2.0000_len_708
+
+CONTIG: k141_1051_flag_1_multi_1.0000_len_527 (527bp)
+Top Length: 525  Top ID: 95.24
+		One align captures most of this contig: 2635926 2636450 | 525 1 | 525 525 | 95.24 | gi_556503834_ref_NC_000913.3_ k141_1051_flag_1_multi_1.0000_len_527
+
+CONTIG: k141_1066_flag_1_multi_1.0000_len_595 (595bp)
+Top Length: 594  Top ID: 95.79
+		One align captures most of this contig: 2955968 2956561 | 594 1 | 594 594 | 95.79 | gi_556503834_ref_NC_000913.3_ k141_1066_flag_1_multi_1.0000_len_595
+
+CONTIG: k141_1070_flag_1_multi_2.0000_len_710 (710bp)
+Top Length: 710  Top ID: 97.18
+		One align captures most of this contig: 3965797 3966506 | 710 1 | 710 710 | 97.18 | gi_556503834_ref_NC_000913.3_ k141_1070_flag_1_multi_2.0000_len_710
+
+CONTIG: k141_1075_flag_1_multi_1.0000_len_881 (881bp)
+Top Length: 881  Top ID: 96.82
+		One align captures most of this contig: 1160543 1161423 | 881 1 | 881 881 | 96.82 | gi_556503834_ref_NC_000913.3_ k141_1075_flag_1_multi_1.0000_len_881
+
+CONTIG: k141_1083_flag_1_multi_2.0000_len_523 (523bp)
+Top Length: 523  Top ID: 97.32
+		One align captures most of this contig: 2611775 2612297 | 523 1 | 523 523 | 97.32 | gi_556503834_ref_NC_000913.3_ k141_1083_flag_1_multi_2.0000_len_523
+
+CONTIG: k141_1085_flag_1_multi_1.0000_len_517 (517bp)
+		This contig is unaligned. (517 bp)
+		Unaligned bases: 517  total: 12387
+
+CONTIG: k141_1086_flag_1_multi_2.0000_len_626 (626bp)
+Top Length: 419  Top ID: 95.94
+		This contig is partially unaligned. (Aligned 419 out of 626 bases)
+		Alignment: 3767207 3767624 | 121 539 | 418 419 | 95.94 | gi_556503834_ref_NC_000913.3_ k141_1086_flag_1_multi_2.0000_len_626
+		Unaligned bases: 1 to 120 (120)
+		Unaligned bases: 540 to 626 (87)
+
+CONTIG: k141_1089_flag_1_multi_2.0000_len_886 (886bp)
+Top Length: 884  Top ID: 97.74
+		One align captures most of this contig: 3747712 3748595 | 1 884 | 884 884 | 97.74 | gi_556503834_ref_NC_000913.3_ k141_1089_flag_1_multi_2.0000_len_886
+
+CONTIG: k141_1091_flag_1_multi_2.0000_len_744 (744bp)
+Top Length: 744  Top ID: 97.04
+		One align captures most of this contig: 388157 388900 | 1 744 | 744 744 | 97.04 | gi_556503834_ref_NC_000913.3_ k141_1091_flag_1_multi_2.0000_len_744
+
+CONTIG: k141_1093_flag_1_multi_1.0000_len_502 (502bp)
+Top Length: 502  Top ID: 95.22
+		One align captures most of this contig: 2081657 2082158 | 502 1 | 502 502 | 95.22 | gi_556503834_ref_NC_000913.3_ k141_1093_flag_1_multi_1.0000_len_502
+
+CONTIG: k141_1100_flag_1_multi_1.0000_len_624 (624bp)
+Top Length: 624  Top ID: 97.12
+		One align captures most of this contig: 1999815 2000438 | 1 624 | 624 624 | 97.12 | gi_556503834_ref_NC_000913.3_ k141_1100_flag_1_multi_1.0000_len_624
+
+CONTIG: k141_1103_flag_1_multi_1.0000_len_738 (738bp)
+Top Length: 738  Top ID: 95.93
+		One align captures most of this contig: 2479381 2480118 | 1 738 | 738 738 | 95.93 | gi_556503834_ref_NC_000913.3_ k141_1103_flag_1_multi_1.0000_len_738
+
+CONTIG: k141_1107_flag_1_multi_4.0000_len_1369 (1369bp)
+Top Length: 1322  Top ID: 99.17
+		Skipping redundant alignment 566771 568034 | 1316 53 | 1264 1264 | 99.45 | gi_556503834_ref_NC_000913.3_ k141_1107_flag_1_multi_4.0000_len_1369
+		Skipping redundant alignment 1094245 1095502 | 53 1310 | 1258 1258 | 99.52 | gi_556503834_ref_NC_000913.3_ k141_1107_flag_1_multi_4.0000_len_1369
+		Skipping redundant alignment 315232 316483 | 1304 53 | 1252 1252 | 99.6 | gi_556503834_ref_NC_000913.3_ k141_1107_flag_1_multi_4.0000_len_1369
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 2170171 2171480 | 1310 1 | 1310 1310 | 99.39 | gi_556503834_ref_NC_000913.3_ k141_1107_flag_1_multi_4.0000_len_1369
+		This contig is partially unaligned. (Aligned 1322 out of 1369 bases)
+		Alignment: 391701 393022 | 45 1366 | 1322 1322 | 99.17 | gi_556503834_ref_NC_000913.3_ k141_1107_flag_1_multi_4.0000_len_1369
+		Unaligned bases: 1 to 44 (44)
+		Unaligned bases: 1367 to 1369 (3)
+
+CONTIG: k141_1114_flag_1_multi_1.0000_len_513 (513bp)
+		This contig is unaligned. (513 bp)
+		Unaligned bases: 513  total: 12900
+
+CONTIG: k141_1125_flag_1_multi_2.0000_len_662 (662bp)
+Top Length: 657  Top ID: 96.5
+		One align captures most of this contig: 921270 921926 | 6 662 | 657 657 | 96.5 | gi_556503834_ref_NC_000913.3_ k141_1125_flag_1_multi_2.0000_len_662
+
+CONTIG: k141_1134_flag_1_multi_1.0000_len_551 (551bp)
+Top Length: 551  Top ID: 96.55
+		One align captures most of this contig: 2556609 2557159 | 1 551 | 551 551 | 96.55 | gi_556503834_ref_NC_000913.3_ k141_1134_flag_1_multi_1.0000_len_551
+
+CONTIG: k141_1138_flag_1_multi_1.0000_len_501 (501bp)
+		This contig is unaligned. (501 bp)
+		Unaligned bases: 501  total: 13401
+
+CONTIG: k141_1142_flag_1_multi_1.0000_len_515 (515bp)
+		This contig is unaligned. (515 bp)
+		Unaligned bases: 515  total: 13916
+
+CONTIG: k141_1144_flag_1_multi_1.0000_len_580 (580bp)
+Top Length: 580  Top ID: 96.21
+		One align captures most of this contig: 2074228 2074807 | 580 1 | 580 580 | 96.21 | gi_556503834_ref_NC_000913.3_ k141_1144_flag_1_multi_1.0000_len_580
+
+CONTIG: k141_1150_flag_1_multi_1.0000_len_512 (512bp)
+Top Length: 512  Top ID: 95.31
+		One align captures most of this contig: 3729973 3730484 | 1 512 | 512 512 | 95.31 | gi_556503834_ref_NC_000913.3_ k141_1150_flag_1_multi_1.0000_len_512
+
+CONTIG: k141_1153_flag_1_multi_1.0000_len_524 (524bp)
+Top Length: 524  Top ID: 97.52
+		One align captures most of this contig: 1863085 1863608 | 524 1 | 524 524 | 97.52 | gi_556503834_ref_NC_000913.3_ k141_1153_flag_1_multi_1.0000_len_524
+
+CONTIG: k141_1158_flag_1_multi_1.0000_len_521 (521bp)
+Top Length: 521  Top ID: 96.55
+		One align captures most of this contig: 705057 705577 | 1 521 | 521 521 | 96.55 | gi_556503834_ref_NC_000913.3_ k141_1158_flag_1_multi_1.0000_len_521
+
+CONTIG: k141_1164_flag_1_multi_1.0000_len_541 (541bp)
+Top Length: 541  Top ID: 96.67
+		One align captures most of this contig: 3454247 3454787 | 541 1 | 541 541 | 96.67 | gi_556503834_ref_NC_000913.3_ k141_1164_flag_1_multi_1.0000_len_541
+
+CONTIG: k141_1167_flag_1_multi_1.0000_len_572 (572bp)
+Top Length: 572  Top ID: 95.63
+		One align captures most of this contig: 418852 419423 | 1 572 | 572 572 | 95.63 | gi_556503834_ref_NC_000913.3_ k141_1167_flag_1_multi_1.0000_len_572
+
+CONTIG: k141_1181_flag_1_multi_1.0000_len_583 (583bp)
+		This contig is unaligned. (583 bp)
+		Unaligned bases: 583  total: 14499
+
+CONTIG: k141_1183_flag_1_multi_2.0000_len_512 (512bp)
+Top Length: 512  Top ID: 96.68
+		One align captures most of this contig: 3656729 3657240 | 512 1 | 512 512 | 96.68 | gi_556503834_ref_NC_000913.3_ k141_1183_flag_1_multi_2.0000_len_512
+
+CONTIG: k141_1195_flag_1_multi_1.0000_len_629 (629bp)
+Top Length: 629  Top ID: 97.3
+		One align captures most of this contig: 1076049 1076677 | 1 629 | 629 629 | 97.3 | gi_556503834_ref_NC_000913.3_ k141_1195_flag_1_multi_1.0000_len_629
+
+CONTIG: k141_1199_flag_1_multi_2.0000_len_771 (771bp)
+Top Length: 771  Top ID: 95.85
+		One align captures most of this contig: 4560144 4560914 | 1 771 | 771 771 | 95.85 | gi_556503834_ref_NC_000913.3_ k141_1199_flag_1_multi_2.0000_len_771
+
+CONTIG: k141_1210_flag_1_multi_1.0000_len_557 (557bp)
+Top Length: 557  Top ID: 95.33
+		One align captures most of this contig: 532141 532697 | 1 557 | 557 557 | 95.33 | gi_556503834_ref_NC_000913.3_ k141_1210_flag_1_multi_1.0000_len_557
+
+CONTIG: k141_1228_flag_1_multi_1.0000_len_748 (748bp)
+Top Length: 748  Top ID: 97.06
+		One align captures most of this contig: 4271521 4272268 | 748 1 | 748 748 | 97.06 | gi_556503834_ref_NC_000913.3_ k141_1228_flag_1_multi_1.0000_len_748
+
+CONTIG: k141_1229_flag_1_multi_1.0000_len_557 (557bp)
+Top Length: 557  Top ID: 95.87
+		One align captures most of this contig: 3843477 3844033 | 557 1 | 557 557 | 95.87 | gi_556503834_ref_NC_000913.3_ k141_1229_flag_1_multi_1.0000_len_557
+
+CONTIG: k141_1230_flag_1_multi_1.0000_len_554 (554bp)
+Top Length: 554  Top ID: 96.93
+		One align captures most of this contig: 3715705 3716258 | 1 554 | 554 554 | 96.93 | gi_556503834_ref_NC_000913.3_ k141_1230_flag_1_multi_1.0000_len_554
+
+CONTIG: k141_1248_flag_1_multi_1.0000_len_551 (551bp)
+Top Length: 551  Top ID: 96.37
+		One align captures most of this contig: 142330 142880 | 551 1 | 551 551 | 96.37 | gi_556503834_ref_NC_000913.3_ k141_1248_flag_1_multi_1.0000_len_551
+
+CONTIG: k141_1258_flag_1_multi_1.0000_len_741 (741bp)
+Top Length: 741  Top ID: 97.17
+		One align captures most of this contig: 3489438 3490178 | 741 1 | 741 741 | 97.17 | gi_556503834_ref_NC_000913.3_ k141_1258_flag_1_multi_1.0000_len_741
+
+CONTIG: k141_1264_flag_1_multi_1.0000_len_532 (532bp)
+Top Length: 532  Top ID: 95.68
+		One align captures most of this contig: 28730 29261 | 532 1 | 532 532 | 95.68 | gi_556503834_ref_NC_000913.3_ k141_1264_flag_1_multi_1.0000_len_532
+
+CONTIG: k141_1269_flag_1_multi_1.0000_len_534 (534bp)
+Top Length: 534  Top ID: 96.82
+		One align captures most of this contig: 564713 565246 | 534 1 | 534 534 | 96.82 | gi_556503834_ref_NC_000913.3_ k141_1269_flag_1_multi_1.0000_len_534
+
+CONTIG: k141_1273_flag_1_multi_1.0000_len_568 (568bp)
+Top Length: 567  Top ID: 96.12
+		One align captures most of this contig: 2832995 2833561 | 567 1 | 567 567 | 96.12 | gi_556503834_ref_NC_000913.3_ k141_1273_flag_1_multi_1.0000_len_568
+
+CONTIG: k141_1280_flag_1_multi_1.0000_len_524 (524bp)
+Top Length: 524  Top ID: 95.99
+		One align captures most of this contig: 2220258 2220781 | 524 1 | 524 524 | 95.99 | gi_556503834_ref_NC_000913.3_ k141_1280_flag_1_multi_1.0000_len_524
+
+CONTIG: k141_1281_flag_1_multi_2.0000_len_635 (635bp)
+Top Length: 635  Top ID: 97.32
+		One align captures most of this contig: 1444225 1444859 | 635 1 | 635 635 | 97.32 | gi_556503834_ref_NC_000913.3_ k141_1281_flag_1_multi_2.0000_len_635
+
+CONTIG: k141_1287_flag_1_multi_1.0000_len_671 (671bp)
+		This contig is unaligned. (671 bp)
+		Unaligned bases: 671  total: 15170
+
+CONTIG: k141_1293_flag_1_multi_2.0000_len_670 (670bp)
+Top Length: 670  Top ID: 95.82
+		One align captures most of this contig: 2301513 2302182 | 1 670 | 670 670 | 95.82 | gi_556503834_ref_NC_000913.3_ k141_1293_flag_1_multi_2.0000_len_670
+
+CONTIG: k141_1296_flag_1_multi_1.0000_len_514 (514bp)
+Top Length: 514  Top ID: 97.08
+		One align captures most of this contig: 2499995 2500508 | 1 514 | 514 514 | 97.08 | gi_556503834_ref_NC_000913.3_ k141_1296_flag_1_multi_1.0000_len_514
+
+CONTIG: k141_1302_flag_1_multi_1.0000_len_629 (629bp)
+		This contig is unaligned. (629 bp)
+		Unaligned bases: 629  total: 15799
+
+CONTIG: k141_1305_flag_1_multi_1.0000_len_580 (580bp)
+Top Length: 580  Top ID: 96.55
+		One align captures most of this contig: 26337 26916 | 1 580 | 580 580 | 96.55 | gi_556503834_ref_NC_000913.3_ k141_1305_flag_1_multi_1.0000_len_580
+
+CONTIG: k141_1314_flag_1_multi_1.0000_len_519 (519bp)
+Top Length: 519  Top ID: 95.95
+		One align captures most of this contig: 4622247 4622765 | 519 1 | 519 519 | 95.95 | gi_556503834_ref_NC_000913.3_ k141_1314_flag_1_multi_1.0000_len_519
+
+CONTIG: k141_1315_flag_1_multi_1.0000_len_511 (511bp)
+		This contig is unaligned. (511 bp)
+		Unaligned bases: 511  total: 16310
+
+CONTIG: k141_1326_flag_1_multi_2.0000_len_506 (506bp)
+Top Length: 506  Top ID: 95.86
+		One align captures most of this contig: 909676 910181 | 1 506 | 506 506 | 95.86 | gi_556503834_ref_NC_000913.3_ k141_1326_flag_1_multi_2.0000_len_506
+
+CONTIG: k141_1334_flag_1_multi_2.0000_len_563 (563bp)
+Top Length: 563  Top ID: 96.09
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 526152 526714 | 563 1 | 563 563 | 96.09 | gi_556503834_ref_NC_000913.3_ k141_1334_flag_1_multi_2.0000_len_563
+		Skipping alignment  1528606 1529168 | 563 1 | 563 563 | 96.09 | gi_556503834_ref_NC_000913.3_ k141_1334_flag_1_multi_2.0000_len_563
+
+CONTIG: k141_1339_flag_1_multi_1.0000_len_540 (540bp)
+Top Length: 540  Top ID: 95.93
+		One align captures most of this contig: 2155836 2156375 | 1 540 | 540 540 | 95.93 | gi_556503834_ref_NC_000913.3_ k141_1339_flag_1_multi_1.0000_len_540
+
+CONTIG: k141_1340_flag_1_multi_1.0000_len_568 (568bp)
+Top Length: 568  Top ID: 95.42
+		One align captures most of this contig: 4427293 4427860 | 1 568 | 568 568 | 95.42 | gi_556503834_ref_NC_000913.3_ k141_1340_flag_1_multi_1.0000_len_568
+
+CONTIG: k141_1348_flag_1_multi_1.0000_len_610 (610bp)
+Top Length: 609  Top ID: 96.06
+		One align captures most of this contig: 4184647 4185255 | 2 610 | 609 609 | 96.06 | gi_556503834_ref_NC_000913.3_ k141_1348_flag_1_multi_1.0000_len_610
+
+CONTIG: k141_1355_flag_1_multi_2.0000_len_625 (625bp)
+Top Length: 624  Top ID: 97.12
+		One align captures most of this contig: 3523804 3524427 | 624 1 | 624 624 | 97.12 | gi_556503834_ref_NC_000913.3_ k141_1355_flag_1_multi_2.0000_len_625
+
+CONTIG: k141_1358_flag_1_multi_2.0000_len_520 (520bp)
+Top Length: 474  Top ID: 97.89
+		Skipping redundant alignment 2759881 2760132 | 269 520 | 252 252 | 98.81 | gi_556503834_ref_NC_000913.3_ k141_1358_flag_1_multi_2.0000_len_520
+		This contig is partially unaligned. (Aligned 474 out of 520 bases)
+		Alignment: 290160 290633 | 1 474 | 474 474 | 97.89 | gi_556503834_ref_NC_000913.3_ k141_1358_flag_1_multi_2.0000_len_520
+		Unaligned bases: 475 to 520 (46)
+
+CONTIG: k141_1361_flag_1_multi_2.0000_len_502 (502bp)
+Top Length: 502  Top ID: 96.81
+		One align captures most of this contig: 871292 871793 | 1 502 | 502 502 | 96.81 | gi_556503834_ref_NC_000913.3_ k141_1361_flag_1_multi_2.0000_len_502
+
+CONTIG: k141_1366_flag_1_multi_1.0000_len_586 (586bp)
+Top Length: 583  Top ID: 95.71
+		One align captures most of this contig: 440764 441346 | 583 1 | 583 583 | 95.71 | gi_556503834_ref_NC_000913.3_ k141_1366_flag_1_multi_1.0000_len_586
+
+CONTIG: k141_1374_flag_1_multi_1.0000_len_559 (559bp)
+Top Length: 559  Top ID: 97.14
+		One align captures most of this contig: 3602055 3602613 | 1 559 | 559 559 | 97.14 | gi_556503834_ref_NC_000913.3_ k141_1374_flag_1_multi_1.0000_len_559
+
+CONTIG: k141_1375_flag_1_multi_2.0000_len_696 (696bp)
+Top Length: 696  Top ID: 96.41
+		One align captures most of this contig: 4619932 4620627 | 696 1 | 696 696 | 96.41 | gi_556503834_ref_NC_000913.3_ k141_1375_flag_1_multi_2.0000_len_696
+
+CONTIG: k141_1376_flag_1_multi_1.0000_len_571 (571bp)
+Top Length: 571  Top ID: 95.97
+		One align captures most of this contig: 4411064 4411634 | 1 571 | 571 571 | 95.97 | gi_556503834_ref_NC_000913.3_ k141_1376_flag_1_multi_1.0000_len_571
+
+CONTIG: k141_1377_flag_1_multi_1.0000_len_577 (577bp)
+Top Length: 577  Top ID: 95.67
+		One align captures most of this contig: 2318104 2318680 | 577 1 | 577 577 | 95.67 | gi_556503834_ref_NC_000913.3_ k141_1377_flag_1_multi_1.0000_len_577
+
+CONTIG: k141_1381_flag_1_multi_1.0000_len_505 (505bp)
+Top Length: 505  Top ID: 97.03
+		One align captures most of this contig: 3914454 3914958 | 1 505 | 505 505 | 97.03 | gi_556503834_ref_NC_000913.3_ k141_1381_flag_1_multi_1.0000_len_505
+
+CONTIG: k141_1383_flag_1_multi_2.0000_len_1203 (1203bp)
+Top Length: 1203  Top ID: 96.26
+		One align captures most of this contig: 3358852 3360054 | 1 1203 | 1203 1203 | 96.26 | gi_556503834_ref_NC_000913.3_ k141_1383_flag_1_multi_2.0000_len_1203
+
+CONTIG: k141_1384_flag_1_multi_2.0000_len_623 (623bp)
+Top Length: 623  Top ID: 97.59
+		One align captures most of this contig: 1758307 1758929 | 623 1 | 623 623 | 97.59 | gi_556503834_ref_NC_000913.3_ k141_1384_flag_1_multi_2.0000_len_623
+
+CONTIG: k141_1402_flag_1_multi_2.0000_len_516 (516bp)
+Top Length: 516  Top ID: 97.09
+		One align captures most of this contig: 3408803 3409318 | 1 516 | 516 516 | 97.09 | gi_556503834_ref_NC_000913.3_ k141_1402_flag_1_multi_2.0000_len_516
+
+CONTIG: k141_1404_flag_1_multi_2.0000_len_602 (602bp)
+Top Length: 601  Top ID: 96.67
+		One align captures most of this contig: 1018022 1018622 | 601 1 | 601 601 | 96.67 | gi_556503834_ref_NC_000913.3_ k141_1404_flag_1_multi_2.0000_len_602
+
+CONTIG: k141_1412_flag_1_multi_1.0000_len_713 (713bp)
+		This contig is unaligned. (713 bp)
+		Unaligned bases: 713  total: 17023
+
+CONTIG: k141_1416_flag_1_multi_1.0000_len_519 (519bp)
+		This contig is unaligned. (519 bp)
+		Unaligned bases: 519  total: 17542
+
+CONTIG: k141_1421_flag_1_multi_1.0000_len_554 (554bp)
+Top Length: 554  Top ID: 95.31
+		One align captures most of this contig: 4023053 4023606 | 1 554 | 554 554 | 95.31 | gi_556503834_ref_NC_000913.3_ k141_1421_flag_1_multi_1.0000_len_554
+
+CONTIG: k141_1422_flag_1_multi_1.0000_len_506 (506bp)
+Top Length: 506  Top ID: 95.85
+		One align captures most of this contig: 1405331 1405836 | 506 1 | 506 506 | 95.85 | gi_556503834_ref_NC_000913.3_ k141_1422_flag_1_multi_1.0000_len_506
+
+CONTIG: k141_1430_flag_1_multi_1.0000_len_552 (552bp)
+Top Length: 543  Top ID: 95.76
+		One align captures most of this contig: 1267349 1267891 | 543 1 | 543 543 | 95.76 | gi_556503834_ref_NC_000913.3_ k141_1430_flag_1_multi_1.0000_len_552
+
+CONTIG: k141_1437_flag_1_multi_2.0000_len_511 (511bp)
+Top Length: 511  Top ID: 96.67
+		One align captures most of this contig: 2199722 2200232 | 1 511 | 511 511 | 96.67 | gi_556503834_ref_NC_000913.3_ k141_1437_flag_1_multi_2.0000_len_511
+
+CONTIG: k141_1445_flag_1_multi_2.0000_len_567 (567bp)
+Top Length: 567  Top ID: 98.24
+		One align captures most of this contig: 1885401 1885967 | 567 1 | 567 567 | 98.24 | gi_556503834_ref_NC_000913.3_ k141_1445_flag_1_multi_2.0000_len_567
+
+CONTIG: k141_1450_flag_1_multi_2.0000_len_519 (519bp)
+Top Length: 519  Top ID: 95.95
+		One align captures most of this contig: 692199 692717 | 1 519 | 519 519 | 95.95 | gi_556503834_ref_NC_000913.3_ k141_1450_flag_1_multi_2.0000_len_519
+
+CONTIG: k141_1452_flag_1_multi_1.0000_len_581 (581bp)
+Top Length: 579  Top ID: 95.16
+		One align captures most of this contig: 2042807 2043385 | 3 581 | 579 579 | 95.16 | gi_556503834_ref_NC_000913.3_ k141_1452_flag_1_multi_1.0000_len_581
+
+CONTIG: k141_1454_flag_1_multi_1.0000_len_685 (685bp)
+Top Length: 683  Top ID: 97.07
+		One align captures most of this contig: 174675 175357 | 685 3 | 683 683 | 97.07 | gi_556503834_ref_NC_000913.3_ k141_1454_flag_1_multi_1.0000_len_685
+
+CONTIG: k141_1455_flag_1_multi_1.0000_len_551 (551bp)
+Top Length: 551  Top ID: 96.37
+		One align captures most of this contig: 3476413 3476963 | 551 1 | 551 551 | 96.37 | gi_556503834_ref_NC_000913.3_ k141_1455_flag_1_multi_1.0000_len_551
+
+CONTIG: k141_1461_flag_1_multi_1.0000_len_613 (613bp)
+Top Length: 613  Top ID: 96.57
+		One align captures most of this contig: 2830005 2830617 | 1 613 | 613 613 | 96.57 | gi_556503834_ref_NC_000913.3_ k141_1461_flag_1_multi_1.0000_len_613
+
+CONTIG: k141_1462_flag_1_multi_2.0000_len_560 (560bp)
+Top Length: 560  Top ID: 95.71
+		One align captures most of this contig: 4490540 4491099 | 1 560 | 560 560 | 95.71 | gi_556503834_ref_NC_000913.3_ k141_1462_flag_1_multi_2.0000_len_560
+
+CONTIG: k141_1463_flag_1_multi_2.0000_len_741 (741bp)
+Top Length: 741  Top ID: 97.3
+		One align captures most of this contig: 4452984 4453724 | 1 741 | 741 741 | 97.3 | gi_556503834_ref_NC_000913.3_ k141_1463_flag_1_multi_2.0000_len_741
+
+CONTIG: k141_1464_flag_1_multi_1.0000_len_657 (657bp)
+Top Length: 657  Top ID: 97.41
+		One align captures most of this contig: 2308639 2309295 | 1 657 | 657 657 | 97.41 | gi_556503834_ref_NC_000913.3_ k141_1464_flag_1_multi_1.0000_len_657
+
+CONTIG: k141_1474_flag_1_multi_2.0000_len_582 (582bp)
+Top Length: 582  Top ID: 97.94
+		One align captures most of this contig: 36452 37033 | 1 582 | 582 582 | 97.94 | gi_556503834_ref_NC_000913.3_ k141_1474_flag_1_multi_2.0000_len_582
+
+CONTIG: k141_1480_flag_1_multi_1.0000_len_552 (552bp)
+Top Length: 552  Top ID: 96.38
+		One align captures most of this contig: 4302234 4302785 | 552 1 | 552 552 | 96.38 | gi_556503834_ref_NC_000913.3_ k141_1480_flag_1_multi_1.0000_len_552
+
+CONTIG: k141_1483_flag_1_multi_1.0000_len_588 (588bp)
+Top Length: 582  Top ID: 95.88
+		One align captures most of this contig: 2860918 2861499 | 588 7 | 582 582 | 95.88 | gi_556503834_ref_NC_000913.3_ k141_1483_flag_1_multi_1.0000_len_588
+
+CONTIG: k141_1484_flag_1_multi_1.0000_len_754 (754bp)
+Top Length: 754  Top ID: 95.09
+		One align captures most of this contig: 3153060 3153813 | 1 754 | 754 754 | 95.09 | gi_556503834_ref_NC_000913.3_ k141_1484_flag_1_multi_1.0000_len_754
+
+CONTIG: k141_1489_flag_1_multi_2.0000_len_768 (768bp)
+Top Length: 768  Top ID: 96.22
+		One align captures most of this contig: 517869 518636 | 1 768 | 768 768 | 96.22 | gi_556503834_ref_NC_000913.3_ k141_1489_flag_1_multi_2.0000_len_768
+
+CONTIG: k141_1494_flag_1_multi_1.0000_len_508 (508bp)
+Top Length: 508  Top ID: 97.24
+		One align captures most of this contig: 2835122 2835629 | 1 508 | 508 508 | 97.24 | gi_556503834_ref_NC_000913.3_ k141_1494_flag_1_multi_1.0000_len_508
+
+CONTIG: k141_1504_flag_1_multi_1.0000_len_606 (606bp)
+Top Length: 606  Top ID: 96.04
+		One align captures most of this contig: 1521827 1522432 | 1 606 | 606 606 | 96.04 | gi_556503834_ref_NC_000913.3_ k141_1504_flag_1_multi_1.0000_len_606
+
+CONTIG: k141_1509_flag_1_multi_2.0000_len_759 (759bp)
+Top Length: 759  Top ID: 97.5
+		One align captures most of this contig: 1742325 1743083 | 759 1 | 759 759 | 97.5 | gi_556503834_ref_NC_000913.3_ k141_1509_flag_1_multi_2.0000_len_759
+
+CONTIG: k141_1511_flag_1_multi_1.0000_len_557 (557bp)
+		This contig is unaligned. (557 bp)
+		Unaligned bases: 557  total: 18099
+
+CONTIG: k141_1524_flag_1_multi_1.0000_len_537 (537bp)
+Top Length: 534  Top ID: 95.13
+		One align captures most of this contig: 1421571 1422104 | 537 4 | 534 534 | 95.13 | gi_556503834_ref_NC_000913.3_ k141_1524_flag_1_multi_1.0000_len_537
+
+CONTIG: k141_1531_flag_1_multi_2.0000_len_739 (739bp)
+Top Length: 739  Top ID: 97.83
+		One align captures most of this contig: 2976831 2977569 | 739 1 | 739 739 | 97.83 | gi_556503834_ref_NC_000913.3_ k141_1531_flag_1_multi_2.0000_len_739
+
+CONTIG: k141_1533_flag_1_multi_1.0000_len_553 (553bp)
+Top Length: 553  Top ID: 96.56
+		One align captures most of this contig: 1098106 1098658 | 553 1 | 553 553 | 96.56 | gi_556503834_ref_NC_000913.3_ k141_1533_flag_1_multi_1.0000_len_553
+
+CONTIG: k141_1537_flag_1_multi_2.0000_len_630 (630bp)
+Top Length: 630  Top ID: 96.51
+		One align captures most of this contig: 1354729 1355358 | 630 1 | 630 630 | 96.51 | gi_556503834_ref_NC_000913.3_ k141_1537_flag_1_multi_2.0000_len_630
+
+CONTIG: k141_1541_flag_1_multi_2.0000_len_661 (661bp)
+Top Length: 661  Top ID: 95.92
+		One align captures most of this contig: 735435 736095 | 661 1 | 661 661 | 95.92 | gi_556503834_ref_NC_000913.3_ k141_1541_flag_1_multi_2.0000_len_661
+
+CONTIG: k141_1547_flag_1_multi_2.0000_len_500 (500bp)
+Top Length: 500  Top ID: 97.6
+		One align captures most of this contig: 4289170 4289669 | 1 500 | 500 500 | 97.6 | gi_556503834_ref_NC_000913.3_ k141_1547_flag_1_multi_2.0000_len_500
+
+CONTIG: k141_1548_flag_1_multi_2.0000_len_516 (516bp)
+Top Length: 516  Top ID: 96.91
+		One align captures most of this contig: 1313052 1313567 | 516 1 | 516 516 | 96.91 | gi_556503834_ref_NC_000913.3_ k141_1548_flag_1_multi_2.0000_len_516
+
+CONTIG: k141_1553_flag_1_multi_1.0000_len_710 (710bp)
+Top Length: 710  Top ID: 96.2
+		One align captures most of this contig: 3311820 3312529 | 1 710 | 710 710 | 96.2 | gi_556503834_ref_NC_000913.3_ k141_1553_flag_1_multi_1.0000_len_710
+
+CONTIG: k141_1557_flag_1_multi_2.0000_len_755 (755bp)
+Top Length: 755  Top ID: 96.82
+		One align captures most of this contig: 448196 448950 | 755 1 | 755 755 | 96.82 | gi_556503834_ref_NC_000913.3_ k141_1557_flag_1_multi_2.0000_len_755
+
+CONTIG: k141_1562_flag_1_multi_1.0000_len_537 (537bp)
+Top Length: 537  Top ID: 95.72
+		One align captures most of this contig: 3433690 3434226 | 1 537 | 537 537 | 95.72 | gi_556503834_ref_NC_000913.3_ k141_1562_flag_1_multi_1.0000_len_537
+
+CONTIG: k141_1564_flag_1_multi_2.0000_len_595 (595bp)
+Top Length: 595  Top ID: 95.29
+		One align captures most of this contig: 2310163 2310757 | 595 1 | 595 595 | 95.29 | gi_556503834_ref_NC_000913.3_ k141_1564_flag_1_multi_2.0000_len_595
+
+CONTIG: k141_1565_flag_1_multi_1.0000_len_796 (796bp)
+Top Length: 796  Top ID: 96.36
+		One align captures most of this contig: 3845635 3846430 | 796 1 | 796 796 | 96.36 | gi_556503834_ref_NC_000913.3_ k141_1565_flag_1_multi_1.0000_len_796
+
+CONTIG: k141_1568_flag_1_multi_1.0000_len_572 (572bp)
+Top Length: 572  Top ID: 96.15
+		One align captures most of this contig: 1319991 1320562 | 572 1 | 572 572 | 96.15 | gi_556503834_ref_NC_000913.3_ k141_1568_flag_1_multi_1.0000_len_572
+
+CONTIG: k141_1582_flag_1_multi_2.0000_len_551 (551bp)
+Top Length: 551  Top ID: 96.91
+		One align captures most of this contig: 2303089 2303639 | 551 1 | 551 551 | 96.91 | gi_556503834_ref_NC_000913.3_ k141_1582_flag_1_multi_2.0000_len_551
+
+CONTIG: k141_1585_flag_1_multi_3.0000_len_535 (535bp)
+Top Length: 535  Top ID: 97.01
+		Marking as insignificant: 226091 226602 | 1 512 | 512 512 | 97.85 | gi_556503834_ref_NC_000913.3_ k141_1585_flag_1_multi_3.0000_len_535
+		This contig has 6 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+		Alignment: 2728318 2728852 | 535 1 | 535 535 | 97.01 | gi_556503834_ref_NC_000913.3_ k141_1585_flag_1_multi_3.0000_len_535
+		Skipping alignment  3425917 3426451 | 535 1 | 535 535 | 97.01 | gi_556503834_ref_NC_000913.3_ k141_1585_flag_1_multi_3.0000_len_535
+		Skipping alignment  4037851 4038385 | 1 535 | 535 535 | 97.01 | gi_556503834_ref_NC_000913.3_ k141_1585_flag_1_multi_3.0000_len_535
+		Skipping alignment  4168973 4169507 | 1 535 | 535 535 | 97.01 | gi_556503834_ref_NC_000913.3_ k141_1585_flag_1_multi_3.0000_len_535
+		Skipping alignment  4210375 4210909 | 1 535 | 535 535 | 97.01 | gi_556503834_ref_NC_000913.3_ k141_1585_flag_1_multi_3.0000_len_535
+		Skipping alignment  3944036 3944570 | 1 535 | 535 535 | 96.64 | gi_556503834_ref_NC_000913.3_ k141_1585_flag_1_multi_3.0000_len_535
+
+CONTIG: k141_1586_flag_1_multi_1.0000_len_514 (514bp)
+Top Length: 511  Top ID: 95.3
+		One align captures most of this contig: 4543317 4543827 | 1 511 | 511 511 | 95.3 | gi_556503834_ref_NC_000913.3_ k141_1586_flag_1_multi_1.0000_len_514
+
+CONTIG: k141_1589_flag_1_multi_2.0000_len_574 (574bp)
+Top Length: 574  Top ID: 97.74
+		One align captures most of this contig: 1895161 1895734 | 574 1 | 574 574 | 97.74 | gi_556503834_ref_NC_000913.3_ k141_1589_flag_1_multi_2.0000_len_574
+
+CONTIG: k141_1601_flag_1_multi_1.0000_len_598 (598bp)
+Top Length: 598  Top ID: 96.99
+		One align captures most of this contig: 4135813 4136410 | 1 598 | 598 598 | 96.99 | gi_556503834_ref_NC_000913.3_ k141_1601_flag_1_multi_1.0000_len_598
+
+CONTIG: k141_1608_flag_1_multi_2.0000_len_509 (509bp)
+Top Length: 508  Top ID: 95.87
+		One align captures most of this contig: 1578442 1578949 | 508 1 | 508 508 | 95.87 | gi_556503834_ref_NC_000913.3_ k141_1608_flag_1_multi_2.0000_len_509
+
+CONTIG: k141_1610_flag_1_multi_1.0000_len_504 (504bp)
+Top Length: 504  Top ID: 95.44
+		One align captures most of this contig: 580761 581264 | 1 504 | 504 504 | 95.44 | gi_556503834_ref_NC_000913.3_ k141_1610_flag_1_multi_1.0000_len_504
+
+CONTIG: k141_1615_flag_1_multi_2.0000_len_522 (522bp)
+Top Length: 522  Top ID: 96.17
+		One align captures most of this contig: 3001637 3002158 | 522 1 | 522 522 | 96.17 | gi_556503834_ref_NC_000913.3_ k141_1615_flag_1_multi_2.0000_len_522
+
+CONTIG: k141_1618_flag_1_multi_2.0000_len_628 (628bp)
+Top Length: 627  Top ID: 96.49
+		One align captures most of this contig: 1579833 1580459 | 1 627 | 627 627 | 96.49 | gi_556503834_ref_NC_000913.3_ k141_1618_flag_1_multi_2.0000_len_628
+
+CONTIG: k141_1621_flag_1_multi_1.0000_len_595 (595bp)
+Top Length: 595  Top ID: 97.14
+		One align captures most of this contig: 2463403 2463997 | 1 595 | 595 595 | 97.14 | gi_556503834_ref_NC_000913.3_ k141_1621_flag_1_multi_1.0000_len_595
+
+CONTIG: k141_1634_flag_1_multi_1.0000_len_870 (870bp)
+Top Length: 870  Top ID: 96.55
+		One align captures most of this contig: 3506571 3507440 | 1 870 | 870 870 | 96.55 | gi_556503834_ref_NC_000913.3_ k141_1634_flag_1_multi_1.0000_len_870
+
+CONTIG: k141_1645_flag_1_multi_2.0000_len_663 (663bp)
+Top Length: 663  Top ID: 96.23
+		One align captures most of this contig: 4150164 4150826 | 1 663 | 663 663 | 96.23 | gi_556503834_ref_NC_000913.3_ k141_1645_flag_1_multi_2.0000_len_663
+
+CONTIG: k141_1646_flag_1_multi_2.0000_len_627 (627bp)
+		This contig is unaligned. (627 bp)
+		Unaligned bases: 627  total: 18726
+
+CONTIG: k141_1655_flag_1_multi_1.0000_len_506 (506bp)
+Top Length: 506  Top ID: 95.85
+		One align captures most of this contig: 1894404 1894909 | 506 1 | 506 506 | 95.85 | gi_556503834_ref_NC_000913.3_ k141_1655_flag_1_multi_1.0000_len_506
+
+CONTIG: k141_1666_flag_1_multi_1.0000_len_518 (518bp)
+		This contig is unaligned. (518 bp)
+		Unaligned bases: 518  total: 19244
+
+CONTIG: k141_1675_flag_1_multi_2.0000_len_654 (654bp)
+Top Length: 654  Top ID: 96.48
+		One align captures most of this contig: 3467907 3468560 | 1 654 | 654 654 | 96.48 | gi_556503834_ref_NC_000913.3_ k141_1675_flag_1_multi_2.0000_len_654
+
+CONTIG: k141_1676_flag_1_multi_1.0000_len_555 (555bp)
+		This contig is unaligned. (555 bp)
+		Unaligned bases: 555  total: 19799
+
+CONTIG: k141_1685_flag_1_multi_2.0000_len_653 (653bp)
+Top Length: 653  Top ID: 96.78
+		One align captures most of this contig: 3106077 3106729 | 1 653 | 653 653 | 96.78 | gi_556503834_ref_NC_000913.3_ k141_1685_flag_1_multi_2.0000_len_653
+
+CONTIG: k141_1690_flag_1_multi_1.0000_len_708 (708bp)
+		This contig is unaligned. (708 bp)
+		Unaligned bases: 708  total: 20507
+
+CONTIG: k141_1694_flag_1_multi_2.0000_len_522 (522bp)
+Top Length: 522  Top ID: 97.32
+		One align captures most of this contig: 572492 573013 | 1 522 | 522 522 | 97.32 | gi_556503834_ref_NC_000913.3_ k141_1694_flag_1_multi_2.0000_len_522
+
+CONTIG: k141_1696_flag_1_multi_1.0000_len_664 (664bp)
+Top Length: 662  Top ID: 96.68
+		One align captures most of this contig: 1572963 1573624 | 1 662 | 662 662 | 96.68 | gi_556503834_ref_NC_000913.3_ k141_1696_flag_1_multi_1.0000_len_664
+
+CONTIG: k141_1703_flag_1_multi_1.0000_len_552 (552bp)
+Top Length: 552  Top ID: 96.92
+		One align captures most of this contig: 4602751 4603302 | 552 1 | 552 552 | 96.92 | gi_556503834_ref_NC_000913.3_ k141_1703_flag_1_multi_1.0000_len_552
+
+CONTIG: k141_1707_flag_1_multi_2.0000_len_639 (639bp)
+Top Length: 639  Top ID: 97.81
+		One align captures most of this contig: 1173438 1174076 | 1 639 | 639 639 | 97.81 | gi_556503834_ref_NC_000913.3_ k141_1707_flag_1_multi_2.0000_len_639
+
+CONTIG: k141_1711_flag_1_multi_1.0000_len_559 (559bp)
+		This contig is unaligned. (559 bp)
+		Unaligned bases: 559  total: 21066
+
+CONTIG: k141_1719_flag_1_multi_1.0000_len_527 (527bp)
+Top Length: 527  Top ID: 96.02
+		Marking as insignificant: 3767584 3767648 | 1 65 | 65 65 | 100.0 | gi_556503834_ref_NC_000913.3_ k141_1719_flag_1_multi_1.0000_len_527
+		One align captures most of this contig: 3765831 3766357 | 1 527 | 527 527 | 96.02 | gi_556503834_ref_NC_000913.3_ k141_1719_flag_1_multi_1.0000_len_527
+
+CONTIG: k141_1723_flag_1_multi_1.0000_len_512 (512bp)
+		This contig is unaligned. (512 bp)
+		Unaligned bases: 512  total: 21578
+
+CONTIG: k141_1747_flag_1_multi_1.0000_len_521 (521bp)
+Top Length: 521  Top ID: 96.55
+		One align captures most of this contig: 2093444 2093964 | 1 521 | 521 521 | 96.55 | gi_556503834_ref_NC_000913.3_ k141_1747_flag_1_multi_1.0000_len_521
+
+CONTIG: k141_1751_flag_1_multi_1.0000_len_998 (998bp)
+Top Length: 998  Top ID: 96.19
+		One align captures most of this contig: 644805 645802 | 998 1 | 998 998 | 96.19 | gi_556503834_ref_NC_000913.3_ k141_1751_flag_1_multi_1.0000_len_998
+
+CONTIG: k141_1756_flag_1_multi_1.0000_len_503 (503bp)
+Top Length: 502  Top ID: 95.62
+		One align captures most of this contig: 1697268 1697769 | 1 502 | 502 502 | 95.62 | gi_556503834_ref_NC_000913.3_ k141_1756_flag_1_multi_1.0000_len_503
+
+CONTIG: k141_1759_flag_1_multi_2.0000_len_739 (739bp)
+Top Length: 739  Top ID: 96.49
+		One align captures most of this contig: 4634592 4635330 | 1 739 | 739 739 | 96.49 | gi_556503834_ref_NC_000913.3_ k141_1759_flag_1_multi_2.0000_len_739
+
+CONTIG: k141_1763_flag_1_multi_1.0000_len_543 (543bp)
+		This contig is unaligned. (543 bp)
+		Unaligned bases: 543  total: 22121
+
+CONTIG: k141_1767_flag_1_multi_1.0000_len_732 (732bp)
+Top Length: 732  Top ID: 96.31
+		One align captures most of this contig: 84045 84776 | 1 732 | 732 732 | 96.31 | gi_556503834_ref_NC_000913.3_ k141_1767_flag_1_multi_1.0000_len_732
+
+CONTIG: k141_1770_flag_1_multi_2.0000_len_508 (508bp)
+Top Length: 506  Top ID: 95.85
+		One align captures most of this contig: 3152652 3153157 | 3 508 | 506 506 | 95.85 | gi_556503834_ref_NC_000913.3_ k141_1770_flag_1_multi_2.0000_len_508
+
+CONTIG: k141_1777_flag_1_multi_3.0000_len_810 (810bp)
+Top Length: 810  Top ID: 97.28
+		Marking as insignificant: 2289572 2290113 | 810 269 | 542 542 | 98.15 | gi_556503834_ref_NC_000913.3_ k141_1777_flag_1_multi_3.0000_len_810
+		Marking as insignificant: 274608 275149 | 810 269 | 542 542 | 98.15 | gi_556503834_ref_NC_000913.3_ k141_1777_flag_1_multi_3.0000_len_810
+		Marking as insignificant: 2066812 2067357 | 810 265 | 546 546 | 97.8 | gi_556503834_ref_NC_000913.3_ k141_1777_flag_1_multi_3.0000_len_810
+		Marking as insignificant: 3130143 3130687 | 266 810 | 545 545 | 98.17 | gi_556503834_ref_NC_000913.3_ k141_1777_flag_1_multi_3.0000_len_810
+		Marking as insignificant: 2102402 2102946 | 810 266 | 545 545 | 98.17 | gi_556503834_ref_NC_000913.3_ k141_1777_flag_1_multi_3.0000_len_810
+		Marking as insignificant: 3366209 3366754 | 810 265 | 546 546 | 98.17 | gi_556503834_ref_NC_000913.3_ k141_1777_flag_1_multi_3.0000_len_810
+		Marking as insignificant: 1299495 1300040 | 265 810 | 546 546 | 98.17 | gi_556503834_ref_NC_000913.3_ k141_1777_flag_1_multi_3.0000_len_810
+		Marking as insignificant: 575244 575789 | 810 265 | 546 546 | 98.17 | gi_556503834_ref_NC_000913.3_ k141_1777_flag_1_multi_3.0000_len_810
+		Marking as insignificant: 1396036 1396585 | 261 810 | 550 550 | 98.0 | gi_556503834_ref_NC_000913.3_ k141_1777_flag_1_multi_3.0000_len_810
+		Marking as insignificant: 3652689 3653240 | 810 259 | 552 552 | 98.01 | gi_556503834_ref_NC_000913.3_ k141_1777_flag_1_multi_3.0000_len_810
+		One align captures most of this contig: 688504 689313 | 810 1 | 810 810 | 97.28 | gi_556503834_ref_NC_000913.3_ k141_1777_flag_1_multi_3.0000_len_810
+
+CONTIG: k141_1786_flag_1_multi_1.0000_len_577 (577bp)
+Top Length: 577  Top ID: 97.05
+		One align captures most of this contig: 2312413 2312989 | 577 1 | 577 577 | 97.05 | gi_556503834_ref_NC_000913.3_ k141_1786_flag_1_multi_1.0000_len_577
+
+CONTIG: k141_1789_flag_1_multi_1.0000_len_835 (835bp)
+Top Length: 835  Top ID: 95.81
+		One align captures most of this contig: 1142012 1142846 | 1 835 | 835 835 | 95.81 | gi_556503834_ref_NC_000913.3_ k141_1789_flag_1_multi_1.0000_len_835
+
+CONTIG: k141_1793_flag_1_multi_1.0000_len_546 (546bp)
+		This contig is unaligned. (546 bp)
+		Unaligned bases: 546  total: 22667
+
+CONTIG: k141_1797_flag_1_multi_1.0000_len_539 (539bp)
+		This contig is unaligned. (539 bp)
+		Unaligned bases: 539  total: 23206
+
+CONTIG: k141_1802_flag_1_multi_2.0000_len_544 (544bp)
+Top Length: 543  Top ID: 96.13
+		One align captures most of this contig: 2353936 2354478 | 2 544 | 543 543 | 96.13 | gi_556503834_ref_NC_000913.3_ k141_1802_flag_1_multi_2.0000_len_544
+
+CONTIG: k141_1821_flag_1_multi_1.0000_len_694 (694bp)
+		This contig is unaligned. (694 bp)
+		Unaligned bases: 694  total: 23900
+
+CONTIG: k141_1825_flag_1_multi_1.0000_len_909 (909bp)
+Top Length: 909  Top ID: 96.15
+		One align captures most of this contig: 3235091 3235999 | 909 1 | 909 909 | 96.15 | gi_556503834_ref_NC_000913.3_ k141_1825_flag_1_multi_1.0000_len_909
+
+CONTIG: k141_1831_flag_1_multi_6.0000_len_912 (912bp)
+Top Length: 912  Top ID: 99.23
+		Marking as insignificant: 2066156 2066957 | 802 1 | 802 802 | 99.13 | gi_556503834_ref_NC_000913.3_ k141_1831_flag_1_multi_6.0000_len_912
+		Marking as insignificant: 2288919 2289717 | 799 1 | 799 799 | 99.62 | gi_556503834_ref_NC_000913.3_ k141_1831_flag_1_multi_6.0000_len_912
+		Marking as insignificant: 2101745 2102547 | 803 1 | 803 803 | 99.5 | gi_556503834_ref_NC_000913.3_ k141_1831_flag_1_multi_6.0000_len_912
+		Marking as insignificant: 273951 274753 | 803 1 | 803 803 | 99.5 | gi_556503834_ref_NC_000913.3_ k141_1831_flag_1_multi_6.0000_len_912
+		Marking as insignificant: 3365552 3366354 | 803 1 | 803 803 | 99.63 | gi_556503834_ref_NC_000913.3_ k141_1831_flag_1_multi_6.0000_len_912
+		Marking as insignificant: 1396440 1397242 | 1 803 | 803 803 | 99.63 | gi_556503834_ref_NC_000913.3_ k141_1831_flag_1_multi_6.0000_len_912
+		Marking as insignificant: 687847 688649 | 803 1 | 803 803 | 99.63 | gi_556503834_ref_NC_000913.3_ k141_1831_flag_1_multi_6.0000_len_912
+		Marking as insignificant: 574586 575389 | 804 1 | 804 804 | 99.63 | gi_556503834_ref_NC_000913.3_ k141_1831_flag_1_multi_6.0000_len_912
+		Marking as insignificant: 3652030 3652834 | 805 1 | 805 805 | 99.63 | gi_556503834_ref_NC_000913.3_ k141_1831_flag_1_multi_6.0000_len_912
+		Marking as insignificant: 1299895 1300699 | 1 805 | 805 805 | 99.63 | gi_556503834_ref_NC_000913.3_ k141_1831_flag_1_multi_6.0000_len_912
+		One align captures most of this contig: 3130542 3131453 | 1 912 | 912 912 | 99.23 | gi_556503834_ref_NC_000913.3_ k141_1831_flag_1_multi_6.0000_len_912
+
+CONTIG: k141_1836_flag_1_multi_2.0000_len_634 (634bp)
+Top Length: 633  Top ID: 97.0
+		One align captures most of this contig: 1812404 1813036 | 634 2 | 633 633 | 97.0 | gi_556503834_ref_NC_000913.3_ k141_1836_flag_1_multi_2.0000_len_634
+
+CONTIG: k141_1843_flag_1_multi_1.0000_len_645 (645bp)
+Top Length: 645  Top ID: 95.97
+		One align captures most of this contig: 2854046 2854690 | 645 1 | 645 645 | 95.97 | gi_556503834_ref_NC_000913.3_ k141_1843_flag_1_multi_1.0000_len_645
+
+CONTIG: k141_1844_flag_1_multi_2.0000_len_713 (713bp)
+Top Length: 713  Top ID: 97.48
+		One align captures most of this contig: 2574291 2575003 | 1 713 | 713 713 | 97.48 | gi_556503834_ref_NC_000913.3_ k141_1844_flag_1_multi_2.0000_len_713
+
+CONTIG: k141_1851_flag_1_multi_2.0000_len_549 (549bp)
+Top Length: 334  Top ID: 96.11
+		This contig is partially unaligned. (Aligned 334 out of 549 bases)
+		Alignment: 2118223 2118555 | 1 334 | 333 334 | 96.11 | gi_556503834_ref_NC_000913.3_ k141_1851_flag_1_multi_2.0000_len_549
+		Unaligned bases: 335 to 549 (215)
+
+CONTIG: k141_1853_flag_1_multi_2.0000_len_546 (546bp)
+Top Length: 546  Top ID: 98.35
+		One align captures most of this contig: 3864633 3865178 | 1 546 | 546 546 | 98.35 | gi_556503834_ref_NC_000913.3_ k141_1853_flag_1_multi_2.0000_len_546
+
+CONTIG: k141_1854_flag_1_multi_1.0000_len_580 (580bp)
+Top Length: 580  Top ID: 95.86
+		One align captures most of this contig: 873774 874353 | 1 580 | 580 580 | 95.86 | gi_556503834_ref_NC_000913.3_ k141_1854_flag_1_multi_1.0000_len_580
+
+CONTIG: k141_1861_flag_1_multi_1.0000_len_664 (664bp)
+Top Length: 664  Top ID: 96.84
+		One align captures most of this contig: 1201344 1202007 | 1 664 | 664 664 | 96.84 | gi_556503834_ref_NC_000913.3_ k141_1861_flag_1_multi_1.0000_len_664
+
+CONTIG: k141_1867_flag_1_multi_1.0000_len_869 (869bp)
+Top Length: 866  Top ID: 95.73
+		One align captures most of this contig: 1753055 1753920 | 4 869 | 866 866 | 95.73 | gi_556503834_ref_NC_000913.3_ k141_1867_flag_1_multi_1.0000_len_869
+
+Analyzing coverage...
+Writing SNPs into /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/050_error/Ecoli_cov2/MEGAHIT_111/quast/contigs_reports/nucmer_output/final.contigs.used_snps
+	Reference gi_556503834_ref_NC_000913.3_: 300 total alignments. 1 total regions.
+		Region: 1 to 4641652 (4641652 bp)
+			START in gap: 1 to 16016 (16015 bp)
+			Align 1: 16016 16743 k141_363_flag_1_multi_3.0000_len_898 898 171
+				Gap between this and next alignment: 16743 to 19655 (2911 bp)
+				Next Alignment: 19655 19795 k141_568_flag_1_multi_4.0000_len_1111 1 141
+
+			Align 2: 19655 19795 k141_568_flag_1_multi_4.0000_len_1111 1 141
+				Gap between this and next alignment: 19795 to 26337 (6541 bp)
+				Next Alignment: 26337 26916 k141_1305_flag_1_multi_1.0000_len_580 1 580
+
+			Align 3: 26337 26916 k141_1305_flag_1_multi_1.0000_len_580 1 580
+				Gap between this and next alignment: 26916 to 28730 (1813 bp)
+				Next Alignment: 28730 29261 k141_1264_flag_1_multi_1.0000_len_532 532 1
+
+			Align 4: 28730 29261 k141_1264_flag_1_multi_1.0000_len_532 532 1
+				Gap between this and next alignment: 29261 to 36452 (7190 bp)
+				Next Alignment: 36452 37033 k141_1474_flag_1_multi_2.0000_len_582 1 582
+
+			Align 5: 36452 37033 k141_1474_flag_1_multi_2.0000_len_582 1 582
+				Gap between this and next alignment: 37033 to 50864 (13830 bp)
+				Next Alignment: 50864 52035 k141_210_flag_1_multi_1.0000_len_1172 1172 1
+
+			Align 6: 50864 52035 k141_210_flag_1_multi_1.0000_len_1172 1172 1
+				Gap between this and next alignment: 52035 to 84045 (32009 bp)
+				Next Alignment: 84045 84776 k141_1767_flag_1_multi_1.0000_len_732 1 732
+
+			Align 7: 84045 84776 k141_1767_flag_1_multi_1.0000_len_732 1 732
+				Gap between this and next alignment: 84776 to 107665 (22888 bp)
+				Next Alignment: 107665 108173 k141_167_flag_1_multi_2.0000_len_509 1 509
+
+			Align 8: 107665 108173 k141_167_flag_1_multi_2.0000_len_509 1 509
+				Gap between this and next alignment: 108173 to 117805 (9631 bp)
+				Next Alignment: 117805 118441 k141_89_flag_1_multi_2.0000_len_637 1 637
+
+			Align 9: 117805 118441 k141_89_flag_1_multi_2.0000_len_637 1 637
+				Gap between this and next alignment: 118441 to 142330 (23888 bp)
+				Next Alignment: 142330 142880 k141_1248_flag_1_multi_1.0000_len_551 551 1
+
+			Align 10: 142330 142880 k141_1248_flag_1_multi_1.0000_len_551 551 1
+				Gap between this and next alignment: 142880 to 174675 (31794 bp)
+				Next Alignment: 174675 175357 k141_1454_flag_1_multi_1.0000_len_685 685 3
+
+			Align 11: 174675 175357 k141_1454_flag_1_multi_1.0000_len_685 685 3
+				Gap between this and next alignment: 175357 to 191916 (16558 bp)
+				Next Alignment: 191916 192468 k141_889_flag_1_multi_1.0000_len_553 553 1
+
+			Align 12: 191916 192468 k141_889_flag_1_multi_1.0000_len_553 553 1
+				Gap between this and next alignment: 192468 to 210869 (18400 bp)
+				Next Alignment: 210869 211404 k141_814_flag_1_multi_1.0000_len_539 1 536
+
+			Align 13: 210869 211404 k141_814_flag_1_multi_1.0000_len_539 1 536
+				Gap between this and next alignment: 211404 to 220953 (9548 bp)
+				Next Alignment: 220953 221572 k141_1045_flag_1_multi_2.0000_len_620 1 620
+
+			Align 14: 220953 221572 k141_1045_flag_1_multi_2.0000_len_620 1 620
+				Gap between this and next alignment: 221572 to 225665 (4092 bp)
+				Next Alignment: 225665 226280 k141_657_flag_1_multi_3.0000_len_616 1 616
+
+			Align 15: 225665 226280 k141_657_flag_1_multi_3.0000_len_616 1 616
+				Gap between this and next alignment: 226280 to 226407 (126 bp)
+				Next Alignment: 226407 227018 k141_974_flag_1_multi_2.0000_len_612 1 612
+
+			Align 16: 226407 227018 k141_974_flag_1_multi_2.0000_len_612 1 612
+				Negative gap (overlap) between this and next alignment: 227018 to 226852 (-166 bp)
+				Next Alignment: 226852 227363 k141_21_flag_1_multi_3.0000_len_512 512 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 512 to 345.
+			Align 17: 227019 227363 k141_21_flag_1_multi_3.0000_len_512 345 1
+				Gap between this and next alignment: 227363 to 249956 (22592 bp)
+				Next Alignment: 249956 250478 k141_496_flag_1_multi_2.0000_len_523 523 1
+
+			Align 18: 249956 250478 k141_496_flag_1_multi_2.0000_len_523 523 1
+				Gap between this and next alignment: 250478 to 257908 (7429 bp)
+				Next Alignment: 257908 258877 k141_568_flag_1_multi_4.0000_len_1111 142 1111
+
+			Align 19: 257908 258877 k141_568_flag_1_multi_4.0000_len_1111 142 1111
+				Gap between this and next alignment: 258877 to 273357 (14479 bp)
+				Next Alignment: 273357 273895 k141_493_flag_1_multi_2.0000_len_542 539 1
+
+			Align 20: 273357 273895 k141_493_flag_1_multi_2.0000_len_542 539 1
+				Gap between this and next alignment: 273895 to 277225 (3329 bp)
+				Next Alignment: 277225 277932 k141_1049_flag_1_multi_2.0000_len_708 1 708
+
+			Align 21: 277225 277932 k141_1049_flag_1_multi_2.0000_len_708 1 708
+				Gap between this and next alignment: 277932 to 290160 (12227 bp)
+				Next Alignment: 290160 290633 k141_1358_flag_1_multi_2.0000_len_520 1 474
+
+			Align 22: 290160 290633 k141_1358_flag_1_multi_2.0000_len_520 1 474
+				Gap between this and next alignment: 290633 to 301675 (11041 bp)
+				Next Alignment: 301675 302257 k141_705_flag_1_multi_2.0000_len_583 583 1
+
+			Align 23: 301675 302257 k141_705_flag_1_multi_2.0000_len_583 583 1
+				Gap between this and next alignment: 302257 to 314047 (11789 bp)
+				Next Alignment: 314047 314586 k141_248_flag_1_multi_1.0000_len_540 1 540
+
+			Align 24: 314047 314586 k141_248_flag_1_multi_1.0000_len_540 1 540
+				Gap between this and next alignment: 314586 to 331215 (16628 bp)
+				Next Alignment: 331215 331715 k141_884_flag_1_multi_1.0000_len_501 501 1
+
+			Align 25: 331215 331715 k141_884_flag_1_multi_1.0000_len_501 501 1
+				Gap between this and next alignment: 331715 to 333135 (1419 bp)
+				Next Alignment: 333135 333728 k141_424_flag_1_multi_1.0000_len_594 594 1
+
+			Align 26: 333135 333728 k141_424_flag_1_multi_1.0000_len_594 594 1
+				Gap between this and next alignment: 333728 to 365292 (31563 bp)
+				Next Alignment: 365292 365809 k141_299_flag_1_multi_2.0000_len_518 1 518
+
+			Align 27: 365292 365809 k141_299_flag_1_multi_2.0000_len_518 1 518
+				Gap between this and next alignment: 365809 to 381489 (15679 bp)
+				Next Alignment: 381489 382442 k141_563_flag_1_multi_3.0000_len_954 954 1
+
+			Align 28: 381489 382442 k141_563_flag_1_multi_3.0000_len_954 954 1
+				Gap between this and next alignment: 382442 to 388157 (5714 bp)
+				Next Alignment: 388157 388900 k141_1091_flag_1_multi_2.0000_len_744 1 744
+
+			Align 29: 388157 388900 k141_1091_flag_1_multi_2.0000_len_744 1 744
+				Gap between this and next alignment: 388900 to 389197 (296 bp)
+				Next Alignment: 389197 389697 k141_406_flag_1_multi_2.0000_len_504 504 4
+
+			Align 30: 389197 389697 k141_406_flag_1_multi_2.0000_len_504 504 4
+				Gap between this and next alignment: 389697 to 391701 (2003 bp)
+				Next Alignment: 391701 393022 k141_1107_flag_1_multi_4.0000_len_1369 45 1366
+
+			Align 31: 391701 393022 k141_1107_flag_1_multi_4.0000_len_1369 45 1366
+				Gap between this and next alignment: 393022 to 396773 (3750 bp)
+				Next Alignment: 396773 397352 k141_211_flag_1_multi_2.0000_len_580 1 580
+
+			Align 32: 396773 397352 k141_211_flag_1_multi_2.0000_len_580 1 580
+				Gap between this and next alignment: 397352 to 406373 (9020 bp)
+				Next Alignment: 406373 406931 k141_694_flag_1_multi_1.0000_len_559 559 1
+
+			Align 33: 406373 406931 k141_694_flag_1_multi_1.0000_len_559 559 1
+				Gap between this and next alignment: 406931 to 418852 (11920 bp)
+				Next Alignment: 418852 419423 k141_1167_flag_1_multi_1.0000_len_572 1 572
+
+			Align 34: 418852 419423 k141_1167_flag_1_multi_1.0000_len_572 1 572
+				Gap between this and next alignment: 419423 to 433383 (13959 bp)
+				Next Alignment: 433383 433962 k141_872_flag_1_multi_1.0000_len_580 580 1
+
+			Align 35: 433383 433962 k141_872_flag_1_multi_1.0000_len_580 580 1
+				Gap between this and next alignment: 433962 to 436585 (2622 bp)
+				Next Alignment: 436585 437116 k141_192_flag_1_multi_2.0000_len_532 1 532
+
+			Align 36: 436585 437116 k141_192_flag_1_multi_2.0000_len_532 1 532
+				Gap between this and next alignment: 437116 to 440764 (3647 bp)
+				Next Alignment: 440764 441346 k141_1366_flag_1_multi_1.0000_len_586 583 1
+
+			Align 37: 440764 441346 k141_1366_flag_1_multi_1.0000_len_586 583 1
+				Gap between this and next alignment: 441346 to 448196 (6849 bp)
+				Next Alignment: 448196 448950 k141_1557_flag_1_multi_2.0000_len_755 755 1
+
+			Align 38: 448196 448950 k141_1557_flag_1_multi_2.0000_len_755 755 1
+				Gap between this and next alignment: 448950 to 453489 (4538 bp)
+				Next Alignment: 453489 454192 k141_297_flag_1_multi_1.0000_len_704 704 1
+
+			Align 39: 453489 454192 k141_297_flag_1_multi_1.0000_len_704 704 1
+				Gap between this and next alignment: 454192 to 454493 (300 bp)
+				Next Alignment: 454493 455095 k141_842_flag_1_multi_2.0000_len_603 1 603
+
+			Align 40: 454493 455095 k141_842_flag_1_multi_2.0000_len_603 1 603
+				Gap between this and next alignment: 455095 to 517869 (62773 bp)
+				Next Alignment: 517869 518636 k141_1489_flag_1_multi_2.0000_len_768 1 768
+
+			Align 41: 517869 518636 k141_1489_flag_1_multi_2.0000_len_768 1 768
+				Gap between this and next alignment: 518636 to 526152 (7515 bp)
+				Next Alignment: 526152 526714 k141_1334_flag_1_multi_2.0000_len_563 563 1
+
+			Align 42: 526152 526714 k141_1334_flag_1_multi_2.0000_len_563 563 1
+				Gap between this and next alignment: 526714 to 532141 (5426 bp)
+				Next Alignment: 532141 532697 k141_1210_flag_1_multi_1.0000_len_557 1 557
+
+			Align 43: 532141 532697 k141_1210_flag_1_multi_1.0000_len_557 1 557
+				Gap between this and next alignment: 532697 to 564713 (32015 bp)
+				Next Alignment: 564713 565246 k141_1269_flag_1_multi_1.0000_len_534 534 1
+
+			Align 44: 564713 565246 k141_1269_flag_1_multi_1.0000_len_534 534 1
+				Gap between this and next alignment: 565246 to 572492 (7245 bp)
+				Next Alignment: 572492 573013 k141_1694_flag_1_multi_2.0000_len_522 1 522
+
+			Align 45: 572492 573013 k141_1694_flag_1_multi_2.0000_len_522 1 522
+				Gap between this and next alignment: 573013 to 580761 (7747 bp)
+				Next Alignment: 580761 581264 k141_1610_flag_1_multi_1.0000_len_504 1 504
+
+			Align 46: 580761 581264 k141_1610_flag_1_multi_1.0000_len_504 1 504
+				Gap between this and next alignment: 581264 to 643769 (62504 bp)
+				Next Alignment: 643769 644337 k141_618_flag_1_multi_1.0000_len_571 569 1
+
+			Align 47: 643769 644337 k141_618_flag_1_multi_1.0000_len_571 569 1
+				Gap between this and next alignment: 644337 to 644805 (467 bp)
+				Next Alignment: 644805 645802 k141_1751_flag_1_multi_1.0000_len_998 998 1
+
+			Align 48: 644805 645802 k141_1751_flag_1_multi_1.0000_len_998 998 1
+				Gap between this and next alignment: 645802 to 688504 (42701 bp)
+				Next Alignment: 688504 689313 k141_1777_flag_1_multi_3.0000_len_810 810 1
+
+			Align 49: 688504 689313 k141_1777_flag_1_multi_3.0000_len_810 810 1
+				Gap between this and next alignment: 689313 to 690654 (1340 bp)
+				Next Alignment: 690654 691187 k141_196_flag_1_multi_2.0000_len_534 1 534
+
+			Align 50: 690654 691187 k141_196_flag_1_multi_2.0000_len_534 1 534
+				Gap between this and next alignment: 691187 to 692199 (1011 bp)
+				Next Alignment: 692199 692717 k141_1450_flag_1_multi_2.0000_len_519 1 519
+
+			Align 51: 692199 692717 k141_1450_flag_1_multi_2.0000_len_519 1 519
+				Gap between this and next alignment: 692717 to 705057 (12339 bp)
+				Next Alignment: 705057 705577 k141_1158_flag_1_multi_1.0000_len_521 1 521
+
+			Align 52: 705057 705577 k141_1158_flag_1_multi_1.0000_len_521 1 521
+				Gap between this and next alignment: 705577 to 721927 (16349 bp)
+				Next Alignment: 721927 722566 k141_779_flag_1_multi_1.0000_len_642 1 640
+
+			Align 53: 721927 722566 k141_779_flag_1_multi_1.0000_len_642 1 640
+				Gap between this and next alignment: 722566 to 733118 (10551 bp)
+				Next Alignment: 733118 733634 k141_322_flag_1_multi_1.0000_len_517 1 517
+
+			Align 54: 733118 733634 k141_322_flag_1_multi_1.0000_len_517 1 517
+				Gap between this and next alignment: 733634 to 735435 (1800 bp)
+				Next Alignment: 735435 736095 k141_1541_flag_1_multi_2.0000_len_661 661 1
+
+			Align 55: 735435 736095 k141_1541_flag_1_multi_2.0000_len_661 661 1
+				Gap between this and next alignment: 736095 to 737768 (1672 bp)
+				Next Alignment: 737768 738328 k141_789_flag_1_multi_2.0000_len_604 604 44
+
+			Align 56: 737768 738328 k141_789_flag_1_multi_2.0000_len_604 604 44
+				Gap between this and next alignment: 738328 to 763176 (24847 bp)
+				Next Alignment: 763176 763785 k141_34_flag_1_multi_1.0000_len_610 1 610
+
+			Align 57: 763176 763785 k141_34_flag_1_multi_1.0000_len_610 1 610
+				Gap between this and next alignment: 763785 to 769632 (5846 bp)
+				Next Alignment: 769632 770171 k141_289_flag_1_multi_1.0000_len_540 540 1
+
+			Align 58: 769632 770171 k141_289_flag_1_multi_1.0000_len_540 540 1
+				Gap between this and next alignment: 770171 to 795176 (25004 bp)
+				Next Alignment: 795176 795949 k141_454_flag_1_multi_1.0000_len_774 1 774
+
+			Align 59: 795176 795949 k141_454_flag_1_multi_1.0000_len_774 1 774
+				Gap between this and next alignment: 795949 to 821939 (25989 bp)
+				Next Alignment: 821939 822454 k141_292_flag_1_multi_1.0000_len_516 516 1
+
+			Align 60: 821939 822454 k141_292_flag_1_multi_1.0000_len_516 516 1
+				Gap between this and next alignment: 822454 to 848155 (25700 bp)
+				Next Alignment: 848155 848654 k141_306_flag_1_multi_2.0000_len_500 500 1
+
+			Align 61: 848155 848654 k141_306_flag_1_multi_2.0000_len_500 500 1
+				Gap between this and next alignment: 848654 to 871292 (22637 bp)
+				Next Alignment: 871292 871793 k141_1361_flag_1_multi_2.0000_len_502 1 502
+
+			Align 62: 871292 871793 k141_1361_flag_1_multi_2.0000_len_502 1 502
+				Gap between this and next alignment: 871793 to 873774 (1980 bp)
+				Next Alignment: 873774 874353 k141_1854_flag_1_multi_1.0000_len_580 1 580
+
+			Align 63: 873774 874353 k141_1854_flag_1_multi_1.0000_len_580 1 580
+				Gap between this and next alignment: 874353 to 894591 (20237 bp)
+				Next Alignment: 894591 895257 k141_476_flag_1_multi_2.0000_len_668 2 668
+
+			Align 64: 894591 895257 k141_476_flag_1_multi_2.0000_len_668 2 668
+				Gap between this and next alignment: 895257 to 909676 (14418 bp)
+				Next Alignment: 909676 910181 k141_1326_flag_1_multi_2.0000_len_506 1 506
+
+			Align 65: 909676 910181 k141_1326_flag_1_multi_2.0000_len_506 1 506
+				Gap between this and next alignment: 910181 to 921270 (11088 bp)
+				Next Alignment: 921270 921926 k141_1125_flag_1_multi_2.0000_len_662 6 662
+
+			Align 66: 921270 921926 k141_1125_flag_1_multi_2.0000_len_662 6 662
+				Gap between this and next alignment: 921926 to 950592 (28665 bp)
+				Next Alignment: 950592 951160 k141_1025_flag_1_multi_2.0000_len_569 569 1
+
+			Align 67: 950592 951160 k141_1025_flag_1_multi_2.0000_len_569 569 1
+				Gap between this and next alignment: 951160 to 1005051 (53890 bp)
+				Next Alignment: 1005051 1005620 k141_56_flag_1_multi_1.0000_len_571 571 2
+
+			Align 68: 1005051 1005620 k141_56_flag_1_multi_1.0000_len_571 571 2
+				Gap between this and next alignment: 1005620 to 1006397 (776 bp)
+				Next Alignment: 1006397 1006907 k141_1029_flag_1_multi_1.0000_len_512 512 2
+
+			Align 69: 1006397 1006907 k141_1029_flag_1_multi_1.0000_len_512 512 2
+				Gap between this and next alignment: 1006907 to 1018022 (11114 bp)
+				Next Alignment: 1018022 1018622 k141_1404_flag_1_multi_2.0000_len_602 601 1
+
+			Align 70: 1018022 1018622 k141_1404_flag_1_multi_2.0000_len_602 601 1
+				Gap between this and next alignment: 1018622 to 1025372 (6749 bp)
+				Next Alignment: 1025372 1025887 k141_610_flag_1_multi_1.0000_len_516 516 1
+
+			Align 71: 1025372 1025887 k141_610_flag_1_multi_1.0000_len_516 516 1
+				Gap between this and next alignment: 1025887 to 1064572 (38684 bp)
+				Next Alignment: 1064572 1065115 k141_197_flag_1_multi_2.0000_len_544 1 544
+
+			Align 72: 1064572 1065115 k141_197_flag_1_multi_2.0000_len_544 1 544
+				Gap between this and next alignment: 1065115 to 1072666 (7550 bp)
+				Next Alignment: 1072666 1073381 k141_114_flag_1_multi_1.0000_len_716 1 716
+
+			Align 73: 1072666 1073381 k141_114_flag_1_multi_1.0000_len_716 1 716
+				Gap between this and next alignment: 1073381 to 1076049 (2667 bp)
+				Next Alignment: 1076049 1076677 k141_1195_flag_1_multi_1.0000_len_629 1 629
+
+			Align 74: 1076049 1076677 k141_1195_flag_1_multi_1.0000_len_629 1 629
+				Gap between this and next alignment: 1076677 to 1082850 (6172 bp)
+				Next Alignment: 1082850 1083388 k141_967_flag_1_multi_1.0000_len_539 1 539
+
+			Align 75: 1082850 1083388 k141_967_flag_1_multi_1.0000_len_539 1 539
+				Gap between this and next alignment: 1083388 to 1098106 (14717 bp)
+				Next Alignment: 1098106 1098658 k141_1533_flag_1_multi_1.0000_len_553 553 1
+
+			Align 76: 1098106 1098658 k141_1533_flag_1_multi_1.0000_len_553 553 1
+				Gap between this and next alignment: 1098658 to 1118402 (19743 bp)
+				Next Alignment: 1118402 1119003 k141_985_flag_1_multi_1.0000_len_605 602 1
+
+			Align 77: 1118402 1119003 k141_985_flag_1_multi_1.0000_len_605 602 1
+				Gap between this and next alignment: 1119003 to 1142012 (23008 bp)
+				Next Alignment: 1142012 1142846 k141_1789_flag_1_multi_1.0000_len_835 1 835
+
+			Align 78: 1142012 1142846 k141_1789_flag_1_multi_1.0000_len_835 1 835
+				Gap between this and next alignment: 1142846 to 1156340 (13493 bp)
+				Next Alignment: 1156340 1156913 k141_624_flag_1_multi_2.0000_len_574 1 574
+
+			Align 79: 1156340 1156913 k141_624_flag_1_multi_2.0000_len_574 1 574
+				Gap between this and next alignment: 1156913 to 1160543 (3629 bp)
+				Next Alignment: 1160543 1161423 k141_1075_flag_1_multi_1.0000_len_881 881 1
+
+			Align 80: 1160543 1161423 k141_1075_flag_1_multi_1.0000_len_881 881 1
+				Gap between this and next alignment: 1161423 to 1167797 (6373 bp)
+				Next Alignment: 1167797 1168312 k141_170_flag_1_multi_1.0000_len_516 1 516
+
+			Align 81: 1167797 1168312 k141_170_flag_1_multi_1.0000_len_516 1 516
+				Gap between this and next alignment: 1168312 to 1173438 (5125 bp)
+				Next Alignment: 1173438 1174076 k141_1707_flag_1_multi_2.0000_len_639 1 639
+
+			Align 82: 1173438 1174076 k141_1707_flag_1_multi_2.0000_len_639 1 639
+				Gap between this and next alignment: 1174076 to 1183125 (9048 bp)
+				Next Alignment: 1183125 1183677 k141_195_flag_1_multi_1.0000_len_553 1 553
+
+			Align 83: 1183125 1183677 k141_195_flag_1_multi_1.0000_len_553 1 553
+				Gap between this and next alignment: 1183677 to 1201344 (17666 bp)
+				Next Alignment: 1201344 1202007 k141_1861_flag_1_multi_1.0000_len_664 1 664
+
+			Align 84: 1201344 1202007 k141_1861_flag_1_multi_1.0000_len_664 1 664
+				Gap between this and next alignment: 1202007 to 1212558 (10550 bp)
+				Next Alignment: 1212558 1213240 k141_367_flag_1_multi_1.0000_len_683 1 683
+
+			Align 85: 1212558 1213240 k141_367_flag_1_multi_1.0000_len_683 1 683
+				Gap between this and next alignment: 1213240 to 1232531 (19290 bp)
+				Next Alignment: 1232531 1233114 k141_524_flag_1_multi_1.0000_len_584 584 1
+
+			Align 86: 1232531 1233114 k141_524_flag_1_multi_1.0000_len_584 584 1
+				Gap between this and next alignment: 1233114 to 1267349 (34234 bp)
+				Next Alignment: 1267349 1267891 k141_1430_flag_1_multi_1.0000_len_552 543 1
+
+			Align 87: 1267349 1267891 k141_1430_flag_1_multi_1.0000_len_552 543 1
+				Gap between this and next alignment: 1267891 to 1290136 (22244 bp)
+				Next Alignment: 1290136 1290735 k141_385_flag_1_multi_1.0000_len_603 4 603
+
+			Align 88: 1290136 1290735 k141_385_flag_1_multi_1.0000_len_603 4 603
+				Gap between this and next alignment: 1290735 to 1295897 (5161 bp)
+				Next Alignment: 1295897 1296571 k141_1002_flag_1_multi_2.0000_len_675 675 1
+
+			Align 89: 1295897 1296571 k141_1002_flag_1_multi_2.0000_len_675 675 1
+				Gap between this and next alignment: 1296571 to 1313052 (16480 bp)
+				Next Alignment: 1313052 1313567 k141_1548_flag_1_multi_2.0000_len_516 516 1
+
+			Align 90: 1313052 1313567 k141_1548_flag_1_multi_2.0000_len_516 516 1
+				Gap between this and next alignment: 1313567 to 1319991 (6423 bp)
+				Next Alignment: 1319991 1320562 k141_1568_flag_1_multi_1.0000_len_572 572 1
+
+			Align 91: 1319991 1320562 k141_1568_flag_1_multi_1.0000_len_572 572 1
+				Gap between this and next alignment: 1320562 to 1354729 (34166 bp)
+				Next Alignment: 1354729 1355358 k141_1537_flag_1_multi_2.0000_len_630 630 1
+
+			Align 92: 1354729 1355358 k141_1537_flag_1_multi_2.0000_len_630 630 1
+				Gap between this and next alignment: 1355358 to 1405331 (49972 bp)
+				Next Alignment: 1405331 1405836 k141_1422_flag_1_multi_1.0000_len_506 506 1
+
+			Align 93: 1405331 1405836 k141_1422_flag_1_multi_1.0000_len_506 506 1
+				Gap between this and next alignment: 1405836 to 1413904 (8067 bp)
+				Next Alignment: 1413904 1414445 k141_834_flag_1_multi_1.0000_len_543 542 1
+
+			Align 94: 1413904 1414445 k141_834_flag_1_multi_1.0000_len_543 542 1
+				Gap between this and next alignment: 1414445 to 1421571 (7125 bp)
+				Next Alignment: 1421571 1422104 k141_1524_flag_1_multi_1.0000_len_537 537 4
+
+			Align 95: 1421571 1422104 k141_1524_flag_1_multi_1.0000_len_537 537 4
+				Gap between this and next alignment: 1422104 to 1437361 (15256 bp)
+				Next Alignment: 1437361 1437883 k141_587_flag_1_multi_2.0000_len_525 3 525
+
+			Align 96: 1437361 1437883 k141_587_flag_1_multi_2.0000_len_525 3 525
+				Gap between this and next alignment: 1437883 to 1444225 (6341 bp)
+				Next Alignment: 1444225 1444859 k141_1281_flag_1_multi_2.0000_len_635 635 1
+
+			Align 97: 1444225 1444859 k141_1281_flag_1_multi_2.0000_len_635 635 1
+				Gap between this and next alignment: 1444859 to 1445276 (416 bp)
+				Next Alignment: 1445276 1445835 k141_159_flag_1_multi_2.0000_len_561 560 1
+
+			Align 98: 1445276 1445835 k141_159_flag_1_multi_2.0000_len_561 560 1
+				Gap between this and next alignment: 1445835 to 1452359 (6523 bp)
+				Next Alignment: 1452359 1452884 k141_668_flag_1_multi_1.0000_len_529 1 526
+
+			Align 99: 1452359 1452884 k141_668_flag_1_multi_1.0000_len_529 1 526
+				Gap between this and next alignment: 1452884 to 1459505 (6620 bp)
+				Next Alignment: 1459505 1460286 k141_681_flag_1_multi_1.0000_len_784 1 782
+
+			Align 100: 1459505 1460286 k141_681_flag_1_multi_1.0000_len_784 1 782
+				Gap between this and next alignment: 1460286 to 1521827 (61540 bp)
+				Next Alignment: 1521827 1522432 k141_1504_flag_1_multi_1.0000_len_606 1 606
+
+			Align 101: 1521827 1522432 k141_1504_flag_1_multi_1.0000_len_606 1 606
+				Gap between this and next alignment: 1522432 to 1570419 (47986 bp)
+				Next Alignment: 1570419 1571113 k141_666_flag_1_multi_2.0000_len_695 1 695
+
+			Align 102: 1570419 1571113 k141_666_flag_1_multi_2.0000_len_695 1 695
+				Gap between this and next alignment: 1571113 to 1572963 (1849 bp)
+				Next Alignment: 1572963 1573624 k141_1696_flag_1_multi_1.0000_len_664 1 662
+
+			Align 103: 1572963 1573624 k141_1696_flag_1_multi_1.0000_len_664 1 662
+				Gap between this and next alignment: 1573624 to 1578442 (4817 bp)
+				Next Alignment: 1578442 1578949 k141_1608_flag_1_multi_2.0000_len_509 508 1
+
+			Align 104: 1578442 1578949 k141_1608_flag_1_multi_2.0000_len_509 508 1
+				Gap between this and next alignment: 1578949 to 1579833 (883 bp)
+				Next Alignment: 1579833 1580459 k141_1618_flag_1_multi_2.0000_len_628 1 627
+
+			Align 105: 1579833 1580459 k141_1618_flag_1_multi_2.0000_len_628 1 627
+				Gap between this and next alignment: 1580459 to 1633978 (53518 bp)
+				Next Alignment: 1633978 1634705 k141_325_flag_1_multi_1.0000_len_728 1 728
+
+			Align 106: 1633978 1634705 k141_325_flag_1_multi_1.0000_len_728 1 728
+				Gap between this and next alignment: 1634705 to 1697268 (62562 bp)
+				Next Alignment: 1697268 1697769 k141_1756_flag_1_multi_1.0000_len_503 1 502
+
+			Align 107: 1697268 1697769 k141_1756_flag_1_multi_1.0000_len_503 1 502
+				Gap between this and next alignment: 1697769 to 1699045 (1275 bp)
+				Next Alignment: 1699045 1699569 k141_279_flag_1_multi_1.0000_len_537 536 12
+
+			Align 108: 1699045 1699569 k141_279_flag_1_multi_1.0000_len_537 536 12
+				Gap between this and next alignment: 1699569 to 1716928 (17358 bp)
+				Next Alignment: 1716928 1717450 k141_982_flag_1_multi_2.0000_len_523 523 1
+
+			Align 109: 1716928 1717450 k141_982_flag_1_multi_2.0000_len_523 523 1
+				Gap between this and next alignment: 1717450 to 1742325 (24874 bp)
+				Next Alignment: 1742325 1743083 k141_1509_flag_1_multi_2.0000_len_759 759 1
+
+			Align 110: 1742325 1743083 k141_1509_flag_1_multi_2.0000_len_759 759 1
+				Gap between this and next alignment: 1743083 to 1746515 (3431 bp)
+				Next Alignment: 1746515 1746812 k141_1035_flag_1_multi_1.0000_len_568 298 1
+
+			Align 111: 1746515 1746812 k141_1035_flag_1_multi_1.0000_len_568 298 1
+				Gap between this and next alignment: 1746812 to 1753055 (6242 bp)
+				Next Alignment: 1753055 1753920 k141_1867_flag_1_multi_1.0000_len_869 4 869
+
+			Align 112: 1753055 1753920 k141_1867_flag_1_multi_1.0000_len_869 4 869
+				Gap between this and next alignment: 1753920 to 1758307 (4386 bp)
+				Next Alignment: 1758307 1758929 k141_1384_flag_1_multi_2.0000_len_623 623 1
+
+			Align 113: 1758307 1758929 k141_1384_flag_1_multi_2.0000_len_623 623 1
+				Gap between this and next alignment: 1758929 to 1760575 (1645 bp)
+				Next Alignment: 1760575 1761083 k141_468_flag_1_multi_1.0000_len_510 1 509
+
+			Align 114: 1760575 1761083 k141_468_flag_1_multi_1.0000_len_510 1 509
+				Gap between this and next alignment: 1761083 to 1763445 (2361 bp)
+				Next Alignment: 1763445 1764109 k141_659_flag_1_multi_2.0000_len_665 665 1
+
+			Align 115: 1763445 1764109 k141_659_flag_1_multi_2.0000_len_665 665 1
+				Gap between this and next alignment: 1764109 to 1770771 (6661 bp)
+				Next Alignment: 1770771 1771273 k141_621_flag_1_multi_1.0000_len_503 503 1
+
+			Align 116: 1770771 1771273 k141_621_flag_1_multi_1.0000_len_503 503 1
+				Gap between this and next alignment: 1771273 to 1795043 (23769 bp)
+				Next Alignment: 1795043 1795662 k141_662_flag_1_multi_2.0000_len_620 1 620
+
+			Align 117: 1795043 1795662 k141_662_flag_1_multi_2.0000_len_620 1 620
+				Gap between this and next alignment: 1795662 to 1812404 (16741 bp)
+				Next Alignment: 1812404 1813036 k141_1836_flag_1_multi_2.0000_len_634 634 2
+
+			Align 118: 1812404 1813036 k141_1836_flag_1_multi_2.0000_len_634 634 2
+				Gap between this and next alignment: 1813036 to 1851948 (38911 bp)
+				Next Alignment: 1851948 1852506 k141_1013_flag_1_multi_2.0000_len_560 560 2
+
+			Align 119: 1851948 1852506 k141_1013_flag_1_multi_2.0000_len_560 560 2
+				Gap between this and next alignment: 1852506 to 1863085 (10578 bp)
+				Next Alignment: 1863085 1863608 k141_1153_flag_1_multi_1.0000_len_524 524 1
+
+			Align 120: 1863085 1863608 k141_1153_flag_1_multi_1.0000_len_524 524 1
+				Gap between this and next alignment: 1863608 to 1872498 (8889 bp)
+				Next Alignment: 1872498 1873078 k141_716_flag_1_multi_2.0000_len_581 1 581
+
+			Align 121: 1872498 1873078 k141_716_flag_1_multi_2.0000_len_581 1 581
+				Gap between this and next alignment: 1873078 to 1885401 (12322 bp)
+				Next Alignment: 1885401 1885967 k141_1445_flag_1_multi_2.0000_len_567 567 1
+
+			Align 122: 1885401 1885967 k141_1445_flag_1_multi_2.0000_len_567 567 1
+				Gap between this and next alignment: 1885967 to 1894404 (8436 bp)
+				Next Alignment: 1894404 1894909 k141_1655_flag_1_multi_1.0000_len_506 506 1
+
+			Align 123: 1894404 1894909 k141_1655_flag_1_multi_1.0000_len_506 506 1
+				Gap between this and next alignment: 1894909 to 1895161 (251 bp)
+				Next Alignment: 1895161 1895734 k141_1589_flag_1_multi_2.0000_len_574 574 1
+
+			Align 124: 1895161 1895734 k141_1589_flag_1_multi_2.0000_len_574 574 1
+				Gap between this and next alignment: 1895734 to 1904730 (8995 bp)
+				Next Alignment: 1904730 1905463 k141_511_flag_1_multi_2.0000_len_734 734 1
+
+			Align 125: 1904730 1905463 k141_511_flag_1_multi_2.0000_len_734 734 1
+				Gap between this and next alignment: 1905463 to 1921334 (15870 bp)
+				Next Alignment: 1921334 1922010 k141_512_flag_1_multi_1.0000_len_677 677 1
+
+			Align 126: 1921334 1922010 k141_512_flag_1_multi_1.0000_len_677 677 1
+				Gap between this and next alignment: 1922010 to 1953875 (31864 bp)
+				Next Alignment: 1953875 1954463 k141_273_flag_1_multi_1.0000_len_589 1 589
+
+			Align 127: 1953875 1954463 k141_273_flag_1_multi_1.0000_len_589 1 589
+				Gap between this and next alignment: 1954463 to 1989706 (35242 bp)
+				Next Alignment: 1989706 1990237 k141_615_flag_1_multi_1.0000_len_532 532 1
+
+			Align 128: 1989706 1990237 k141_615_flag_1_multi_1.0000_len_532 532 1
+				Gap between this and next alignment: 1990237 to 1999815 (9577 bp)
+				Next Alignment: 1999815 2000438 k141_1100_flag_1_multi_1.0000_len_624 1 624
+
+			Align 129: 1999815 2000438 k141_1100_flag_1_multi_1.0000_len_624 1 624
+				Gap between this and next alignment: 2000438 to 2009396 (8957 bp)
+				Next Alignment: 2009396 2009935 k141_798_flag_1_multi_2.0000_len_540 540 1
+
+			Align 130: 2009396 2009935 k141_798_flag_1_multi_2.0000_len_540 540 1
+				Gap between this and next alignment: 2009935 to 2025862 (15926 bp)
+				Next Alignment: 2025862 2026365 k141_398_flag_1_multi_1.0000_len_504 504 1
+
+			Align 131: 2025862 2026365 k141_398_flag_1_multi_1.0000_len_504 504 1
+				Gap between this and next alignment: 2026365 to 2033594 (7228 bp)
+				Next Alignment: 2033594 2034150 k141_728_flag_1_multi_2.0000_len_557 557 1
+
+			Align 132: 2033594 2034150 k141_728_flag_1_multi_2.0000_len_557 557 1
+				Gap between this and next alignment: 2034150 to 2042807 (8656 bp)
+				Next Alignment: 2042807 2043385 k141_1452_flag_1_multi_1.0000_len_581 3 581
+
+			Align 133: 2042807 2043385 k141_1452_flag_1_multi_1.0000_len_581 3 581
+				Gap between this and next alignment: 2043385 to 2053524 (10138 bp)
+				Next Alignment: 2053524 2054087 k141_581_flag_1_multi_1.0000_len_564 1 564
+
+			Align 134: 2053524 2054087 k141_581_flag_1_multi_1.0000_len_564 1 564
+				Gap between this and next alignment: 2054087 to 2065216 (11128 bp)
+				Next Alignment: 2065216 2065744 k141_1026_flag_1_multi_1.0000_len_529 529 1
+
+			Align 135: 2065216 2065744 k141_1026_flag_1_multi_1.0000_len_529 529 1
+				Gap between this and next alignment: 2065744 to 2068746 (3001 bp)
+				Next Alignment: 2068746 2069341 k141_669_flag_1_multi_3.0000_len_598 597 2
+
+			Align 136: 2068746 2069341 k141_669_flag_1_multi_3.0000_len_598 597 2
+				Gap between this and next alignment: 2069341 to 2074228 (4886 bp)
+				Next Alignment: 2074228 2074807 k141_1144_flag_1_multi_1.0000_len_580 580 1
+
+			Align 137: 2074228 2074807 k141_1144_flag_1_multi_1.0000_len_580 580 1
+				Gap between this and next alignment: 2074807 to 2081657 (6849 bp)
+				Next Alignment: 2081657 2082158 k141_1093_flag_1_multi_1.0000_len_502 502 1
+
+			Align 138: 2081657 2082158 k141_1093_flag_1_multi_1.0000_len_502 502 1
+				Gap between this and next alignment: 2082158 to 2093444 (11285 bp)
+				Next Alignment: 2093444 2093964 k141_1747_flag_1_multi_1.0000_len_521 1 521
+
+			Align 139: 2093444 2093964 k141_1747_flag_1_multi_1.0000_len_521 1 521
+				Gap between this and next alignment: 2093964 to 2098708 (4743 bp)
+				Next Alignment: 2098708 2099611 k141_959_flag_1_multi_1.0000_len_905 1 904
+
+			Align 140: 2098708 2099611 k141_959_flag_1_multi_1.0000_len_905 1 904
+				Gap between this and next alignment: 2099611 to 2118223 (18611 bp)
+				Next Alignment: 2118223 2118555 k141_1851_flag_1_multi_2.0000_len_549 1 334
+
+			Align 141: 2118223 2118555 k141_1851_flag_1_multi_2.0000_len_549 1 334
+				Gap between this and next alignment: 2118555 to 2139234 (20678 bp)
+				Next Alignment: 2139234 2139739 k141_908_flag_1_multi_1.0000_len_506 1 506
+
+			Align 142: 2139234 2139739 k141_908_flag_1_multi_1.0000_len_506 1 506
+				Gap between this and next alignment: 2139739 to 2155836 (16096 bp)
+				Next Alignment: 2155836 2156375 k141_1339_flag_1_multi_1.0000_len_540 1 540
+
+			Align 143: 2155836 2156375 k141_1339_flag_1_multi_1.0000_len_540 1 540
+				Gap between this and next alignment: 2156375 to 2199722 (43346 bp)
+				Next Alignment: 2199722 2200232 k141_1437_flag_1_multi_2.0000_len_511 1 511
+
+			Align 144: 2199722 2200232 k141_1437_flag_1_multi_2.0000_len_511 1 511
+				Gap between this and next alignment: 2200232 to 2220258 (20025 bp)
+				Next Alignment: 2220258 2220781 k141_1280_flag_1_multi_1.0000_len_524 524 1
+
+			Align 145: 2220258 2220781 k141_1280_flag_1_multi_1.0000_len_524 524 1
+				Gap between this and next alignment: 2220781 to 2257739 (36957 bp)
+				Next Alignment: 2257739 2258437 k141_556_flag_1_multi_1.0000_len_702 702 4
+
+			Align 146: 2257739 2258437 k141_556_flag_1_multi_1.0000_len_702 702 4
+				Gap between this and next alignment: 2258437 to 2301513 (43075 bp)
+				Next Alignment: 2301513 2302182 k141_1293_flag_1_multi_2.0000_len_670 1 670
+
+			Align 147: 2301513 2302182 k141_1293_flag_1_multi_2.0000_len_670 1 670
+				Gap between this and next alignment: 2302182 to 2303089 (906 bp)
+				Next Alignment: 2303089 2303639 k141_1582_flag_1_multi_2.0000_len_551 551 1
+
+			Align 148: 2303089 2303639 k141_1582_flag_1_multi_2.0000_len_551 551 1
+				Gap between this and next alignment: 2303639 to 2308639 (4999 bp)
+				Next Alignment: 2308639 2309295 k141_1464_flag_1_multi_1.0000_len_657 1 657
+
+			Align 149: 2308639 2309295 k141_1464_flag_1_multi_1.0000_len_657 1 657
+				Gap between this and next alignment: 2309295 to 2310163 (867 bp)
+				Next Alignment: 2310163 2310757 k141_1564_flag_1_multi_2.0000_len_595 595 1
+
+			Align 150: 2310163 2310757 k141_1564_flag_1_multi_2.0000_len_595 595 1
+				Gap between this and next alignment: 2310757 to 2312413 (1655 bp)
+				Next Alignment: 2312413 2312989 k141_1786_flag_1_multi_1.0000_len_577 577 1
+
+			Align 151: 2312413 2312989 k141_1786_flag_1_multi_1.0000_len_577 577 1
+				Gap between this and next alignment: 2312989 to 2318104 (5114 bp)
+				Next Alignment: 2318104 2318680 k141_1377_flag_1_multi_1.0000_len_577 577 1
+
+			Align 152: 2318104 2318680 k141_1377_flag_1_multi_1.0000_len_577 577 1
+				Gap between this and next alignment: 2318680 to 2339621 (20940 bp)
+				Next Alignment: 2339621 2340334 k141_920_flag_1_multi_1.0000_len_714 1 714
+
+			Align 153: 2339621 2340334 k141_920_flag_1_multi_1.0000_len_714 1 714
+				Gap between this and next alignment: 2340334 to 2353936 (13601 bp)
+				Next Alignment: 2353936 2354478 k141_1802_flag_1_multi_2.0000_len_544 2 544
+
+			Align 154: 2353936 2354478 k141_1802_flag_1_multi_2.0000_len_544 2 544
+				Gap between this and next alignment: 2354478 to 2373353 (18874 bp)
+				Next Alignment: 2373353 2374258 k141_458_flag_1_multi_1.0000_len_906 1 906
+
+			Align 155: 2373353 2374258 k141_458_flag_1_multi_1.0000_len_906 1 906
+				Gap between this and next alignment: 2374258 to 2392232 (17973 bp)
+				Next Alignment: 2392232 2392997 k141_886_flag_1_multi_1.0000_len_766 1 766
+
+			Align 156: 2392232 2392997 k141_886_flag_1_multi_1.0000_len_766 1 766
+				Gap between this and next alignment: 2392997 to 2437812 (44814 bp)
+				Next Alignment: 2437812 2438368 k141_380_flag_1_multi_2.0000_len_557 557 1
+
+			Align 157: 2437812 2438368 k141_380_flag_1_multi_2.0000_len_557 557 1
+				Gap between this and next alignment: 2438368 to 2463403 (25034 bp)
+				Next Alignment: 2463403 2463997 k141_1621_flag_1_multi_1.0000_len_595 1 595
+
+			Align 158: 2463403 2463997 k141_1621_flag_1_multi_1.0000_len_595 1 595
+				Gap between this and next alignment: 2463997 to 2474643 (10645 bp)
+				Next Alignment: 2474643 2475285 k141_592_flag_1_multi_2.0000_len_643 643 1
+
+			Align 159: 2474643 2475285 k141_592_flag_1_multi_2.0000_len_643 643 1
+				Gap between this and next alignment: 2475285 to 2479381 (4095 bp)
+				Next Alignment: 2479381 2480118 k141_1103_flag_1_multi_1.0000_len_738 1 738
+
+			Align 160: 2479381 2480118 k141_1103_flag_1_multi_1.0000_len_738 1 738
+				Gap between this and next alignment: 2480118 to 2499995 (19876 bp)
+				Next Alignment: 2499995 2500508 k141_1296_flag_1_multi_1.0000_len_514 1 514
+
+			Align 161: 2499995 2500508 k141_1296_flag_1_multi_1.0000_len_514 1 514
+				Gap between this and next alignment: 2500508 to 2556609 (56100 bp)
+				Next Alignment: 2556609 2557159 k141_1134_flag_1_multi_1.0000_len_551 1 551
+
+			Align 162: 2556609 2557159 k141_1134_flag_1_multi_1.0000_len_551 1 551
+				Gap between this and next alignment: 2557159 to 2574291 (17131 bp)
+				Next Alignment: 2574291 2575003 k141_1844_flag_1_multi_2.0000_len_713 1 713
+
+			Align 163: 2574291 2575003 k141_1844_flag_1_multi_2.0000_len_713 1 713
+				Gap between this and next alignment: 2575003 to 2611775 (36771 bp)
+				Next Alignment: 2611775 2612297 k141_1083_flag_1_multi_2.0000_len_523 523 1
+
+			Align 164: 2611775 2612297 k141_1083_flag_1_multi_2.0000_len_523 523 1
+				Gap between this and next alignment: 2612297 to 2616420 (4122 bp)
+				Next Alignment: 2616420 2617198 k141_895_flag_1_multi_1.0000_len_779 779 1
+
+			Align 165: 2616420 2617198 k141_895_flag_1_multi_1.0000_len_779 779 1
+				Gap between this and next alignment: 2617198 to 2618288 (1089 bp)
+				Next Alignment: 2618288 2618819 k141_742_flag_1_multi_2.0000_len_533 1 532
+
+			Align 166: 2618288 2618819 k141_742_flag_1_multi_2.0000_len_533 1 532
+				Gap between this and next alignment: 2618819 to 2635926 (17106 bp)
+				Next Alignment: 2635926 2636450 k141_1051_flag_1_multi_1.0000_len_527 525 1
+
+			Align 167: 2635926 2636450 k141_1051_flag_1_multi_1.0000_len_527 525 1
+				Gap between this and next alignment: 2636450 to 2638688 (2237 bp)
+				Next Alignment: 2638688 2639240 k141_340_flag_1_multi_1.0000_len_553 553 1
+
+			Align 168: 2638688 2639240 k141_340_flag_1_multi_1.0000_len_553 553 1
+				Gap between this and next alignment: 2639240 to 2689478 (50237 bp)
+				Next Alignment: 2689478 2690046 k141_287_flag_1_multi_1.0000_len_569 569 1
+
+			Align 169: 2689478 2690046 k141_287_flag_1_multi_1.0000_len_569 569 1
+				Gap between this and next alignment: 2690046 to 2697096 (7049 bp)
+				Next Alignment: 2697096 2697626 k141_741_flag_1_multi_2.0000_len_531 531 1
+
+			Align 170: 2697096 2697626 k141_741_flag_1_multi_2.0000_len_531 531 1
+				Gap between this and next alignment: 2697626 to 2710224 (12597 bp)
+				Next Alignment: 2710224 2710758 k141_972_flag_1_multi_1.0000_len_535 535 1
+
+			Align 171: 2710224 2710758 k141_972_flag_1_multi_1.0000_len_535 535 1
+				Gap between this and next alignment: 2710758 to 2712419 (1660 bp)
+				Next Alignment: 2712419 2713000 k141_823_flag_1_multi_1.0000_len_582 582 1
+
+			Align 172: 2712419 2713000 k141_823_flag_1_multi_1.0000_len_582 582 1
+				Gap between this and next alignment: 2713000 to 2728318 (15317 bp)
+				Next Alignment: 2728318 2728852 k141_1585_flag_1_multi_3.0000_len_535 535 1
+
+			Align 173: 2728318 2728852 k141_1585_flag_1_multi_3.0000_len_535 535 1
+				Gap between this and next alignment: 2728852 to 2729596 (743 bp)
+				Next Alignment: 2729596 2730188 k141_582_flag_1_multi_3.0000_len_593 1 593
+
+			Align 174: 2729596 2730188 k141_582_flag_1_multi_3.0000_len_593 1 593
+				Gap between this and next alignment: 2730188 to 2730629 (440 bp)
+				Next Alignment: 2730629 2731152 k141_205_flag_1_multi_2.0000_len_524 1 524
+
+			Align 175: 2730629 2731152 k141_205_flag_1_multi_2.0000_len_524 1 524
+				Gap between this and next alignment: 2731152 to 2757621 (26468 bp)
+				Next Alignment: 2757621 2758128 k141_13_flag_1_multi_2.0000_len_508 508 1
+
+			Align 176: 2757621 2758128 k141_13_flag_1_multi_2.0000_len_508 508 1
+				Gap between this and next alignment: 2758128 to 2766697 (8568 bp)
+				Next Alignment: 2766697 2767325 k141_483_flag_1_multi_2.0000_len_629 629 1
+
+			Align 177: 2766697 2767325 k141_483_flag_1_multi_2.0000_len_629 629 1
+				Gap between this and next alignment: 2767325 to 2796145 (28819 bp)
+				Next Alignment: 2796145 2796905 k141_980_flag_1_multi_2.0000_len_761 1 761
+
+			Align 178: 2796145 2796905 k141_980_flag_1_multi_2.0000_len_761 1 761
+				Gap between this and next alignment: 2796905 to 2816928 (20022 bp)
+				Next Alignment: 2816928 2817571 k141_425_flag_1_multi_1.0000_len_644 1 644
+
+			Align 179: 2816928 2817571 k141_425_flag_1_multi_1.0000_len_644 1 644
+				Gap between this and next alignment: 2817571 to 2830005 (12433 bp)
+				Next Alignment: 2830005 2830617 k141_1461_flag_1_multi_1.0000_len_613 1 613
+
+			Align 180: 2830005 2830617 k141_1461_flag_1_multi_1.0000_len_613 1 613
+				Gap between this and next alignment: 2830617 to 2832995 (2377 bp)
+				Next Alignment: 2832995 2833561 k141_1273_flag_1_multi_1.0000_len_568 567 1
+
+			Align 181: 2832995 2833561 k141_1273_flag_1_multi_1.0000_len_568 567 1
+				Gap between this and next alignment: 2833561 to 2835122 (1560 bp)
+				Next Alignment: 2835122 2835629 k141_1494_flag_1_multi_1.0000_len_508 1 508
+
+			Align 182: 2835122 2835629 k141_1494_flag_1_multi_1.0000_len_508 1 508
+				Gap between this and next alignment: 2835629 to 2848057 (12427 bp)
+				Next Alignment: 2848057 2848647 k141_555_flag_1_multi_1.0000_len_591 1 591
+
+			Align 183: 2848057 2848647 k141_555_flag_1_multi_1.0000_len_591 1 591
+				Gap between this and next alignment: 2848647 to 2854046 (5398 bp)
+				Next Alignment: 2854046 2854690 k141_1843_flag_1_multi_1.0000_len_645 645 1
+
+			Align 184: 2854046 2854690 k141_1843_flag_1_multi_1.0000_len_645 645 1
+				Gap between this and next alignment: 2854690 to 2860388 (5697 bp)
+				Next Alignment: 2860388 2860939 k141_70_flag_1_multi_1.0000_len_552 552 1
+
+			Align 185: 2860388 2860939 k141_70_flag_1_multi_1.0000_len_552 552 1
+				Negative gap (overlap) between this and next alignment: 2860939 to 2860918 (-21 bp)
+				Next Alignment: 2860918 2861499 k141_1483_flag_1_multi_1.0000_len_588 588 7
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 588 to 566.
+			Align 186: 2860940 2861499 k141_1483_flag_1_multi_1.0000_len_588 566 7
+				Gap between this and next alignment: 2861499 to 2941422 (79922 bp)
+				Next Alignment: 2941422 2942043 k141_782_flag_1_multi_1.0000_len_622 1 622
+
+			Align 187: 2941422 2942043 k141_782_flag_1_multi_1.0000_len_622 1 622
+				Gap between this and next alignment: 2942043 to 2942400 (356 bp)
+				Next Alignment: 2942400 2943093 k141_542_flag_1_multi_2.0000_len_698 5 698
+
+			Align 188: 2942400 2943093 k141_542_flag_1_multi_2.0000_len_698 5 698
+				Gap between this and next alignment: 2943093 to 2955968 (12874 bp)
+				Next Alignment: 2955968 2956561 k141_1066_flag_1_multi_1.0000_len_595 594 1
+
+			Align 189: 2955968 2956561 k141_1066_flag_1_multi_1.0000_len_595 594 1
+				Gap between this and next alignment: 2956561 to 2976831 (20269 bp)
+				Next Alignment: 2976831 2977569 k141_1531_flag_1_multi_2.0000_len_739 739 1
+
+			Align 190: 2976831 2977569 k141_1531_flag_1_multi_2.0000_len_739 739 1
+				Gap between this and next alignment: 2977569 to 3001637 (24067 bp)
+				Next Alignment: 3001637 3002158 k141_1615_flag_1_multi_2.0000_len_522 522 1
+
+			Align 191: 3001637 3002158 k141_1615_flag_1_multi_2.0000_len_522 522 1
+				Gap between this and next alignment: 3002158 to 3012300 (10141 bp)
+				Next Alignment: 3012300 3012817 k141_679_flag_1_multi_2.0000_len_518 518 1
+
+			Align 192: 3012300 3012817 k141_679_flag_1_multi_2.0000_len_518 518 1
+				Gap between this and next alignment: 3012817 to 3026733 (13915 bp)
+				Next Alignment: 3026733 3027259 k141_301_flag_1_multi_1.0000_len_527 527 1
+
+			Align 193: 3026733 3027259 k141_301_flag_1_multi_1.0000_len_527 527 1
+				Gap between this and next alignment: 3027259 to 3044514 (17254 bp)
+				Next Alignment: 3044514 3045105 k141_994_flag_1_multi_2.0000_len_592 1 592
+
+			Align 194: 3044514 3045105 k141_994_flag_1_multi_2.0000_len_592 1 592
+				Gap between this and next alignment: 3045105 to 3098025 (52919 bp)
+				Next Alignment: 3098025 3098597 k141_947_flag_1_multi_2.0000_len_573 573 1
+
+			Align 195: 3098025 3098597 k141_947_flag_1_multi_2.0000_len_573 573 1
+				Gap between this and next alignment: 3098597 to 3099850 (1252 bp)
+				Next Alignment: 3099850 3100374 k141_575_flag_1_multi_2.0000_len_525 1 525
+
+			Align 196: 3099850 3100374 k141_575_flag_1_multi_2.0000_len_525 1 525
+				Gap between this and next alignment: 3100374 to 3106077 (5702 bp)
+				Next Alignment: 3106077 3106729 k141_1685_flag_1_multi_2.0000_len_653 1 653
+
+			Align 197: 3106077 3106729 k141_1685_flag_1_multi_2.0000_len_653 1 653
+				Gap between this and next alignment: 3106729 to 3130542 (23812 bp)
+				Next Alignment: 3130542 3131453 k141_1831_flag_1_multi_6.0000_len_912 1 912
+
+			Align 198: 3130542 3131453 k141_1831_flag_1_multi_6.0000_len_912 1 912
+				Gap between this and next alignment: 3131453 to 3132814 (1360 bp)
+				Next Alignment: 3132814 3133491 k141_124_flag_1_multi_2.0000_len_678 678 1
+
+			Align 199: 3132814 3133491 k141_124_flag_1_multi_2.0000_len_678 678 1
+				Gap between this and next alignment: 3133491 to 3152652 (19160 bp)
+				Next Alignment: 3152652 3153157 k141_1770_flag_1_multi_2.0000_len_508 3 508
+
+			Align 200: 3152652 3153157 k141_1770_flag_1_multi_2.0000_len_508 3 508
+				Negative gap (overlap) between this and next alignment: 3153157 to 3153060 (-97 bp)
+				Next Alignment: 3153060 3153813 k141_1484_flag_1_multi_1.0000_len_754 1 754
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 99.
+			Align 201: 3153158 3153813 k141_1484_flag_1_multi_1.0000_len_754 99 754
+				Gap between this and next alignment: 3153813 to 3160876 (7062 bp)
+				Next Alignment: 3160876 3161641 k141_64_flag_1_multi_2.0000_len_766 1 766
+
+			Align 202: 3160876 3161641 k141_64_flag_1_multi_2.0000_len_766 1 766
+				Gap between this and next alignment: 3161641 to 3178164 (16522 bp)
+				Next Alignment: 3178164 3178674 k141_538_flag_1_multi_1.0000_len_511 511 1
+
+			Align 203: 3178164 3178674 k141_538_flag_1_multi_1.0000_len_511 511 1
+				Gap between this and next alignment: 3178674 to 3212148 (33473 bp)
+				Next Alignment: 3212148 3212737 k141_132_flag_1_multi_1.0000_len_590 1 590
+
+			Align 204: 3212148 3212737 k141_132_flag_1_multi_1.0000_len_590 1 590
+				Gap between this and next alignment: 3212737 to 3216645 (3907 bp)
+				Next Alignment: 3216645 3217139 k141_850_flag_1_multi_2.0000_len_640 495 1
+
+			Align 205: 3216645 3217139 k141_850_flag_1_multi_2.0000_len_640 495 1
+				Gap between this and next alignment: 3217139 to 3235091 (17951 bp)
+				Next Alignment: 3235091 3235999 k141_1825_flag_1_multi_1.0000_len_909 909 1
+
+			Align 206: 3235091 3235999 k141_1825_flag_1_multi_1.0000_len_909 909 1
+				Gap between this and next alignment: 3235999 to 3254962 (18962 bp)
+				Next Alignment: 3254962 3255478 k141_601_flag_1_multi_2.0000_len_520 517 1
+
+			Align 207: 3254962 3255478 k141_601_flag_1_multi_2.0000_len_520 517 1
+				Gap between this and next alignment: 3255478 to 3260830 (5351 bp)
+				Next Alignment: 3260830 3261547 k141_852_flag_1_multi_1.0000_len_718 718 1
+
+			Align 208: 3260830 3261547 k141_852_flag_1_multi_1.0000_len_718 718 1
+				Gap between this and next alignment: 3261547 to 3311820 (50272 bp)
+				Next Alignment: 3311820 3312529 k141_1553_flag_1_multi_1.0000_len_710 1 710
+
+			Align 209: 3311820 3312529 k141_1553_flag_1_multi_1.0000_len_710 1 710
+				Gap between this and next alignment: 3312529 to 3316923 (4393 bp)
+				Next Alignment: 3316923 3317529 k141_627_flag_1_multi_2.0000_len_607 607 1
+
+			Align 210: 3316923 3317529 k141_627_flag_1_multi_2.0000_len_607 607 1
+				Gap between this and next alignment: 3317529 to 3358852 (41322 bp)
+				Next Alignment: 3358852 3360054 k141_1383_flag_1_multi_2.0000_len_1203 1 1203
+
+			Align 211: 3358852 3360054 k141_1383_flag_1_multi_2.0000_len_1203 1 1203
+				Gap between this and next alignment: 3360054 to 3380174 (20119 bp)
+				Next Alignment: 3380174 3380727 k141_474_flag_1_multi_1.0000_len_554 554 1
+
+			Align 212: 3380174 3380727 k141_474_flag_1_multi_1.0000_len_554 554 1
+				Gap between this and next alignment: 3380727 to 3408803 (28075 bp)
+				Next Alignment: 3408803 3409318 k141_1402_flag_1_multi_2.0000_len_516 1 516
+
+			Align 213: 3408803 3409318 k141_1402_flag_1_multi_2.0000_len_516 1 516
+				Gap between this and next alignment: 3409318 to 3423890 (14571 bp)
+				Next Alignment: 3423890 3425205 k141_803_flag_1_multi_4.0000_len_1319 1316 1
+
+			Align 214: 3423890 3425205 k141_803_flag_1_multi_4.0000_len_1319 1316 1
+				Gap between this and next alignment: 3425205 to 3429872 (4666 bp)
+				Next Alignment: 3429872 3430782 k141_685_flag_1_multi_1.0000_len_911 911 1
+
+			Align 215: 3429872 3430782 k141_685_flag_1_multi_1.0000_len_911 911 1
+				Gap between this and next alignment: 3430782 to 3433690 (2907 bp)
+				Next Alignment: 3433690 3434226 k141_1562_flag_1_multi_1.0000_len_537 1 537
+
+			Align 216: 3433690 3434226 k141_1562_flag_1_multi_1.0000_len_537 1 537
+				Gap between this and next alignment: 3434226 to 3454247 (20020 bp)
+				Next Alignment: 3454247 3454787 k141_1164_flag_1_multi_1.0000_len_541 541 1
+
+			Align 217: 3454247 3454787 k141_1164_flag_1_multi_1.0000_len_541 541 1
+				Gap between this and next alignment: 3454787 to 3458561 (3773 bp)
+				Next Alignment: 3458561 3459374 k141_334_flag_1_multi_1.0000_len_814 1 814
+
+			Align 218: 3458561 3459374 k141_334_flag_1_multi_1.0000_len_814 1 814
+				Gap between this and next alignment: 3459374 to 3467907 (8532 bp)
+				Next Alignment: 3467907 3468560 k141_1675_flag_1_multi_2.0000_len_654 1 654
+
+			Align 219: 3467907 3468560 k141_1675_flag_1_multi_2.0000_len_654 1 654
+				Gap between this and next alignment: 3468560 to 3476413 (7852 bp)
+				Next Alignment: 3476413 3476963 k141_1455_flag_1_multi_1.0000_len_551 551 1
+
+			Align 220: 3476413 3476963 k141_1455_flag_1_multi_1.0000_len_551 551 1
+				Gap between this and next alignment: 3476963 to 3483840 (6876 bp)
+				Next Alignment: 3483840 3484627 k141_760_flag_1_multi_1.0000_len_788 788 1
+
+			Align 221: 3483840 3484627 k141_760_flag_1_multi_1.0000_len_788 788 1
+				Gap between this and next alignment: 3484627 to 3485114 (486 bp)
+				Next Alignment: 3485114 3485626 k141_338_flag_1_multi_2.0000_len_513 1 513
+
+			Align 222: 3485114 3485626 k141_338_flag_1_multi_2.0000_len_513 1 513
+				Gap between this and next alignment: 3485626 to 3489438 (3811 bp)
+				Next Alignment: 3489438 3490178 k141_1258_flag_1_multi_1.0000_len_741 741 1
+
+			Align 223: 3489438 3490178 k141_1258_flag_1_multi_1.0000_len_741 741 1
+				Gap between this and next alignment: 3490178 to 3506571 (16392 bp)
+				Next Alignment: 3506571 3507440 k141_1634_flag_1_multi_1.0000_len_870 1 870
+
+			Align 224: 3506571 3507440 k141_1634_flag_1_multi_1.0000_len_870 1 870
+				Gap between this and next alignment: 3507440 to 3511340 (3899 bp)
+				Next Alignment: 3511340 3512039 k141_93_flag_1_multi_1.0000_len_700 1 700
+
+			Align 225: 3511340 3512039 k141_93_flag_1_multi_1.0000_len_700 1 700
+				Gap between this and next alignment: 3512039 to 3523804 (11764 bp)
+				Next Alignment: 3523804 3524427 k141_1355_flag_1_multi_2.0000_len_625 624 1
+
+			Align 226: 3523804 3524427 k141_1355_flag_1_multi_2.0000_len_625 624 1
+				Gap between this and next alignment: 3524427 to 3537826 (13398 bp)
+				Next Alignment: 3537826 3538374 k141_502_flag_1_multi_1.0000_len_549 549 1
+
+			Align 227: 3537826 3538374 k141_502_flag_1_multi_1.0000_len_549 549 1
+				Gap between this and next alignment: 3538374 to 3562801 (24426 bp)
+				Next Alignment: 3562801 3563418 k141_227_flag_1_multi_1.0000_len_618 1 618
+
+			Align 228: 3562801 3563418 k141_227_flag_1_multi_1.0000_len_618 1 618
+				Gap between this and next alignment: 3563418 to 3572285 (8866 bp)
+				Next Alignment: 3572285 3572792 k141_138_flag_1_multi_1.0000_len_508 1 508
+
+			Align 229: 3572285 3572792 k141_138_flag_1_multi_1.0000_len_508 1 508
+				Gap between this and next alignment: 3572792 to 3582904 (10111 bp)
+				Next Alignment: 3582904 3583500 k141_539_flag_1_multi_1.0000_len_597 597 1
+
+			Align 230: 3582904 3583500 k141_539_flag_1_multi_1.0000_len_597 597 1
+				Gap between this and next alignment: 3583500 to 3602055 (18554 bp)
+				Next Alignment: 3602055 3602613 k141_1374_flag_1_multi_1.0000_len_559 1 559
+
+			Align 231: 3602055 3602613 k141_1374_flag_1_multi_1.0000_len_559 1 559
+				Gap between this and next alignment: 3602613 to 3622838 (20224 bp)
+				Next Alignment: 3622838 3623387 k141_924_flag_1_multi_2.0000_len_550 1 550
+
+			Align 232: 3622838 3623387 k141_924_flag_1_multi_2.0000_len_550 1 550
+				Gap between this and next alignment: 3623387 to 3656729 (33341 bp)
+				Next Alignment: 3656729 3657240 k141_1183_flag_1_multi_2.0000_len_512 512 1
+
+			Align 233: 3656729 3657240 k141_1183_flag_1_multi_2.0000_len_512 512 1
+				Gap between this and next alignment: 3657240 to 3705010 (47769 bp)
+				Next Alignment: 3705010 3705525 k141_455_flag_1_multi_1.0000_len_516 1 516
+
+			Align 234: 3705010 3705525 k141_455_flag_1_multi_1.0000_len_516 1 516
+				Gap between this and next alignment: 3705525 to 3712537 (7011 bp)
+				Next Alignment: 3712537 3713065 k141_254_flag_1_multi_1.0000_len_529 529 1
+
+			Align 235: 3712537 3713065 k141_254_flag_1_multi_1.0000_len_529 529 1
+				Gap between this and next alignment: 3713065 to 3715705 (2639 bp)
+				Next Alignment: 3715705 3716258 k141_1230_flag_1_multi_1.0000_len_554 1 554
+
+			Align 236: 3715705 3716258 k141_1230_flag_1_multi_1.0000_len_554 1 554
+				Gap between this and next alignment: 3716258 to 3717038 (779 bp)
+				Next Alignment: 3717038 3717602 k141_90_flag_1_multi_1.0000_len_565 565 1
+
+			Align 237: 3717038 3717602 k141_90_flag_1_multi_1.0000_len_565 565 1
+				Gap between this and next alignment: 3717602 to 3729973 (12370 bp)
+				Next Alignment: 3729973 3730484 k141_1150_flag_1_multi_1.0000_len_512 1 512
+
+			Align 238: 3729973 3730484 k141_1150_flag_1_multi_1.0000_len_512 1 512
+				Gap between this and next alignment: 3730484 to 3747712 (17227 bp)
+				Next Alignment: 3747712 3748595 k141_1089_flag_1_multi_2.0000_len_886 1 884
+
+			Align 239: 3747712 3748595 k141_1089_flag_1_multi_2.0000_len_886 1 884
+				Gap between this and next alignment: 3748595 to 3753424 (4828 bp)
+				Next Alignment: 3753424 3754074 k141_900_flag_1_multi_1.0000_len_651 651 1
+
+			Align 240: 3753424 3754074 k141_900_flag_1_multi_1.0000_len_651 651 1
+				Gap between this and next alignment: 3754074 to 3765831 (11756 bp)
+				Next Alignment: 3765831 3766357 k141_1719_flag_1_multi_1.0000_len_527 1 527
+
+			Align 241: 3765831 3766357 k141_1719_flag_1_multi_1.0000_len_527 1 527
+				Negative gap (overlap) between this and next alignment: 3766357 to 3766286 (-71 bp)
+				Next Alignment: 3766286 3766799 k141_956_flag_1_multi_2.0000_len_514 1 514
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 73.
+			Align 242: 3766358 3766799 k141_956_flag_1_multi_2.0000_len_514 73 514
+				Gap between this and next alignment: 3766799 to 3767207 (407 bp)
+				Next Alignment: 3767207 3767624 k141_1086_flag_1_multi_2.0000_len_626 121 539
+
+			Align 243: 3767207 3767624 k141_1086_flag_1_multi_2.0000_len_626 121 539
+				Gap between this and next alignment: 3767624 to 3780295 (12670 bp)
+				Next Alignment: 3780295 3780816 k141_1046_flag_1_multi_1.0000_len_522 522 1
+
+			Align 244: 3780295 3780816 k141_1046_flag_1_multi_1.0000_len_522 522 1
+				Gap between this and next alignment: 3780816 to 3797085 (16268 bp)
+				Next Alignment: 3797085 3797806 k141_103_flag_1_multi_2.0000_len_722 1 722
+
+			Align 245: 3797085 3797806 k141_103_flag_1_multi_2.0000_len_722 1 722
+				Gap between this and next alignment: 3797806 to 3804210 (6403 bp)
+				Next Alignment: 3804210 3804731 k141_410_flag_1_multi_2.0000_len_522 522 1
+
+			Align 246: 3804210 3804731 k141_410_flag_1_multi_2.0000_len_522 522 1
+				Gap between this and next alignment: 3804731 to 3843477 (38745 bp)
+				Next Alignment: 3843477 3844033 k141_1229_flag_1_multi_1.0000_len_557 557 1
+
+			Align 247: 3843477 3844033 k141_1229_flag_1_multi_1.0000_len_557 557 1
+				Gap between this and next alignment: 3844033 to 3844460 (426 bp)
+				Next Alignment: 3844460 3844994 k141_278_flag_1_multi_1.0000_len_538 535 1
+
+			Align 248: 3844460 3844994 k141_278_flag_1_multi_1.0000_len_538 535 1
+				Gap between this and next alignment: 3844994 to 3845635 (640 bp)
+				Next Alignment: 3845635 3846430 k141_1565_flag_1_multi_1.0000_len_796 796 1
+
+			Align 249: 3845635 3846430 k141_1565_flag_1_multi_1.0000_len_796 796 1
+				Gap between this and next alignment: 3846430 to 3864633 (18202 bp)
+				Next Alignment: 3864633 3865178 k141_1853_flag_1_multi_2.0000_len_546 1 546
+
+			Align 250: 3864633 3865178 k141_1853_flag_1_multi_2.0000_len_546 1 546
+				Gap between this and next alignment: 3865178 to 3878911 (13732 bp)
+				Next Alignment: 3878911 3879420 k141_267_flag_1_multi_1.0000_len_510 510 1
+
+			Align 251: 3878911 3879420 k141_267_flag_1_multi_1.0000_len_510 510 1
+				Gap between this and next alignment: 3879420 to 3897903 (18482 bp)
+				Next Alignment: 3897903 3898440 k141_74_flag_1_multi_1.0000_len_538 538 1
+
+			Align 252: 3897903 3898440 k141_74_flag_1_multi_1.0000_len_538 538 1
+				Gap between this and next alignment: 3898440 to 3914454 (16013 bp)
+				Next Alignment: 3914454 3914958 k141_1381_flag_1_multi_1.0000_len_505 1 505
+
+			Align 253: 3914454 3914958 k141_1381_flag_1_multi_1.0000_len_505 1 505
+				Gap between this and next alignment: 3914958 to 3937083 (22124 bp)
+				Next Alignment: 3937083 3937732 k141_134_flag_1_multi_2.0000_len_650 650 1
+
+			Align 254: 3937083 3937732 k141_134_flag_1_multi_2.0000_len_650 650 1
+				Gap between this and next alignment: 3937732 to 3965797 (28064 bp)
+				Next Alignment: 3965797 3966506 k141_1070_flag_1_multi_2.0000_len_710 710 1
+
+			Align 255: 3965797 3966506 k141_1070_flag_1_multi_2.0000_len_710 710 1
+				Gap between this and next alignment: 3966506 to 3986827 (20320 bp)
+				Next Alignment: 3986827 3987351 k141_795_flag_1_multi_1.0000_len_532 525 1
+
+			Align 256: 3986827 3987351 k141_795_flag_1_multi_1.0000_len_532 525 1
+				Gap between this and next alignment: 3987351 to 3990915 (3563 bp)
+				Next Alignment: 3990915 3991525 k141_641_flag_1_multi_1.0000_len_611 1 611
+
+			Align 257: 3990915 3991525 k141_641_flag_1_multi_1.0000_len_611 1 611
+				Gap between this and next alignment: 3991525 to 4023053 (31527 bp)
+				Next Alignment: 4023053 4023606 k141_1421_flag_1_multi_1.0000_len_554 1 554
+
+			Align 258: 4023053 4023606 k141_1421_flag_1_multi_1.0000_len_554 1 554
+				Gap between this and next alignment: 4023606 to 4052162 (28555 bp)
+				Next Alignment: 4052162 4052841 k141_625_flag_1_multi_1.0000_len_680 1 680
+
+			Align 259: 4052162 4052841 k141_625_flag_1_multi_1.0000_len_680 1 680
+				Gap between this and next alignment: 4052841 to 4059215 (6373 bp)
+				Next Alignment: 4059215 4059796 k141_383_flag_1_multi_2.0000_len_582 1 582
+
+			Align 260: 4059215 4059796 k141_383_flag_1_multi_2.0000_len_582 1 582
+				Gap between this and next alignment: 4059796 to 4108967 (49170 bp)
+				Next Alignment: 4108967 4109467 k141_554_flag_1_multi_1.0000_len_501 1 501
+
+			Align 261: 4108967 4109467 k141_554_flag_1_multi_1.0000_len_501 1 501
+				Gap between this and next alignment: 4109467 to 4131243 (21775 bp)
+				Next Alignment: 4131243 4131790 k141_270_flag_1_multi_2.0000_len_548 548 1
+
+			Align 262: 4131243 4131790 k141_270_flag_1_multi_2.0000_len_548 548 1
+				Gap between this and next alignment: 4131790 to 4135813 (4022 bp)
+				Next Alignment: 4135813 4136410 k141_1601_flag_1_multi_1.0000_len_598 1 598
+
+			Align 263: 4135813 4136410 k141_1601_flag_1_multi_1.0000_len_598 1 598
+				Gap between this and next alignment: 4136410 to 4150164 (13753 bp)
+				Next Alignment: 4150164 4150826 k141_1645_flag_1_multi_2.0000_len_663 1 663
+
+			Align 264: 4150164 4150826 k141_1645_flag_1_multi_2.0000_len_663 1 663
+				Gap between this and next alignment: 4150826 to 4152517 (1690 bp)
+				Next Alignment: 4152517 4153065 k141_350_flag_1_multi_1.0000_len_551 551 3
+
+			Align 265: 4152517 4153065 k141_350_flag_1_multi_1.0000_len_551 551 3
+				Gap between this and next alignment: 4153065 to 4154055 (989 bp)
+				Next Alignment: 4154055 4154832 k141_822_flag_1_multi_1.0000_len_778 778 1
+
+			Align 266: 4154055 4154832 k141_822_flag_1_multi_1.0000_len_778 778 1
+				Gap between this and next alignment: 4154832 to 4184647 (29814 bp)
+				Next Alignment: 4184647 4185255 k141_1348_flag_1_multi_1.0000_len_610 2 610
+
+			Align 267: 4184647 4185255 k141_1348_flag_1_multi_1.0000_len_610 2 610
+				Gap between this and next alignment: 4185255 to 4186617 (1361 bp)
+				Next Alignment: 4186617 4187126 k141_461_flag_1_multi_2.0000_len_510 1 510
+
+			Align 268: 4186617 4187126 k141_461_flag_1_multi_2.0000_len_510 1 510
+				Gap between this and next alignment: 4187126 to 4200103 (12976 bp)
+				Next Alignment: 4200103 4200715 k141_882_flag_1_multi_1.0000_len_613 1 613
+
+			Align 269: 4200103 4200715 k141_882_flag_1_multi_1.0000_len_613 1 613
+				Gap between this and next alignment: 4200715 to 4201526 (810 bp)
+				Next Alignment: 4201526 4202267 k141_787_flag_1_multi_1.0000_len_742 1 742
+
+			Align 270: 4201526 4202267 k141_787_flag_1_multi_1.0000_len_742 1 742
+				Gap between this and next alignment: 4202267 to 4229238 (26970 bp)
+				Next Alignment: 4229238 4229826 k141_520_flag_1_multi_1.0000_len_589 589 1
+
+			Align 271: 4229238 4229826 k141_520_flag_1_multi_1.0000_len_589 589 1
+				Gap between this and next alignment: 4229826 to 4252475 (22648 bp)
+				Next Alignment: 4252475 4253002 k141_492_flag_1_multi_1.0000_len_528 528 1
+
+			Align 272: 4252475 4253002 k141_492_flag_1_multi_1.0000_len_528 528 1
+				Gap between this and next alignment: 4253002 to 4261450 (8447 bp)
+				Next Alignment: 4261450 4261997 k141_595_flag_1_multi_2.0000_len_548 548 1
+
+			Align 273: 4261450 4261997 k141_595_flag_1_multi_2.0000_len_548 548 1
+				Gap between this and next alignment: 4261997 to 4268160 (6162 bp)
+				Next Alignment: 4268160 4268719 k141_131_flag_1_multi_2.0000_len_564 1 560
+
+			Align 274: 4268160 4268719 k141_131_flag_1_multi_2.0000_len_564 1 560
+				Gap between this and next alignment: 4268719 to 4271521 (2801 bp)
+				Next Alignment: 4271521 4272268 k141_1228_flag_1_multi_1.0000_len_748 748 1
+
+			Align 275: 4271521 4272268 k141_1228_flag_1_multi_1.0000_len_748 748 1
+				Gap between this and next alignment: 4272268 to 4289170 (16901 bp)
+				Next Alignment: 4289170 4289669 k141_1547_flag_1_multi_2.0000_len_500 1 500
+
+			Align 276: 4289170 4289669 k141_1547_flag_1_multi_2.0000_len_500 1 500
+				Gap between this and next alignment: 4289669 to 4295088 (5418 bp)
+				Next Alignment: 4295088 4295649 k141_727_flag_1_multi_1.0000_len_562 562 1
+
+			Align 277: 4295088 4295649 k141_727_flag_1_multi_1.0000_len_562 562 1
+				Gap between this and next alignment: 4295649 to 4302234 (6584 bp)
+				Next Alignment: 4302234 4302785 k141_1480_flag_1_multi_1.0000_len_552 552 1
+
+			Align 278: 4302234 4302785 k141_1480_flag_1_multi_1.0000_len_552 552 1
+				Gap between this and next alignment: 4302785 to 4317969 (15183 bp)
+				Next Alignment: 4317969 4318479 k141_877_flag_1_multi_1.0000_len_511 511 1
+
+			Align 279: 4317969 4318479 k141_877_flag_1_multi_1.0000_len_511 511 1
+				Gap between this and next alignment: 4318479 to 4319417 (937 bp)
+				Next Alignment: 4319417 4319943 k141_774_flag_1_multi_1.0000_len_527 1 527
+
+			Align 280: 4319417 4319943 k141_774_flag_1_multi_1.0000_len_527 1 527
+				Gap between this and next alignment: 4319943 to 4326644 (6700 bp)
+				Next Alignment: 4326644 4327273 k141_516_flag_1_multi_2.0000_len_630 630 1
+
+			Align 281: 4326644 4327273 k141_516_flag_1_multi_2.0000_len_630 630 1
+				Gap between this and next alignment: 4327273 to 4379142 (51868 bp)
+				Next Alignment: 4379142 4379696 k141_416_flag_1_multi_2.0000_len_558 1 555
+
+			Align 282: 4379142 4379696 k141_416_flag_1_multi_2.0000_len_558 1 555
+				Gap between this and next alignment: 4379696 to 4397907 (18210 bp)
+				Next Alignment: 4397907 4398630 k141_844_flag_1_multi_1.0000_len_724 1 724
+
+			Align 283: 4397907 4398630 k141_844_flag_1_multi_1.0000_len_724 1 724
+				Gap between this and next alignment: 4398630 to 4411064 (12433 bp)
+				Next Alignment: 4411064 4411634 k141_1376_flag_1_multi_1.0000_len_571 1 571
+
+			Align 284: 4411064 4411634 k141_1376_flag_1_multi_1.0000_len_571 1 571
+				Gap between this and next alignment: 4411634 to 4427293 (15658 bp)
+				Next Alignment: 4427293 4427860 k141_1340_flag_1_multi_1.0000_len_568 1 568
+
+			Align 285: 4427293 4427860 k141_1340_flag_1_multi_1.0000_len_568 1 568
+				Gap between this and next alignment: 4427860 to 4428542 (681 bp)
+				Next Alignment: 4428542 4429079 k141_321_flag_1_multi_2.0000_len_538 1 538
+
+			Align 286: 4428542 4429079 k141_321_flag_1_multi_2.0000_len_538 1 538
+				Negative gap (overlap) between this and next alignment: 4429079 to 4428945 (-134 bp)
+				Next Alignment: 4428945 4429496 k141_707_flag_1_multi_1.0000_len_552 1 552
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 1 to 136.
+			Align 287: 4429080 4429496 k141_707_flag_1_multi_1.0000_len_552 136 552
+				Gap between this and next alignment: 4429496 to 4440618 (11121 bp)
+				Next Alignment: 4440618 4441177 k141_375_flag_1_multi_1.0000_len_560 1 560
+
+			Align 288: 4440618 4441177 k141_375_flag_1_multi_1.0000_len_560 1 560
+				Gap between this and next alignment: 4441177 to 4446468 (5290 bp)
+				Next Alignment: 4446468 4446986 k141_654_flag_1_multi_1.0000_len_522 4 522
+
+			Align 289: 4446468 4446986 k141_654_flag_1_multi_1.0000_len_522 4 522
+				Gap between this and next alignment: 4446986 to 4452984 (5997 bp)
+				Next Alignment: 4452984 4453724 k141_1463_flag_1_multi_2.0000_len_741 1 741
+
+			Align 290: 4452984 4453724 k141_1463_flag_1_multi_2.0000_len_741 1 741
+				Gap between this and next alignment: 4453724 to 4464498 (10773 bp)
+				Next Alignment: 4464498 4465074 k141_611_flag_1_multi_1.0000_len_578 578 2
+
+			Align 291: 4464498 4465074 k141_611_flag_1_multi_1.0000_len_578 578 2
+				Gap between this and next alignment: 4465074 to 4467904 (2829 bp)
+				Next Alignment: 4467904 4468487 k141_928_flag_1_multi_1.0000_len_584 584 1
+
+			Align 292: 4467904 4468487 k141_928_flag_1_multi_1.0000_len_584 584 1
+				Gap between this and next alignment: 4468487 to 4490540 (22052 bp)
+				Next Alignment: 4490540 4491099 k141_1462_flag_1_multi_2.0000_len_560 1 560
+
+			Align 293: 4490540 4491099 k141_1462_flag_1_multi_2.0000_len_560 1 560
+				Gap between this and next alignment: 4491099 to 4517598 (26498 bp)
+				Next Alignment: 4517598 4518119 k141_384_flag_1_multi_1.0000_len_522 1 522
+
+			Align 294: 4517598 4518119 k141_384_flag_1_multi_1.0000_len_522 1 522
+				Gap between this and next alignment: 4518119 to 4543317 (25197 bp)
+				Next Alignment: 4543317 4543827 k141_1586_flag_1_multi_1.0000_len_514 1 511
+
+			Align 295: 4543317 4543827 k141_1586_flag_1_multi_1.0000_len_514 1 511
+				Gap between this and next alignment: 4543827 to 4560144 (16316 bp)
+				Next Alignment: 4560144 4560914 k141_1199_flag_1_multi_2.0000_len_771 1 771
+
+			Align 296: 4560144 4560914 k141_1199_flag_1_multi_2.0000_len_771 1 771
+				Gap between this and next alignment: 4560914 to 4602751 (41836 bp)
+				Next Alignment: 4602751 4603302 k141_1703_flag_1_multi_1.0000_len_552 552 1
+
+			Align 297: 4602751 4603302 k141_1703_flag_1_multi_1.0000_len_552 552 1
+				Gap between this and next alignment: 4603302 to 4619932 (16629 bp)
+				Next Alignment: 4619932 4620627 k141_1375_flag_1_multi_2.0000_len_696 696 1
+
+			Align 298: 4619932 4620627 k141_1375_flag_1_multi_2.0000_len_696 696 1
+				Gap between this and next alignment: 4620627 to 4622247 (1619 bp)
+				Next Alignment: 4622247 4622765 k141_1314_flag_1_multi_1.0000_len_519 519 1
+
+			Align 299: 4622247 4622765 k141_1314_flag_1_multi_1.0000_len_519 519 1
+				Gap between this and next alignment: 4622765 to 4634592 (11826 bp)
+				Next Alignment: 4634592 4635330 k141_1759_flag_1_multi_2.0000_len_739 1 739
+
+			Align 300: 4634592 4635330 k141_1759_flag_1_multi_2.0000_len_739 1 739
+			END in gap: 4635330 to 4641652 (6322 bp)
+
+Analysis is finished!
+Founded SNPs were written into /net/metagenomics/projects/afritz_assemblies/Simpipeline_Coverage_Sweep/050_error/Ecoli_cov2/MEGAHIT_111/quast/contigs_reports/nucmer_output/final.contigs.used_snps
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 1
+		Relocations: 1
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 1
+	Misassembled Contig Bases: 1111
+	Misassemblies Inter-Contig Overlap: 0
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 42 + 9 part
+Partially Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 25055
+
+Ambiguously Mapped Contigs: 10
+Total Bases in Ambiguously Mapped Contigs: 6953
+Note that --allow-ambiguity option was set to "one" and only first alignment per each contig was used.
+
+	Covered Bases: 182268
+
+	SNPs: 6274
+	Insertions: 11
+	Deletions: 9
+
+	Positive Gaps: 296
+		Internal Gaps:  0
+		External Gaps:  296
+		External Gap Total:  4459384
+		External Gap Average: 15065
+	Negative Gaps: 5
+		Internal Overlaps:  0
+		External Overlaps:  5
+		External Overlaps Total: -489
+		External Overlaps Average: -98
+	Contigs with Redundant Alignments: 0 (0)
