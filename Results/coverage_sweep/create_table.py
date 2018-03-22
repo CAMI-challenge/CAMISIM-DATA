@@ -10,7 +10,7 @@ variables = ["Assembler", "Error rate", "Coverage", "metric", "value"]
 folders = ['000_error', '020_error', '050_error', 'ART']
 mapping = {folders[0] : "0%", folders[1] : "2%", folders[2] : "5%", folders[3] : "ART CAMI"}
 # used assemblers and their version + evaluation
-assemblers =  {"MEGAHIT_1.0.3" : "quast/report.txt", "MEGAHIT_1.1.2" :  "MEGAHIT_111/quast/report.txt", "metaSPAdes" : "quast_metaSPAde/report.txt"}
+assemblers =  {"MEGAHIT_1.0.3" : "quast/report.txt", "MEGAHIT_1.1.2" :  "MEGAHIT_111/quast/report.txt", "metaSPAdes" : "quast_metaSPAde/report.txt", "Gold Standard" : "quast_gsa/report.txt"}
 
 with open("Coverage_Sweep_results.tsv",'wb+') as matrix:
     matrix.write("\t".join(variables))
