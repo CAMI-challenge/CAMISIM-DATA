@@ -74,7 +74,7 @@ for folder in folders:
                     assembler = assembler,
                     error_rate = mapping[folder],
                     coverage = coverage.split('_')[-1][3:],
-                    metric = "#_contigs",
+                    metric = "Genome_fraction_(%)",
                     value = "NA"
                 )
                 metric = "NGA50"
@@ -82,7 +82,7 @@ for folder in folders:
                     assembler = assembler,
                     error_rate = mapping[folder],
                     coverage = coverage.split('_')[-1][3:],
-                    metric = "#_contigs",
+                    metric = "NGA50",
                     value = "NA"
                 )
                 with open("Coverage_Sweep_results.tsv", 'a+') as matrix:
