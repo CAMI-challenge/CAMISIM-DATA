@@ -10,7 +10,7 @@ variables = ["Assembler", "Error rate", "Coverage", "metric", "value"]
 folders = ['000_error', '020_error', '050_error', 'ART']
 mapping = {folders[0] : "0%", folders[1] : "2%", folders[2] : "5%", folders[3] : "ART CAMI"}
 # used assemblers and their version + evaluation
-assemblers =  {"MEGAHIT_1.0.3" : "quast/report.txt", "MEGAHIT_1.1.2" :  "MEGAHIT_111/quast/report.txt", "metaSPAdes" : "quast_metaSPAde/report.txt", "Gold Standard" : "quast_gsa/report.txt"}
+assemblers =  {"MEGAHIT_1.0.3" : "quast/report.txt", "MEGAHIT_1.1.2" :  "MEGAHIT_111/quast/report.txt", "metaSPAdes" : "quast_metaSPAde/report.txt", "Gold Standard" : "quast_gsa/report.txt", "SPAdes" : "SPAdes_quast/report.txt"}
 
 with open("Coverage_Sweep_results.tsv",'wb+') as matrix:
     matrix.write("\t".join(variables))
@@ -24,38 +24,66 @@ for folder in folders:
         for assembler in assemblers:
             quast_path = assemblers[assembler]
             path = os.path.join(folder, coverage, quast_path)
-            with open(path, 'r') as report:
-                for line in report:
-                    if line.startswith("# contigs  "):
-                        contigs = line.strip().split()[-1]
-                        to_write = "{assembler}\t{error_rate}\t{coverage}\t{metric}\t{value}\n".format(
-                            assembler = assembler,
-                            error_rate = mapping[folder],
-                            coverage = coverage.split('_')[-1][3:],
-                            metric = "#_contigs",
-                            value = contigs
-                        )
-                        with open("Coverage_Sweep_results.tsv",'a+') as matrix:
-                            matrix.write(to_write)
-                    elif line.startswith("Genome fraction (%)"):
-                        gf = line.strip().split()[-1]
-                        to_write = "{assembler}\t{error_rate}\t{coverage}\t{metric}\t{value}\n".format(
-                            assembler = assembler,
-                            error_rate = mapping[folder],
-                            coverage = coverage.split('_')[-1][3:],
-                            metric = "Genome fraction(%)",
-                            value = gf
-                        )
-                        with open("Coverage_Sweep_results.tsv",'a+') as matrix:
-                            matrix.write(to_write)
-                    elif line.startswith("NGA50"):
-                        nga50 = line.strip().split()[-1]
-                        to_write = "{assembler}\t{error_rate}\t{coverage}\t{metric}\t{value}\n".format(
-                            assembler = assembler,
-                            error_rate = mapping[folder],
-                            coverage = coverage.split('_')[-1][3:],
-                            metric = "NGA50",
-                            value = nga50
-                        )
-                        with open("Coverage_Sweep_results.tsv",'a+') as matrix:
-                            matrix.write(to_write)
+            try:
+                with open(path, 'r') as report:
+                    for line in report:
+                        if line.startswith("# contigs  "):
+                            contigs = line.strip().split()[-1]
+                            to_write = "{assembler}\t{error_rate}\t{coverage}\t{metric}\t{value}\n".format(
+                                assembler = assembler,
+                                error_rate = mapping[folder],
+                                coverage = coverage.split('_')[-1][3:],
+                                metric = "#_contigs",
+                                value = contigs
+                            )
+                            with open("Coverage_Sweep_results.tsv",'a+') as matrix:
+                                matrix.write(to_write)
+                        elif line.startswith("Genome fraction (%)"):
+                            gf = line.strip().split()[-1]
+                            to_write = "{assembler}\t{error_rate}\t{coverage}\t{metric}\t{value}\n".format(
+                                assembler = assembler,
+                                error_rate = mapping[folder],
+                                coverage = coverage.split('_')[-1][3:],
+                                metric = "Genome_fraction_(%)",
+                                value = gf
+                            )
+                            with open("Coverage_Sweep_results.tsv",'a+') as matrix:
+                                matrix.write(to_write)
+                        elif line.startswith("NGA50"):
+                            nga50 = line.strip().split()[-1]
+                            to_write = "{assembler}\t{error_rate}\t{coverage}\t{metric}\t{value}\n".format(
+                                assembler = assembler,
+                                error_rate = mapping[folder],
+                                coverage = coverage.split('_')[-1][3:],
+                                metric = "NGA50",
+                                value = nga50
+                            )
+                            with open("Coverage_Sweep_results.tsv",'a+') as matrix:
+                                matrix.write(to_write)
+            except IOError:
+                metric = "#_contigs"
+                to_write = "{assembler}\t{error_rate}\t{coverage}\t{metric}\t{value}\n".format(
+                    assembler = assembler,
+                    error_rate = mapping[folder],
+                    coverage = coverage.split('_')[-1][3:],
+                    metric = "#_contigs",
+                    value = "NA" 
+                )
+                metric = "Genome_fraction_(%)"
+                to_write += "{assembler}\t{error_rate}\t{coverage}\t{metric}\t{value}\n".format(
+                    assembler = assembler,
+                    error_rate = mapping[folder],
+                    coverage = coverage.split('_')[-1][3:],
+                    metric = "#_contigs",
+                    value = "NA"
+                )
+                metric = "NGA50"
+                to_write += "{assembler}\t{error_rate}\t{coverage}\t{metric}\t{value}\n".format(
+                    assembler = assembler,
+                    error_rate = mapping[folder],
+                    coverage = coverage.split('_')[-1][3:],
+                    metric = "#_contigs",
+                    value = "NA"
+                )
+                with open("Coverage_Sweep_results.tsv", 'a+') as matrix:
+                    matrix.write(to_write)
